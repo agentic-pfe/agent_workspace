@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Orcheeos Platform Dashboard - AI-powered orchestration" />
+  <title>Orcheeos Platform</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ==================== LOGIN OVERLAY ==================== -->
+  <div id="login-overlay" class="login-overlay" role="dialog" aria-modal="true" aria-label="Login">
+    <div class="login-backdrop"></div>
+    <div class="login-card">
+      <div class="login-brand">
+        <svg class="login-logo" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+          <rect width="48" height="48" rx="12" fill="#7c3aed" />
+          <path d="M14 24l6 6 14-14" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <h1 class="login-title">Orcheeos</h1>
+        <p class="login-tagline">AI-Powered Orchestration Platform</p>
+      </div>
+
+      <form id="login-form" class="login-form" novalidate>
+        <div class="form-group">
+          <label for="login-username" class="form-label">Username or Email</label>
+          <input
+            type="text"
+            id="login-username"
+            name="username"
+            class="form-input"
+            placeholder="Enter your username"
+            autocomplete="username"
+            required
+            aria-required="true"
+          />
+          <span class="form-error" id="username-error" role="alert"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="login-password" class="form-label">Password</label>
+          <input
+            type="password"
+            id="login-password"
+            name="password"
+            class="form-input"
+            placeholder="Enter your password"
+            autocomplete="current-password"
+            required
+            aria-required="true"
+          />
+          <span class="form-error" id="password-error" role="alert"></span>
+        </div>
+
+        <div id="login-error" class="login-error" role="alert" aria-live="assertive"></div>
+
+        <button type="submit" id="login-btn" class="btn btn-primary btn-full">
+          <span class="btn-text">Sign In</span>
+          <span class="btn-spinner" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="3" opacity="0.25" />
+              <path d="M12 2a10 10 0 019.95 9" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+            </svg>
+          </span>
+        </button>
+      </form>
+
+      <p class="login-footer-text">
+        Secure authentication via Orcheeos Gateway
+      </p>
+    </div>
+  </div>
+
+  <!-- ==================== MAIN APPLICATION ==================== -->
+  <div id="app-container" class="app-container" style="display:none">
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar" aria-label="Conversation history">
+      <div class="sidebar-header">
+        <div class="sidebar-brand">
+          <svg width="32" height="32" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <rect width="48" height="48" rx="12" fill="#7c3aed" />
+            <path d="M14 24l6 6 14-14" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span class="sidebar-brand-text">Orcheeos</span>
+        </div>
+        <button id="btn-new-chat" class="btn btn-accent btn-sidebar" aria-label="Start new conversation">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+          <span>New Chat</span>
+        </button>
+      </div>
+
+      <nav class="sidebar-history" aria-label="Conversations">
+        <div class="sidebar-section-label">Recent Conversations</div>
+        <ul id="conversation-list" class="conversation-list" role="list">
+          <!-- Populated by JS -->
+        </ul>
+        <div id="history-loading" class="sidebar-loading" aria-live="polite">
+          <span class="loading-dots">Loading conversations...</span>
+        </div>
+        <div id="history-empty" class="sidebar-empty" style="display:none">
+          <p>No conversations yet. Start a new chat!</p>
+        </div>
+        <div id="history-error" class="sidebar-error" style="display:none" role="alert">
+          <p>Failed to load conversations.</p>
+          <button id="btn-retry-history" class="btn btn-ghost btn-sm">Retry</button>
+        </div>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="sidebar-user">
+          <div class="user-avatar" aria-hidden="true">
+            <span id="user-initials">?</span>
+          </div>
+          <div class="user-info">
+            <span id="user-name" class="user-name">User</span>
+            <span id="user-role" class="user-role">Member</span>
+          </div>
+        </div>
+        <button id="btn-logout" class="btn btn-ghost btn-icon" aria-label="Log out" title="Log out">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4" />
+            <polyline points="16 17 21 12 16 7" /><line x1="21" y1="12" x2="9" y2="12" />
+          </svg>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Sidebar Overlay (mobile) -->
+    <div id="sidebar-overlay" class="sidebar-overlay" aria-hidden="true"></div>
+
+    <!-- Main Content -->
+    <main class="main-content" id="main-content">
+      <!-- Chat Header -->
+      <header class="chat-header">
+        <div class="header-left">
+          <button id="btn-toggle-sidebar" class="btn btn-ghost btn-icon btn-menu" aria-label="Toggle sidebar" aria-expanded="false">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </button>
+          <h2 id="conversation-title" class="conversation-title">New Conversation</h2>
+        </div>
+        <div class="header-right">
+          <!-- Health Indicator -->
+          <div id="health-indicator" class="health-indicator" role="status" aria-live="polite" aria-label="System health status">
+            <span class="health-dot" aria-hidden="true"></span>
+            <span class="health-label">Checking...</span>
+          </div>
+          <!-- Toggle Artifacts -->
+          <button id="btn-toggle-artifacts" class="btn btn-ghost btn-icon" aria-label="Toggle artifacts panel" aria-expanded="false" style="display:none">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="2" /><line x1="3" y1="9" x2="21" y2="9" /><line x1="9" y1="21" x2="9" y2="9" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <!-- Chat Messages -->
+      <section id="chat-messages" class="chat-messages" aria-label="Conversation messages" aria-live="polite">
+        <div class="welcome-message" id="welcome-message">
+          <div class="welcome-icon" aria-hidden="true">
+            <svg width="64" height="64" viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" rx="12" fill="#7c3aed" opacity="0.15" />
+              <path d="M14 24l6 6 14-14" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.6" />
+            </svg>
+          </div>
+          <h3 class="welcome-heading">Welcome to Orcheeos</h3>
+          <p class="welcome-text">Your AI orchestration platform. Start a conversation or select one from the sidebar.</p>
+          <div class="welcome-suggestions">
+            <button class="suggestion-chip" data-prompt="Explain how orchestration works in AI systems">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+              Explain AI orchestration
+            </button>
+            <button class="suggestion-chip" data-prompt="Write a Python script for data processing">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              Write a Python script
+            </button>
+            <button class="suggestion-chip" data-prompt="Design a REST API architecture">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              Design REST API architecture
+            </button>
+            <button class="suggestion-chip" data-prompt="Compare microservices vs monolith">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+              Microservices vs Monolith
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Chat Input Area -->
+      <div class="chat-input-area">
+        <div class="chat-input-container">
+          <div class="input-wrapper">
+            <textarea
+              id="chat-input"
+              class="chat-input"
+              placeholder="Type your message... (Enter to send, Shift+Enter for new line)"
+              rows="1"
+              aria-label="Message input"
+              aria-describedby="input-hint"
+            ></textarea>
+            <div class="input-actions">
+              <button id="btn-stop-stream" class="btn btn-danger btn-icon btn-stop" style="display:none" aria-label="Stop generating" title="Stop generating">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <rect x="6" y="6" width="12" height="12" rx="1" />
+                </svg>
+              </button>
+              <button id="btn-send" class="btn btn-primary btn-icon btn-send" aria-label="Send message" title="Send message">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13" /><polygon points="22 2 15 22 11 13 2 9 22 2" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <p id="input-hint" class="input-hint">Orcheeos may produce inaccurate information. Verify important outputs.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Artifacts Panel -->
+    <aside id="artifacts-panel" class="artifacts-panel" aria-label="Artifacts" style="display:none">
+      <div class="artifacts-header">
+        <h3 class="artifacts-title">Artifacts</h3>
+        <button id="btn-close-artifacts" class="btn btn-ghost btn-icon" aria-label="Close artifacts panel">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+          </svg>
+        </button>
+      </div>
+      <div id="artifacts-list" class="artifacts-list">
+        <!-- Populated by JS -->
+      </div>
+      <div id="artifacts-empty" class="artifacts-empty">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.3" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="2" /><line x1="3" y1="9" x2="21" y2="9" /><line x1="9" y1="21" x2="9" y2="9" />
+        </svg>
+        <p>No artifacts in this conversation yet.</p>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite" aria-relevant="additions"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

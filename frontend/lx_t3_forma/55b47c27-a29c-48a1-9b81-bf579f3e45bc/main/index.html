@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Forma Studio — A creative digital design agency crafting bold brand identities, immersive web experiences, and stunning visual content.">
+  <title>Forma Studio — Creative Digital Design Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&amp;family=Open+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ====== SITE HEADER / NAVIGATION ====== -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Forma Studio Home">
+        <span class="logo-icon" aria-hidden="true">◆</span>
+        Forma
+      </a>
+      <nav aria-label="Primary navigation">
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks" role="list">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ====== HERO SECTION ====== -->
+    <section class="hero section" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero-content">
+          <span class="section-label">Design Studio</span>
+          <h1 id="hero-heading">We craft digital experiences that <em>move people</em></h1>
+          <p>
+            Forma Studio partners with ambitious brands to design bold identities,
+            build immersive websites, and create content that captivates.
+            Your vision, amplified.
+          </p>
+          <div class="hero-buttons">
+            <a href="work.html" class="btn btn-primary">View Our Work</a>
+            <a href="contact.html" class="btn btn-outline">Start a Project</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/hero-bg.jpg" alt="Creative digital workspace at Forma Studio with glowing screens and geometric design elements" width="560" height="400" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SERVICES SECTION ====== -->
+    <section class="services-section" aria-labelledby="services-heading">
+      <div class="container">
+        <span class="section-label" style="display:block;text-align:center;">What We Do</span>
+        <h2 id="services-heading" class="section-title" style="text-align:center;">Our Services</h2>
+        <div class="card-grid">
+          <!-- Service Card 1 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🎨</div>
+            <h3>Brand Identity</h3>
+            <p>
+              From logo design to complete visual systems, we build memorable brand identities
+              that resonate with your audience and stand out in crowded markets.
+            </p>
+          </article>
+          <!-- Service Card 2 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">💻</div>
+            <h3>Web Development</h3>
+            <p>
+              Custom websites and web applications built with cutting-edge technology.
+              Fast, accessible, and designed to convert visitors into loyal customers.
+            </p>
+          </article>
+          <!-- Service Card 3 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">📱</div>
+            <h3>UI/UX Design</h3>
+            <p>
+              User-centered design that makes every interaction intuitive and delightful.
+              We research, prototype, and refine until the experience feels effortless.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====== SITE FOOTER ====== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" aria-label="Forma Studio Home">
+          <span class="logo-icon" aria-hidden="true">◆</span>
+          Forma
+        </a>
+        <p>Creative digital design studio crafting bold brand experiences since 2018.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2025 Forma Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

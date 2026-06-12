@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with Forma Studio. Start a project, ask a question, or just say hello. We'd love to hear from you.">
+  <title>Contact Us — Forma Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&amp;family=Open+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ====== SITE HEADER ====== -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Forma Studio Home">
+        <span class="logo-icon" aria-hidden="true">◆</span>
+        Forma
+      </a>
+      <nav aria-label="Primary navigation">
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks" role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ====== PAGE BANNER ====== -->
+    <section class="page-banner" aria-labelledby="contact-heading">
+      <div class="container">
+        <span class="section-label">Get In Touch</span>
+        <h1 id="contact-heading">Let's Work Together</h1>
+        <p>Have a project in mind? We'd love to hear about it. Send us a message and we'll get back to you within 24 hours.</p>
+      </div>
+    </section>
+
+    <!-- ====== CONTACT SECTION ====== -->
+    <section class="section" aria-labelledby="form-heading">
+      <div class="container">
+        <div class="contact-layout">
+          <!-- Contact Form -->
+          <div class="contact-form">
+            <h2 id="form-heading" style="margin-bottom:var(--space-md);">Send a Message</h2>
+
+            <!-- Success message (hidden by default) -->
+            <div class="form-success" id="formSuccess" role="alert">
+              ✅ Thank you for your message! We'll get back to you within 24 hours.
+            </div>
+
+            <form id="contactForm" novalidate aria-label="Contact form">
+              <!-- Name -->
+              <div class="form-group">
+                <label for="fullName">Full Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="fullName" name="fullName" required autocomplete="name"
+                       placeholder="Your full name" aria-required="true"
+                       aria-describedby="nameError">
+                <span class="error-message" id="nameError" role="alert"></span>
+              </div>
+
+              <!-- Email -->
+              <div class="form-group">
+                <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" required autocomplete="email"
+                       placeholder="you@example.com" aria-required="true"
+                       aria-describedby="emailError">
+                <span class="error-message" id="emailError" role="alert"></span>
+              </div>
+
+              <!-- Subject -->
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" aria-describedby="subjectError">
+                  <option value="">Select a topic</option>
+                  <option value="new-project">New Project Inquiry</option>
+                  <option value="collaboration">Collaboration</option>
+                  <option value="careers">Careers</option>
+                  <option value="press">Press &amp; Media</option>
+                  <option value="other">Something Else</option>
+                </select>
+                <span class="error-message" id="subjectError" role="alert"></span>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group">
+                <label for="message">Your Message <span aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" required
+                          placeholder="Tell us about your project, goals, timeline..."
+                          aria-required="true" aria-describedby="messageError"></textarea>
+                <span class="error-message" id="messageError" role="alert"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Contact Info Sidebar -->
+          <aside class="contact-info" aria-label="Contact information">
+            <!-- Address Block -->
+            <div class="contact-info-block">
+              <div class="contact-info-icon" aria-hidden="true">📍</div>
+              <div>
+                <h4>Our Studio</h4>
+                <address>
+                  742 Innovation Drive<br>
+                  Suite 300, Design District<br>
+                  San Francisco, CA 94105
+                </address>
+              </div>
+            </div>
+
+            <!-- Email Block -->
+            <div class="contact-info-block">
+              <div class="contact-info-icon" aria-hidden="true">✉️</div>
+              <div>
+                <h4>Email Us</h4>
+                <a href="mailto:hello@formastudio.co">hello@formastudio.co</a>
+                <p style="margin-top:4px;">For career inquiries:<br>
+                <a href="mailto:careers@formastudio.co">careers@formastudio.co</a></p>
+              </div>
+            </div>
+
+            <!-- Phone Block -->
+            <div class="contact-info-block">
+              <div class="contact-info-icon" aria-hidden="true">📞</div>
+              <div>
+                <h4>Call Us</h4>
+                <a href="tel:+14155551234">+1 (415) 555-1234</a>
+                <p style="margin-top:4px;font-size:0.85rem;">Mon–Fri, 9 AM – 6 PM PST</p>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links-section">
+              <h3>Follow Us</h3>
+              <div class="social-links-grid">
+                <a href="#" class="social-link" aria-label="Follow us on Twitter">
+                  <span aria-hidden="true">𝕏</span>
+                </a>
+                <a href="#" class="social-link" aria-label="Follow us on Instagram">
+                  <span aria-hidden="true">📷</span>
+                </a>
+                <a href="#" class="social-link" aria-label="Follow us on LinkedIn">
+                  <span aria-hidden="true">in</span>
+                </a>
+                <a href="#" class="social-link" aria-label="Follow us on Dribbble">
+                  <span aria-hidden="true">◉</span>
+                </a>
+                <a href="#" class="social-link" aria-label="Follow us on GitHub">
+                  <span aria-hidden="true">⌂</span>
+                </a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ====== SITE FOOTER ====== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" aria-label="Forma Studio Home">
+          <span class="logo-icon" aria-hidden="true">◆</span>
+          Forma
+        </a>
+        <p>Creative digital design studio crafting bold brand experiences since 2018.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2025 Forma Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
