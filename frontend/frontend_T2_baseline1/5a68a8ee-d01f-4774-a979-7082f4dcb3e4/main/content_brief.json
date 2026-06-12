@@ -1,0 +1,119 @@
+{
+  "project_name": "Stackr",
+  "tagline": "Streamline Your Team's Workflow with Intelligent Project Management",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#2563EB", "role": "core brand color, headers, primary actions"},
+      "secondary": {"hex": "#06B6D4", "role": "complementary accents, secondary actions"},
+      "accent": {"hex": "#F59E0B", "role": "CTAs, highlights, urgency indicators"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "professional + modern"
+  },
+  "hero_image_prompt": "Modern SaaS dashboard showing AI-powered project management interface. Clean, minimalist design with blue and cyan color accents. Diverse team collaborating, multiple screens showing task tracking, analytics, and team communication features.",
+  "header": {
+    "logo_text": "Stackr",
+    "cta_button": {"text": "Start Free Trial", "href": "#cta"},
+    "nav_items": [
+      {"label": "Features", "href": "#features"},
+      {"label": "Pricing", "href": "#pricing"},
+      {"label": "Testimonials", "href": "#testimonials"},
+      {"label": "Contact", "href": "#contact"}
+    ]
+  },
+  "sections": {
+    "hero": {
+      "headline": "Supercharge Your Team's Productivity",
+      "subheadline": "Stackr is an AI-powered project management platform that transforms how teams collaborate, track progress, and achieve goals.",
+      "primary_cta": "Start Free Trial",
+      "secondary_cta": "Watch Demo"
+    },
+    "features": [
+      {
+        "title": "AI-Powered Task Management",
+        "description": "Intelligent task prioritization and workload balancing that adapts to your team's unique workflow."
+      },
+      {
+        "title": "Real-Time Collaboration",
+        "description": "Seamless communication tools that keep your entire team connected and aligned."
+      },
+      {
+        "title": "Advanced Analytics",
+        "description": "Comprehensive insights and predictive analytics to optimize team performance."
+      },
+      {
+        "title": "Customizable Workflows",
+        "description": "Flexible project templates and workflow automation to match any team's process."
+      },
+      {
+        "title": "Secure Integration",
+        "description": "Effortless integration with your existing tools and robust enterprise-grade security."
+      },
+      {
+        "title": "Mobile Sync",
+        "description": "Full-featured mobile app that keeps your team productive from anywhere."
+      }
+    ],
+    "pricing": [
+      {
+        "title": "Starter",
+        "price": "$9/month",
+        "features": [
+          "Up to 5 team members",
+          "Basic task management",
+          "Limited analytics",
+          "Community support"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "title": "Professional",
+        "price": "$29/month",
+        "features": [
+          "Up to 20 team members",
+          "Advanced task management",
+          "Comprehensive analytics",
+          "Priority support",
+          "Custom integrations"
+        ],
+        "cta": "Choose Professional",
+        "recommended": true
+      },
+      {
+        "title": "Enterprise",
+        "price": "Custom Pricing",
+        "features": [
+          "Unlimited team members",
+          "Full AI capabilities",
+          "Advanced security",
+          "Dedicated account manager",
+          "24/7 enterprise support"
+        ],
+        "cta": "Contact Sales"
+      }
+    ],
+    "testimonials": [
+      {
+        "quote": "Stackr has completely transformed how our engineering team collaborates. The AI-powered insights are game-changing.",
+        "name": "Sarah Chen",
+        "role": "CTO, TechInnovate",
+        "company": "TechInnovate"
+      },
+      {
+        "quote": "We've seen a 40% increase in team productivity since implementing Stackr. It's like having a productivity coach built into our workflow.",
+        "name": "Michael Rodriguez",
+        "role": "Head of Operations",
+        "company": "GlobalSolutions"
+      },
+      {
+        "quote": "The integration capabilities and real-time analytics make Stackr an essential tool for our distributed team.",
+        "name": "Emily Wong",
+        "role": "Product Manager",
+        "company": "RemoteWorks Inc."
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#6366F1", "role": "trust, headers, buttons"},
+      "secondary": {"hex": "#06B6D4", "role": "warmth, highlights, accents"},
+      "accent": {"hex": "#EC4899", "role": "urgency, CTAs, badges"},
+      "dark": {"hex": "#111827", "role": "text, footer background"},
+      "light": {"hex": "#FAFAFA", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "modern + tech"
+  },
+  "hero_image_prompt": "Modern SaaS dashboard showing AI-powered project management features. Diverse remote team collaborating across devices. Clean lighting, professional environment, blue and purple accent tones.",
+  "header": {
+    "logo_text": "Orbit Studio",
+    "cta_button": {"text": "Get Started", "href": "#contact"},
+    "nav_items": [
+      {"label": "Home", "href": "#home"},
+      {"label": "Projects", "href": "#projects"},
+      {"label": "Services", "href": "#services"},
+      {"label": "Team", "href": "#team"},
+      {"label": "Contact", "href": "#contact"}
+    ]
+  },
+  "sections": {
+    "hero": {
+      "headline": "We Craft Digital Experiences",
+      "subheadline": "Strategy, design, and engineering for brands ready to stand out in a crowded world.",
+      "cta_text": "Explore Our Work"
+    },
+    "projects": {
+      "heading": "Selected Projects",
+      "description": "A curated collection of work across web, mobile, and brand identity.",
+      "items": [
+        {"name": "Lumina Dashboard", "category": "Web"},
+        {"name": "Pulse Fitness", "category": "Mobile"},
+        {"name": "Vertex Rebrand", "category": "Branding"},
+        {"name": "Aurora Commerce", "category": "Web"},
+        {"name": "Nova Banking", "category": "Mobile"},
+        {"name": "Ember Coffee", "category": "Branding"}
+      ]
+    },
+    "services": {
+      "heading": "What We Do",
+      "description": "End-to-end digital services tailored to your goals.",
+      "items": [
+        {"title": "Brand Identity", "description": "Logos, color systems, and visual language that make your brand unforgettable."},
+        {"title": "Web Development", "description": "Fast, accessible, and responsive websites built with modern technologies."},
+        {"title": "Mobile Apps", "description": "Native and cross-platform apps designed for engagement and retention."},
+        {"title": "Growth Strategy", "description": "Data-driven marketing and product roadmaps to scale your business."}
+      ]
+    },
+    "clients": {
+      "heading": "Trusted By",
+      "description": "Collaborating with forward-thinking companies worldwide.",
+      "logos": ["Acme Corp", "Globex", "Initech", "Hooli", "Massive Dynamic", "Soylent"]
+    },
+    "team": {
+      "heading": "Meet the Team",
+      "description": "Passionate creators, strategists, and engineers.",
+      "members": [
+        {"name": "Sarah Chen", "role": "Creative Director", "bio": "15 years shaping brands for Fortune 500 companies and ambitious startups alike."},
+        {"name": "Marcus Johnson", "role": "Lead Developer", "bio": "Full-stack architect who turns complex problems into elegant, scalable solutions."},
+        {"name": "Elena Rodriguez", "role": "UX Strategist", "bio": "Human-centered design advocate ensuring every interaction feels intuitive."},
+        {"name": "David Kim", "role": "Motion Designer", "bio": "Bringing interfaces to life with purposeful animation and micro-interactions."}
+      ]
+    },
+    "contact": {
+      "heading": "Start a Project",
+      "description": "Tell us what you are building. We will reply within 24 hours."
+    },
+    "footer": {
+      "copyright": "2024 Orbit Studio. All rights reserved."
+    }
+  }
+}

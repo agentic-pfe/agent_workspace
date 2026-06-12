@@ -1,0 +1,132 @@
+{
+  "brand_name": "Forma Studio",
+  "page_title": "Forma Studio - Creative Design Agency",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#2563EB", "role": "headers, buttons, primary accents"},
+      "secondary": {"hex": "#10B981", "role": "highlights, secondary sections"},
+      "accent": {"hex": "#F59E0B", "role": "CTAs, urgent elements"},
+      "dark": {"hex": "#1E293B", "role": "text, footer background"},
+      "light": {"hex": "#F8FAFC", "role": "background, alternating sections"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "professional + modern"
+  },
+  "color_palette": {
+    "primary": "#2563EB",
+    "secondary": "#10B981", 
+    "accent": "#F59E0B",
+    "dark": "#1E293B",
+    "light": "#F8FAFC"
+  },
+  "typography": {
+    "heading": "Montserrat",
+    "body": "Open Sans"
+  },
+  "css_classes": {
+    "header": "site-header",
+    "logo": "logo",
+    "nav": "nav-links",
+    "nav_item": "nav-link",
+    "header_cta": "header-cta",
+    "hero": "hero",
+    "hero_title": "hero-title",
+    "hero_subtitle": "hero-subtitle",
+    "section_title": "section-title",
+    "grid": "grid-container",
+    "card": "card",
+    "footer": "site-footer"
+  },
+  "header": {
+    "logo_text": "Forma Studio",
+    "cta_button": {"text": "Start a Project", "href": "#contact"}
+  },
+  "nav_items": [
+    {"label": "Home", "href": "index.html"},
+    {"label": "About", "href": "about.html"},
+    {"label": "Work", "href": "work.html"},
+    {"label": "Contact", "href": "contact.html"}
+  ],
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Design That Transforms Brands",
+        "subheadline": "We create meaningful visual experiences that elevate your business",
+        "cta_text": "View Our Work"
+      },
+      "features": [
+        {
+          "title": "Brand Identity",
+          "description": "Crafting unique visual identities that tell your brand's story",
+          "icon": "🎨"
+        },
+        {
+          "title": "Digital Design",
+          "description": "Creating intuitive and engaging digital experiences",
+          "icon": "💻"
+        },
+        {
+          "title": "Strategic Consulting",
+          "description": "Helping businesses grow through thoughtful design solutions",
+          "icon": "📈"
+        }
+      ]
+    },
+    "about": {
+      "headline": "Who We Are",
+      "subheadline": "Forma Studio is a design collective passionate about creating impactful visual narratives",
+      "team_description": "Our diverse team of designers, strategists, and creatives collaborate to deliver exceptional design solutions.",
+      "values": [
+        "Creativity",
+        "Innovation",
+        "Collaboration",
+        "Integrity"
+      ]
+    },
+    "work": {
+      "headline": "Our Portfolio",
+      "subheadline": "A showcase of our most innovative design projects",
+      "projects": [
+        {
+          "title": "Tech Startup Branding",
+          "description": "Complete brand identity for an AI-driven startup",
+          "category": "Branding"
+        },
+        {
+          "title": "E-commerce Platform Design",
+          "description": "User-centric design for a global online marketplace",
+          "category": "UI/UX"
+        },
+        {
+          "title": "Sustainable Fashion Campaign",
+          "description": "Visual storytelling for an eco-friendly fashion brand",
+          "category": "Marketing"
+        },
+        {
+          "title": "Mobile App Interface",
+          "description": "Intuitive design for a health tracking application",
+          "category": "Digital Design"
+        }
+      ]
+    },
+    "contact": {
+      "headline": "Let's Create Something Amazing",
+      "subheadline": "Have a project in mind? We'd love to hear from you.",
+      "contact_info": {
+        "email": "hello@formastudio.com",
+        "phone": "+1 (555) 123-4567",
+        "address": "123 Design Street, Creative City, ST 12345"
+      }
+    }
+  },
+  "images": [
+    {
+      "id": "hero-bg",
+      "prompt": "Modern design studio workspace with creative professionals collaborating, clean minimalist interior, natural light, design tools and computers"
+    }
+  ],
+  "hero_image_prompt": "Modern design studio workspace with creative professionals collaborating, clean minimalist interior, natural light, design tools and computers"
+}

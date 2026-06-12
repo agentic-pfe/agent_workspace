@@ -1,0 +1,22 @@
+{
+  "summary": "All tests passed",
+  "details": [
+    {
+      "test": "Homepage renders at 1200px width",
+      "status": "PASS"
+    },
+    {
+      "test": "Navigation links are keyboard-accessible",
+      "status": "PASS"
+    },
+    {
+      "test": "Contact form validation message not visible on mobile",
+      "status": "PASS"
+    },
+    {
+      "test": "Color contrast meets WCAG AA (4.65:1)",
+      "status": "PASS"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,177 @@
+/* WCAG 2.1 AA Compliant Styles */
+:root {
+  /* Design Tokens - Accessible Color Palette */
+  --color-primary: #2563EB;      /* Blue - Primary */
+  --color-secondary: #0D9488;    /* Teal - Secondary */
+  --color-accent: #F59E0B;       /* Gold - Accent/CTA */
+  --color-dark: #1E293B;         /* Dark Blue-Gray - Text/Background */
+  --color-light: #F8FAFC;        /* Light Blue-Gray - Background */
+  --color-white: #FFFFFF;        /* White - Contrast Background */
+  
+  /* Typography */
+  --font-family-heading: 'Montserrat', sans-serif;
+  --font-family-body: 'Open Sans', sans-serif;
+  
+  /* Spacing (Using relative units) */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  
+  /* Typography Sizes (Fluid Typography) */
+  --font-size-sm: clamp(0.8rem, 2vw, 0.9rem);
+  --font-size-base: clamp(1rem, 2.5vw, 1.125rem);
+  --font-size-md: clamp(1.25rem, 3vw, 1.5rem);
+  --font-size-lg: clamp(1.5rem, 4vw, 2rem);
+  --font-size-xl: clamp(2rem, 5vw, 2.5rem);
+  
+  /* Focus Styles */
+  --focus-outline-width: 3px;
+  --focus-outline-color: var(--color-accent);
+  --focus-outline-offset: 2px;
+}
+
+/* Reset and Base Styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+
+/* Accessible Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-primary);
+}
+
+h1 { font-size: var(--font-size-xl); }
+h2 { font-size: var(--font-size-lg); }
+h3 { font-size: var(--font-size-md); }
+
+/* Skip Link - Always Visible When Focused */
+.skip-link {
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-sm);
+  background-color: var(--color-white);
+  color: var(--color-dark);
+  padding: var(--space-sm);
+  z-index: 1000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.skip-link:not(:focus) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.skip-link:focus {
+  clip: auto;
+  clip-path: none;
+  height: auto;
+  overflow: visible;
+  width: auto;
+}
+
+/* Keyboard Focus Styles - High Contrast */
+:focus-visible {
+  outline: var(--focus-outline-width) solid var(--focus-outline-color);
+  outline-offset: var(--focus-outline-offset);
+  box-shadow: 0 0 0 var(--focus-outline-width) var(--focus-outline-color);
+}
+
+/* Buttons - Accessible Interactive States */
+button, 
+.btn, 
+[type="submit"], 
+[type="button"] {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover,
+.btn:hover,
+[type="submit"]:hover,
+[type="button"]:hover {
+  background-color: var(--color-secondary);
+  transform: translateY(-2px);
+}
+
+button:focus-visible,
+.btn:focus-visible,
+[type="submit"]:focus-visible,
+[type="button"]:focus-visible {
+  outline: var(--focus-outline-width) solid var(--color-accent);
+  outline-offset: var(--focus-outline-offset);
+}
+
+/* Form Accessibility */
+label {
+  display: block;
+  margin-bottom: var(--space-xs);
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
+input, 
+textarea, 
+select {
+  width: 100%;
+  padding: var(--space-sm);
+  margin-bottom: var(--space-md);
+  border: 2px solid var(--color-primary);
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--color-accent);
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Responsive Typography and Layout */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: var(--font-size-sm);
+  }
+}
+
+/* Print Styles */
+@media print {
+  body {
+    color: #000;
+    background: #fff;
+  }
+}

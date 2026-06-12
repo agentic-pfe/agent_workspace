@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma Studio - Our Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="#" class="logo">Forma Studio</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle Navigation">
+                    <span class="hamburger-icon"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html" class="active">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio-hero">
+            <div class="container">
+                <h1>Our Selected Projects</h1>
+                <p>A showcase of innovative design solutions across industries</p>
+            </div>
+        </section>
+
+        <section class="portfolio-grid">
+            <div class="container">
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="digital">Digital Products</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                </div>
+
+                <div class="projects">
+                    <div class="project-card" data-category="digital">
+                        <img src="project1.jpg" alt="EcoTech Mobile App" loading="lazy">
+                        <div class="project-details">
+                            <h3>EcoTech Mobile App</h3>
+                            <p>Sustainable energy tracking app for GreenWave Technologies</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="branding">
+                        <img src="project2.jpg" alt="Artisan Bakery Branding" loading="lazy">
+                        <div class="project-details">
+                            <h3>Artisan Bakery Branding</h3>
+                            <p>Rustic yet modern brand identity for Crumb & Flour</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="digital">
+                        <img src="project3.jpg" alt="HealthPulse Platform" loading="lazy">
+                        <div class="project-details">
+                            <h3>HealthPulse Platform</h3>
+                            <p>Telemedicine experience for MediConnect</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="branding">
+                        <img src="project4.jpg" alt="Urban Cycling Gear" loading="lazy">
+                        <div class="project-details">
+                            <h3>Urban Cycling Gear</h3>
+                            <p>Packaging design for PedalPro</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="digital">
+                        <img src="project5.jpg" alt="Financial Advisory Dashboard" loading="lazy">
+                        <div class="project-details">
+                            <h3>Financial Advisory Dashboard</h3>
+                            <p>Data visualization for WealthWise Investments</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <img src="project6.jpg" alt="Sustainable Fashion E-commerce" loading="lazy">
+                        <div class="project-details">
+                            <h3>Sustainable Fashion E-commerce</h3>
+                            <p>Online store for EarthWear Collective</p>
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Forma Studio. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="Behance">Behance</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

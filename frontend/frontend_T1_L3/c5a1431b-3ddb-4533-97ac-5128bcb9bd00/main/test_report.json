@@ -1,0 +1,15 @@
+{
+    "html_valid": true,
+    "responsive": true,
+    "smooth_scroll_works": true,
+    "hover_states_present": true,
+    "no_external_requests": true,
+    "css_in_style_tag": true,
+    "js_in_script_tag": true,
+    "pass": true,
+    "details": {
+        "html_validation_errors": [],
+        "mobile_screenshot": "mobile_screenshot.png",
+        "desktop_screenshot": "desktop_screenshot.png"
+    }
+}

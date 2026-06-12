@@ -1,0 +1,8 @@
+{
+    "passed": true,
+    "errors": [],
+    "security": {
+        "safe": true,
+        "leaks": []
+    }
+}

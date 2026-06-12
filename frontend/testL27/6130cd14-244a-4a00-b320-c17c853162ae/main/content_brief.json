@@ -1,0 +1,572 @@
+{
+  "meta": {
+    "title": "Backend Developer Portfolio – Landing Page Content Brief",
+    "description": "Comprehensive content brief for a backend developer portfolio landing page including copy, components, and image prompts.",
+    "version": "1.0",
+    "author": "UX/UI Content Designer"
+  },
+
+  "page_overview": {
+    "goal": "Convert hiring managers and tech leads into booking a call by showcasing backend expertise, live API projects, and clear social proof.",
+    "tone": "Confident, technical but approachable, human-centric.",
+    "audience": "Hiring managers, engineering leads, startup CTOs, recruiter sourcers.",
+    "device_focus": "Mobile-first responsive (320px minimum width)."
+  },
+
+  "components": [
+    {
+      "id": "hero",
+      "type": "Hero Section",
+      "purpose": "Immediately communicate who you are, what you do, and what value you offer — within 3 seconds.",
+      "copy": {
+        "headline": "I Build Backend Systems That scale to Millions of Users.",
+        "subheadline": "Senior Backend Engineer · 5+ years crafting RESTful APIs, microservices, and cloud-native architectures.",
+        "cta_buttons": [
+          {
+            "label": "View My Work",
+            "href": "#projects",
+            "variant": "primary"
+          },
+          {
+            "label": "Get in Touch",
+            "href": "#contact",
+            "variant": "secondary"
+          }
+        ],
+        "status_badge": "✅ Open to freelance & full-time opportunities"
+      },
+      "image_prompt": {
+        "description": "Abstract hero background image",
+        "prompt": "A dark, modern abstract illustration showing glowing network nodes and data flow lines connecting across a deep navy blue to dark purple gradient. Minimalist tech aesthetic with subtle glowing accents in cyan and amber. No human figures. 16:9 aspect ratio, suitable for a hero background overlay."
+      },
+      "design_notes": [
+        "Full viewport height with centered content.",
+        "Background: dark gradient with subtle animated particle network (CSS only).",
+        "Headline uses clamp(1.75rem, 4vw, 3rem) for fluid typography.",
+        "Status badge pinned below CTA with a subtle green dot pulse animation."
+      ],
+      "a11y_notes": [
+        "Headline is <h1> — only one per page.",
+        "CTA buttons are actual <a> tags pointing to anchor IDs.",
+        "Status badge is a <span> with role='status' and aria-live='polite'.",
+        "Background image has role='presentation' and aria-hidden='true'."
+      ]
+    },
+
+    {
+      "id": "skills",
+      "type": "Skills Grid",
+      "purpose": "Display technical proficiency in a scannable, visually organized grid.",
+      "copy": {
+        "section_label": "Tech Stack & Expertise",
+        "description": "I use battle-tested tools and modern patterns to build reliable, secure, and performant backend systems.",
+        "skill_categories": [
+          {
+            "category": "Languages & Runtimes",
+            "icon": "code",
+            "skills": [
+              { "name": "Node.js", "level": "expert", "years": 5 },
+              { "name": "TypeScript", "level": "expert", "years": 4 },
+              { "name": "Python", "level": "advanced", "years": 3 },
+              { "name": "Go", "level": "intermediate", "years": 2 },
+              { "name": "Rust", "level": "learning", "years": 1 }
+            ]
+          },
+          {
+            "category": "APIs & Protocols",
+            "icon": "plug",
+            "skills": [
+              { "name": "RESTful APIs", "level": "expert", "years": 5 },
+              { "name": "GraphQL", "level": "advanced", "years": 3 },
+              { "name": "gRPC", "level": "intermediate", "years": 2 },
+              { "name": "WebSocket", "level": "advanced", "years": 3 },
+              { "name": "OpenAPI / Swagger", "level": "expert", "years": 4 }
+            ]
+          },
+          {
+            "category": "Databases & Storage",
+            "icon": "database",
+            "skills": [
+              { "name": "PostgreSQL", "level": "expert", "years": 5 },
+              { "name": "MongoDB", "level": "advanced", "years": 4 },
+              { "name": "Redis", "level": "advanced", "years": 3 },
+              { "name": "Elasticsearch", "level": "intermediate", "years": 2 }
+            ]
+          },
+          {
+            "category": "Cloud & Infrastructure",
+            "icon": "cloud",
+            "skills": [
+              { "name": "AWS (Lambda, ECS, RDS)", "level": "expert", "years": 4 },
+              { "name": "Docker", "level": "expert", "years": 4 },
+              { "name": "Kubernetes", "level": "advanced", "years": 3 },
+              { "name": "Terraform", "level": "intermediate", "years": 2 },
+              { "name": "CI/CD (GitHub Actions)", "level": "expert", "years": 4 }
+            ]
+          },
+          {
+            "category": "Testing & Quality",
+            "icon": "shield",
+            "skills": [
+              { "name": "Unit / Integration Tests", "level": "expert", "years": 5 },
+              { "name": "Load Testing (k6)", "level": "advanced", "years": 2 },
+              { "name": "API Security (OWASP)", "level": "advanced", "years": 3 }
+            ]
+          }
+        ]
+      },
+      "image_prompt": {
+        "description": "Skills section background or decorative element",
+        "prompt": "Subtle glowing tech pattern with faint grid lines, circuit board traces in dark navy on a very dark background, soft cyan glow nodes at intersection points. Minimal and non-distracting. Suitable as a subtle section background pattern."
+      },
+      "design_notes": [
+        "CSS Grid layout: auto-fill with minmax(280px, 1fr).",
+        "Each category card has a colored left border based on skill level (green=expert, blue=advanced, yellow=intermediate, gray=learning).",
+        "Skill names listed as tokens/chips with hover tooltip showing years of experience.",
+        "Section uses a slightly lighter background to visually separate from hero."
+      ],
+      "a11y_notes": [
+        "Section header is <h2>.",
+        "Each category title is <h3>.",
+        "Skill chips use <span> elements with aria-label='Skill name (level, X years)'.",
+        "Color-coded borders are accompanied by level text (no sole reliance on color).",
+        "Progress/level indicators use both color and text."
+      ]
+    },
+
+    {
+      "id": "featured_projects",
+      "type": "Projects Showcase",
+      "purpose": "Prove capability with real-world projects — architecture diagrams, live demos, GitHub stars.",
+      "copy": {
+        "section_label": "Featured Work",
+        "description": "Production-grade systems I've designed, built, and deployed. Each project links to a live demo or detailed case study.",
+        "projects": [
+          {
+            "id": "api-gateway",
+            "title": "KratosAPI Gateway",
+            "tagline": "High-throughput API gateway handling 10k+ req/s",
+            "description": "Built an API gateway in Go that handles routing, rate limiting, authentication, and request logging for a microservices architecture. Reduced average latency by 40% compared to the previous Node.js implementation.",
+            "tech_stack": ["Go", "Redis", "Docker", "Kubernetes", "Prometheus", "gRPC"],
+            "highlights": [
+              "10,000+ requests/second throughput",
+              "99.99% uptime over 6 months",
+              "40% latency reduction",
+              "Built-in rate limiting and JWT validation"
+            ],
+            "links": {
+              "live_demo": "https://kratos-api-demo.example.com",
+              "github": "https://github.com/username/kratos-api-gateway",
+              "case_study": "#/case-studies/kratos-api-gateway"
+            },
+            "metrics": {
+              "github_stars": 342,
+              "forks": 89,
+              "contributors": 12
+            }
+          },
+          {
+            "id": "ecommerce-backend",
+            "title": "CommerceCore",
+            "tagline": "Scalable e-commerce backend serving 500k+ users",
+            "description": "Designed and implemented a complete e-commerce backend with product catalog, cart service, payment processing via Stripe, order management, and real-time inventory tracking using event-driven architecture.",
+            "tech_stack": ["Node.js", "TypeScript", "PostgreSQL", "Redis", "RabbitMQ", "AWS ECS", "Stripe"],
+            "highlights": [
+              "500,000+ active users",
+              "Event-driven inventory sync under 200ms",
+              "PCI-compliant payment flow",
+              "Complete admin dashboard API"
+            ],
+            "links": {
+              "live_demo": "https://commercecore-demo.example.com",
+              "github": "https://github.com/username/commerce-core",
+              "case_study": "#/case-studies/commerce-core"
+            },
+            "metrics": {
+              "github_stars": 187,
+              "forks": 43,
+              "contributors": 7
+            }
+          },
+          {
+            "id": "realtime-collab",
+            "title": "SyncBoard",
+            "tagline": "Real-time collaborative whiteboard with WebSocket sync",
+            "description": "A real-time collaboration server powering a shared whiteboard application. Built with WebSockets for low-latency broadcasting, CRDTs for conflict-free replication, and PostgreSQL for persistence.",
+            "tech_stack": ["Rust", "WebSocket", "CRDTs", "PostgreSQL", "Docker", "Nginx"],
+            "highlights": [
+              "Sub-50ms message propagation",
+              "Offline support with CRDT merging",
+              "5,000+ concurrent connections per node",
+              "OpenAPI documented"
+            ],
+            "links": {
+              "live_demo": "https://syncboard-demo.example.com",
+              "github": "https://github.com/username/syncboard",
+              "case_study": "#/case-studies/syncboard"
+            },
+            "metrics": {
+              "github_stars": 521,
+              "forks": 112,
+              "contributors": 25
+            }
+          },
+          {
+            "id": "data-pipeline",
+            "title": "StreamFlow",
+            "tagline": "Real-time data pipeline processing 1M+ events/day",
+            "description": "Event-driven data pipeline that ingests, transforms, and loads over 1 million events per day from multiple sources into a data warehouse. Features dead-letter queues, retry logic, and observability dashboards.",
+            "tech_stack": ["Python", "Apache Kafka", "PostgreSQL", "Docker", "Grafana", "Prometheus", "S3"],
+            "highlights": [
+              "1,000,000+ events processed daily",
+              "99.95% delivery success rate",
+              "Real-time monitoring dashboard",
+              "Automated retry + dead-letter handling"
+            ],
+            "links": {
+              "live_demo": "https://streamflow-demo.example.com",
+              "github": "https://github.com/username/streamflow",
+              "case_study": "#/case-studies/streamflow"
+            },
+            "metrics": {
+              "github_stars": 98,
+              "forks": 24,
+              "contributors": 4
+            }
+          }
+        ]
+      },
+      "image_prompt": {
+        "description": "Project showcase hero image",
+        "prompt": "A clean, flat illustration of a developer's desk setup with two monitors showing code and API architecture diagrams. Minimalist style, dark mode color scheme (navy, teal, amber accents). Floating UI elements like JSON snippets and database icons around the screens. Professional and modern. No people. Suitable for a project section header."
+      },
+      "design_notes": [
+        "Horizontal scrolling project cards on desktop, stacked on mobile.",
+        "Each card has a subtle border glow on hover (box-shadow with cyan).",
+        "Tech stack as inline chips with custom icons.",
+        "Metrics (stars, forks) displayed with GitHub-style counters.",
+        "'View Case Study' link is underlined arrow link.",
+        "Links open in new tab with rel='noopener noreferrer'."
+      ],
+      "a11y_notes": [
+        "Section header is <h2>.",
+        "Each project title is <h3>.",
+        "Cards are <article> elements with aria-labelledby pointing to the title.",
+        "External links have aria-label including 'Opens in new tab'.",
+        "Images within cards have alt text describing architecture or result.",
+        "Focus visible ring on card hover and link focus."
+      ]
+    },
+
+    {
+      "id": "experience",
+      "type": "Experience Timeline",
+      "purpose": "Show career progression, impact metrics, and team leadership.",
+      "copy": {
+        "section_label": "Experience",
+        "description": "From startup to scale-up — I've shipped code that moves metrics.",
+        "timeline": [
+          {
+            "role": "Senior Backend Engineer",
+            "company": "DataStream Inc.",
+            "period": "Jan 2022 — Present",
+            "location": "Remote · San Francisco, CA",
+            "achievements": [
+              "Architected a new microservices splitting monolith into 12 services; reduced deployment time by 70%.",
+              "Led migration from REST to GraphQL; cut frontend data fetching time by 55%.",
+              "Mentored 4 junior engineers through structured code reviews and pair programming sessions.",
+              "Designed disaster recovery strategy achieving RTO of 15 minutes and RPO of 1 minute."
+            ],
+            "tech_used": ["Node.js", "TypeScript", "GraphQL", "AWS Lambda", "DynamoDB", "Terraform"]
+          },
+          {
+            "role": "Backend Engineer",
+            "company": "FinTech Labs",
+            "period": "Mar 2020 — Dec 2021",
+            "location": "New York, NY (Hybrid)",
+            "achievements": [
+              "Built PCI-compliant payment processing service handling $2M+ in monthly transactions.",
+              "Reduced API p95 latency from 800ms to 120ms by introducing Redis caching layer.",
+              "Implemented event-driven email notification system processing 50k+ emails daily.",
+              "Wrote comprehensive integration test suite achieving 95% code coverage."
+            ],
+            "tech_used": ["Python", "FastAPI", "PostgreSQL", "Redis", "Docker", "Stripe", "Celery"]
+          },
+          {
+            "role": "Junior Backend Developer",
+            "company": "WebAgency Pro",
+            "period": "Jun 2018 — Feb 2020",
+            "location": "Austin, TX",
+            "achievements": [
+              "Developed RESTful APIs for 15+ client projects shipped on time and within budget.",
+              "Built automated CI/CD pipeline with GitHub Actions reducing release cycle from weeks to days.",
+              "Created internal CLI tool for project scaffolding adopted by the entire 20-person engineering team."
+            ],
+            "tech_used": ["Node.js", "Express", "MongoDB", "PostgreSQL", "Docker", "GitHub Actions"]
+          }
+        ]
+      },
+      "image_prompt": {
+        "description": "Experience timeline visual element",
+        "prompt": "A vertical timeline illustration with glowing node points connected by a thin line. Each node has a subtle cyan glow. Dark background with warm amber accents at connection points. Minimal and clean, resembling a circuit path or journey map. No text. Suitable as a decorative timeline indicator."
+      },
+      "design_notes": [
+        "Vertical timeline with alternating left/right cards on desktop, single column on mobile.",
+        "Timeline line is a CSS pseudo-element with a gradient.",
+        "Each card has a subtle hover lift effect (transform: translateY(-2px)).",
+        "Tech pills at the bottom of each card.",
+        "Company logo placeholder as a small colored circle with initials."
+      ],
+      "a11y_notes": [
+        "Section header is <h2>.",
+        "Each role entry is <article> with <h3> for role title.",
+        "Timeline structure uses <ol> for semantic ordering.",
+        "Dates are <time> elements with datetime attribute.",
+        "Color and position on timeline are decorative — content is readable in linear order."
+      ]
+    },
+
+    {
+      "id": "testimonials",
+      "type": "Social Proof Carousel",
+      "purpose": "Build trust through peer and client recommendations.",
+      "copy": {
+        "section_label": "What People Say",
+        "description": "",
+        "quotes": [
+          {
+            "quote": "Alex is the kind of engineer who doesn't just write code — they design systems. Their work on our API gateway cut our infrastructure costs by 30% while doubling throughput.",
+            "attribution": "Sarah Chen",
+            "role": "VP of Engineering, DataStream Inc.",
+            "avatar_initials": "SC",
+            "linkedin_url": "https://linkedin.com/in/sarahchen"
+          },
+          {
+            "quote": "Working with Alex was a masterclass in backend architecture. They took our chaotic monolith and turned it into a well-oiled microservices machine. Any team would be lucky to have them.",
+            "attribution": "Marcus Johnson",
+            "role": "CTO, FinTech Labs",
+            "avatar_initials": "MJ",
+            "linkedin_url": "https://linkedin.com/in/marcusjohnson"
+          },
+          {
+            "quote": "Alex has a rare combination of deep technical skill and clear communication. They can explain complex distributed systems concepts to non-technical stakeholders without dumbing it down.",
+            "attribution": "Priya Patel",
+            "role": "Product Manager, WebAgency Pro",
+            "avatar_initials": "PP",
+            "linkedin_url": "https://linkedin.com/in/priyapatel"
+          }
+        ]
+      },
+      "image_prompt": {
+        "description": "Testimonial section decorative element",
+        "prompt": "Abstract floating quote mark icons in a dark theme. Large stylized quotation marks in translucent cyan and amber, floating against a deep navy background. Minimal and elegant. No people. Suitable as a background decorative element for testimonials section."
+      },
+      "design_notes": [
+        "Horizontal carousel with visible prev/next buttons.",
+        "Auto-rotates every 8 seconds; pauses on hover/focus.",
+        "Quote card with prominent large quotation mark icon (CSS).",
+        "Avatar uses initials in a circular colored background (generated from name hash).",
+        "LinkedIn icon link next to name on hover."
+      ],
+      "a11y_notes": [
+        "Section header is <h2>.",
+        "Carousel uses role='region' with aria-roledescription='carousel' and aria-label='Testimonials'.",
+        "Each slide has role='group' with aria-roledescription='slide' and aria-label='Quote N of M'.",
+        "Auto-rotation respects prefers-reduced-motion: no animation.",
+        "Prev/Next buttons have aria-label='Previous testimonial' / 'Next testimonial'.",
+        "Pause on hover is communicated via aria-live='polite' region."
+      ]
+    },
+
+    {
+      "id": "contact",
+      "type": "Contact Section",
+      "purpose": "Low-friction way for hiring managers and collaborators to reach out.",
+      "copy": {
+        "section_label": "Let's Build Something",
+        "description": "I'm currently available for freelance projects, full-time roles, and open-source collaborations. No fluff — just good engineering.",
+        "contact_methods": [
+          {
+            "type": "email",
+            "label": "alex@example.com",
+            "href": "mailto:alex@example.com",
+            "icon": "envelope",
+            "description": "Best for quick questions and project inquiries."
+          },
+          {
+            "type": "linkedin",
+            "label": "linkedin.com/in/alex-dev",
+            "href": "https://linkedin.com/in/alex-dev",
+            "icon": "linkedin",
+            "description": "Connect for professional networking."
+          },
+          {
+            "type": "github",
+            "label": "github.com/alex-dev",
+            "href": "https://github.com/alex-dev",
+            "icon": "github",
+            "description": "Check out my open-source contributions."
+          },
+          {
+            "type": "calendly",
+            "label": "Schedule a 30-min call",
+            "href": "https://calendly.com/alex-dev/30min",
+            "icon": "calendar",
+            "description": "For serious inquiries — let's talk."
+          }
+        ],
+        "cta_form": {
+          "headline": "Or send a direct message",
+          "fields": [
+            { "name": "name", "type": "text", "label": "Name", "placeholder": "Your name", "required": true },
+            { "name": "email", "type": "email", "label": "Email", "placeholder": "you@example.com", "required": true },
+            { "name": "subject", "type": "text", "label": "Subject", "placeholder": "What's this about?", "required": false },
+            { "name": "message", "type": "textarea", "label": "Message", "placeholder": "Tell me about your project or opportunity...", "required": true, "max_length": 1000 }
+          ],
+          "submit_label": "Send Message",
+          "success_message": "Thanks! I'll get back to you within 24 hours."
+        }
+      },
+      "image_prompt": {
+        "description": "Contact section background",
+        "prompt": "A subtle dark gradient background with faint glowing circuit board traces converging toward the center. Deep navy to dark purple gradient. Very subtle and minimal. No text. Creates a sense of connection or signal reaching out."
+      },
+      "design_notes": [
+        "Split layout: contact methods on the left, contact form on the right.",
+        "Stack vertically on mobile (form first, then methods).",
+        "Contact method cards with large icons and hover lift effect.",
+        "Calendly button is a prominent CTA variant.",
+        "Contact form uses floating label pattern.",
+        "Inline validation with real-time error messages."
+      ],
+      "a11y_notes": [
+        "Section header is <h2>.",
+        "Contact method links use <a> with aria-label describing the service.",
+        "Form uses proper <form> element with <fieldset> and <legend>.",
+        "Every <input> and <textarea> has an associated <label> with htmlFor.",
+        "Error messages use aria-live='polite' and role='alert'.",
+        "Submit button has aria-label='Send message'.",
+        "Success message moves focus to a status region with role='status'."
+      ]
+    },
+
+    {
+      "id": "footer",
+      "type": "Footer Navigation",
+      "purpose": "Copyright notice, quick navigation, and supplementary links.",
+      "copy": {
+        "copyright": "© 2025 Alex Backend. Built with accessibility in mind.",
+        "nav_links": [
+          { "label": "Home", "href": "#hero" },
+          { "label": "Skills", "href": "#skills" },
+          { "label": "Projects", "href": "#projects" },
+          { "label": "Experience", "href": "#experience" },
+          { "label": "Contact", "href": "#contact" }
+        ],
+        "extra_links": [
+          { "label": "Resume (PDF)", "href": "/resume.pdf", "icon": "file-text" },
+          { "label": "Blog", "href": "/blog", "icon": "book-open" },
+          { "label": "GitHub", "href": "https://github.com/alex-dev", "icon": "github" }
+        ]
+      },
+      "design_notes": [
+        "Dark background, small text, centered on mobile, row on desktop.",
+        "Back-to-top button appears on scroll (hidden by default).",
+        "Accessibility statement link (e.g., 'Accessibility' or 'Built with a11y')."
+      ],
+      "a11y_notes": [
+        "Footer is <footer> element.",
+        "Navigation uses <nav> with aria-label='Footer navigation'.",
+        "Back-to-top is a <button> with aria-label='Back to top'.",
+        "Resume link indicates file type and size in aria-label: 'Resume (PDF, 120KB)'."
+      ]
+    }
+  ],
+
+  "design_tokens": {
+    "colors": {
+      "primary": "#3b82f6",
+      "primary_hover": "#2563eb",
+      "secondary": "#0f172a",
+      "accent_cyan": "#06b6d4",
+      "accent_amber": "#f59e0b",
+      "bg_dark": "#0a0e1a",
+      "bg_card": "#111827",
+      "bg_section": "#0f172a",
+      "text_primary": "#f1f5f9",
+      "text_secondary": "#94a3b8",
+      "text_muted": "#64748b",
+      "success": "#22c55e",
+      "error": "#ef4444",
+      "border": "#1e293b"
+    },
+    "typography": {
+      "font_family": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "font_mono": "'JetBrains Mono', 'Fira Code', monospace",
+      "scale": {
+        "h1": "clamp(1.75rem, 4vw, 3rem)",
+        "h2": "clamp(1.5rem, 3vw, 2.25rem)",
+        "h3": "clamp(1.125rem, 2vw, 1.5rem)",
+        "body": "clamp(0.875rem, 1.5vw, 1rem)",
+        "small": "0.875rem",
+        "caption": "0.75rem"
+      },
+      "line_heights": {
+        "tight": 1.15,
+        "normal": 1.5,
+        "relaxed": 1.75
+      }
+    },
+    "spacing": {
+      "xs": "0.25rem",
+      "sm": "0.5rem",
+      "md": "1rem",
+      "lg": "1.5rem",
+      "xl": "2rem",
+      "2xl": "3rem",
+      "3xl": "4rem",
+      "section_gap": "5rem"
+    },
+    "border_radius": {
+      "sm": "4px",
+      "md": "8px",
+      "lg": "12px",
+      "xl": "16px",
+      "full": "9999px"
+    },
+    "shadows": {
+      "card": "0 4px 6px -1px rgba(0, 0, 0, 0.3)",
+      "card_hover": "0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(59, 130, 246, 0.15)",
+      "glow_cyan": "0 0 15px rgba(6, 182, 212, 0.3)",
+      "glow_amber": "0 0 15px rgba(245, 158, 11, 0.3)"
+    }
+  },
+
+  "global_a11y_requirements": [
+    "All interactive elements must be keyboard accessible and have visible focus indicators.",
+    "Use :focus-visible with 3px outline offset for focus rings.",
+    "Minimum color contrast: 4.5:1 for normal text, 3:1 for large text (18px+ bold, 24px+ regular).",
+    "Never use color alone to convey information — add icons, text, or patterns.",
+    "All images must have meaningful alt text or aria-hidden='true' with role='presentation'.",
+    "prefers-reduced-motion media query disables all non-essential animations.",
+    "Semantic HTML: <nav>, <main>, <header>, <footer>, <article>, <section>, <aside>.",
+    "Headings in logical h1→h2→h3 order; never skip levels.",
+    "Use <button> for actions, <a> for navigation.",
+    "All form inputs require <label> with htmlFor attribute.",
+    "aria-live='polite' on dynamically updating content regions.",
+    "Tab order follows visual order; no positive tabindex values."
+  ],
+
+  "seo_and_performance_notes": [
+    "Meta description: 'Senior backend engineer portfolio — REST APIs, microservices, cloud-native architectures, and distributed systems built with Node.js, Go, Python, and Rust.'",
+    "Open Graph tags: og:title, og:description, og:image, og:url.",
+    "Twitter Cards: summary_large_image with handle.",
+    "Structured data: JSON-LD for Person schema (name, jobTitle, sameAs links).",
+    "Preload critical fonts (Inter, JetBrains Mono).",
+    "Defer non-critical JavaScript.",
+    "Lazy load images with loading='lazy' attribute.",
+    "Use content-visibility: auto on sections below the fold.",
+    "Minify CSS and JS for production.",
+    "Serve images in WebP format with JPEG fallback."
+  ]
+}

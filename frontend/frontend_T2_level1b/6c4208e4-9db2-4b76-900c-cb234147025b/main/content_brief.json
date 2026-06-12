@@ -1,0 +1,132 @@
+{
+  "page_title": "Stackr - Streamline Your Workflow",
+  "brand_name": "Stackr",
+  "color_palette": {
+    "primary": "#4361EE",
+    "secondary": "#7209B7", 
+    "accent": "#F72585",
+    "dark": "#212529",
+    "light": "#F8F9FA"
+  },
+  "typography": {
+    "heading": "Montserrat",
+    "body": "Open Sans"
+  },
+  "css_classes": {
+    "header": "site-header",
+    "logo": "logo",
+    "nav": "nav-links",
+    "nav_item": "nav-link",
+    "header_cta": "header-cta",
+    "hero": "hero",
+    "hero_title": "hero-title",
+    "hero_subtitle": "hero-subtitle",
+    "features": "features-grid",
+    "feature_card": "feature-card",
+    "pricing": "pricing-grid",
+    "pricing_card": "pricing-card",
+    "testimonials": "testimonials-section",
+    "testimonial_card": "testimonial-card",
+    "cta_section": "cta-section",
+    "cta_button": "cta-btn",
+    "footer": "site-footer"
+  },
+  "header": {
+    "logo_text": "Stackr",
+    "cta_button": {"text": "Start Free Trial", "href": "#cta"}
+  },
+  "nav_items": [
+    {"label": "Features", "href": "#features"},
+    {"label": "Pricing", "href": "#pricing"},
+    {"label": "Testimonials", "href": "#testimonials"},
+    {"label": "Contact", "href": "#contact"}
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "headline": "Supercharge Your Team's Productivity",
+      "subheadline": "Stackr helps distributed teams collaborate seamlessly with intelligent workflow management and real-time insights.",
+      "cta_text": "Start Free Trial"
+    },
+    {
+      "id": "features",
+      "type": "features",
+      "cards": [
+        {
+          "title": "Smart Task Tracking",
+          "description": "Automatically prioritize and assign tasks based on team capacity and individual strengths.",
+          "icon": "🚀"
+        },
+        {
+          "title": "Real-Time Collaboration",
+          "description": "Instant messaging, video calls, and shared workspaces that keep everyone in sync.",
+          "icon": "💬"
+        },
+        {
+          "title": "Advanced Analytics",
+          "description": "Gain deep insights into team performance, bottlenecks, and productivity trends.",
+          "icon": "📊"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "cards": [
+        {
+          "title": "Basic",
+          "price": "$9/month",
+          "features": [
+            "Up to 5 team members",
+            "Basic task management",
+            "Email support"
+          ]
+        },
+        {
+          "title": "Pro",
+          "price": "$29/month",
+          "featured": true,
+          "features": [
+            "Up to 20 team members",
+            "Advanced task tracking",
+            "Priority support",
+            "Performance analytics"
+          ]
+        },
+        {
+          "title": "Enterprise",
+          "price": "Custom",
+          "features": [
+            "Unlimited team members",
+            "Full feature set",
+            "Dedicated account manager",
+            "Custom integrations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "cards": [
+        {
+          "quote": "Stackr transformed how our remote team collaborates. It's like having a productivity superpower!",
+          "name": "Sarah Johnson",
+          "company": "TechInnovate Inc."
+        },
+        {
+          "quote": "The analytics are game-changing. We've increased team efficiency by 40% since adopting Stackr.",
+          "name": "Michael Chen",
+          "company": "GlobalSoft Solutions"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "hero-bg",
+      "prompt": "Modern SaaS dashboard showing collaborative project management interface. Clean, professional design with blue and purple color scheme. Multiple team members working together across digital screens."
+    }
+  ]
+}

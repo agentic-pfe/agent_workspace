@@ -1,0 +1,139 @@
+{
+  "page_title": "AI Foundations Pro — Your Gateway to Artificial Intelligence | Learn AI Online",
+  "brand_name": "AI Foundations Pro",
+  "hero": {
+    "headline": "Master Artificial Intelligence — No Coding Background Required",
+    "subheadline": "From absolute beginner to AI-capable professional in 12 weeks. Join 15,000+ students who have transformed their careers with our hands-on, beginner-friendly AI course.",
+    "cta_primary": "Enroll Now — Start Learning Today",
+    "cta_secondary": "Watch Free Intro Video"
+  },
+  "navigation": ["Home", "Course Overview", "Curriculum", "Instructors", "Enroll Now"],
+  "sections": [
+    {
+      "heading": "Why AI Is the Most Important Skill of the Decade",
+      "content": "Artificial intelligence is no longer a futuristic concept — it's reshaping every industry from healthcare and finance to marketing and education. By 2030, AI is projected to contribute over $15 trillion to the global economy, and the demand for AI-literate professionals is growing exponentially. Yet most introductory resources assume prior programming knowledge or mathematical fluency. AI Foundations Pro was built differently: we take you from zero to confident, step by step. Whether you're a marketer wanting to automate campaigns, a manager looking to leverage predictive analytics, a recent graduate building your résumé, or simply curious about how AI works under the hood — this course gives you the practical foundation you need. You'll learn core concepts like machine learning, neural networks, natural language processing, and computer vision through real-world projects — not abstract theory. Every module includes hands-on exercises using intuitive no-code tools and beginner-friendly Python libraries. By the end, you'll have built your own AI models and a portfolio project to showcase your new skills.",
+      "image_prompt": "A diverse group of learners gathered around holographic AI visualizations — floating data streams, glowing neural network nodes, and transparent machine learning models — in a modern, sunlit collaborative workspace with digital interfaces on glass screens."
+    },
+    {
+      "heading": "What You Will Learn — 5 Key Outcomes",
+      "content": "Our curriculum is designed around five foundational pillars that give you both conceptual understanding and practical capability. Each outcome is tied to a real-world project so you graduate with demonstrable skills, not just theoretical knowledge.",
+      "image_prompt": "A vibrant infographic-style illustration showing five interconnected icons: a brain with circuits (AI fundamentals), a gears-and-data icon (ML workflows), a speech bubble with waves (NLP), an eye with digital retina (computer vision), and a trophy with a neural pattern (portfolio project), arranged on a clean gradient background."
+    },
+    {
+      "heading": "Meet Your Instructors",
+      "content": "Learn from industry practitioners who work daily with the technologies they teach. Each instructor brings years of real-world AI experience and a passion for making complex topics accessible to beginners.",
+      "image_prompt": "Three professional instructors standing together in a bright modern classroom with interactive AI displays behind them — one woman and two men, diverse backgrounds, holding tablets with AI visualizations, warm and approachable expressions."
+    },
+    {
+      "heading": "What Our Students Say",
+      "content": "Hear from learners who started exactly where you are now — complete beginners who turned their curiosity into career-changing skills through AI Foundations Pro.",
+      "image_prompt": "A collage-style banner with four portrait photos of former students smiling in professional settings — an office, a home desk, a coffee shop, and a co-working space — overlaid with stylized five-star rating graphics and quotation marks."
+    },
+    {
+      "heading": "Ready to Begin Your AI Journey?",
+      "content": "Join 15,000+ students who have already transformed their careers. The course includes lifetime access, weekly live Q&A sessions, a private community forum, and a certificate of completion. Your future in AI starts with a single click.",
+      "image_prompt": "A dramatic hero shot of a person standing at the edge of a glowing digital horizon — translucent data streams, neural network patterns in the sky, floating AI icons, golden sunrise colors — symbolizing the beginning of an exciting learning journey."
+    }
+  ],
+  "features": [
+    {
+      "title": "AI Fundamentals & History",
+      "description": "Understand what AI really is — and isn't. Explore the history from Turing to transformers, distinguish between narrow AI, general AI, and superintelligence, and learn how modern AI systems actually work under the hood.",
+      "icon_suggestion": "brain-circuit"
+    },
+    {
+      "title": "Machine Learning Workflows",
+      "description": "Build and train your first ML models using no-code platforms and beginner-friendly Python. Master supervised learning, unsupervised learning, and the complete data pipeline from collection to deployment.",
+      "icon_suggestion": "gear-network"
+    },
+    {
+      "title": "Natural Language Processing",
+      "description": "Teach machines to understand language. Build chatbots, analyze sentiment, generate text summaries, and work with real-world NLP tools used by companies like Google and OpenAI.",
+      "icon_suggestion": "chat-bubbles"
+    },
+    {
+      "title": "Computer Vision Basics",
+      "description": "Enable machines to see and interpret the visual world. Create image classifiers, facial recognition models, and object detection systems using pre-trained models and transfer learning.",
+      "icon_suggestion": "eye-scan"
+    },
+    {
+      "title": "Capstone Portfolio Project",
+      "description": "Apply everything you've learned to a real-world AI project of your choice. Receive personalized feedback and graduate with a polished portfolio piece to share with employers or clients.",
+      "icon_suggestion": "trophy-neural"
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Priya Mehta",
+      "title": "Lead AI Instructor & ML Engineer",
+      "background": "Dr. Priya Mehta holds a Ph.D. in Machine Learning from Stanford University and has spent 8 years building production AI systems at Amazon Web Services and NVIDIA. She specializes in making complex mathematical concepts intuitive through visual storytelling and hands-on exercises. Her students describe her as 'the teacher who makes AI feel like common sense.'",
+      "photo_prompt": "Professional headshot of Dr. Priya Mehta, a South Asian woman in her mid-30s with a warm confident smile, wearing a smart blazer, standing in front of a softly lit background with subtle neural network patterns, professional studio lighting."
+    },
+    {
+      "name": "Marcus Okonkwo",
+      "title": "Senior AI Engineer & Curriculum Lead",
+      "background": "Marcus Okonkwo is a Senior AI Engineer with 6 years of experience at Microsoft and IBM Watson. He led the development of enterprise NLP systems serving over 10 million users. Marcus is passionate about democratizing AI education and has taught workshops at MIT, Harvard, and TechCrunch Disrupt. He brings infectious energy and real-world case studies to every lesson.",
+      "photo_prompt": "Professional headshot of Marcus Okonkwo, a Black man in his early 30s with a friendly expressive smile, wearing a dark blazer over a casual t-shirt, standing in a modern tech workspace with blurred AI screens in the background."
+    },
+    {
+      "name": "Sophie Laurent",
+      "title": "Computer Vision Specialist & Educator",
+      "background": "Sophie Laurent is a Computer Vision Engineer who previously worked at Tesla's Autopilot team and DeepMind. She holds an M.Eng. in Applied AI from ETH Zurich and has published research on efficient neural architectures. Sophie excels at breaking down visual AI into digestible, visual-first lessons that even complete beginners can follow with confidence.",
+      "photo_prompt": "Professional headshot of Sophie Laurent, a Caucasian woman in her late 20s with blonde hair tied back, wearing a smart casual blouse, sitting at a desk with a laptop showing AI code, soft natural lighting from a window."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "James Chen",
+      "occupation": "Marketing Manager, Shopify",
+      "text": "I had zero coding experience and was honestly intimidated by AI. This course broke everything down so clearly that I built my first chatbot in Week 3. By the end, I automated our entire email segmentation pipeline. My team saved 15 hours a week. Absolutely transformative.",
+      "rating": 5
+    },
+    {
+      "name": "Aisha Patel",
+      "occupation": "Business Analyst, Deloitte",
+      "text": "The instructors are phenomenal — Priya explained neural networks using baking analogies, and it finally clicked. The real-world projects made all the difference. I used my capstone project in my promotion review and got the senior analyst role. Best investment in myself I've ever made.",
+      "rating": 5
+    },
+    {
+      "name": "David Torres",
+      "occupation": "Recent Graduate, UC Berkeley",
+      "text": "I was looking for something to set me apart in the job market and this course delivered. The career support and portfolio project gave me concrete examples to discuss in interviews. I landed a data analyst position two weeks after completing the program. Couldn't recommend it more.",
+      "rating": 5
+    },
+    {
+      "name": "Emily Nakamura",
+      "occupation": "Healthcare Administrator, Kaiser Permanente",
+      "text": "I was skeptical an online course could teach me something as technical as AI, but the hands-on format is incredibly accessible. Sophie's computer vision module helped me prototype a patient intake system using image recognition. My manager was so impressed she sponsored my continued learning.",
+      "rating": 5
+    }
+  ],
+  "cta_buttons": {
+    "primary": "Enroll Now for $299 — Lifetime Access",
+    "secondary": "Download Free Syllabus",
+    "tertiary": "Book a 15-Minute Q&A Call"
+  },
+  "footer": {
+    "copyright": "© 2025 AI Foundations Pro. All rights reserved. Built with ❤️ for lifelong learners everywhere.",
+    "social_links": ["LinkedIn", "Twitter / X", "YouTube", "Instagram", "TikTok"],
+    "contact": "hello@aifoundationspro.com | +1 (800) 555-AI01 | 228 Park Ave S, New York, NY 10003",
+    "additional_links": ["Privacy Policy", "Terms of Service", "Refund Policy", "Accessibility Statement", "Student FAQ"]
+  },
+  "images": [
+    {
+      "name": "hero_banner",
+      "prompt": "A stunning wide-format hero banner showing a diverse group of learners (young adults of various ethnicities, casually dressed) collaborating around a large interactive holographic AI display in a bright modern classroom. Floating translucent neural network nodes, glowing data streams in blue and purple, digital interfaces showing machine learning models. Soft natural lighting from large windows, warm and inspiring atmosphere, clean modern aesthetic. 16:9 aspect ratio, professional marketing photography style.",
+      "style": "photo"
+    },
+    {
+      "name": "instructor_teaching",
+      "prompt": "A warm, professional photograph-style scene of an instructor (South Asian woman, early 30s, smart blazer) standing confidently at the front of a modern classroom with a large interactive digital screen behind her showing colorful neural network diagrams and flowcharts. Students in the foreground are taking notes on tablets and laptops. Soft overhead lighting, clean white and wood interior, collaborative and engaging learning atmosphere. Shallow depth of field. 16:9 aspect ratio.",
+      "style": "photo"
+    },
+    {
+      "name": "student_dashboard",
+      "prompt": "A clean, modern digital dashboard interface displayed on a laptop screen and a tablet next to it. The dashboard shows a course progress bar at 72%, a 'My AI Projects' section with three completed project cards, a lesson completion checklist, a weekly streak calendar with 5-day streak, and a 'Next Up: Neural Networks' module preview. Soft blue and purple UI colors, clean sans-serif typography, minimal and professional design. Desk setup includes a coffee cup, notebook, and plant for lifestyle context. Soft natural lighting. Isometric angled view.",
+      "style": "digital_art"
+    }
+  ]
+}

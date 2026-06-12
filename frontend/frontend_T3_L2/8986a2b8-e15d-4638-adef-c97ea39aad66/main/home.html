@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header class="site-header container">
+        <nav class="main-navigation">
+            <a href="home.html" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <span class="hamburger-icon">☰</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-content">
+                <h1>Creative Developer & Designer</h1>
+                <p>Crafting digital experiences that blend innovation with elegant design.</p>
+                <a href="work.html" class="cta-button">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="placeholder-hero.jpg" alt="Portfolio hero image" loading="lazy">
+            </div>
+        </section>
+
+        <section class="featured-work container">
+            <h2>Featured Projects</h2>
+            <div class="work-grid">
+                <article class="work-preview">
+                    <img src="project1-thumb.jpg" alt="Project 1" loading="lazy">
+                    <h3>Web Design System</h3>
+                    <p>A comprehensive design system with responsive components.</p>
+                    <a href="work.html#project1" class="preview-link">View Project</a>
+                </article>
+                <article class="work-preview">
+                    <img src="project2-thumb.jpg" alt="Project 2" loading="lazy">
+                    <h3>Mobile App Interface</h3>
+                    <p>Intuitive UI/UX design for a productivity app.</p>
+                    <a href="work.html#project2" class="preview-link">View Project</a>
+                </article>
+                <article class="work-preview">
+                    <img src="project3-thumb.jpg" alt="Project 3" loading="lazy">
+                    <h3>E-commerce Platform</h3>
+                    <p>Responsive and accessible online shopping experience.</p>
+                    <a href="work.html#project3" class="preview-link">View Project</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer container">
+        <div class="footer-content">
+            <p>&copy; 2023 Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub Profile">GitHub</a>
+                <a href="#" aria-label="LinkedIn Profile">LinkedIn</a>
+                <a href="#" aria-label="Email Contact">Email</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

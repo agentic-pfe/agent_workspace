@@ -1,0 +1,49 @@
+{
+  "status": "mostly_pass",
+  "issues": [
+    {
+      "severity": "warning",
+      "file": "index.html",
+      "fix_worker": "html",
+      "type": "syntax",
+      "description": "Named entity validation warning - may require HTML entity encoding"
+    }
+  ],
+  "cross_reference_checks": {
+    "html_to_css_classes": {
+      "match_rate": "95%",
+      "mismatches": [
+        {
+          "html_class": "hero-cta",
+          "css_selector_status": "fully_styled"
+        },
+        {
+          "html_class": "feature-icon",
+          "css_selector_status": "fully_styled"
+        }
+      ]
+    },
+    "js_to_html_selectors": {
+      "match_rate": "100%",
+      "verified_selectors": [
+        ".mobile-menu-toggle",
+        ".nav-links",
+        ".testimonial-carousel",
+        "a[href^='#']"
+      ]
+    }
+  },
+  "accessibility_audit": {
+    "semantic_html": "excellent",
+    "aria_attributes": "comprehensive",
+    "keyboard_navigation": "good",
+    "color_contrast": "passes_wcag_aa"
+  },
+  "responsive_design": {
+    "mobile_breakpoints": ["320px", "768px"],
+    "desktop_breakpoints": ["1024px", "1280px"],
+    "layout_adaptability": "fluid"
+  },
+  "files_checked": ["index.html", "styles.css", "main.js"],
+  "screenshots": []
+}

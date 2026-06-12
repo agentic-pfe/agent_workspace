@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskr &mdash; Your Productivity Companion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="app-header">
+        <div class="container">
+            <h1 class="logo">Taskr</h1>
+            <nav class="main-nav">
+                <button class="mobile-menu-toggle" aria-label="Toggle Navigation">
+                    <span class="hamburger-icon"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="task-manager">
+        <div class="container">
+            <section class="task-input-section">
+                <form id="task-form" aria-label="Add New Task">
+                    <input 
+                        type="text" 
+                        id="task-input" 
+                        placeholder="What needs to be done?" 
+                        required 
+                        aria-label="Task description"
+                    >
+                    <button type="submit" class="btn btn-primary">Create Task</button>
+                </form>
+            </section>
+
+            <section class="task-filter-section">
+                <div class="filter-buttons" role="tablist" aria-label="Task Filters">
+                    <button 
+                        class="filter-btn active" 
+                        data-filter="all" 
+                        role="tab" 
+                        aria-selected="true"
+                    >
+                        All Tasks
+                    </button>
+                    <button 
+                        class="filter-btn" 
+                        data-filter="active" 
+                        role="tab" 
+                        aria-selected="false"
+                    >
+                        Active
+                    </button>
+                    <button 
+                        class="filter-btn" 
+                        data-filter="completed" 
+                        role="tab" 
+                        aria-selected="false"
+                    >
+                        Completed
+                    </button>
+                </div>
+            </section>
+
+            <section class="task-list-section">
+                <ul id="task-list" aria-label="Task List" role="list">
+                    <!-- Tasks will be dynamically added here by JavaScript -->
+                </ul>
+                <div id="empty-state" class="empty-state" aria-live="polite">
+                    <p>Your productivity starts here. Add your first task!</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="container">
+            <p>&copy; 2024 Taskr. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <template id="task-template">
+        <li class="task-item" draggable="true">
+            <div class="task-handle" aria-label="Drag to reorder"></div>
+            <input 
+                type="checkbox" 
+                class="task-complete-toggle" 
+                aria-label="Mark task complete"
+            >
+            <span class="task-text" contenteditable="true" aria-label="Task description"></span>
+            <div class="task-actions">
+                <button class="btn-edit" aria-label="Edit task">
+                    <span class="sr-only">Edit</span>
+                </button>
+                <button class="btn-delete" aria-label="Delete task">
+                    <span class="sr-only">Delete</span>
+                </button>
+            </div>
+        </li>
+    </template>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+{
+  "page_title": "ScienceQuest | Interactive Science for Middle School Teachers & Students",
+  "brand_name": "ScienceQuest",
+  "hero": {
+    "headline": "Ignite Curiosity. Empower Discovery.",
+    "subheadline": "A complete, standards-aligned science platform built for middle school classrooms. Engaging lessons, hands-on activities, and ready-to-use resources — all in one place.",
+    "cta_primary": "Explore Free Lessons",
+    "cta_secondary": "Sign Up as a Teacher"
+  },
+  "navigation": ["Home", "Lessons", "Interactive Activities", "Teacher Resources", "About Us"],
+  "sections": [
+    {
+      "heading": "Comprehensive Lessons That Follow NGSS Standards",
+      "content": "Our lesson library spans all core middle school science domains: Life Science, Physical Science, Earth & Space Science, and Engineering Design. Each unit includes step-by-step lesson plans, printable student handouts, embedded vocabulary support, and formative assessment checkpoints. Every lesson is tagged by grade level (6–8), topic, and NGSS performance expectation, so you can find exactly what you need in seconds. Lessons are designed for 45–60 minute class periods and include differentiation strategies for English learners, students with IEPs, and advanced learners.",
+      "image_prompt": "A vibrant classroom scene showing a middle school science teacher guiding a small group of diverse students around a lab table. Students are examining plant specimens under magnifying glasses and taking notes on clipboards. Colorful science posters and a periodic table decorate the walls. Natural daylight fills the room. Warm, inviting atmosphere. Photorealistic style."
+    },
+    {
+      "heading": "Hands-On Simulations and Virtual Labs",
+      "content": "Give your students the power to experiment, fail safely, and try again. Our interactive activities include browser-based simulations where students can build circuits, model ecosystems, explore chemical reactions, and simulate plate tectonics — all with zero setup or cleanup. Each activity comes with a guided inquiry worksheet and reflection prompts that encourage students to think like real scientists. Compatible with Chromebooks, tablets, and interactive whiteboards.",
+      "image_prompt": "A split-screen digital illustration showing two middle school students working on a tablet outdoors, with a virtual ecosystem simulation displayed on the screen showing plants, animals, and a food web. On the right side, a clean, modern laptop displays a colorful interactive circuit-building interface with wires, bulbs, and switches. Bright, optimistic, tech-forward aesthetic. Digital art style."
+    },
+    {
+      "heading": "Save Time with Ready-to-Use Classroom Tools",
+      "content": "We know your time is precious. The Teacher Resources hub gives you editable lesson templates, customizable rubrics, quiz banks with auto-grading options, lab safety checklists, parent communication letters in English and Spanish, and pacing guides for full-year and trimester schedules. You'll also find video tutorials, classroom management tips, and a community forum where you can share ideas with fellow science educators. New resources are added every month.",
+      "image_prompt": "A neatly organized teacher's desk in a bright classroom: an open planner, colorful sticky notes, a steaming mug of tea, a stack of printed lesson materials, and a laptop displaying a teacher dashboard with progress charts and resource thumbnails. Soft afternoon light through a window. Organized, calm, productive atmosphere. Photorealistic style."
+    },
+    {
+      "heading": "Built by Educators, for Educators",
+      "content": "ScienceQuest was founded by a team of middle school science teachers, curriculum specialists, and educational technology designers who believed that every student deserves access to inspiring, rigorous science education. We are a nonprofit initiative supported by the National Science Teaching Association and partnered with university STEM outreach programs. Our mission is to reduce teacher burnout by providing high-quality, ready-to-teach resources — and to spark lasting scientific curiosity in every middle school student.",
+      "image_prompt": "A warm, collaborative team portrait of five diverse educators and curriculum designers gathered around a whiteboard covered in colorful diagrams, sticky notes, and science equations. They are smiling and pointing at the board, holding markers and tablets. Casual, approachable professional setting with plants and bookshelves. Bright, genuine, community-focused atmosphere. Photorealistic style."
+    }
+  ],
+  "features": [
+    {
+      "title": "Explore Living Systems",
+      "description": "From cells to ecosystems — dive into the diversity of life with interactive diagrams and virtual dissections.",
+      "icon_suggestion": "leaf-outline / dna-helix icon"
+    },
+    {
+      "title": "Master Matter & Energy",
+      "description": "Build circuits, investigate forces, and explore the properties of matter with hands-on simulations.",
+      "icon_suggestion": "atom-icon / magnet-icon"
+    },
+    {
+      "title": "Journey Through Our Planet & Beyond",
+      "description": "Model weather patterns, simulate plate tectonics, and explore the solar system in 3D.",
+      "icon_suggestion": "globe-icon / rocket-icon"
+    },
+    {
+      "title": "Think, Build, Test, Improve",
+      "description": "Tackle real-world design challenges with the engineering design process — from brainstorming to prototyping.",
+      "icon_suggestion": "gear-icon / blueprint-icon"
+    }
+  ],
+  "footer": {
+    "copyright": "© 2025 ScienceQuest. All rights reserved. A nonprofit initiative for middle school science education.",
+    "social_links": ["Facebook — @ScienceQuestEd", "Twitter/X — @ScienceQuest", "Instagram — @ScienceQuest", "YouTube — ScienceQuest Channel"],
+    "contact": "Email: hello@sciencequest.org | Phone: (800) 555-0189 | Address: 1200 Discovery Drive, Suite 300, Boulder, CO 80302"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "A bright, sunlit middle school science classroom with a diverse group of six students (ages 11–13) gathered around a large lab table. Two students are pouring a colored liquid into a beaker while another records observations in a notebook. A teacher smiles as she guides them. Beakers, test tubes, and a microscope are visible. Posters of the solar system and human anatomy hang on the walls. Large windows let in natural light. The mood is curious, collaborative, and joyful. Photorealistic, high resolution, warm color palette.",
+      "style": "photo"
+    },
+    {
+      "name": "life_science_icon",
+      "prompt": "A clean, modern line-art icon of a leaf intertwined with a DNA double helix, rendered in vibrant green on a white circular background. Minimalist, flat vector style suitable for a website card. Educational, friendly, and professional.",
+      "style": "illustration"
+    },
+    {
+      "name": "physical_science_icon",
+      "prompt": "A clean, modern line-art icon combining an atom symbol (orbiting electrons) with a lightning bolt, rendered in electric blue on a white circular background. Minimalist, flat vector style. Educational and energetic.",
+      "style": "illustration"
+    },
+    {
+      "name": "earth_space_icon",
+      "prompt": "A clean, modern line-art icon of a globe with a small rocket orbiting around it, rendered in deep purple and sky blue on a white circular background. Minimalist, flat vector style. Inspiring and exploratory.",
+      "style": "illustration"
+    },
+    {
+      "name": "engineering_icon",
+      "prompt": "A clean, modern line-art icon of a gear interlocking with a pencil, rendered in warm orange on a white circular background. Minimalist, flat vector style. Creative and problem-solving oriented.",
+      "style": "illustration"
+    }
+  ]
+}

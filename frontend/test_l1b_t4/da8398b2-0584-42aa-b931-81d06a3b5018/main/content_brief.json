@@ -1,0 +1,129 @@
+{
+  "page_title": "Taskr - Intuitive Task Management",
+  "brand_name": "Taskr",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#6366F1", "role": "primary interface elements, headers"},
+      "secondary": {"hex": "#10B981", "role": "secondary highlights, success states"},
+      "accent": {"hex": "#F59E0B", "role": "urgent tasks, CTAs, important actions"},
+      "dark": {"hex": "#1F2937", "role": "text, dark backgrounds"},
+      "light": {"hex": "#F9FAFB", "role": "background, light sections"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "productive + modern"
+  },
+  "color_palette": {
+    "primary": "#6366F1",
+    "secondary": "#10B981", 
+    "accent": "#F59E0B",
+    "dark": "#1F2937",
+    "light": "#F9FAFB"
+  },
+  "typography": {
+    "heading": "Inter",
+    "body": "Open Sans"
+  },
+  "css_classes": {
+    "header": "app-header",
+    "logo": "app-logo",
+    "nav": "app-nav",
+    "task_list": "task-list",
+    "task_item": "task-item",
+    "task_add": "task-add-btn",
+    "task_edit": "task-edit-btn",
+    "task_delete": "task-delete-btn",
+    "task_complete": "task-complete-btn",
+    "filter_bar": "filter-bar",
+    "modal": "modal",
+    "form": "task-form",
+    "input": "task-input",
+    "status_badge": "status-badge"
+  },
+  "header": {
+    "logo_text": "Taskr",
+    "cta_button": {
+      "text": "Add New Task",
+      "href": "#add-task"
+    }
+  },
+  "nav_items": [
+    {"label": "All Tasks", "href": "#all-tasks"},
+    {"label": "Active", "href": "#active-tasks"},
+    {"label": "Completed", "href": "#completed-tasks"}
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "headline": "Manage Your Tasks with Ease",
+      "subheadline": "Taskr helps you stay organized, productive, and in control of your daily workflow.",
+      "cta_text": "Get Started"
+    },
+    {
+      "id": "features",
+      "type": "features",
+      "cards": [
+        {
+          "title": "Drag & Reorder",
+          "description": "Easily prioritize tasks by dragging and dropping them into your preferred order.",
+          "icon": "🔀"
+        },
+        {
+          "title": "Status Tracking",
+          "description": "Quickly filter tasks by status: active, completed, or pending.",
+          "icon": "✅"
+        },
+        {
+          "title": "Local Storage",
+          "description": "Your tasks are automatically saved, so you never lose progress.",
+          "icon": "💾"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "hero-bg",
+      "prompt": "Modern productivity app interface showing task management dashboard with clean, minimalist design. Soft blue and purple color scheme, floating task cards, drag and drop interaction."
+    }
+  ],
+  "app_features": {
+    "task_management": {
+      "add_task": {
+        "form_fields": [
+          {"name": "title", "type": "text", "placeholder": "Enter task title", "required": true},
+          {"name": "description", "type": "textarea", "placeholder": "Optional task description"},
+          {"name": "status", "type": "select", "options": ["To Do", "In Progress", "Completed"]}
+        ]
+      },
+      "edit_task": {
+        "allowed_fields": ["title", "description", "status"]
+      },
+      "delete_task": {
+        "confirmation": "Are you sure you want to delete this task?"
+      },
+      "filter_options": [
+        "All Tasks",
+        "Active Tasks",
+        "Completed Tasks"
+      ]
+    },
+    "interactions": {
+      "drag_and_drop": true,
+      "local_storage_persistence": true,
+      "keyboard_shortcuts": {
+        "add_task": "Ctrl+N",
+        "edit_task": "Ctrl+E",
+        "delete_task": "Ctrl+D"
+      }
+    }
+  },
+  "accessibility": {
+    "color_contrast_ratio": "4.5:1",
+    "keyboard_navigation": true,
+    "screen_reader_support": true
+  }
+}

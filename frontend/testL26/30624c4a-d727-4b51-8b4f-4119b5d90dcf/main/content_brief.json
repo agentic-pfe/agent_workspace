@@ -1,0 +1,246 @@
+{
+  "project": "Ecommerce Landing Page — High-Fidelity Wireframe",
+  "description": "Premium wellness ecommerce landing page with warm earth tones and luxury typography.",
+  "design_system": {
+    "color_palette": {
+      "primary_earth": "#8B6F47",
+      "secondary_clay": "#A0785A",
+      "accent_terracotta": "#C76B4D",
+      "accent_olive": "#6B7F4E",
+      "background_warm": "#F5F0EB",
+      "background_cream": "#FAF7F2",
+      "surface_light": "#FFFFFF",
+      "text_dark_earth": "#3A2E24",
+      "text_body": "#5A4A3A",
+      "text_muted": "#8A7A6A",
+      "border_warm": "#E5D9D0",
+      "highlight_gold": "#D4A853"
+    },
+    "typography": {
+      "heading_font": "'Playfair Display', Georgia, serif",
+      "body_font": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "scale": {
+        "display": "clamp(2.5rem, 5vw, 4rem)",
+        "h1": "clamp(2rem, 4vw, 3.25rem)",
+        "h2": "clamp(1.5rem, 3vw, 2.5rem)",
+        "h3": "clamp(1.25rem, 2vw, 1.75rem)",
+        "body_large": "clamp(1.05rem, 1.5vw, 1.2rem)",
+        "body": "1rem",
+        "small": "0.875rem",
+        "caption": "0.75rem"
+      },
+      "weights": {
+        "light": 300,
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700
+      },
+      "line_height": {
+        "tight": 1.1,
+        "heading": 1.25,
+        "body": 1.6,
+        "relaxed": 1.75
+      }
+    },
+    "spacing": {
+      "section_gap": "clamp(4rem, 8vw, 8rem)",
+      "container_padding": "clamp(1rem, 4vw, 2rem)",
+      "content_gap": "clamp(1.5rem, 3vw, 3rem)"
+    },
+    "border_radius": {
+      "small": "6px",
+      "medium": "12px",
+      "large": "20px",
+      "full": "9999px"
+    },
+    "shadows": {
+      "card": "0 2px 16px rgba(58, 46, 36, 0.06)",
+      "elevated": "0 8px 32px rgba(58, 46, 36, 0.1)",
+      "hover": "0 12px 40px rgba(58, 46, 36, 0.12)"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero Banner",
+      "layout": "full-width background with split left text / right image",
+      "content": {
+        "eyebrow": "Welcome to Hearth & Home",
+        "headline": "Sustainably Crafted for Life's Quiet Moments",
+        "subheadline": "Handmade ceramics, organic textiles, and artisanal home goods — each piece tells a story of craftsmanship and care.",
+        "cta_primary": "Explore the Collection",
+        "cta_secondary": "Our Story",
+        "bg_image_prompt": "Luxury artisanal ceramic pottery on natural linen, warm soft lighting, earthy neutral tones, high-end product photography, shallow depth of field, editorial style"
+      }
+    },
+    {
+      "id": "benefits",
+      "name": "Product Benefits",
+      "layout": "3-column grid with icon + heading + description",
+      "content": {
+        "eyebrow": "Why Hearth & Home",
+        "headline": "Thoughtfully Made, Intentionally Designed",
+        "benefits": [
+          {
+            "icon": "🌿",
+            "title": "Sustainably Sourced",
+            "description": "Every material is ethically harvested and traceable from source to studio, ensuring minimal environmental impact."
+          },
+          {
+            "icon": "✋",
+            "title": "Handcrafted with Care",
+            "description": "Master artisans pour generations of knowledge into every piece, making each item truly one of a kind."
+          },
+          {
+            "icon": "🎨",
+            "title": "Timeless Design",
+            "description": "Minimalist aesthetics rooted in warmth — pieces that transition seamlessly through seasons and trends."
+          }
+        ]
+      }
+    },
+    {
+      "id": "subscription",
+      "name": "Subscription Options",
+      "layout": "3-tier pricing cards with feature lists",
+      "content": {
+        "eyebrow": "Membership",
+        "headline": "A Curated Experience, Delivered",
+        "tiers": [
+          {
+            "name": "The Seasonal",
+            "price": "$28",
+            "period": "per quarter",
+            "description": "One curated piece delivered each season.",
+            "features": [
+              "Quarterly artisan piece",
+              "Care guide included",
+              "Free shipping",
+              "Member pricing on shop"
+            ],
+            "cta": "Join Seasonal",
+            "highlight": false
+          },
+          {
+            "name": "The Monthly",
+            "price": "$48",
+            "period": "per month",
+            "description": "A new discovery delivered to your door monthly.",
+            "features": [
+              "Monthly curated item",
+              "Exclusive member-only pieces",
+              "Free shipping & returns",
+              "Early access to collections",
+              "Virtual studio tour"
+            ],
+            "cta": "Join Monthly",
+            "highlight": true
+          },
+          {
+            "name": "The Collector",
+            "price": "$120",
+            "period": "per month",
+            "description": "The full experience — for those who cherish the extraordinary.",
+            "features": [
+              "Monthly premium piece",
+              "Personal styling consultation",
+              "Complimentary gift wrapping",
+              "Behind-the-scenes content",
+              "Invite to annual dinner",
+              "Priority custom commissions"
+            ],
+            "cta": "Join Collector",
+            "highlight": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "reviews",
+      "name": "Customer Reviews",
+      "layout": "carousel / grid of testimonial cards with star ratings",
+      "content": {
+        "eyebrow": "Testimonials",
+        "headline": "Loved by Our Community",
+        "reviews": [
+          {
+            "name": "Elena V.",
+            "location": "Portland, OR",
+            "rating": 5,
+            "text": "The ceramic teapot I received is absolutely stunning. It feels like holding a piece of history in my hands. The craftsmanship is unmatched."
+          },
+          {
+            "name": "Marcus T.",
+            "location": "Austin, TX",
+            "rating": 5,
+            "text": "I've been a Monthly member for six months and every delivery feels like a gift to myself. The curation is impeccable."
+          },
+          {
+            "name": "Priya K.",
+            "location": "Brooklyn, NY",
+            "rating": 5,
+            "text": "Finally, a brand that truly cares about sustainability without compromising beauty. My home feels warmer already."
+          }
+        ]
+      }
+    },
+    {
+      "id": "shop",
+      "name": "Shop Section",
+      "layout": "4-column product grid with image, name, price, and add-to-cart",
+      "content": {
+        "eyebrow": "The Collection",
+        "headline": "Find Your Next Treasure",
+        "products": [
+          {
+            "name": "Rustic Stoneware Mug",
+            "price": "$34",
+            "category": "Ceramics",
+            "image_prompt": "Handcrafted stoneware mug with warm earth glaze, matte finish, natural lighting on wooden table, artisanal pottery photography"
+          },
+          {
+            "name": "Woven Linen Throw",
+            "price": "$89",
+            "category": "Textiles",
+            "image_prompt": "Organic linen throw blanket in warm oatmeal color, draped over rattan chair, soft natural lighting, cozy interior"
+          },
+          {
+            "name": "Hand-Thrown Bowl Set",
+            "price": "$72",
+            "category": "Ceramics",
+            "image_prompt": "Set of three hand-thrown ceramic bowls in varying earth tones, stacked artfully, warm ambient lighting"
+          },
+          {
+            "name": "Olive Wood Serving Board",
+            "price": "$56",
+            "category": "Woodwork",
+            "image_prompt": "Smooth olive wood serving board with natural grain patterns, rustic kitchen setting, warm sunlight"
+          }
+        ]
+      }
+    },
+    {
+      "id": "footer",
+      "name": "Footer",
+      "layout": "4-column footer with links, newsletter, social",
+      "content": {
+        "tagline": "Crafted for life. Rooted in care.",
+        "links": {
+          "shop": ["All Products", "Ceramics", "Textiles", "Woodwork", "Gift Cards"],
+          "about": ["Our Story", "Craftsmanship", "Sustainability", "Journal", "Careers"],
+          "support": ["FAQ", "Shipping", "Returns", "Contact", "Size Guide"]
+        },
+        "social": ["Instagram", "Pinterest", "Facebook"]
+      }
+    }
+  ],
+  "image_prompts": {
+    "hero_bg": "Premium lifestyle brand hero image, artisanal ceramic pottery and linen textiles on warm natural surface, soft golden hour lighting, earthy beige and terracotta tones, high-end editorial product photography, shallow depth of field, luxurious minimalist composition",
+    "benefits_1": "Close-up of artisan hands shaping clay on pottery wheel, warm natural light, earthy tones, craftmanship detail shot, soft bokeh background",
+    "benefits_2": "Sustainably sourced natural materials - organic cotton, bamboo, natural dyes arranged on wooden surface, flat lay, warm lighting",
+    "benefits_3": "Modern minimalist interior with artisanal home decor, ceramic vases and linen textiles, warm neutral color palette, bright airy room",
+    "subscription_highlight": "Beautifully wrapped package with dried flowers and twine, unboxing experience, warm lighting, luxury gift presentation",
+    "community": "Diverse group of people gathered around a wooden table with ceramic teaware, warm cozy atmosphere, candid lifestyle photography"
+  }
+}

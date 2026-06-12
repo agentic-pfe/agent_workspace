@@ -1,0 +1,93 @@
+{
+  "page_title": "GreenFuture: Collective Action for Environmental Restoration",
+  "brand_name": "GreenFuture",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#047857", "role": "environmental trust, headers"},
+      "secondary": {"hex": "#10B981", "role": "hope, highlights"},
+      "accent": {"hex": "#F59E0B", "role": "urgency, CTAs"},
+      "dark": {"hex": "#1C2B33", "role": "text, footer background"},
+      "light": {"hex": "#F0FDF4", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "hopeful + urgent"
+  },
+  "header": {
+    "logo_text": "GreenFuture",
+    "cta_button": {"text": "Join Our Mission", "href": "#donate"},
+    "nav_items": [
+      {"label": "Our Mission", "href": "#mission"},
+      {"label": "Get Involved", "href": "#involve"},
+      {"label": "Impact", "href": "#impact"},
+      {"label": "Donate", "href": "#donate"}
+    ]
+  },
+  "hero": {
+    "headline": "Restore. Protect. Transform Our Planet",
+    "subheadline": "Every Action Matters: Join a Global Community Healing the Earth",
+    "cta_primary": "Donate Now",
+    "cta_secondary": "Volunteer Today"
+  },
+  "sections": [
+    {
+      "id": "mission",
+      "heading": "Our Mission",
+      "content": "GreenFuture is committed to environmental restoration through community-driven initiatives. We believe in the power of collective action to reverse climate change and protect our planet's most vulnerable ecosystems.",
+      "image_prompt": "Diverse group of volunteers working together to plant trees in a reforestation site, showing teamwork and environmental hope"
+    },
+    {
+      "id": "involve",
+      "heading": "Get Involved",
+      "content": "From local clean-up events to global conservation projects, we offer multiple ways for individuals to make a meaningful impact. Your participation directly contributes to healing our planet and building sustainable communities.",
+      "image_prompt": "Community workshop with people of different ages learning about sustainable practices, with charts and interactive displays"
+    },
+    {
+      "id": "donate",
+      "heading": "Donate Today",
+      "content": "Your financial support transforms environmental challenges into tangible solutions. Every contribution funds critical restoration projects, educational programs, and grassroots initiatives that create lasting change.",
+      "cta_text": "Support Environmental Action"
+    }
+  ],
+  "features": [
+    {
+      "title": "Community Restoration",
+      "description": "Collaborative projects that rebuild and protect natural habitats",
+      "icon_suggestion": "tree"
+    },
+    {
+      "title": "Climate Education",
+      "description": "Empowering communities with knowledge and sustainable practices",
+      "icon_suggestion": "graduation-cap"
+    },
+    {
+      "title": "Global Impact",
+      "description": "Connecting local efforts to create worldwide environmental transformation",
+      "icon_suggestion": "globe"
+    }
+  ],
+  "footer": {
+    "copyright": "© 2024 GreenFuture. All Rights Reserved.",
+    "social_links": ["Facebook", "Twitter", "Instagram", "LinkedIn"],
+    "contact": "info@greenfuture.org | +1 (555) EARTH-CARE"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "Inspiring environmental landscape with diverse group of volunteers cleaning a riverbank, showing unity and hope. Bright natural lighting, lush green surroundings, people of various ages and backgrounds working together",
+      "style": "photo"
+    },
+    {
+      "name": "mission_image",
+      "prompt": "Reforestation effort with volunteers planting trees in a previously damaged landscape. Show transformation, hope, and collective effort. Mix of young and older volunteers, professional equipment, clear sky",
+      "style": "photo"
+    },
+    {
+      "name": "workshop_image",
+      "prompt": "Sustainable community workshop with interactive displays about environmental conservation. Diverse group of participants, warm lighting, engaging visual presentations about climate solutions",
+      "style": "photo"
+    }
+  ]
+}

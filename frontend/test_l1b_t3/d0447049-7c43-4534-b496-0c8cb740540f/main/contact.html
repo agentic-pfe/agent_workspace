@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Forma Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="site-header container">
+        <a href="index.html" class="logo">Forma Studio</a>
+        <button class="mobile-menu-toggle" aria-label="Toggle Navigation" aria-expanded="false">☰</button>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="work.html" class="nav-link">Work</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="header-cta">Start a Project</a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Let's Create Something Amazing</h1>
+                <p class="hero-subtitle">Have a project in mind? We'd love to hear from you.</p>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="header-cta">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Email: hello@formastudio.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+                <p>Address: 123 Design Street, Creative City, ST 12345</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2023 Forma Studio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

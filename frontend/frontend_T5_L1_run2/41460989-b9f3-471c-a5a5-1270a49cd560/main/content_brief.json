@@ -1,0 +1,100 @@
+{
+  "page_title": "Vaultly: Smart Finance Management for Modern Millennials",
+  "brand_name": "Vaultly",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#1D4ED8", "role": "trust, headers, buttons"},
+      "secondary": {"hex": "#475569", "role": "slate backgrounds, secondary elements"},
+      "accent": {"hex": "#EF4444", "role": "urgency, CTAs, highlights"},
+      "dark": {"hex": "#0F172A", "role": "text, footer background"},
+      "light": {"hex": "#F1F5F9", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "professional + modern"
+  },
+  "header": {
+    "logo_text": "Vaultly",
+    "cta_button": {"text": "Start Managing", "href": "#cta"},
+    "nav_items": [
+      {"label": "Features", "href": "#features"},
+      {"label": "How It Works", "href": "#how-it-works"},
+      {"label": "Pricing", "href": "#pricing"},
+      {"label": "About", "href": "#about"}
+    ]
+  },
+  "hero": {
+    "headline": "Financial Control, Simplified for Your Digital Life",
+    "subheadline": "Vaultly transforms complex financial management into an intuitive, powerful experience that grows with you. Track, analyze, and optimize your money—all from one intelligent platform.",
+    "cta_primary": "Get Started Free",
+    "cta_secondary": "Watch Demo",
+    "hero_image_prompt": "Modern, sleek dashboard interface showing financial analytics on a smartphone, with holographic financial graphs and data visualizations. Clean, tech-inspired design with blue and slate color palette. Millennial user interacting with the app."
+  },
+  "features": [
+    {
+      "title": "Smart Budgeting AI",
+      "description": "Our advanced AI analyzes your spending patterns in real-time, creating personalized budget recommendations that adapt to your lifestyle. No more guesswork—just intelligent financial guidance.",
+      "icon_suggestion": "chart-line",
+      "image_prompt": "Futuristic AI interface showing budget allocation with dynamic, color-coded spending categories and predictive trend lines."
+    },
+    {
+      "title": "Secure Transactions",
+      "description": "Bank-grade encryption and multi-factor authentication protect every transaction. We've built a fortress around your financial data, so you can focus on what matters most—your goals.",
+      "icon_suggestion": "shield-check",
+      "image_prompt": "Digital security visualization with interconnected blockchain-like security nodes, representing transaction protection."
+    },
+    {
+      "title": "Real-Time Financial Insights",
+      "description": "Instant snapshots of your financial health with interactive dashboards. Track investments, monitor cash flow, and receive actionable insights that help you make smarter financial decisions.",
+      "icon_suggestion": "analytics",
+      "image_prompt": "Interactive financial dashboard with real-time graphs, investment performance widgets, and predictive financial health indicators."
+    }
+  ],
+  "social_proof": {
+    "trusted_by_logos": [
+      {"name": "TechCrunch", "alt": "TechCrunch logo"},
+      {"name": "Forbes", "alt": "Forbes logo"},
+      {"name": "Financial Times", "alt": "Financial Times logo"},
+      {"name": "Bloomberg", "alt": "Bloomberg logo"},
+      {"name": "WIRED", "alt": "WIRED magazine logo"}
+    ],
+    "testimonials": [
+      {
+        "quote": "Vaultly has completely transformed how I manage my finances. It's like having a financial advisor in my pocket!",
+        "name": "Alex Rodriguez",
+        "title": "Software Engineer"
+      }
+    ]
+  },
+  "contact_form": {
+    "title": "Join the Financial Revolution",
+    "subtitle": "Start your free trial and take control of your financial future",
+    "fields": [
+      {"label": "Full Name", "placeholder": "Enter your full name", "type": "text", "required": true},
+      {"label": "Email Address", "placeholder": "Your work or personal email", "type": "email", "required": true},
+      {"label": "Phone Number", "placeholder": "Optional: (555) 123-4567", "type": "tel", "required": false}
+    ],
+    "submit_button": "Request Early Access",
+    "success_message": "Welcome to the future of financial management! We'll send you an exclusive invite shortly."
+  },
+  "cta_section": {
+    "headline": "Your Financial Potential, Unlocked",
+    "subheadline": "No hidden fees. No complex jargon. Just powerful, intuitive financial management.",
+    "primary_cta": "Start Your Free Trial",
+    "secondary_cta": "Learn More"
+  },
+  "footer": {
+    "copyright": "© 2024 Vaultly Technologies. All rights reserved.",
+    "social_links": ["Twitter", "LinkedIn", "Instagram"],
+    "contact": "support@vaultly.com | +1 (888) VAULTLY"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "Modern, sleek dashboard interface showing financial analytics on a smartphone, with holographic financial graphs and data visualizations. Clean, tech-inspired design with blue and slate color palette. Millennial user interacting with the app.",
+      "style": "photo"
+    }
+  ]
+}

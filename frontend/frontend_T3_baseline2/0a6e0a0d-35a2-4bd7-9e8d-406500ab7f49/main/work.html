@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma Studio - Our Work</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="home.html" class="nav-logo">Forma Studio</a>
+            <nav>
+                <div class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    ☰
+                </div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section portfolio-header">
+            <div class="container">
+                <h1>Selected Projects</h1>
+                <p>A showcase of our most impactful design work</p>
+                
+                <div class="portfolio-filter">
+                    <select>
+                        <option value="all">All Projects</option>
+                        <option value="branding">Branding</option>
+                        <option value="ux">UI/UX Design</option>
+                        <option value="web">Web Design</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="section portfolio-grid">
+            <div class="container">
+                <div class="grid grid-3">
+                    <div class="card portfolio-item" data-category="branding">
+                        <h3>Tech Startup Branding</h3>
+                        <p>Comprehensive brand identity for an innovative tech company</p>
+                    </div>
+                    <div class="card portfolio-item" data-category="ux">
+                        <h3>E-commerce Platform</h3>
+                        <p>User-centered design for a seamless online shopping experience</p>
+                    </div>
+                    <div class="card portfolio-item" data-category="ux">
+                        <h3>Mobile App Interface</h3>
+                        <p>Intuitive design for a productivity mobile application</p>
+                    </div>
+                    <div class="card portfolio-item" data-category="web">
+                        <h3>Corporate Website</h3>
+                        <p>Modern, responsive website design for a global enterprise</p>
+                    </div>
+                    <div class="card portfolio-item" data-category="branding">
+                        <h3>Sustainable Fashion Brand</h3>
+                        <p>Visual identity and digital presence for an eco-friendly fashion label</p>
+                    </div>
+                    <div class="card portfolio-item" data-category="web">
+                        <h3>Educational Platform</h3>
+                        <p>Interactive learning website with engaging user interface</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <div class="container">
+                <h2>Interested in Collaborating?</h2>
+                <p>Let's create something remarkable together.</p>
+                <a href="contact.html" class="btn">Start Your Project</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2023 Forma Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

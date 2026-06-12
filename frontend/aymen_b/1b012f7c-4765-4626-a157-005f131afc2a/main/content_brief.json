@@ -1,0 +1,64 @@
+{
+  "page_title": "Aymen | Backend Developer Portfolio",
+  "brand_name": "Aymen.dev",
+  "hero": {
+    "headline": "Backend Developer Building Scalable Systems",
+    "subheadline": "I design and implement robust server-side solutions that power modern applications. With expertise in Python, Node.js, and cloud infrastructure, I solve complex problems to deliver high-performance, maintainable systems.",
+    "cta_primary": "View Projects",
+    "cta_secondary": "Contact Me"
+  },
+  "navigation": [
+    "Home",
+    "About",
+    "Projects",
+    "Contact"
+  ],
+  "sections": [
+    {
+      "heading": "About Me",
+      "content": "I'm Aymen, a backend developer passionate about crafting scalable and efficient server-side architectures. My experience spans building RESTful APIs, designing database schemas, and optimizing system performance. I specialize in Python and Node.js, and I thrive in environments where I can tackle challenging technical problems. When I'm not coding, you'll find me exploring new technologies or contributing to open-source projects."
+    },
+    {
+      "heading": "Projects",
+      "content": ""
+    }
+  ],
+  "features": [
+    {
+      "title": "E-Commerce API Platform",
+      "description": "Role: Lead Backend Developer. Tech Stack: Python, Django, PostgreSQL, Redis, Docker. Impact: Built a scalable API handling 10K+ daily transactions for a multi-vendor marketplace, reducing response times by 40%.",
+      "icon_suggestion": "shopping-cart"
+    },
+    {
+      "title": "Real-Time Analytics Dashboard",
+      "description": "Role: Backend Engineer. Tech Stack: Node.js, Express, MongoDB, Socket.io, AWS Lambda. Impact: Developed a real-time data processing pipeline that aggregates and displays user metrics with sub-second latency, supporting data-driven decisions for a SaaS product.",
+      "icon_suggestion": "bar-chart"
+    },
+    {
+      "title": "Microservices Authentication System",
+      "description": "Role: Full Stack Developer. Tech Stack: Python, FastAPI, JWT, OAuth2, Kubernetes, PostgreSQL. Impact: Designed and implemented a secure, distributed authentication service adopted across 15+ microservices, improving system security and reducing auth-related incidents by 80%.",
+      "icon_suggestion": "lock"
+    }
+  ],
+  "footer": {
+    "copyright": "© 2023 Aymen.dev. All rights reserved.",
+    "social_links": [
+      "LinkedIn",
+      "GitHub",
+      "Twitter"
+    ],
+    "contact": "aymen@example.com | +1 (555) 123-4567"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "Professional headshot of a male software developer in a modern office setting, wearing business casual attire, looking confident and approachable, natural lighting",
+      "style": "photo"
+    },
+    {
+      "name": "background_image",
+      "prompt": "Abstract digital art representing server networks and data flow, with glowing lines and geometric patterns in blue and purple tones, tech-themed, seamless pattern",
+      "style": "digital_art"
+    }
+  ]
+}

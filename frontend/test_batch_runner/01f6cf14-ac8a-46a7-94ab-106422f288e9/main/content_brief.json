@@ -1,0 +1,17 @@
+{
+    "design_tokens": {
+        "palette": {
+            "primary": {"hex": "#2563EB", "role": "headers, buttons, primary actions"},
+            "secondary": {"hex": "#0D9488", "role": "section backgrounds, highlights"},
+            "accent": {"hex": "#F59E0B", "role": "CTAs, urgent elements"},
+            "dark": {"hex": "#1E293B", "role": "text, footer background"},
+            "light": {"hex": "#F8FAFC", "role": "alternating section backgrounds"}
+        },
+        "typography": {
+            "heading": "Montserrat",
+            "body": "Open Sans"
+        },
+        "mood": "professional + modern"
+    },
+    "hero_image_prompt": "Modern SaaS dashboard showing workflow automation interface. Clean, minimalist design with connected nodes representing different business processes. Blue and teal color scheme, professional tech environment."
+}

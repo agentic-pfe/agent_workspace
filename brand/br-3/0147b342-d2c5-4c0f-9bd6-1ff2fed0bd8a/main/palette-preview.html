@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brand Color Palette Preview</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; background: #1e1e1e; color: #fafafa; }
+        .swatch { display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0; }
+        .color { width: 80px; height: 80px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,0,0.7); }
+        .contrast { margin: 15px 0; padding: 10px; background: #2d2d2d; border-radius: 6px; }
+        h1, h2 { color: #3d87cc; }
+    </style>
+</head>
+<body>
+    <h1>Brand Color Palette</h1>
+    
+    <h2>Neutral Colors</h2>
+    <div class="swatch">
+        <div class="color" style="background: #f4f7f9; color: #1e1e1e;">#f4f7f9<br>neutral_100</div>
+        <div class="color" style="background: #d5d7d8; color: #1e1e1e;">#d5d7d8<br>neutral_300</div>
+        <div class="color" style="background: #8a8b8c; color: #1e1e1e;">#8a8b8c<br>neutral_500</div>
+        <div class="color" style="background: #585859; color: #fafafa;">#585859<br>neutral_700</div>
+        <div class="color" style="background: #1e1e1e; color: #fafafa;">#1e1e1e<br>neutral_900</div>
+    </div>
+
+    <h2>Primary & Secondary</h2>
+    <div class="swatch">
+        <div class="color" style="background: #3d87cc; color: #fafafa;">#3d87cc<br>primary</div>
+        <div class="color" style="background: #b75088; color: #fafafa;">#b75088<br>secondary</div>
+        <div class="color" style="background: #80cc20; color: #1e1e1e;">#80cc20<br>accent</div>
+    </div>
+
+    <h2>Contrast Ratios</h2>
+    <div class="contrast">
+        <strong>Text #fafafa on bg #1e1e1e</strong>: 15.97:1 (AAA)<br>
+        <strong>Text #fafafa on bg #69696b</strong>: 5.25:1 (AA)<br>
+        <strong>Text #3d87cc on bg #1e1e1e</strong>: 4.39:1 (AA Large only)<br>
+        <strong>Text #b75088 on bg #1e1e1e</strong>: 3.59:1 (AA Large only)<br>
+        <strong>Text #80cc20 on bg #1e1e1e</strong>: 8.4:1 (AAA)<br>
+    </div>
+
+    <p><em>Note: Primary and secondary colors fail WCAG AA for normal text on dark background. Consider adjusting for accessibility.</em></p>
+</body>
+</html>

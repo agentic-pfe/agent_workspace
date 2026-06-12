@@ -1,0 +1,114 @@
+{
+  "brand_name": "FlowSync",
+  "page_title": "FlowSync: AI-Powered Project Management for Remote Teams",
+  "hero": {
+    "headline": "Unleash Your Team's Productivity with AI Insights",
+    "subheadline": "FlowSync transforms remote collaboration by providing intelligent project management that adapts to your team's unique workflow and maximizes efficiency.",
+    "cta_primary": "Start Your Free Workflow Revolution",
+    "cta_secondary": "Watch Demo"
+  },
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#6366F1", "role": "trust, headers, buttons"},
+      "secondary": {"hex": "#06B6D4", "role": "warmth, highlights, accents"},
+      "accent": {"hex": "#EC4899", "role": "urgency, CTAs, badges"},
+      "dark": {"hex": "#111827", "role": "text, footer background"},
+      "light": {"hex": "#FAFAFA", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "professional + modern"
+  },
+  "features": [
+    {
+      "title": "AI-Powered Workflow Optimization",
+      "description": "Our advanced AI analyzes your team's work patterns and suggests real-time productivity improvements. Eliminate bottlenecks and streamline processes with intelligent recommendations.",
+      "icon_suggestion": "brain_lightning"
+    },
+    {
+      "title": "Seamless Remote Collaboration",
+      "description": "Break down communication barriers with integrated chat, video, and task management in one platform. Ensure your distributed team stays connected and aligned, regardless of time zones.",
+      "icon_suggestion": "network_global"
+    },
+    {
+      "title": "Predictive Project Intelligence",
+      "description": "Anticipate project risks and deadlines with our machine learning algorithms. Get proactive insights that help you make data-driven decisions and keep projects on track.",
+      "icon_suggestion": "analytics_chart"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Chen",
+      "role": "CTO",
+      "company": "TechNova Solutions",
+      "quote": "FlowSync has been a game-changer for our remote engineering team. The AI insights have improved our sprint planning by 40% and reduced communication overhead."
+    },
+    {
+      "name": "Michael Rodriguez",
+      "role": "Head of Product",
+      "company": "Quantum Innovations",
+      "quote": "I was skeptical about AI project management, but FlowSync proved me wrong. It's like having a productivity coach embedded in our workflow."
+    },
+    {
+      "name": "Elena Petrova",
+      "role": "Founder & CEO",
+      "company": "GlobalReach Consulting",
+      "quote": "Managing a team across three continents was challenging until we discovered FlowSync. Now, our productivity and team morale have never been higher."
+    }
+  ],
+  "pricing": {
+    "tiers": [
+      {
+        "name": "Basic",
+        "description": "Perfect for small teams starting their productivity journey",
+        "price": "$19/month",
+        "features": [
+          "Up to 5 team members",
+          "Basic AI insights",
+          "Standard project tracking"
+        ]
+      },
+      {
+        "name": "Pro",
+        "description": "Designed for growing teams needing advanced collaboration tools",
+        "price": "$49/month",
+        "features": [
+          "Up to 20 team members",
+          "Advanced AI workflow optimization",
+          "Integrated communication tools",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "description": "Comprehensive solution for large organizations with complex workflows",
+        "price": "Custom Pricing",
+        "features": [
+          "Unlimited team members",
+          "Full AI-powered insights",
+          "Custom integrations",
+          "Dedicated success manager",
+          "Advanced security controls"
+        ]
+      }
+    ]
+  },
+  "cta_final": {
+    "headline": "Transform Your Team's Potential with FlowSync",
+    "button_text": "Start Your Free 14-Day Trial"
+  },
+  "footer": {
+    "copyright": "© 2024 FlowSync Technologies. All rights reserved.",
+    "links": ["Privacy Policy", "Terms of Service", "Security"],
+    "contact": "support@flowsync.ai"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "Modern SaaS dashboard showing AI-powered project management interface. Diverse remote team collaborating across multiple devices. Clean, professional tech environment with holographic AI insights and workflow charts. Blue and purple color palette, sleek design.",
+      "style": "photo"
+    }
+  ]
+}

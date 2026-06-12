@@ -1,0 +1,103 @@
+{
+  "page_title": "AquaPure — Premium Omega-3 for Peak Athletic Performance",
+  "brand_name": "AquaPure",
+  "hero": {
+    "headline": "Fuel Your Recovery. Sharpen Your Mind. Protect Your Heart.",
+    "subheadline": "Ultra-pure, sustainably sourced omega-3 fish oil designed for athletes who demand more from their nutrition. One dose daily supports joint recovery, cognitive clarity, and cardiovascular endurance.",
+    "cta_primary": "Shop Now — Start Your 14-Day Trial",
+    "cta_secondary": "See How It Works"
+  },
+  "navigation": ["Home", "Why AquaPure", "Benefits", "Testimonials", "Shop"],
+  "sections": [
+    {
+      "heading": "Why Athletes Choose AquaPure",
+      "content": "Every workout breaks your body down. True performance comes from how well you rebuild. AquaPure delivers 1,200 mg of ultra-concentrated omega-3s (EPA + DHA) per serving — third-party tested for purity, potency, and freshness. No fishy aftertaste. No artificial fillers. Just clean fuel for athletes who train hard and recover smart.",
+      "image_prompt": "A close-up shot of an open AquaPure supplement bottle with two softgel capsules resting on a marble countertop, next to a stainless steel water bottle and a pair of premium running shoes. Natural morning light with teal and ocean-blue accents. Clean, minimalist fitness aesthetic. Shallow depth of field, product photography style."
+    },
+    {
+      "heading": "Joint Recovery — Move Without Limits",
+      "content": "High-impact training strains cartilage and connective tissue. The omega-3 EPA in AquaPure helps reduce exercise-induced inflammation and supports synovial fluid health, so your joints stay lubricated and resilient. Athletes report noticeably less stiffness and faster return-to-training after heavy sessions.",
+      "image_prompt": "An athlete stretching after a run in a sunlit gym with foam rollers and yoga mat visible. Soft focus on knees and joints, warm amber and teal lighting. Motion and recovery theme, lifestyle fitness photography."
+    },
+    {
+      "heading": "Brain Function — Stay Locked In",
+      "content": "Mental fatigue can sabotage performance as much as physical exhaustion. DHA, the structural fat of the brain, sharpens reaction time, focus, and decision-making under pressure. AquaPure provides a potent DHA dose to keep your mind as agile as your body — from early morning training to late-night recovery.",
+      "image_prompt": "A focused athlete in a clean modern space, reviewing a training plan on a tablet, with a glass of water and the AquaPure bottle on a wooden desk. Natural window light, blue-toned background suggesting calm concentration. Lifestyle photography."
+    },
+    {
+      "heading": "Heart Health — The Endurance Advantage",
+      "content": "A strong heart is your most important muscle. Omega-3s support healthy blood pressure, improve circulation, and reduce exercise-induced cardiac strain. For endurance athletes, better cardiovascular efficiency means sustained power output over longer distances. AquaPure helps you go further, longer.",
+      "image_prompt": "An athlete running along a coastal path at golden hour, ocean waves in the background, wearing a heart rate monitor. Wide-angle shot conveying movement, freedom, and cardiovascular health. Warm golden light, inspirational fitness photography."
+    }
+  ],
+  "features": [
+    {
+      "title": "Ultra-Concentrated EPA + DHA",
+      "description": "1,200 mg of molecularly distilled omega-3s per serving — 2x the potency of standard fish oil. More results per capsule, fewer pills to swallow.",
+      "icon_suggestion": "droplet"
+    },
+    {
+      "title": "Zero Fishy Aftertaste",
+      "description": "Enteric-coated softgels and natural lemon essence eliminate burps and reflux. What you taste is clean citrus — what your body gets is pure nutrition.",
+      "icon_suggestion": "leaf"
+    },
+    {
+      "title": "Sustainably Sourced & Third-Party Tested",
+      "description": "Wild-caught from MSC-certified fisheries in the South Pacific. Every batch is tested for heavy metals, PCBs, and oxidation levels — results published online.",
+      "icon_suggestion": "globe"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Marcus Chen",
+      "background": "Competitive CrossFit athlete, 34, trains 6 days/week",
+      "quote": "I started AquaPure after a torn meniscus recovery. Within three weeks, my knee stiffness dropped dramatically and I was back to full-depth squats. The mental clarity during WODs is a bonus I didn't expect.",
+      "result": "Reduced joint pain by 60% in 30 days"
+    },
+    {
+      "name": "Elena Rossi",
+      "background": "Marathon runner & Triathlete, 29, logged 2,400 km last season",
+      "quote": "I've tried a dozen fish oils and always quit because of the aftertaste. AquaPure is the first one I've actually stuck with. My recovery between long runs is noticeably faster and my resting heart rate dropped 5 bpm in two months.",
+      "result": "Resting heart rate dropped 5 bpm, faster recovery"
+    },
+    {
+      "name": "David Okafor",
+      "background": "Amateur boxer & strength coach, 38, coaches and trains daily",
+      "quote": "As a coach, I need to demonstrate exercises all day while managing my own training. AquaPure keeps my joints happy and my thinking sharp even after double sessions. It's become non-negotiable in my supplement stack.",
+      "result": "Daily joint comfort + sustained mental focus"
+    }
+  ],
+  "cta_buttons": {
+    "shop_now": "Shop Now — Start Your 14-Day Trial",
+    "subscribe": "Subscribe & Save 20%",
+    "learn_more": "See the Science"
+  },
+  "footer": {
+    "copyright": "© 2025 AquaPure Nutrition. All rights reserved.",
+    "social_links": ["Instagram", "Twitter/X", "YouTube", "Strava"],
+    "contact": "support@aquapure.com | 1-800-AQUAPURE",
+    "disclaimer": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "A sleek, premium AquaPure omega-3 fish oil supplement bottle standing on a polished teal-and-sand surface with subtle ocean wave reflections in the background. To the left, a pair of minimalist white running shoes and a stainless steel gym water bottle. To the right, fresh lemon slices and a small potted succulent. Soft golden-hour window lighting from a large pane, casting warm highlights across the bottle. The label shows clean, modern typography with blue and white tones. Background features abstract geometric ocean patterns in translucent watercolor. Ultra-premium product photography aesthetic, shallow depth of field, 8K detail, high-end commercial style.",
+      "style": "photo"
+    },
+    {
+      "name": "benefits_joint",
+      "prompt": "An athlete stretching after a run in a sunlit gym with foam rollers and yoga mat visible. Soft focus on knees and joints, warm amber and teal lighting. Motion and recovery theme, lifestyle fitness photography.",
+      "style": "photo"
+    },
+    {
+      "name": "benefits_brain",
+      "prompt": "A focused athlete in a clean modern space, reviewing a training plan on a tablet, with a glass of water and the AquaPure bottle on a wooden desk. Natural window light, blue-toned background suggesting calm concentration. Lifestyle photography.",
+      "style": "photo"
+    },
+    {
+      "name": "benefits_heart",
+      "prompt": "An athlete running along a coastal path at golden hour, ocean waves in the background, wearing a heart rate monitor. Wide-angle shot conveying movement, freedom, and cardiovascular health. Warm golden light, inspirational fitness photography.",
+      "style": "photo"
+    }
+  ]
+}

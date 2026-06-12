@@ -1,0 +1,41 @@
+<header class="navbar">
+  <div class="logo">Flowdesk</div>
+  <nav>
+    <a href="#features">Features</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#pricing">Pricing</a>
+  </nav>
+  <button class="cta">Start Your Free Trial</button>
+</header>
+
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <h1>Streamline Your Workflow, Amplify Your Productivity</h1>
+    <p>Flowdesk is an intelligent productivity platform that helps teams collaborate, track progress, and achieve more with less effort.</p>
+    <button class="cta">Start Your Free Trial</button>
+  </div>
+</section>
+
+<section id="features" class="features">
+  <div class="features-grid">
+    <div class="card">
+      <div class="card-icon">💡</div>
+      <h3>Smart Task Management</h3>
+      <p>Automatically prioritize tasks, track progress, and get intelligent insights to keep your team focused and efficient.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">📈</div>
+      <h3>Real-Time Collaboration</h3>
+      <p>Break down silos with seamless communication tools, shared workspaces, and instant updates across your entire team.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon">⏰</div>
+      <h3>Time Tracking & Analytics</h3>
+      <p>Gain deep insights into team productivity with advanced time tracking, performance metrics, and actionable reports.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2024 Flowdesk. All rights reserved.</p>
+</footer>

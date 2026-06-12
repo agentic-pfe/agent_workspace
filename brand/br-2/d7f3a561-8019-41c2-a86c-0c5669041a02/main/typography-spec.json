@@ -1,0 +1,27 @@
+{
+  "heading_font": "'Inter', sans-serif",
+  "body_font": "'Inter', sans-serif",
+  "heading_font_name": "Inter",
+  "body_font_name": "Inter",
+  "google_fonts_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+  "type_scale": {
+    "display": "3.5rem",
+    "h1": "2.5rem",
+    "h2": "2rem",
+    "h3": "1.5rem",
+    "h4": "1.25rem",
+    "body": "1rem",
+    "caption": "0.875rem",
+    "label": "0.75rem",
+    "code": "0.875rem"
+  },
+  "line_heights": {
+    "heading": 1.2,
+    "body": 1.6
+  },
+  "letter_spacing": {
+    "heading": "-0.02em",
+    "body": "0em"
+  },
+  "weights": [400, 500, 600, 700]
+}

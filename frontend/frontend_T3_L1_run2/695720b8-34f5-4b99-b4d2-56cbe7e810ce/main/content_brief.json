@@ -1,0 +1,114 @@
+{
+  "brand_name": "Forma Studio",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#1D4ED8", "role": "headers, buttons"},
+      "secondary": {"hex": "#475569", "role": "highlights, accents"},
+      "accent": {"hex": "#DC2626", "role": "CTAs, urgency"},
+      "dark": {"hex": "#0F172A", "role": "text, footer background"},
+      "light": {"hex": "#F1F5F9", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "professional + minimalist"
+  },
+  "pages": {
+    "home": {
+      "title": "Forma Studio - Design That Clarifies",
+      "hero": {
+        "headline": "Designing Clarity in a Complex World",
+        "subheadline": "We transform complex challenges into elegant, intuitive design solutions that empower businesses and users.",
+        "cta_primary": "View Our Work",
+        "hero_image_prompt": "Minimalist abstract composition with geometric shapes in muted blues, grays, and whites. Clean lines, soft shadows, representing design simplicity and clarity."
+      }
+    },
+    "about": {
+      "title": "About Forma Studio - Our Story and Values",
+      "agency_story": {
+        "founding_year": 2020,
+        "mission": "At Forma Studio, we believe design is more than aesthetics—it's a powerful tool for solving complex problems and creating meaningful experiences.",
+        "team": [
+          {
+            "name": "Elena Rodriguez",
+            "role": "Creative Director",
+            "bio": "With 12 years of experience in digital design, Elena leads our creative vision, ensuring every project balances artistic expression with strategic thinking."
+          },
+          {
+            "name": "Marcus Chen",
+            "role": "UX Strategist",
+            "bio": "A human-centered design expert, Marcus translates user insights into intuitive interfaces that feel both innovative and familiar."
+          },
+          {
+            "name": "Aria Thompson",
+            "role": "Design Technologist",
+            "bio": "Bridging design and technology, Aria brings technical precision and creative problem-solving to every project we undertake."
+          }
+        ],
+        "values": [
+          "Intentionality",
+          "Collaboration",
+          "Craft"
+        ],
+        "hero_image_prompt": "Modern design studio interior with minimalist furniture, large windows, designers collaborating around a light table. Soft natural light, neutral color palette."
+      }
+    },
+    "work": {
+      "title": "Forma Studio - Our Design Projects",
+      "projects": [
+        {
+          "title": "Lumina Brand Identity",
+          "description": "A comprehensive branding system for a sustainable tech startup, creating a visual language that communicates innovation and environmental responsibility.",
+          "categories": ["Branding", "Visual Identity"]
+        },
+        {
+          "title": "Pulse Healthcare App",
+          "description": "A user-centered mobile application that simplifies patient-doctor communication and medical record management.",
+          "categories": ["UX Design", "Product Design"]
+        },
+        {
+          "title": "Verdant Coworking Website",
+          "description": "An immersive web experience that captures the energy and community of a modern, eco-friendly workspace.",
+          "categories": ["Web Design", "Branding"]
+        },
+        {
+          "title": "Kinetic Fitness Wearable",
+          "description": "A sleek, intuitive fitness tracker that seamlessly integrates advanced technology with elegant, minimalist design.",
+          "categories": ["Product Design", "Industrial Design"]
+        },
+        {
+          "title": "Horizon Financial Dashboard",
+          "description": "A complex financial data visualization platform transformed into an intuitive, user-friendly interface.",
+          "categories": ["UX Design", "Data Visualization"]
+        },
+        {
+          "title": "Bloom Organic Packaging",
+          "description": "Sustainable packaging design that tells a story of natural ingredients, ethical sourcing, and environmental consciousness.",
+          "categories": ["Packaging Design", "Branding"]
+        }
+      ],
+      "hero_image_prompt": "A dynamic collage of design project snippets: logo sketches, app interfaces, product mockups. Overlapping layers, muted color palette, clean design aesthetic."
+    },
+    "contact": {
+      "title": "Contact Forma Studio - Let's Create Together",
+      "contact_info": {
+        "welcome_message": "Ready to transform your vision into an extraordinary design solution? We're excited to hear about your project.",
+        "address": "425 Oak Street, Portland, OR 97209",
+        "email": "hello@formastudio.com",
+        "form_fields": {
+          "name": "Full Name",
+          "email": "Email Address",
+          "project_types": [
+            "Web Design",
+            "Branding",
+            "Product Design",
+            "Other"
+          ],
+          "message": "Tell us about your project"
+        }
+      },
+      "hero_image_prompt": "Minimalist contact scene with design tools: sketchbook, digital tablet, color swatches. Soft, diffused lighting, neutral background, suggesting creativity and collaboration."
+    }
+  }
+}

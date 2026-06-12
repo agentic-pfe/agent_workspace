@@ -1,0 +1,21 @@
+{
+    "html_validation": {
+        "status": "mostly_valid",
+        "warnings": [
+            "Minor HTML entity issue detected"
+        ]
+    },
+    "css_validation": {
+        "status": "valid",
+        "warnings": [
+            "Some container classes missing styles",
+            "Dead CSS selector detected"
+        ]
+    },
+    "js_validation": {
+        "status": "valid",
+        "warnings": []
+    },
+    "accessibility_score": 85,
+    "responsive_score": 90
+}

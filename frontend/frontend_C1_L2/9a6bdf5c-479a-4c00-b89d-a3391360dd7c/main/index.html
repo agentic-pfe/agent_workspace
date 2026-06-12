@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Creative digital agency landing page showcasing projects, services, and team.">
+  <title>Orbit Studio — Digital Experiences That Matter</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Orbit Studio Home">
+        <span class="logo-icon" aria-hidden="true">O</span>
+        <span class="logo-text">Orbit Studio</span>
+      </a>
+
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="primary-nav" class="nav-links" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="header-cta">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="home">
+
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="typewriter-heading">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 id="typewriter-heading" data-typewriter-text="We Craft Digital Experiences">We Craft Digital Experiences</h1>
+          <p class="hero-subheading">Strategy, design, and engineering for brands ready to stand out in a crowded world.</p>
+          <a href="#projects" class="cta-button">Explore Our Work</a>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-placeholder">Hero Image Placeholder</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="projects-heading">Selected Projects</h2>
+          <p>A curated collection of work across web, mobile, and brand identity.</p>
+        </header>
+
+        <div class="projects-grid" role="list">
+          <article class="project-card" data-category="web" role="listitem">
+            <div class="project-info">
+              <h3>Lumina Dashboard</h3>
+              <span class="project-category">Web</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="mobile" role="listitem">
+            <div class="project-info">
+              <h3>Pulse Fitness</h3>
+              <span class="project-category">Mobile</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="branding" role="listitem">
+            <div class="project-info">
+              <h3>Vertex Rebrand</h3>
+              <span class="project-category">Branding</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="web" role="listitem">
+            <div class="project-info">
+              <h3>Aurora Commerce</h3>
+              <span class="project-category">Web</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="mobile" role="listitem">
+            <div class="project-info">
+              <h3>Nova Banking</h3>
+              <span class="project-category">Mobile</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="branding" role="listitem">
+            <div class="project-info">
+              <h3>Ember Coffee</h3>
+              <span class="project-category">Branding</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services" aria-labelledby="services-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="services-heading">What We Do</h2>
+          <p>End-to-end digital services tailored to your goals.</p>
+        </header>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">🎨</span>
+            <h3>Brand Identity</h3>
+            <p>Logos, color systems, and visual language that make your brand unforgettable.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">💻</span>
+            <h3>Web Development</h3>
+            <p>Fast, accessible, and responsive websites built with modern technologies.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">📱</span>
+            <h3>Mobile Apps</h3>
+            <p>Native and cross-platform apps designed for engagement and retention.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">📈</span>
+            <h3>Growth Strategy</h3>
+            <p>Data-driven marketing and product roadmaps to scale your business.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients" aria-labelledby="clients-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="clients-heading">Trusted By</h2>
+          <p>Collaborating with forward-thinking companies worldwide.</p>
+        </header>
+
+        <div class="clients-strip" aria-label="Client logos">
+          <div class="client-logo">Acme Corp</div>
+          <div class="client-logo">Globex</div>
+          <div class="client-logo">Initech</div>
+          <div class="client-logo">Hooli</div>
+          <div class="client-logo">Massive Dynamic</div>
+          <div class="client-logo">Soylent</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team" aria-labelledby="team-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="team-heading">Meet the Team</h2>
+          <p>Passionate creators, strategists, and engineers.</p>
+        </header>
+
+        <div class="team-grid">
+          <article class="team-card">
+            <div class="team-photo" aria-hidden="true">Photo</div>
+            <h3>Sarah Chen</h3>
+            <p class="team-role">Creative Director</p>
+            <p class="team-bio">15 years shaping brands for Fortune 500 companies and ambitious startups alike.</p>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo" aria-hidden="true">Photo</div>
+            <h3>Marcus Johnson</h3>
+            <p class="team-role">Lead Developer</p>
+            <p class="team-bio">Full-stack architect who turns complex problems into elegant, scalable solutions.</p>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo" aria-hidden="true">Photo</div>
+            <h3>Elena Rodriguez</h3>
+            <p class="team-role">UX Strategist</p>
+            <p class="team-bio">Human-centered design advocate ensuring every interaction feels intuitive.</p>
+          </article>
+
+          <article class="team-card">
+            <div class="team-photo" aria-hidden="true">Photo</div>
+            <h3>David Kim</h3>
+            <p class="team-role">Motion Designer</p>
+            <p class="team-bio">Bringing interfaces to life with purposeful animation and micro-interactions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="contact-heading">Start a Project</h2>
+          <p>Tell us what you are building. We will reply within 24 hours.</p>
+        </header>
+
+        <form class="contact-form" action="#" method="POST" novalidate>
+          <fieldset>
+            <legend class="visually-hidden">Contact Information</legend>
+
+            <div class="form-group">
+              <label for="contact-name">Name</label>
+              <input type="text" id="contact-name" name="name" placeholder="Your full name" required autocomplete="name">
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="email" placeholder="you@example.com" required autocomplete="email">
+            </div>
+
+            <div class="form-group">
+              <label for="contact-type">Project Type</label>
+              <select id="contact-type" name="project_type" required>
+                <option value="" disabled selected>Select a project type</option>
+                <option value="web">Web</option>
+                <option value="mobile">Mobile</option>
+                <option value="branding">Branding</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" placeholder="Tell us about your project, timeline, and budget..." required></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Send Message</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon" aria-hidden="true">O</span>
+        <span class="logo-text">Orbit Studio</span>
+        <p>Building digital experiences since 2015.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer-social" aria-label="Social media links">
+        <a href="#" aria-label="Twitter">X</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Dribbble">Dr</a>
+      </div>
+
+      <p class="footer-copyright">&copy; 2024 Orbit Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

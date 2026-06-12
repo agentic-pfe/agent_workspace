@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma Studio - Contact - Let's Create Something Extraordinary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="nav">
+        <div class="container">
+            <nav>
+                <a href="home.html" class="logo">Forma Studio</a>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span class="hamburger-icon">☰</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="contact-hero">
+            <div class="container">
+                <h1>Let's Create Something Extraordinary</h1>
+                <p>Have a project in mind? We're excited to hear about it. Fill out the form below, and our team will get back to you within 24 hours.</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="container">
+                <h2>Start Your Design Journey</h2>
+                <p>All fields are required. We look forward to understanding your design needs.</p>
+
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Professional Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Your Company Name</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="project-type">Project Type</label>
+                        <select id="project-type" name="project-type" required>
+                            <option value="">Select Project Type</option>
+                            <option value="brand-identity">Brand Identity</option>
+                            <option value="digital-product">Digital Product Design</option>
+                            <option value="ux-ui">UX/UI Design</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Tell us about your project</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Project Inquiry</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-details">
+                    <div class="contact-method">
+                        <h3>Email</h3>
+                        <p>hello@formastudio.com</p>
+                    </div>
+                    <div class="contact-method">
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="contact-method">
+                        <h3>Address</h3>
+                        <p>123 Design Lane, Creative City, DC 90210</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <p>hello@formastudio.com</p>
+                    <p>+1 (555) 123-4567</p>
+                    <p>123 Design Lane, Creative City, DC 90210</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Behance">Behance</a>
+                    <a href="#" aria-label="Dribbble">Dribbble</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                </div>
+                <p class="copyright">&copy; 2023 Forma Studio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

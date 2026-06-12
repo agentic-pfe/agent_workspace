@@ -1,0 +1,78 @@
+{
+  "page_title": "FlowSync: AI-Powered Project Management for Remote Teams",
+  "brand_name": "FlowSync",
+  "hero": {
+    "headline": "Unleash Team Productivity with AI-Powered Project Intelligence",
+    "subheadline": "Transform remote work chaos into streamlined, intelligent collaboration that adapts to your team's unique rhythm",
+    "cta_primary": "Start Your 14-Day Free Trial",
+    "cta_secondary": "Watch Demo"
+  },
+  "navigation": [
+    "Features",
+    "Solutions",
+    "Pricing",
+    "Resources",
+    "Contact"
+  ],
+  "sections": [
+    {
+      "heading": "Reimagine Remote Team Collaboration",
+      "content": "FlowSync is the next-generation project management platform that harnesses artificial intelligence to bring unprecedented clarity, efficiency, and insight to distributed teams. By intelligently prioritizing tasks, predicting potential bottlenecks, and facilitating seamless communication, we turn remote work challenges into strategic advantages.",
+      "image_prompt": "modern SaaS dashboard interface showing task boards, team activity, and AI insights, clean purple and white UI"
+    }
+  ],
+  "features": [
+    {
+      "title": "AI-Powered Task Prioritization",
+      "description": "Our advanced AI analyzes team workload, individual strengths, and project dependencies to automatically suggest the most impactful tasks and optimal work sequences.",
+      "icon_suggestion": "ai-priority-icon"
+    },
+    {
+      "title": "Real-Time Collaborative Workspace",
+      "description": "Experience fluid, context-rich collaboration with live document editing, integrated chat, and dynamic project boards that update in real-time across global teams.",
+      "icon_suggestion": "collaboration-icon"
+    },
+    {
+      "title": "Automated Daily Standups",
+      "description": "Skip repetitive meetings with our AI-generated standup reports that capture progress, highlight blockers, and provide actionable insights without manual input.",
+      "icon_suggestion": "automation-icon"
+    },
+    {
+      "title": "Seamless Enterprise Integrations",
+      "description": "Connect FlowSync effortlessly with your existing tools like Slack, GitHub, Jira, and Google Workspace to create a unified, intelligent workflow ecosystem.",
+      "icon_suggestion": "integration-icon"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Kim",
+      "role": "Engineering Lead",
+      "company": "NovaLabs",
+      "quote": "FlowSync transformed our remote engineering team's productivity. The AI-driven insights help us make smarter decisions and keep everyone aligned, regardless of time zone."
+    },
+    {
+      "name": "Michael Rodriguez",
+      "role": "Founder & CEO",
+      "company": "TechNova Startup",
+      "quote": "As a startup founder, I was skeptical about project management tools. FlowSync's intelligent prioritization has been a game-changer, helping us focus on what truly matters."
+    },
+    {
+      "name": "Elena Petrova",
+      "role": "Global Operations Director",
+      "company": "Digital Horizons",
+      "quote": "FlowSync's automated standups and integration capabilities have cut our administrative overhead by 40% and improved our team's communication dramatically."
+    }
+  ],
+  "footer": {
+    "copyright": "© 2024 FlowSync. All rights reserved.",
+    "social_links": ["LinkedIn", "Twitter", "YouTube"],
+    "contact": "support@flowsync.ai"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "modern SaaS dashboard interface showing task boards, team activity, and AI insights, clean purple and white UI, futuristic design, holographic elements, professional tech environment",
+      "style": "digital_art"
+    }
+  ]
+}

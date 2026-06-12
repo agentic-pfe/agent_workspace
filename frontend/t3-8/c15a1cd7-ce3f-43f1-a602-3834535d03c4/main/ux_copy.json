@@ -1,0 +1,70 @@
+{
+  "page_title": "FlowSync: AI-Powered Project Management",
+  "brand_name": "FlowSync",
+  "hero": {
+    "headline": "Automate, Collaborate, Accelerate: AI-Powered Project Management",
+    "subheadline": "FlowSync transforms how remote teams work, using intelligent AI to streamline workflows, predict challenges, and boost productivity across global teams.",
+    "cta_primary": "Start Free 14-Day Trial",
+    "cta_secondary": "Watch Demo"
+  },
+  "navigation": [
+    "Features",
+    "Pricing",
+    "Customers",
+    "Resources",
+    "Contact"
+  ],
+  "features": [
+    {
+      "title": "AI Task Automation",
+      "description": "Intelligent task routing and automatic prioritization that learns from your team's unique work patterns.",
+      "icon_suggestion": "robot-brain"
+    },
+    {
+      "title": "Real-Time Collaborative Intelligence",
+      "description": "Seamless communication and context-aware collaboration that bridges time zones and eliminates communication gaps.",
+      "icon_suggestion": "network-nodes"
+    },
+    {
+      "title": "Predictive Performance Reporting",
+      "description": "Advanced analytics that provide actionable insights, forecast project risks, and optimize team performance.",
+      "icon_suggestion": "analytics-chart"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "FlowSync cut our project management overhead by 40%. It's like having an AI project manager working 24/7.",
+      "name": "Sarah Chen",
+      "role": "CTO at DevHub"
+    },
+    {
+      "quote": "The intelligent task allocation is a game-changer. Our distributed team has never been more synchronized.",
+      "name": "Marcus Rodriguez",
+      "role": "Head of Engineering at ScaleAI"
+    },
+    {
+      "quote": "Predictive insights help us stay ahead of potential bottlenecks. FlowSync isn't just a tool; it's our strategic partner.",
+      "name": "Elena Kovacs",
+      "role": "COO at Luminar"
+    }
+  ],
+  "footer": {
+    "copyright": "© 2024 FlowSync. All rights reserved.",
+    "social_links": ["LinkedIn", "Twitter", "YouTube"],
+    "contact": "support@flowsync.ai"
+  },
+  "customer_logos": [
+    "Luminar",
+    "DevHub", 
+    "ScaleAI",
+    "TechFlow",
+    "InnovateNow"
+  ],
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "A modern, clean workspace with holographic AI interface showing project management dashboard, multiple team members collaborating remotely, soft blue and white color palette, futuristic tech style",
+      "style": "digital_art"
+    }
+  ]
+}

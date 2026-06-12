@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hearth &amp; Home — Sustainably Crafted Artisanal Home Goods. Handmade ceramics, organic textiles, and premium home decor." />
+  <title>Hearth &amp; Home — Artisanal Home Goods</title>
+
+  <!-- Google Fonts: Playfair Display (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+  <!-- ==============================================
+       SKIP LINK — Accessibility
+       ============================================== -->
+  <a href="#main-content" class="sr-only" style="position:absolute;left:1rem;top:0.5rem;background:var(--color-primary-earth);color:white;padding:0.5rem 1rem;z-index:1000;border-radius:var(--radius-sm);clip:auto;width:auto;height:auto;overflow:visible;">
+    Skip to main content
+  </a>
+
+  <!-- ==============================================
+       HEADER / NAVIGATION
+       ============================================== -->
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <a href="/" class="navbar-logo" aria-label="Hearth &amp; Home — Home">
+        Hearth &amp; <span>Home</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links" id="nav-toggle-btn">
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <ul class="navbar-links" id="nav-links" aria-hidden="true" role="list">
+        <li><a href="#shop" aria-current="page">Shop</a></li>
+        <li><a href="#subscription">Membership</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#about">Our Story</a></li>
+      </ul>
+
+      <div class="navbar-actions">
+        <a href="#search" class="navbar-cart-btn" aria-label="Search">
+          <span aria-hidden="true">🔍</span>
+        </a>
+        <button class="navbar-cart-btn" aria-label="Shopping cart with 3 items">
+          <span aria-hidden="true">🛒</span>
+          <span class="cart-badge" aria-hidden="true">3</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==============================================
+       MAIN CONTENT
+       ============================================== -->
+  <main id="main-content">
+
+    <!-- ==============================================
+         HERO SECTION
+         ============================================== -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <img
+        src="images/hero-banner.jpg"
+        alt="Artisanal ceramic pottery and linen textiles arranged on a warm natural surface, soft golden hour lighting"
+        class="hero-bg-image"
+        loading="eager"
+      />
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-eyebrow">Welcome to Hearth &amp; Home</span>
+          <h1 id="hero-heading" class="hero-title">
+            Sustainably Crafted for Life's Quiet Moments
+          </h1>
+          <p class="hero-subtitle">
+            Handmade ceramics, organic textiles, and artisanal home goods — each piece tells a story of craftsmanship and care.
+          </p>
+          <div class="hero-actions">
+            <a href="#shop" class="btn btn-primary" aria-label="Explore the full Collection">
+              Explore the Collection
+            </a>
+            <a href="#about" class="btn btn-secondary" aria-label="Learn Our Story">
+              Our Story
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         BENEFITS SECTION
+         ============================================== -->
+    <section class="benefits" id="benefits" aria-labelledby="benefits-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Why Hearth &amp; Home</span>
+          <h2 id="benefits-heading" class="section-headline">
+            Thoughtfully Made, Intentionally Designed
+          </h2>
+        </div>
+
+        <div class="benefits-grid" role="list">
+          <article class="benefit-card" role="listitem">
+            <div class="benefit-icon-wrapper" aria-hidden="true">
+              <svg class="benefit-icon-svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M24 4C14.06 4 6 12.06 6 22c0 10 8 18 18 22 10-4 18-12 18-22 0-9.94-8.06-18-18-18z" stroke="var(--color-accent-olive)"/>
+                <path d="M24 14v12" stroke="var(--color-accent-olive)"/>
+                <path d="M18 20h12" stroke="var(--color-accent-olive)"/>
+                <path d="M12 26c2 4 6 6 12 6s10-2 12-6" stroke="var(--color-accent-olive)"/>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Sustainably Sourced</h3>
+            <p class="benefit-description">
+              Every material is ethically harvested and traceable from source to studio, ensuring minimal environmental impact.
+            </p>
+          </article>
+
+          <article class="benefit-card" role="listitem">
+            <div class="benefit-icon-wrapper" aria-hidden="true">
+              <svg class="benefit-icon-svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M24 4L8 12v12c0 8.84 5.36 16.84 16 20 10.64-3.16 16-11.16 16-20V12L24 4z" stroke="var(--color-accent-terracotta)"/>
+                <path d="M18 24l4 4 8-8" stroke="var(--color-accent-terracotta)"/>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Handcrafted with Care</h3>
+            <p class="benefit-description">
+              Master artisans pour generations of knowledge into every piece, making each item truly one of a kind.
+            </p>
+          </article>
+
+          <article class="benefit-card" role="listitem">
+            <div class="benefit-icon-wrapper" aria-hidden="true">
+              <svg class="benefit-icon-svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="24" cy="24" r="20" stroke="var(--color-highlight-gold)"/>
+                <path d="M24 8v8" stroke="var(--color-highlight-gold)"/>
+                <path d="M24 32v8" stroke="var(--color-highlight-gold)"/>
+                <path d="M8 24h8" stroke="var(--color-highlight-gold)"/>
+                <path d="M32 24h8" stroke="var(--color-highlight-gold)"/>
+                <circle cx="24" cy="24" r="4" fill="var(--color-highlight-gold)" stroke="none"/>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Timeless Design</h3>
+            <p class="benefit-description">
+              Minimalist aesthetics rooted in warmth — pieces that transition seamlessly through seasons and trends.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         SUBSCRIPTION SECTION — Toggleable Plans & Pricing
+         ============================================== -->
+    <section class="subscription" id="subscription" aria-labelledby="subscription-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Membership</span>
+          <h2 id="subscription-heading" class="section-headline">
+            A Curated Experience, Delivered
+          </h2>
+        </div>
+
+        <!-- Billing Toggle -->
+        <div class="billing-toggle-wrapper" role="radiogroup" aria-label="Billing frequency">
+          <span class="billing-toggle-label" id="billing-monthly-label" aria-hidden="true">Monthly</span>
+          <button
+            class="billing-toggle"
+            role="radio"
+            aria-checked="true"
+            aria-labelledby="billing-monthly-label billing-annual-label"
+            id="billing-toggle-btn"
+            tabindex="0"
+          >
+            <span class="billing-toggle-knob" aria-hidden="true"></span>
+          </button>
+          <span class="billing-toggle-label" id="billing-annual-label" aria-hidden="true">Annual</span>
+          <span class="billing-toggle-save" aria-hidden="true">Save up to 20%</span>
+        </div>
+
+        <div class="subscription-grid" role="list" id="subscription-grid">
+
+          <!-- Tier 1: Seasonal -->
+          <article class="subscription-card" role="listitem" data-plan="seasonal">
+            <div class="subscription-card-header">
+              <div class="subscription-icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 4C11.16 4 4 11.16 4 20s7.16 16 16 16 16-7.16 16-16S28.84 4 20 4z" stroke="var(--color-primary-earth)"/>
+                  <path d="M20 12v8l6 6" stroke="var(--color-primary-earth)"/>
+                </svg>
+              </div>
+              <h3 class="subscription-name">The Seasonal</h3>
+            </div>
+            <div class="subscription-price">
+              <span class="subscription-amount monthly-price" data-monthly="28" data-annual="25">$28</span>
+              <span class="subscription-period monthly-period" data-monthly="per quarter" data-annual="per quarter">per quarter</span>
+            </div>
+            <p class="subscription-description">One curated piece delivered each season.</p>
+            <ul class="subscription-features" aria-label="Features of The Seasonal plan">
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Quarterly artisan piece
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Care guide included
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Free shipping
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Member pricing on shop
+              </li>
+            </ul>
+            <a href="#join-seasonal" class="btn btn-tertiary subscription-cta" aria-label="Join The Seasonal plan">
+              Join Seasonal
+            </a>
+          </article>
+
+          <!-- Tier 2: Monthly (Featured) -->
+          <article class="subscription-card featured" role="listitem" aria-label="Featured plan — best value" data-plan="monthly">
+            <span class="subscription-badge">Most Popular</span>
+            <div class="subscription-card-header">
+              <div class="subscription-icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 4L6 14v12l14 10 14-10V14L20 4z" stroke="var(--color-accent-terracotta)"/>
+                  <path d="M20 14v12" stroke="var(--color-accent-terracotta)"/>
+                  <path d="M14 20h12" stroke="var(--color-accent-terracotta)"/>
+                </svg>
+              </div>
+              <h3 class="subscription-name">The Monthly</h3>
+            </div>
+            <div class="subscription-price">
+              <span class="subscription-amount monthly-price" data-monthly="48" data-annual="40">$48</span>
+              <span class="subscription-period monthly-period" data-monthly="per month" data-annual="per month">per month</span>
+            </div>
+            <p class="subscription-description">A new discovery delivered to your door monthly.</p>
+            <ul class="subscription-features" aria-label="Features of The Monthly plan">
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Monthly curated item
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Exclusive member-only pieces
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Free shipping &amp; returns
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Early access to collections
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Virtual studio tour
+              </li>
+            </ul>
+            <a href="#join-monthly" class="btn btn-primary subscription-cta" aria-label="Join The Monthly plan">
+              Join Monthly
+            </a>
+          </article>
+
+          <!-- Tier 3: Collector -->
+          <article class="subscription-card" role="listitem" data-plan="collector">
+            <div class="subscription-card-header">
+              <div class="subscription-icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="20" cy="20" r="16" stroke="var(--color-highlight-gold)"/>
+                  <path d="M20 8v6" stroke="var(--color-highlight-gold)"/>
+                  <path d="M20 26v6" stroke="var(--color-highlight-gold)"/>
+                  <path d="M8 20h6" stroke="var(--color-highlight-gold)"/>
+                  <path d="M26 20h6" stroke="var(--color-highlight-gold)"/>
+                  <circle cx="20" cy="20" r="3" fill="var(--color-highlight-gold)" stroke="none"/>
+                </svg>
+              </div>
+              <h3 class="subscription-name">The Collector</h3>
+            </div>
+            <div class="subscription-price">
+              <span class="subscription-amount monthly-price" data-monthly="120" data-annual="100">$120</span>
+              <span class="subscription-period monthly-period" data-monthly="per month" data-annual="per month">per month</span>
+            </div>
+            <p class="subscription-description">The full experience — for those who cherish the extraordinary.</p>
+            <ul class="subscription-features" aria-label="Features of The Collector plan">
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Monthly premium piece
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Personal styling consultation
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Complimentary gift wrapping
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Behind-the-scenes content
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Invite to annual dinner
+              </li>
+              <li>
+                <svg class="feature-icon" viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 10l3 3 7-7" stroke="var(--color-accent-olive)"/>
+                </svg>
+                Priority custom commissions
+              </li>
+            </ul>
+            <a href="#join-collector" class="btn btn-tertiary subscription-cta" aria-label="Join The Collector plan">
+              Join Collector
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         REVIEWS SECTION
+         ============================================== -->
+    <section class="reviews" id="reviews" aria-labelledby="reviews-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Testimonials</span>
+          <h2 id="reviews-heading" class="section-headline">
+            Loved by Our Community
+          </h2>
+        </div>
+
+        <div class="reviews-grid" role="list">
+          <!-- Review 1 -->
+          <article class="review-card" role="listitem">
+            <div class="review-stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+            </div>
+            <p class="review-text">
+              The ceramic teapot I received is absolutely stunning. It feels like holding a piece of history in my hands. The craftsmanship is unmatched.
+            </p>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">EV</div>
+              <div>
+                <div class="review-name">Elena V.</div>
+                <div class="review-location">Portland, OR</div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review 2 -->
+          <article class="review-card" role="listitem">
+            <div class="review-stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+            </div>
+            <p class="review-text">
+              I've been a Monthly member for six months and every delivery feels like a gift to myself. The curation is impeccable.
+            </p>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">MT</div>
+              <div>
+                <div class="review-name">Marcus T.</div>
+                <div class="review-location">Austin, TX</div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review 3 -->
+          <article class="review-card" role="listitem">
+            <div class="review-stars" aria-label="5 out of 5 stars">
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+              <span aria-hidden="true">★</span>
+            </div>
+            <p class="review-text">
+              Finally, a brand that truly cares about sustainability without compromising beauty. My home feels warmer already.
+            </p>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">PK</div>
+              <div>
+                <div class="review-name">Priya K.</div>
+                <div class="review-location">Brooklyn, NY</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         SHOP SECTION
+         ============================================== -->
+    <section class="shop" id="shop" aria-labelledby="shop-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">The Collection</span>
+          <h2 id="shop-heading" class="section-headline">
+            Find Your Next Treasure
+          </h2>
+        </div>
+
+        <div class="shop-grid" role="list">
+          <!-- Product 1: Stoneware Mug -->
+          <article class="product-card" role="listitem">
+            <div class="product-image-wrapper">
+              <img
+                src="images/product-mug.jpg"
+                alt="Rustic Stoneware Mug — handcrafted with warm earth glaze and matte finish"
+                class="product-image"
+                loading="lazy"
+              />
+            </div>
+            <div class="product-info">
+              <p class="product-category">Ceramics</p>
+              <h3 class="product-name">Rustic Stoneware Mug</h3>
+              <p class="product-price">$34</p>
+              <button class="product-add-btn" aria-label="Add Rustic Stoneware Mug to cart — $34">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+
+          <!-- Product 2: Linen Throw -->
+          <article class="product-card" role="listitem">
+            <div class="product-image-wrapper">
+              <img
+                src="images/product-throw.jpg"
+                alt="Woven Linen Throw in warm oatmeal color, draped over a rattan chair"
+                class="product-image"
+                loading="lazy"
+              />
+            </div>
+            <div class="product-info">
+              <p class="product-category">Textiles</p>
+              <h3 class="product-name">Woven Linen Throw</h3>
+              <p class="product-price">$89</p>
+              <button class="product-add-btn" aria-label="Add Woven Linen Throw to cart — $89">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+
+          <!-- Product 3: Bowl Set -->
+          <article class="product-card" role="listitem">
+            <div class="product-image-wrapper">
+              <img
+                src="images/product-bowls.jpg"
+                alt="Set of three hand-thrown ceramic bowls in earthy tones, stacked artfully"
+                class="product-image"
+                loading="lazy"
+              />
+            </div>
+            <div class="product-info">
+              <p class="product-category">Ceramics</p>
+              <h3 class="product-name">Hand-Thrown Bowl Set</h3>
+              <p class="product-price">$72</p>
+              <button class="product-add-btn" aria-label="Add Hand-Thrown Bowl Set to cart — $72">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+
+          <!-- Product 4: Serving Board -->
+          <article class="product-card" role="listitem">
+            <div class="product-image-wrapper">
+              <img
+                src="images/product-board.jpg"
+                alt="Smooth olive wood serving board with natural grain patterns"
+                class="product-image"
+                loading="lazy"
+              />
+            </div>
+            <div class="product-info">
+              <p class="product-category">Woodwork</p>
+              <h3 class="product-name">Olive Wood Serving Board</h3>
+              <p class="product-price">$56</p>
+              <button class="product-add-btn" aria-label="Add Olive Wood Serving Board to cart — $56">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <div class="shop-cta">
+          <a href="#full-collection" class="btn btn-primary">
+            View Full Collection
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==============================================
+       FOOTER
+       ============================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand-col">
+          <div class="footer-brand">Hearth &amp; <span>Home</span></div>
+          <p class="footer-tagline">
+            Crafted for life. Rooted in care.
+          </p>
+          <div class="footer-social" aria-label="Social media links">
+            <a href="#" aria-label="Follow us on Instagram">
+              <span aria-hidden="true">📸</span>
+            </a>
+            <a href="#" aria-label="Follow us on Pinterest">
+              <span aria-hidden="true">📌</span>
+            </a>
+            <a href="#" aria-label="Follow us on Facebook">
+              <span aria-hidden="true">👍</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Shop Links -->
+        <div>
+          <h3 class="footer-heading">Shop</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">Ceramics</a></li>
+            <li><a href="#">Textiles</a></li>
+            <li><a href="#">Woodwork</a></li>
+            <li><a href="#">Gift Cards</a></li>
+          </ul>
+        </div>
+
+        <!-- About Links -->
+        <div>
+          <h3 class="footer-heading">About</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Craftsmanship</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Journal</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Column -->
+        <div>
+          <h3 class="footer-heading">Stay in Touch</h3>
+          <p class="footer-newsletter-text">
+            Get 10% off your first order when you subscribe to our newsletter.
+          </p>
+          <form class="newsletter-form" aria-label="Newsletter signup" novalidate>
+            <label for="newsletter-email" class="sr-only">Email address</label>
+            <input
+              type="email"
+              id="newsletter-email"
+              class="newsletter-input"
+              placeholder="Enter your email"
+              required
+              autocomplete="email"
+            />
+            <button type="submit" class="newsletter-btn">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p class="footer-bottom-text">
+          &copy; 2025 Hearth &amp; Home. All rights reserved.
+        </p>
+        <nav class="footer-bottom-links" aria-label="Legal links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Accessibility</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toggle Script + Mobile nav toggle -->
+  <script>
+    (function() {
+      // --- Mobile nav toggle ---
+      const toggleBtn = document.getElementById('nav-toggle-btn');
+      const navLinks = document.getElementById('nav-links');
+
+      if (toggleBtn && navLinks) {
+        toggleBtn.addEventListener('click', function() {
+          const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+          toggleBtn.setAttribute('aria-expanded', !isExpanded);
+          navLinks.setAttribute('aria-hidden', isExpanded);
+        });
+
+        navLinks.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') {
+            toggleBtn.setAttribute('aria-expanded', 'false');
+            navLinks.setAttribute('aria-hidden', 'true');
+            toggleBtn.focus();
+          }
+        });
+      }
+
+      // --- Billing Toggle (Monthly / Annual) ---
+      const billingToggle = document.getElementById('billing-toggle-btn');
+      const monthlyPrices = document.querySelectorAll('.monthly-price');
+      const monthlyPeriods = document.querySelectorAll('.monthly-period');
+
+      if (billingToggle) {
+        billingToggle.addEventListener('click', function() {
+          const isAnnual = billingToggle.getAttribute('aria-checked') === 'true';
+          billingToggle.setAttribute('aria-checked', !isAnnual);
+
+          monthlyPrices.forEach(function(el) {
+            const monthly = el.getAttribute('data-monthly');
+            const annual = el.getAttribute('data-annual');
+            el.textContent = isAnnual ? '$' + monthly : '$' + annual;
+          });
+
+          monthlyPeriods.forEach(function(el) {
+            const monthlyText = el.getAttribute('data-monthly');
+            const annualText = el.getAttribute('data-annual');
+            el.textContent = isAnnual ? monthlyText : annualText;
+          });
+        });
+
+        // Keyboard support: Enter / Space
+        billingToggle.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            billingToggle.click();
+          }
+        });
+      }
+    })();
+  </script>
+
+</body>
+</html>

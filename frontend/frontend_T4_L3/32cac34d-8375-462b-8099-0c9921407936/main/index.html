@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskr - Organize Your Work, Simplify Your Life</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1>Taskr</h1>
+        <p>Organize Your Work, Simplify Your Life</p>
+    </header>
+
+    <main>
+        <section class="task-input-container">
+            <input 
+                type="text" 
+                class="task-input" 
+                placeholder="What needs to be done?" 
+                aria-label="Enter new task"
+                maxlength="200"
+            >
+            <button 
+                class="btn-add-task" 
+                aria-label="Add new task"
+            >
+                Add Task
+            </button>
+        </section>
+
+        <section class="task-list-container">
+            <ul class="task-list" aria-label="Task list">
+                <li class="empty-state">
+                    Your task list is empty. Add a task to get started!
+                </li>
+                <!-- Tasks will be dynamically added here by JavaScript -->
+            </ul>
+        </section>
+
+        <section class="filter-controls">
+            <button class="filter-btn filter-btn-all" aria-label="Show all tasks">
+                All Tasks
+            </button>
+            <button class="filter-btn filter-btn-active" aria-label="Show active tasks">
+                Active Tasks
+            </button>
+            <button class="filter-btn filter-btn-completed" aria-label="Show completed tasks">
+                Completed Tasks
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Tip: Drag tasks to reorder</p>
+        <p>Press Enter to add a task</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

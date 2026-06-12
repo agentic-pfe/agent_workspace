@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orcheeos - AI-Powered Project Management</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Color Palette */
+            --primary: #6366F1;
+            --secondary: #06B6D4;
+            --accent: #EC4899;
+            --dark: #111827;
+            --light: #FAFAFA;
+
+            /* Typography */
+            --h1-size: clamp(2.25rem, 5vw, 3.5rem);
+            --h2-size: clamp(1.75rem, 4vw, 2.75rem);
+            --body-size: clamp(0.95rem, 2vw, 1.125rem);
+
+            /* Spacing */
+            --space-sm: 0.75rem;
+            --space-md: 1rem;
+            --space-lg: 1.5rem;
+            --space-xl: 2rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: var(--light);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-md);
+        }
+
+        /* Navigation */
+        .site-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-md) 0;
+            background-color: rgba(255,255,255,0.9);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: var(--space-lg);
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .cta-button {
+            background-color: var(--accent);
+            color: white;
+            padding: var(--space-sm) var(--space-lg);
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #d1268d;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            min-height: 80vh;
+            gap: var(--space-xl);
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero-image {
+            flex: 1;
+        }
+
+        .hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: var(--h1-size);
+            color: var(--primary);
+            margin-bottom: var(--space-md);
+        }
+
+        .hero p {
+            font-size: var(--body-size);
+            margin-bottom: var(--space-lg);
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-lg);
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 1rem;
+            padding: var(--space-lg);
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Pricing Table */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-lg);
+        }
+
+        .pricing-card {
+            background: white;
+            border-radius: 1rem;
+            padding: var(--space-lg);
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        /* Testimonials */
+        .testimonials {
+            background-color: #f4f4f4;
+            padding: var(--space-xl) 0;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-lg);
+        }
+
+        .testimonial-card {
+            background: white;
+            border-radius: 1rem;
+            padding: var(--space-lg);
+            text-align: center;
+        }
+
+        /* Footer */
+        .site-footer {
+            background-color: var(--dark);
+            color: white;
+            padding: var(--space-xl) 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--space-lg);
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header container">
+        <div class="logo">Orcheeos</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#cta" class="cta-button">Get Started</a>
+    </header>
+
+    <main>
+        <section id="hero" class="hero container">
+            <div class="hero-content">
+                <h1>AI-Powered Project Management</h1>
+                <p>Streamline your team's workflow with intelligent task allocation, predictive insights, and seamless collaboration.</p>
+                <a href="#cta" class="cta-button">Start Free Trial</a>
+            </div>
+            <div class="hero-image">
+                <img src="hero-image.png" alt="AI Project Management Dashboard" />
+            </div>
+        </section>
+
+        <section id="features" class="features container">
+            <h2>Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>AI Task Allocation</h3>
+                    <p>Intelligent task distribution based on team skills and workload.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Predictive Analytics</h3>
+                    <p>Forecast project timelines and potential bottlenecks.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Real-time Collaboration</h3>
+                    <p>Seamless communication and file sharing across teams.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing container">
+            <h2>Flexible Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <p>$9/month</p>
+                    <ul>
+                        <li>Up to 5 users</li>
+                        <li>Basic features</li>
+                    </ul>
+                    <a href="#" class="cta-button">Choose Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Professional</h3>
+                    <p>$29/month</p>
+                    <ul>
+                        <li>Up to 20 users</li>
+                        <li>Advanced features</li>
+                    </ul>
+                    <a href="#" class="cta-button">Choose Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <p>Custom</p>
+                    <ul>
+                        <li>Unlimited users</li>
+                        <li>Full platform access</li>
+                    </ul>
+                    <a href="#" class="cta-button">Contact Sales</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>&ldquo;Orcheeos transformed our project management workflow.&rdquo;</p>
+                    <cite>Jane Doe, Tech Lead</cite>
+                </div>
+                <div class="testimonial-card">
+                    <p>&ldquo;Incredible AI insights that actually save time.&rdquo;</p>
+                    <cite>John Smith, CTO</cite>
+                </div>
+                <div class="testimonial-card">
+                    <p>&ldquo;The most intuitive project management tool I've used.&rdquo;</p>
+                    <cite>Emily Chen, Product Manager</cite>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta container">
+            <h2>Ready to Revolutionize Your Workflow?</h2>
+            <p>Start your free trial and experience the power of AI-driven project management.</p>
+            <a href="#" class="cta-button">Get Started Now</a>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer container">
+        <div class="footer-grid">
+            <div>
+                <h4>Orcheeos</h4>
+                <p>AI-powered project management platform</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>support@orcheeos.com</p>
+                <p>+1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Orcheeos. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

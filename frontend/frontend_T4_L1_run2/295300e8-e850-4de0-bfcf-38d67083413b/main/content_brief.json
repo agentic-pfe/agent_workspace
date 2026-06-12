@@ -1,0 +1,85 @@
+{
+  "page_title": "Taskr - Streamline Your Productivity",
+  "brand_name": "Taskr",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#1D4ED8", "role": "trust, headers, buttons"},
+      "secondary": {"hex": "#475569", "role": "subtle backgrounds, secondary actions"},
+      "accent": {"hex": "#EF4444", "role": "urgency, CTAs, highlights"},
+      "dark": {"hex": "#0F172A", "role": "text, deep backgrounds"},
+      "light": {"hex": "#F1F5F9", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "professional + modern"
+  },
+  "header": {
+    "logo_text": "Taskr",
+    "cta_button": {"text": "Start Organizing", "href": "#cta"},
+    "nav_items": [
+      {"label": "Features", "href": "#features"},
+      {"label": "How It Works", "href": "#how-it-works"},
+      {"label": "Pricing", "href": "#pricing"},
+      {"label": "Support", "href": "#support"}
+    ]
+  },
+  "hero": {
+    "headline": "Conquer Your Day, One Task at a Time",
+    "subheadline": "Taskr transforms chaos into clarity, helping high-performers stay focused, organized, and ahead of their goals.",
+    "cta_primary": "Get Started Free",
+    "cta_secondary": "Watch Demo",
+    "hero_image_prompt": "Professional workspace with a minimalist desk, laptop showing a clean task management interface. A person in business casual attire is organizing digital tasks using drag-and-drop, with holographic task cards floating around. Soft blue and slate gray color palette, clean modern lighting."
+  },
+  "features": [
+    {
+      "title": "Intelligent Task Management",
+      "description": "Automatically prioritize tasks, set smart reminders, and track your productivity with AI-powered insights.",
+      "icon_suggestion": "sparkle"
+    },
+    {
+      "title": "Seamless Collaboration",
+      "description": "Share projects, assign tasks, and sync in real-time with teammates across any device.",
+      "icon_suggestion": "users"
+    },
+    {
+      "title": "Customizable Workflows",
+      "description": "Adapt Taskr to your unique work style with flexible boards, tags, and custom views.",
+      "icon_suggestion": "settings"
+    }
+  ],
+  "task_management_copy": {
+    "empty_state": {
+      "headline": "Your productivity journey starts here",
+      "subtext": "Add your first task and transform potential into progress."
+    },
+    "button_labels": {
+      "add_task": "Add Task",
+      "edit_task": "Edit",
+      "delete_task": "Remove",
+      "save_task": "Save Changes",
+      "cancel": "Cancel"
+    },
+    "filter_buttons": {
+      "all": "All Tasks",
+      "active": "Active",
+      "completed": "Completed"
+    },
+    "drag_and_drop_instructions": {
+      "headline": "Organize with Ease",
+      "description": "Drag and drop tasks to reorder, prioritize, or move between lists. Your workflow, your way."
+    }
+  },
+  "cta_section": {
+    "headline": "Ready to Unlock Your Productivity Potential?",
+    "subheadline": "Join thousands of professionals who've transformed their work with Taskr.",
+    "primary_cta": "Start Your Free Trial",
+    "secondary_cta": "See Pricing"
+  },
+  "footer": {
+    "copyright": "© 2024 Taskr. All rights reserved.",
+    "social_links": ["Twitter", "LinkedIn", "Instagram"],
+    "contact": "support@taskr.com"
+  }
+}

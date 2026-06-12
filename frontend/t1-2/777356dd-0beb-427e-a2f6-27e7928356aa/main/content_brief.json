@@ -1,0 +1,97 @@
+{
+  "page_title": "Chronos Elite: Precision Engineered Luxury Timepieces",
+  "brand_name": "Chronos Elite",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#1A1A1A", "role": "sophisticated dark base"},
+      "secondary": {"hex": "#8B7355", "role": "warm metallic accent"},
+      "accent": {"hex": "#B45309", "role": "luxurious gold highlight"},
+      "dark": {"hex": "#0F172A", "role": "deep background"},
+      "light": {"hex": "#F5F5F4", "role": "elegant light sections"}
+    },
+    "typography": {
+      "heading": "Playfair Display",
+      "body": "Roboto"
+    },
+    "mood": "elegant + precise"
+  },
+  "hero": {
+    "headline": "Timeless Precision: Where Artisan Craft Meets Engineering Mastery",
+    "subheadline": "Meticulously crafted Swiss mechanical watches, born from generations of horological excellence",
+    "cta_primary": "Claim Your Chronos Elite",
+    "cta_secondary": "Explore the Collection"
+  },
+  "hero_image_prompt": "Ultra-luxurious close-up of a Swiss mechanical watch, focusing on intricate movement, golden mechanical details, soft dramatic lighting, high-end studio photography style, metallic and deep brown tones",
+  "navigation": [
+    "Collection", 
+    "Craftsmanship", 
+    "Technical Specs", 
+    "Heritage"
+  ],
+  "sections": [
+    {
+      "heading": "The Art of Precision",
+      "content": "Each Chronos Elite timepiece represents the pinnacle of Swiss watchmaking. Forged by master artisans with over 150 years of collective expertise, our watches transcend mere timekeeping—they are wearable monuments to human precision and aesthetic perfection.",
+      "image_prompt": "Artisan watchmaker's hands carefully assembling a complex watch movement, detailed workshop background, soft focused lighting"
+    },
+    {
+      "heading": "Artisan Craftsmanship",
+      "content": "Our commitment to excellence manifests in three hallmark techniques:\n\n1. Hand-Beveled Edges: Each component is meticulously angled and polished by skilled craftsmen, creating light-catching surfaces that reveal the watch's architectural beauty.\n\n2. Precision Micro-Engraving: Intricate patterns are laser-etched with microscopic accuracy, adding depth and character to every surface.\n\n3. Hand-Stitched Leather Straps: Premium Italian leather is carefully selected and hand-stitched, ensuring each strap is as unique as its wearer.",
+      "image_prompt": "Triptych of watchmaking techniques: hand-beveling, micro-engraving, leather strap crafting"
+    }
+  ],
+  "features": [
+    {
+      "title": "Swiss Mechanical Movement",
+      "description": "Proprietary caliber CM-2023 with 72-hour power reserve, hand-assembled in our Geneva workshops",
+      "icon_suggestion": "gear"
+    },
+    {
+      "title": "Sapphire Crystal",
+      "description": "Scratch-resistant, anti-reflective sapphire glass with microscopic precision coating",
+      "icon_suggestion": "diamond"
+    },
+    {
+      "title": "Limited Edition",
+      "description": "Only 250 pieces produced annually, individually numbered and certified",
+      "icon_suggestion": "trophy"
+    }
+  ],
+  "technical_specs": {
+    "movement": "Automatic Swiss Mechanical",
+    "power_reserve": "72 hours",
+    "water_resistance": "100 meters",
+    "case_material": "316L Surgical Grade Stainless Steel",
+    "case_diameter": "42mm",
+    "crystal": "Sapphire with Anti-Reflective Coating"
+  },
+  "testimonials": [
+    {
+      "name": "Alexander Rothschild",
+      "location": "Geneva, Switzerland",
+      "review": "The Chronos Elite is not just a watch—it's a testament to human ingenuity. Every glance reveals another layer of mechanical poetry."
+    },
+    {
+      "name": "Elena Petrova",
+      "location": "Moscow, Russia",
+      "review": "I've collected timepieces for decades, and the craftsmanship of this watch is unparalleled. Simply breathtaking."
+    },
+    {
+      "name": "James Hartley",
+      "location": "London, United Kingdom", 
+      "review": "A perfect fusion of tradition and innovation. This watch doesn't just tell time; it tells a story of excellence."
+    }
+  ],
+  "footer": {
+    "copyright": "© 2023 Chronos Elite Watchmakers. All Rights Reserved.",
+    "social_links": ["Instagram", "Facebook", "YouTube"],
+    "contact": "Bespoke Inquiries: +41 22 555 0180"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "Ultra-luxurious close-up of a Swiss mechanical watch, focusing on intricate movement, golden mechanical details, soft dramatic lighting, high-end studio photography style, metallic and deep brown tones",
+      "style": "photo"
+    }
+  ]
+}

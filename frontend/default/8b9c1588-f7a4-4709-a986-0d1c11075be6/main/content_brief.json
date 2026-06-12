@@ -1,0 +1,101 @@
+{
+  "brand_name": "FlowSync",
+  "page_title": "FlowSync: AI-Powered Project Management for High-Performance Teams",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#6366F1", "role": "trust, headers, buttons"},
+      "secondary": {"hex": "#EC4899", "role": "warmth, highlights, accents"},
+      "accent": {"hex": "#06B6D4", "role": "urgency, CTAs, badges"},
+      "dark": {"hex": "#111827", "role": "text, footer background"},
+      "light": {"hex": "#FAFAFA", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "modern + professional"
+  },
+  "hero": {
+    "headline": "Unleash Team Potential with AI-Driven Workflows",
+    "subheadline": "FlowSync transforms how remote teams collaborate, plan, and execute with intelligent project management powered by cutting-edge artificial intelligence.",
+    "cta_primary": "Start Your Free Trial",
+    "cta_secondary": "Watch Demo",
+    "image_prompt": "Modern tech workspace with holographic AI interface, diverse team collaborating, sleek computers, blue and purple color palette, clean minimalist design"
+  },
+  "features": [
+    {
+      "title": "Intelligent Task Prioritization",
+      "description": "Our AI analyzes your team's workload and automatically surfaces the most critical tasks, ensuring your team always focuses on high-impact work.",
+      "icon_suggestion": "priority_high"
+    },
+    {
+      "title": "Real-Time Collaboration Insights",
+      "description": "Gain unprecedented visibility into team dynamics with AI-powered collaboration metrics that highlight communication patterns and potential bottlenecks.",
+      "icon_suggestion": "insights"
+    },
+    {
+      "title": "Predictive Project Forecasting",
+      "description": "Leverage machine learning algorithms that predict project timelines, resource requirements, and potential risks before they impact your delivery.",
+      "icon_suggestion": "timeline"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Chen",
+      "title": "CTO, TechNova Solutions",
+      "quote": "FlowSync has been a game-changer for our distributed engineering team. The AI-driven insights have improved our sprint planning by 40%.",
+      "company": "TechNova Solutions"
+    },
+    {
+      "name": "Marcus Rodriguez",
+      "title": "Head of Product, Quantum Innovations",
+      "quote": "I was skeptical about AI project management, but FlowSync proved me wrong. It's like having a super-intelligent project coordinator working 24/7.",
+      "company": "Quantum Innovations"
+    },
+    {
+      "name": "Elena Petrova",
+      "title": "Operations Director, GlobalTech Systems",
+      "quote": "FlowSync doesn't just manage projects; it anticipates challenges and helps us stay ahead of potential roadblocks.",
+      "company": "GlobalTech Systems"
+    }
+  ],
+  "pricing": {
+    "tiers": [
+      {
+        "name": "Basic",
+        "description": "Perfect for small teams starting their AI-powered workflow journey",
+        "cta": "Get Started",
+        "features": ["Up to 5 users", "Basic AI insights", "Standard integrations"]
+      },
+      {
+        "name": "Pro",
+        "description": "Advanced AI capabilities for growing teams seeking performance optimization",
+        "cta": "Upgrade Now",
+        "features": ["Up to 25 users", "Advanced AI insights", "Priority support", "Custom integrations"]
+      },
+      {
+        "name": "Enterprise",
+        "description": "Comprehensive AI workflow management for large, complex organizations",
+        "cta": "Contact Sales",
+        "features": ["Unlimited users", "Full AI suite", "Dedicated success manager", "Enterprise-grade security"]
+      }
+    ]
+  },
+  "final_cta": {
+    "headline": "Transform Your Team's Potential with FlowSync",
+    "subheadline": "Experience the future of intelligent project management — no credit card required.",
+    "button_text": "Start Free Trial"
+  },
+  "footer": {
+    "copyright": "© 2024 FlowSync Technologies. All rights reserved.",
+    "social_links": ["LinkedIn", "Twitter", "YouTube"],
+    "contact": "support@flowsync.ai"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "Modern tech workspace with holographic AI interface, diverse team collaborating, sleek computers, blue and purple color palette, clean minimalist design",
+      "style": "photo"
+    }
+  ]
+}

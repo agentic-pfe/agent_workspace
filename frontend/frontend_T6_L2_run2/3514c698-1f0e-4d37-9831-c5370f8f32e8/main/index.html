@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orcheeos - Empowering Community Initiatives</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="app.js" as="script">
+</head>
+<body>
+    <!-- Skip to main content link - FIRST focusable element -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container">
+            <nav aria-label="Main Navigation">
+                <a href="#" class="logo" aria-label="Orcheeos Home">
+                    <img src="logo.png" alt="Orcheeos Logo" width="150" height="50">
+                </a>
+                <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle Navigation">
+                    <span class="hamburger-icon" aria-hidden="true">☰</span>
+                </button>
+                <ul id="nav-menu" class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#initiatives">Initiatives</a></li>
+                    <li><a href="#impact">Impact</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-title">Empowering Communities, Transforming Lives</h1>
+                    <p>Orcheeos is dedicated to creating sustainable social impact through innovative community initiatives.</p>
+                    <a href="#contact" class="cta-button">Get Involved</a>
+                </div>
+                <div class="hero-image">
+                    <img src="hero-image.jpg" alt="Diverse community members collaborating on a project" width="600" height="400">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title">About Orcheeos</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Founded with a vision to create meaningful change, Orcheeos works closely with local communities to develop sustainable solutions to pressing social challenges.</p>
+                        <p>Our approach combines grassroots engagement, innovative technology, and collaborative partnerships.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="team-photo.jpg" alt="Orcheeos team working together in a collaborative workspace" width="500" height="333">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="initiatives" class="initiatives-section" aria-labelledby="initiatives-title">
+            <div class="container">
+                <h2 id="initiatives-title">Our Key Initiatives</h2>
+                <div class="initiatives-grid">
+                    <article class="initiative-card">
+                        <img src="education-icon.svg" alt="" aria-hidden="true" width="80" height="80">
+                        <h3>Education Empowerment</h3>
+                        <p>Providing educational resources and scholarships to underserved communities.</p>
+                    </article>
+                    <article class="initiative-card">
+                        <img src="health-icon.svg" alt="" aria-hidden="true" width="80" height="80">
+                        <h3>Community Health</h3>
+                        <p>Developing healthcare access programs and wellness initiatives.</p>
+                    </article>
+                    <article class="initiative-card">
+                        <img src="tech-icon.svg" alt="" aria-hidden="true" width="80" height="80">
+                        <h3>Technology Access</h3>
+                        <p>Bridging the digital divide through technology training and resources.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title">Get In Touch</h2>
+                <form action="/submit-contact" method="POST" aria-labelledby="contact-form-title">
+                    <h3 id="contact-form-title">Contact Us</h3>
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number (Optional)</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required aria-required="true" rows="5"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interest">Area of Interest</label>
+                        <select id="interest" name="interest">
+                            <option value="">Select an Initiative</option>
+                            <option value="education">Education Empowerment</option>
+                            <option value="health">Community Health</option>
+                            <option value="technology">Technology Access</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo-white.png" alt="Orcheeos Logo" width="150" height="50">
+                </div>
+                <nav aria-label="Footer Navigation">
+                    <ul class="footer-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#initiatives">Initiatives</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook" class="social-icon">FB</a>
+                    <a href="#" aria-label="Twitter" class="social-icon">TW</a>
+                    <a href="#" aria-label="LinkedIn" class="social-icon">LI</a>
+                </div>
+                <p class="copyright">&copy; 2023 Orcheeos. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>

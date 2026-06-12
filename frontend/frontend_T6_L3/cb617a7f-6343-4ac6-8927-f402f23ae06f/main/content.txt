@@ -1,0 +1,65 @@
+[DESIGN_TOKENS]
+{
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#047857", "role": "environmental trust, headers, buttons"},
+      "secondary": {"hex": "#10B981", "role": "eco-friendly highlights, accents"},
+      "accent": {"hex": "#F59E0B", "role": "urgency, CTAs, action prompts"},
+      "dark": {"hex": "#1C2B33", "role": "text, footer background"},
+      "light": {"hex": "#F0FDF4", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "professional + environmental"
+  },
+  "hero_image_prompt": "Diverse group of environmental volunteers planting trees in an urban community garden. Sunlight, green landscape, collaborative atmosphere, sustainable urban design."
+}
+
+[HERO]
+Headline: Transforming Our Planet, One Community at a Time
+Subheadline: GreenFuture empowers local communities to create sustainable, resilient environments through collaborative action and innovative ecological solutions.
+Primary CTA: Join Our Green Movement
+Hero Image Alt Text: Diverse volunteers planting trees in a vibrant community garden
+
+[FEATURES]
+1. Title: Community-Led Restoration
+   Description: We mobilize local volunteers to restore ecosystems, plant trees, and revitalize urban and rural landscapes.
+   Icon Alt Text: Hands planting a young tree sapling
+
+2. Title: Sustainable Education
+   Description: Our workshops and programs educate communities about climate resilience, renewable energy, and ecological conservation.
+   Icon Alt Text: Open book with green leaf and solar panel illustration
+
+3. Title: Policy & Advocacy
+   Description: We work with local governments and organizations to develop and implement environmentally progressive policies.
+   Icon Alt Text: People discussing environmental policy around a table
+
+[ABOUT]
+Title: Our Mission
+Description: GreenFuture believes that environmental sustainability starts with empowered, informed communities. We bridge the gap between ecological knowledge and practical action, creating lasting positive change.
+
+[CALL_TO_ACTION]
+Headline: Ready to Make a Difference?
+Subheadline: Every action counts. Join our network of changemakers and help build a sustainable future.
+CTA Button: Become a Green Champion
+
+[FOOTER]
+Contact Headline: Connect With Us
+Email Label: Your Email Address
+Subscribe Button: Stay Informed
+Social Links: [Facebook, Twitter, Instagram]
+Copyright: © 2023 GreenFuture. All Rights Reserved.
+
+[FORM_LABELS]
+- Email Signup: "Email Address for Newsletter"
+- Name: "Full Name"
+- Message: "Your Message or Inquiry"
+
+[ACCESSIBILITY_NOTES]
+- Use semantic HTML5 elements
+- Ensure color contrast meets WCAG 2.1 AA (4.5:1)
+- Provide descriptive alt text for all images
+- Create keyboard-navigable interactive elements
+- Include "Skip to Main Content" link

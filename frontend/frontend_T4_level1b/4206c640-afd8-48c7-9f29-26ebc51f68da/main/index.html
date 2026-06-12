@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskr - Intuitive Task Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="container">
+            <nav class="app-nav">
+                <h1 class="app-logo">Taskr</h1>
+                <button class="mobile-menu-toggle" aria-label="Toggle Navigation">☰</button>
+                <ul class="nav-links">
+                    <li><a href="#all-tasks">All Tasks</a></li>
+                    <li><a href="#active-tasks">Active</a></li>
+                    <li><a href="#completed-tasks">Completed</a></li>
+                </ul>
+                <button class="task-add-btn" aria-label="Add New Task">Add New Task</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Manage Your Tasks with Ease</h2>
+                    <p>Taskr helps you stay organized, productive, and in control of your daily workflow.</p>
+                    <button class="cta-button">Get Started</button>
+                </div>
+                <div class="hero-image">
+                    <img src="hero-bg.png" alt="Taskr Task Management Dashboard" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Why Choose Taskr</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <span class="feature-icon">🔀</span>
+                        <h3>Drag & Reorder</h3>
+                        <p>Easily prioritize tasks by dragging and dropping them into your preferred order.</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">✅</span>
+                        <h3>Status Tracking</h3>
+                        <p>Quickly filter tasks by status: active, completed, or pending.</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">💾</span>
+                        <h3>Local Storage</h3>
+                        <p>Your tasks are automatically saved, so you never lose progress.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="task-manager" class="task-manager">
+            <div class="container">
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-filter="all">All Tasks</button>
+                    <button class="filter-btn" data-filter="active">Active</button>
+                    <button class="filter-btn" data-filter="completed">Completed</button>
+                </div>
+                
+                <div class="task-list" id="task-list" aria-live="polite">
+                    <!-- Tasks will be dynamically added here by JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal task-modal" id="task-modal" aria-hidden="true">
+        <div class="modal-content">
+            <h2 id="modal-title">Add New Task</h2>
+            <form class="task-form" id="task-form">
+                <div class="form-group">
+                    <label for="task-title">Task Title</label>
+                    <input type="text" id="task-title" name="title" class="task-input" required>
+                </div>
+                <div class="form-group">
+                    <label for="task-description">Description</label>
+                    <textarea id="task-description" name="description" class="task-input"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="task-status">Status</label>
+                    <select id="task-status" name="status" class="task-input">
+                        <option value="To Do">To Do</option>
+                        <option value="In Progress">In Progress</option>
+                        <option value="Completed">Completed</option>
+                    </select>
+                </div>
+                <div class="modal-actions">
+                    <button type="submit" class="btn-primary">Save Task</button>
+                    <button type="button" class="btn-secondary" id="modal-close">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Taskr. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>

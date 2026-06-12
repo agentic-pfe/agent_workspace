@@ -1,0 +1,34 @@
+{
+    "html_validation": {
+        "status": "warning",
+        "errors": [
+            {
+                "message": "Named entity expected. Got none.",
+                "severity": "warning"
+            }
+        ]
+    },
+    "css_validation": {
+        "status": "passed",
+        "errors": []
+    },
+    "css_selector_validation": {
+        "status": "passed",
+        "errors": []
+    },
+    "accessibility_checks": {
+        "semantic_structure": "Good - uses semantic HTML5 tags",
+        "aria_labels": "Mostly implemented - mobile menu toggle has aria-expanded",
+        "keyboard_navigation": "Partially implemented - smooth scrolling added",
+        "color_contrast": "Needs manual review"
+    },
+    "responsive_design_checks": {
+        "mobile_layout": "Implemented with mobile-first approach",
+        "tablet_layout": "Breakpoint at 768px with adjusted layout",
+        "desktop_layout": "Breakpoint at 1024px with full navigation"
+    },
+    "performance_notes": {
+        "image_optimization": "Hero image generated, needs compression",
+        "font_loading": "Google Fonts used with swap strategy"
+    }
+}

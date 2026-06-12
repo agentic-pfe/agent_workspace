@@ -1,0 +1,79 @@
+{
+  "battery_range_section": {
+    "title": "Battery & Range",
+    "description": "Details about the Voltis X1's battery capacity, range, and charging capabilities",
+    "features": [
+      {
+        "name": "Range",
+        "value": "420",
+        "unit": "miles",
+        "icon_description": "Lightning bolt icon representing electric power and performance"
+      },
+      {
+        "name": "Charging Time",
+        "value": "25",
+        "unit": "minutes",
+        "icon_description": "Clock icon representing fast charging capability"
+      },
+      {
+        "name": "Battery Capacity",
+        "value": "120",
+        "unit": "kWh",
+        "icon_description": "Battery icon showing energy storage capacity"
+      },
+      {
+        "name": "Fast Charging",
+        "value": "250",
+        "unit": "kW",
+        "icon_description": "Plug icon representing charging power"
+      }
+    ],
+    "file": "battery.html",
+    "css_file": "battery.css"
+  },
+  "safety_features_section": {
+    "title": "Safety Features",
+    "description": "Overview of the Voltis X1's 5-star safety rating and advanced driver assistance systems",
+    "features": [
+      {
+        "name": "Safety Rating",
+        "value": "5",
+        "unit": "Stars",
+        "icon_description": "Shield icon representing safety and protection"
+      },
+      {
+        "name": "Adaptive Cruise Control",
+        "value": "Yes",
+        "unit": "",
+        "icon_description": "Clock icon representing time and distance management"
+      },
+      {
+        "name": "Lane Assist",
+        "value": "Yes",
+        "unit": "",
+        "icon_description": "Eye icon representing vision and detection systems"
+      },
+      {
+        "name": "Emergency Brake Assist",
+        "value": "Yes",
+        "unit": "",
+        "icon_description": "Brake icon representing automatic emergency braking"
+      }
+    ],
+    "file": "safety.html",
+    "css_file": "safety.css"
+  },
+  "styling_approach": {
+    "theme": "Futuristic black and silver with blue accents",
+    "layout": "Responsive grid system with card-based design",
+    "accessibility": [
+      "Proper semantic HTML structure",
+      "ARIA attributes for icons",
+      "Keyboard navigable components",
+      "Sufficient color contrast",
+      "Reduced motion support"
+    ],
+    "responsive_design": "Mobile-first approach with breakpoints at 480px and 768px",
+    "animations": "Subtle hover effects and transitions for interactive elements"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "issues": [
+    {
+      "severity": "warning",
+      "file": "index.html",
+      "fix_worker": "html",
+      "type": "validation",
+      "description": "Minor HTML validation warning: Named entity expected. This is likely due to emoji characters and does not impact rendering."
+    }
+  ],
+  "files_checked": ["index.html"],
+  "screenshots": [
+    "mobile_screenshot.png",
+    "desktop_screenshot.png"
+  ],
+  "validation_details": {
+    "navbar": {
+      "present": true,
+      "links_count": 3,
+      "links": ["Features", "How It Works", "Pricing"]
+    },
+    "hero_section": {
+      "present": true,
+      "headline": true,
+      "cta_buttons": 2
+    },
+    "features_section": {
+      "present": true,
+      "feature_cards_count": 3
+    },
+    "footer": {
+      "present": true
+    }
+  }
+}

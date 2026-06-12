@@ -1,0 +1,38 @@
+# Flowdesk Content Brief
+
+## Logo Text
+Flowdesk
+
+## Navigation Links
+[
+  {"label": "Features", "href": "#features"},
+  {"label": "How It Works", "href": "#how-it-works"},
+  {"label": "Pricing", "href": "#pricing"}
+]
+
+## Hero Section
+- Headline: "Streamline Your Workflow, Amplify Your Productivity"
+- Subheading: "Flowdesk is an intelligent productivity platform that helps teams collaborate, track progress, and achieve more with less effort."
+- CTA Button Text: "Start Your Free Trial"
+
+## Features
+[
+  {
+    "icon": "lightbulb",
+    "title": "Smart Task Management",
+    "description": "Automatically prioritize tasks, track progress, and get intelligent insights to keep your team focused and efficient."
+  },
+  {
+    "icon": "chart-line",
+    "title": "Real-Time Collaboration",
+    "description": "Break down silos with seamless communication tools, shared workspaces, and instant updates across your entire team."
+  },
+  {
+    "icon": "clock",
+    "title": "Time Tracking & Analytics",
+    "description": "Gain deep insights into team productivity with advanced time tracking, performance metrics, and actionable reports."
+  }
+]
+
+## Footer
+© 2024 Flowdesk. All rights reserved.

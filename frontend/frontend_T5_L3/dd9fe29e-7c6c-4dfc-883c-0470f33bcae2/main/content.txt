@@ -1,0 +1,19 @@
+Hero Headline: Secure Your Financial Future, Simplified
+
+Hero Subheadline: Vaultly brings cutting-edge security and intelligent insights to your personal and business finances, all in one powerful platform.
+
+Feature 1 Title: Advanced Security Shield
+Feature 1 Description: Military-grade encryption and real-time fraud detection protect your financial data with unparalleled precision. We don't just guard your money—we anticipate and prevent potential threats.
+
+Feature 2 Title: Smart Financial Insights
+Feature 2 Description: Our AI-powered analytics break down your spending, investments, and financial patterns, providing personalized recommendations that help you make smarter money decisions.
+
+Feature 3 Title: Seamless Multi-Platform Access
+Feature 3 Description: Manage your finances anywhere, anytime. Vaultly's responsive design ensures a consistent, secure experience across mobile, tablet, and desktop.
+
+Trusted-by Placeholder Text: Trusted by Top Financial Institutions and Innovative Businesses
+
+Contact Form: Name Label: Full Name
+Contact Form: Email Label: Business Email
+Contact Form: Message Label: Your Message
+Contact Form: Submit Button Text: Get Early Access

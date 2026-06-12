@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenFuture: Collective Action for Environmental Restoration</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container">
+            <a href="#" class="logo" aria-label="GreenFuture Home">GreenFuture</a>
+            <nav aria-label="Main Navigation">
+                <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="sr-only">Toggle Menu</span>
+                    <span aria-hidden="true">☰</span>
+                </button>
+                <ul id="nav-menu" class="nav-links">
+                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#involve">Get Involved</a></li>
+                    <li><a href="#impact">Impact</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                </ul>
+            </nav>
+            <a href="#donate" class="header-cta">Join Our Mission</a>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-headline">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-headline">Restore. Protect. Transform Our Planet</h1>
+                    <p>Every Action Matters: Join a Global Community Healing the Earth</p>
+                    <div class="hero-cta">
+                        <a href="#donate" class="btn btn-primary">Donate Now</a>
+                        <a href="#involve" class="btn btn-secondary">Volunteer Today</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="hero_image.png" alt="Diverse volunteers cleaning a riverbank, symbolizing community environmental action" />
+                </div>
+            </div>
+        </section>
+
+        <section id="mission" class="mission-section" aria-labelledby="mission-heading">
+            <div class="container">
+                <h2 id="mission-heading">Our Mission</h2>
+                <div class="mission-content">
+                    <div class="mission-text">
+                        <p>GreenFuture is committed to environmental restoration through community-driven initiatives. We believe in the power of collective action to reverse climate change and protect our planet's most vulnerable ecosystems.</p>
+                    </div>
+                    <div class="mission-image">
+                        <img src="mission_image.png" alt="Volunteers planting trees in a reforested landscape, demonstrating ecological restoration" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="involve" class="involve-section" aria-labelledby="involve-heading">
+            <div class="container">
+                <h2 id="involve-heading">Get Involved</h2>
+                <p>From local clean-up events to global conservation projects, we offer multiple ways for individuals to make a meaningful impact. Your participation directly contributes to healing our planet and building sustainable communities.</p>
+                <div class="workshop-image">
+                    <img src="workshop_image.png" alt="Inclusive community workshop on sustainable practices and climate solutions" />
+                </div>
+            </div>
+        </section>
+
+        <section id="donate" class="donate-section" aria-labelledby="donate-heading">
+            <div class="container">
+                <h2 id="donate-heading">Donate Today</h2>
+                <p>Your financial support transforms environmental challenges into tangible solutions. Every contribution funds critical restoration projects, educational programs, and grassroots initiatives that create lasting change.</p>
+                
+                <form class="donation-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="donor-name">Full Name</label>
+                        <input type="text" id="donor-name" name="donor-name" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="donor-email">Email Address</label>
+                        <input type="email" id="donor-email" name="donor-email" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="donation-amount">Donation Amount ($)</label>
+                        <input type="number" id="donation-amount" name="donation-amount" min="5" step="1" required aria-required="true">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Support Environmental Action</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 GreenFuture. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                </div>
+                <div class="contact-info">
+                    <p>Email: info@greenfuture.org</p>
+                    <p>Phone: +1 (555) EARTH-CARE</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

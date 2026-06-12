@@ -1,0 +1,80 @@
+{
+  "page_title": "Flowdesk: Focus Amplifier for Remote Professionals",
+  "brand_name": "Flowdesk",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#6366F1", "role": "trust, headers, buttons"},
+      "secondary": {"hex": "#06B6D4", "role": "highlights, accents"},
+      "accent": {"hex": "#EC4899", "role": "urgency, CTAs, badges"},
+      "dark": {"hex": "#111827", "role": "text, footer background"},
+      "light": {"hex": "#FAFAFA", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "modern + professional"
+  },
+  "header": {
+    "logo_text": "Flowdesk",
+    "cta_button": {"text": "Start Free Trial", "href": "#cta"},
+    "nav_items": [
+      {"label": "Features", "href": "#features"},
+      {"label": "How It Works", "href": "#how-it-works"},
+      {"label": "Pricing", "href": "#pricing"}
+    ]
+  },
+  "hero": {
+    "headline": "Stay in the Zone, Not the Chaos",
+    "subheadline": "Flowdesk transforms how remote professionals manage work, turning scattered tasks into a streamlined productivity system that keeps you focused and in control.",
+    "cta_primary": "Start Your Free Trial",
+    "cta_secondary": "Watch Demo",
+    "image_prompt": "Modern workspace with a sleek laptop showing a productivity app interface. Clean, minimalist design with soft blue and purple tones. Professional home office setting with natural light."
+  },
+  "features": [
+    {
+      "title": "Smart Task Prioritization",
+      "description": "Our AI-powered algorithm automatically ranks your to-dos by urgency and potential impact, ensuring you always focus on what matters most.",
+      "icon_suggestion": "priority_high"
+    },
+    {
+      "title": "Distraction-Free Work Zones",
+      "description": "Create customized work environments that block notifications, manage background noise, and help you maintain laser-sharp concentration.",
+      "icon_suggestion": "do_not_disturb"
+    },
+    {
+      "title": "Adaptive Time Tracking",
+      "description": "Intelligent time tracking that learns your work patterns, provides insights into your productivity, and helps you optimize your daily workflow.",
+      "icon_suggestion": "timer"
+    }
+  ],
+  "social_proof": {
+    "testimonials": [
+      {
+        "quote": "Flowdesk has completely transformed how I manage my freelance projects. I'm more focused and productive than ever.",
+        "author": "Sarah Martinez, Graphic Designer"
+      }
+    ],
+    "stats": [
+      "95% of users report increased productivity",
+      "Average time saved: 7 hours per week"
+    ]
+  },
+  "cta_section": {
+    "headline": "Reclaim Your Productivity, Unleash Your Potential",
+    "subheadline": "Join thousands of remote professionals who've revolutionized their work with Flowdesk.",
+    "button_text": "Get Started - It's Free"
+  },
+  "footer": {
+    "copyright": "© 2024 Flowdesk. All rights reserved.",
+    "social_links": ["Twitter", "LinkedIn", "Instagram"],
+    "contact": "support@flowdesk.com"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "Modern workspace with a sleek laptop showing a productivity app interface. Clean, minimalist design with soft blue and purple tones. Professional home office setting with natural light.",
+      "style": "photo"
+    }
+  ]
+}

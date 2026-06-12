@@ -1,0 +1,98 @@
+{
+  "page_title": "Vaultly - Secure Financial Management",
+  "brand_name": "Vaultly",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#2563EB", "role": "primary buttons, headers"},
+      "secondary": {"hex": "#0D9488", "role": "section backgrounds, highlights"},
+      "accent": {"hex": "#F59E0B", "role": "CTAs, urgency indicators"},
+      "dark": {"hex": "#1E293B", "role": "text, footer background"},
+      "light": {"hex": "#F8FAFC", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "professional + trustworthy"
+  },
+  "color_palette": {
+    "primary": "#2563EB",
+    "secondary": "#0D9488", 
+    "accent": "#F59E0B",
+    "dark": "#1E293B",
+    "light": "#F8FAFC"
+  },
+  "typography": {
+    "heading": "Montserrat",
+    "body": "Open Sans"
+  },
+  "css_classes": {
+    "header": "site-header",
+    "logo": "logo",
+    "nav": "nav-links",
+    "nav_item": "nav-link",
+    "header_cta": "header-cta",
+    "hero": "hero",
+    "hero_title": "hero-title",
+    "hero_subtitle": "hero-subtitle",
+    "features": "features-grid",
+    "feature_card": "feature-card",
+    "trusted_by": "trusted-by",
+    "contact_form": "contact-form",
+    "footer": "site-footer"
+  },
+  "header": {
+    "logo_text": "Vaultly",
+    "cta_button": {"text": "Get Started", "href": "#cta"}
+  },
+  "nav_items": [
+    {"label": "Features", "href": "#features"},
+    {"label": "How It Works", "href": "#how-it-works"},
+    {"label": "Pricing", "href": "#pricing"},
+    {"label": "Contact", "href": "#contact"}
+  ],
+  "hero": {
+    "headline": "Secure Your Financial Future with Vaultly",
+    "subheadline": "Smart budgeting, intelligent insights, total financial control",
+    "cta_text": "Start Your Free Trial"
+  },
+  "features": {
+    "headline": "Powerful Financial Management Tools",
+    "cards": [
+      {
+        "title": "Real-Time Tracking",
+        "description": "Monitor your spending and income instantly across all accounts",
+        "icon": "📊"
+      },
+      {
+        "title": "Smart Budgeting",
+        "description": "AI-powered recommendations to optimize your financial health",
+        "icon": "💡"
+      },
+      {
+        "title": "Secure Encryption",
+        "description": "Bank-level security to protect your most sensitive financial data",
+        "icon": "🔒"
+      },
+      {
+        "title": "Investment Insights",
+        "description": "Personalized investment suggestions based on your financial goals",
+        "icon": "📈"
+      }
+    ]
+  },
+  "trusted_by": {
+    "headline": "Trusted by Leading Financial Professionals",
+    "logos": [
+      "TechCrunch",
+      "Forbes",
+      "Financial Times",
+      "Wall Street Journal"
+    ]
+  },
+  "contact_form": {
+    "headline": "Get Early Access",
+    "subheadline": "Be the first to experience Vaultly's revolutionary financial tools"
+  },
+  "hero_image_prompt": "Modern financial dashboard showing graphs, charts, and secure financial data visualization. Clean, professional design with blue and teal color scheme. Sleek technology interface representing financial management app."
+}

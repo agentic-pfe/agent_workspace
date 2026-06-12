@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashflow - SaaS Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <span class="logo">Dashflow</span>
+
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="#features" class="nav-link" role="menuitem">Features</a></li>
+        <li role="none"><a href="#stats" class="nav-link" role="menuitem">Stats</a></li>
+        <li role="none"><a href="#pricing" class="nav-link" role="menuitem">Pricing</a></li>
+        <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle dark mode" type="button">
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+        <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav" type="button">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <ul class="mobile-nav-links">
+        <li><a href="#features" class="mobile-nav-link">Features</a></li>
+        <li><a href="#stats" class="mobile-nav-link">Stats</a></li>
+        <li><a href="#pricing" class="mobile-nav-link">Pricing</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="hero" aria-label="Hero">
+      <div class="hero-content">
+        <h1>Powerful Analytics for Modern Teams</h1>
+        <p>Track metrics, gain insights, and grow faster with real-time data.</p>
+        <a href="#pricing" class="cta-button">Get Started Free</a>
+      </div>
+    </section>
+
+    <section class="features" id="features" aria-label="Features">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="features-grid">
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">📊</span>
+            <h3>Real-Time Analytics</h3>
+            <p>Monitor your key metrics with live-updating dashboards that keep your team informed.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">🛡️</span>
+            <h3>Enterprise Security</h3>
+            <p>Your data is protected with bank-grade encryption and advanced threat detection.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">⚡</span>
+            <h3>Lightning Fast</h3>
+            <p>Optimized for speed – load complex reports in milliseconds, not seconds.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" id="stats" aria-label="Statistics">
+      <div class="container">
+        <h2>Trusted by Teams Worldwide</h2>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="counter" data-target="12500">0</span><span class="counter-suffix">+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="counter" data-target="8200">0</span><span class="counter-suffix">+</span>
+            <span class="stat-label">Users</span>
+          </div>
+          <div class="stat-item">
+            <span class="counter" data-target="99.9">0</span><span class="counter-suffix">%</span>
+            <span class="stat-label">Uptime</span>
+          </div>
+          <div class="stat-item">
+            <span class="counter" data-target="24">0</span><span class="counter-suffix">+</span>
+            <span class="stat-label">Awards</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials" aria-label="Testimonials">
+      <div class="container">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-carousel">
+          <div class="testimonial-card active" data-index="0">
+            <blockquote>"Dashflow transformed how we track KPIs. The real-time dashboards saved us hours every week."</blockquote>
+            <cite>Sarah Chen</cite>
+            <span class="testimonial-role">Head of Operations, TechNova</span>
+          </div>
+          <div class="testimonial-card" data-index="1">
+            <blockquote>"The security features give us peace of mind. We moved all our analytics here without hesitation."</blockquote>
+            <cite>James Rodriguez</cite>
+            <span class="testimonial-role">CTO, SecureScale</span>
+          </div>
+          <div class="testimonial-card" data-index="2">
+            <blockquote>"Lightning fast and incredibly intuitive. Our entire team was onboarded in under a day."</blockquote>
+            <cite>Aisha Patel</cite>
+            <span class="testimonial-role">Product Lead, Velocity Labs</span>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="prev-btn" aria-label="Previous testimonial" type="button">&#10094;</button>
+          <div class="carousel-dots">
+            <button class="dot active" data-index="0" aria-label="Go to testimonial 1" type="button"></button>
+            <button class="dot" data-index="1" aria-label="Go to testimonial 2" type="button"></button>
+            <button class="dot" data-index="2" aria-label="Go to testimonial 3" type="button"></button>
+          </div>
+          <button class="next-btn" aria-label="Next testimonial" type="button">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing" aria-label="Pricing">
+      <div class="container">
+        <h2>Pricing</h2>
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <h3>Starter</h3>
+            <div class="pricing-price">
+              <span class="price-amount">$9</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <ul class="pricing-features">
+              <li>5 Dashboards</li>
+              <li>1,000 Events/mo</li>
+              <li>Email Support</li>
+              <li>Basic Analytics</li>
+            </ul>
+            <button class="pricing-cta" type="button">Get Started</button>
+          </article>
+
+          <article class="pricing-card popular">
+            <span class="popular-badge">Most Popular</span>
+            <h3>Pro</h3>
+            <div class="pricing-price">
+              <span class="price-amount">$29</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <ul class="pricing-features">
+              <li>Unlimited Dashboards</li>
+              <li>50,000 Events/mo</li>
+              <li>Priority Support</li>
+              <li>Advanced Analytics</li>
+              <li>Team Collaboration</li>
+            </ul>
+            <button class="pricing-cta" type="button">Get Started</button>
+          </article>
+
+          <article class="pricing-card">
+            <h3>Enterprise</h3>
+            <div class="pricing-price">
+              <span class="price-amount">$99</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <ul class="pricing-features">
+              <li>Unlimited Everything</li>
+              <li>Custom Integrations</li>
+              <li>Dedicated Account Manager</li>
+              <li>SLA Guarantee</li>
+              <li>On-Premise Option</li>
+            </ul>
+            <button class="pricing-cta" type="button">Contact Sales</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="contact" aria-label="Contact">
+      <div class="container">
+        <h2>Stay in the Loop</h2>
+        <p>Subscribe to our newsletter for product updates and tips.</p>
+        <form class="newsletter-form" novalidate>
+          <label for="email-input" class="visually-hidden">Email address</label>
+          <input type="email" id="email-input" class="email-input" placeholder="Enter your email" required>
+          <button type="submit" class="subscribe-button">Subscribe</button>
+        </form>
+        <div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h4>Product</h4>
+          <ul class="footer-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#">Integrations</a></li>
+            <li><a href="#">Changelog</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2024 Dashflow. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Twitter"><span aria-hidden="true">🐦</span></a>
+          <a href="#" aria-label="Facebook"><span aria-hidden="true">📘</span></a>
+          <a href="#" aria-label="Instagram"><span aria-hidden="true">📸</span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

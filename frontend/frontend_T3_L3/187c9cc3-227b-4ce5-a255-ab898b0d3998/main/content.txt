@@ -1,0 +1,143 @@
+[GLOBAL-BRAND-INFO]
+Studio Name: Forma Studio
+Tagline: Transforming Ideas into Exceptional Design
+Brand Voice: Professional, creative, approachable, and innovative
+
+[HOME-HERO]
+Headline: Design That Tells Your Story
+Subheadline: We craft meaningful digital experiences that connect brands with their audience through strategic design and creative innovation.
+CTA Button: Explore Our Work
+
+[HOME-ABOUT-TEASER]
+Title: More Than Design, We Create Experiences
+Description: At Forma Studio, we believe great design goes beyond aesthetics. We're a team of passionate creators who transform complex challenges into elegant, user-centered solutions that drive meaningful impact.
+
+[HOME-SERVICES]
+Service 1:
+- Title: Brand Identity
+- Description: We develop comprehensive visual identities that capture your brand's unique essence and communicate your core values.
+
+Service 2:
+- Title: Digital Product Design
+- Description: From concept to launch, we design intuitive digital products that solve real-world problems and delight users.
+
+Service 3:
+- Title: UX/UI Design
+- Description: We create seamless, engaging user experiences that enhance interaction and drive user satisfaction across digital platforms.
+
+[ABOUT-HERO]
+Headline: Our Creative Journey
+Subheadline: Founded in 2018, Forma Studio has been at the forefront of design innovation, helping brands tell their stories through powerful visual narratives.
+
+[ABOUT-TEAM]
+Team Story: Our diverse team of designers, strategists, and creative thinkers brings a unique blend of expertise, passion, and collaborative spirit to every project.
+
+Team Member 1:
+- Name: Elena Rodriguez
+- Role: Creative Director
+- Bio: With 15 years of design experience, Elena leads our creative vision and ensures every project reflects our commitment to excellence.
+
+Team Member 2:
+- Name: Marcus Chen
+- Role: UX Strategy Lead
+- Bio: A user experience expert who transforms complex interactions into intuitive, delightful digital journeys.
+
+Team Member 3:
+- Name: Aria Patel
+- Role: Brand Design Specialist
+- Bio: Passionate about creating visual identities that resonate and communicate brand stories authentically.
+
+[ABOUT-MISSION]
+Mission Statement: We exist to elevate brands through thoughtful, innovative design that bridges creativity and strategic thinking.
+
+Core Values:
+1. Creativity Without Boundaries
+2. User-Centered Design
+3. Collaborative Excellence
+4. Continuous Learning
+
+[WORK-GRID]
+Portfolio Introduction: A curated selection of projects that showcase our approach to design, innovation, and problem-solving.
+
+[WORK-PROJECT-1]
+Title: Bloom - Wellness App Redesign
+Client: Bloom Health Technologies
+Description: Reimagined the user experience for a mental health tracking app, increasing user engagement by 65% through intuitive design and personalized interactions.
+Services: UX/UI Design, Product Strategy
+Challenges: Simplifying complex health tracking, creating an empathetic user interface
+Outcomes: Improved user retention, more intuitive health monitoring
+
+[WORK-PROJECT-2]
+Title: EcoTravel - Sustainable Tourism Platform
+Client: GreenJourney Innovations
+Description: Developed a comprehensive digital platform connecting eco-conscious travelers with sustainable tourism experiences.
+Services: Brand Identity, Web Design, UX Strategy
+Challenges: Communicating sustainability, creating an inspiring user journey
+Outcomes: Award-winning design, 200% increase in platform registrations
+
+[WORK-PROJECT-3]
+Title: FinTech Startup - Banking Interface
+Client: NexusPay
+Description: Designed a modern, secure banking interface that simplifies complex financial interactions for a digital-first audience.
+Services: UX/UI Design, Interaction Design
+Challenges: Balancing security with user-friendly experience
+Outcomes: Reduced user friction, enhanced digital banking experience
+
+[WORK-PROJECT-4]
+Title: Urban Roots - Agricultural Tech Branding
+Client: Urban Roots AgTech
+Description: Created a comprehensive brand identity for an innovative urban farming technology startup.
+Services: Brand Identity, Visual Design
+Challenges: Representing innovation in agricultural technology
+Outcomes: Distinctive brand positioning, investor interest increased
+
+[WORK-PROJECT-5]
+Title: MindfulEd - Educational Technology Platform
+Client: MindfulEd Learning
+Description: Designed an adaptive learning platform that personalizes educational experiences for diverse learning styles.
+Services: UX/UI Design, Product Strategy
+Challenges: Creating inclusive, engaging learning interfaces
+Outcomes: Enhanced student engagement, improved learning outcomes
+
+[WORK-PROJECT-6]
+Title: Pulse - Fitness Tracking Wearable App
+Client: Pulse Fitness Technologies
+Description: Developed an intuitive fitness tracking app that transforms complex health data into actionable insights.
+Services: UX/UI Design, Interaction Design
+Challenges: Simplifying complex health metrics, motivational design
+Outcomes: Increased user retention, more meaningful fitness tracking
+
+[CONTACT-HERO]
+Headline: Let's Create Something Extraordinary
+Subheadline: Have a project in mind? We're excited to hear about it. Fill out the form below, and our team will get back to you within 24 hours.
+
+[CONTACT-FORM]
+Form Title: Start Your Design Journey
+Form Instruction: All fields are required. We look forward to understanding your design needs.
+
+Form Fields:
+- Name: Your Full Name
+- Email: Your Professional Email
+- Company: Your Company Name (if applicable)
+- Project Type: Select Project Type (Dropdown)
+  Options: 
+  - Brand Identity
+  - Digital Product Design
+  - UX/UI Design
+  - Other
+- Message: Tell us about your project
+
+Submit Button: Send Project Inquiry
+
+[FOOTER]
+Contact Email: hello@formastudio.com
+Phone: +1 (555) 123-4567
+Address: 123 Design Lane, Creative City, DC 90210
+
+Social Links:
+- Behance
+- Dribbble
+- LinkedIn
+- Instagram
+
+Copyright: © 2023 Forma Studio. All Rights Reserved.

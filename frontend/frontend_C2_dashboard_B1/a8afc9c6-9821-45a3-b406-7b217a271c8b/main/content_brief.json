@@ -1,0 +1,91 @@
+{
+  "project": "DashFlow Analytics Dashboard",
+  "type": "SaaS Analytics Dashboard (Product UI)",
+  "theme": "dark",
+  "design_tokens": {
+    "palette": {
+      "bg": {"hex": "#0f172a", "role": "main background"},
+      "card_bg": {"hex": "#1e293b", "role": "card and panel backgrounds"},
+      "sidebar_bg": {"hex": "#0c1322", "role": "sidebar darker shade"},
+      "accent": {"hex": "#38bdf8", "role": "primary accent, active nav, buttons"},
+      "accent_secondary": {"hex": "#818cf8", "role": "secondary accent, charts"},
+      "text_primary": {"hex": "#e2e8f0", "role": "primary text"},
+      "text_secondary": {"hex": "#94a3b8", "role": "secondary/muted text"},
+      "success": {"hex": "#10b981", "role": "positive indicators, active status"},
+      "danger": {"hex": "#ef4444", "role": "negative indicators, warnings"},
+      "warning": {"hex": "#f59e0b", "role": "chart segment, alerts"},
+      "border": {"hex": "#334155", "role": "subtle borders"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "mood": "professional dark dashboard"
+  },
+  "sidebar": {
+    "logo_text": "DashFlow",
+    "nav_items": [
+      {"emoji": "📊", "label": "Dashboard", "href": "#dashboard", "active": true},
+      {"emoji": "📈", "label": "Analytics", "href": "#analytics"},
+      {"emoji": "👥", "label": "Users", "href": "#users"},
+      {"emoji": "⚙️", "label": "Settings", "href": "#settings"},
+      {"emoji": "🚪", "label": "Logout", "href": "#logout"}
+    ]
+  },
+  "top_bar": {
+    "search_placeholder": "Search...",
+    "notification_badge": "3",
+    "user_avatar": "JD",
+    "user_name": "John Doe"
+  },
+  "notification_dropdown": [
+    {"text": "New user registered: Sarah Chen", "time": "5 min ago", "unread": true},
+    {"text": "Server load high: 92% CPU", "time": "22 min ago", "unread": true},
+    {"text": "Weekly report generated", "time": "2 hours ago", "unread": false},
+    {"text": "Billing invoice #INV-482 ready", "time": "5 hours ago", "unread": false}
+  ],
+  "kpi_cards": [
+    {"icon": "👥", "title": "Total Users", "value": "24,512", "target": 24512, "change": "+12%", "direction": "up", "accent": "#10b981"},
+    {"icon": "💰", "title": "Revenue", "value": "$48,320", "target": 48320, "change": "+8.3%", "direction": "up", "accent": "#10b981"},
+    {"icon": "📊", "title": "Active Sessions", "value": "1,847", "target": 1847, "change": "-3.2%", "direction": "down", "accent": "#ef4444"},
+    {"icon": "📉", "title": "Bounce Rate", "value": "24.8%", "target": 24.8, "change": "-5.1%", "direction": "down", "accent": "#ef4444"}
+  ],
+  "bar_chart": {
+    "title": "Monthly Revenue",
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+    "values": [5200, 6100, 7800, 6900, 8300, 9100],
+    "display_values": ["$5.2k", "$6.1k", "$7.8k", "$6.9k", "$8.3k", "$9.1k"],
+    "color": "#38bdf8",
+    "y_axis_label": "Revenue (USD)"
+  },
+  "donut_chart": {
+    "title": "Traffic Sources",
+    "segments": [
+      {"label": "Organic", "value": 42, "color": "#38bdf8"},
+      {"label": "Direct", "value": 28, "color": "#818cf8"},
+      {"label": "Referral", "value": 18, "color": "#f59e0b"},
+      {"label": "Social", "value": 12, "color": "#10b981"}
+    ]
+  },
+  "recent_users": {
+    "title": "Recent Users",
+    "search_placeholder": "Filter users...",
+    "rows": [
+      {"name": "Emma Watson", "email": "emma.watson@example.com", "role": "Admin", "status": "Active", "login": "2025-03-21 14:32"},
+      {"name": "Marcus Rivera", "email": "marcus.r@example.com", "role": "Editor", "status": "Active", "login": "2025-03-21 11:15"},
+      {"name": "Aisha Khan", "email": "aisha.khan@example.com", "role": "Viewer", "status": "Inactive", "login": "2025-03-20 09:48"},
+      {"name": "David Chen", "email": "david.chen@example.com", "role": "Editor", "status": "Active", "login": "2025-03-20 16:20"},
+      {"name": "Laura Simmons", "email": "laura.s@example.com", "role": "Viewer", "status": "Inactive", "login": "2025-03-19 08:05"}
+    ]
+  },
+  "activity_feed": {
+    "title": "Activity Feed",
+    "items": [
+      {"emoji": "📝", "text": "Uploaded new monthly report", "time": "2 min ago"},
+      {"emoji": "💬", "text": "Commented on ticket #452", "time": "1 hour ago"},
+      {"emoji": "⬆️", "text": "Deployed version 2.4.1 to production", "time": "3 hours ago"},
+      {"emoji": "👤", "text": "New team member Emma Watson joined", "time": "5 hours ago"},
+      {"emoji": "🔔", "text": "Scheduled maintenance completed", "time": "1 day ago"}
+    ]
+  }
+}

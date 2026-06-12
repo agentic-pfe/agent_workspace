@@ -1,0 +1,9 @@
+{
+    "leaks": [],
+    "safe": true,
+    "xss_protection": {
+        "input_sanitization": true,
+        "html_injection_prevention": true,
+        "eval_usage": false
+    }
+}

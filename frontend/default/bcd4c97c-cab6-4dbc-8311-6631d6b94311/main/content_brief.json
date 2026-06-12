@@ -1,0 +1,106 @@
+{
+    "product": {
+        "name": "FlowSync",
+        "tagline": "AI-Powered Project Management for Distributed Teams",
+        "description": "Revolutionize remote collaboration with intelligent workflow automation and real-time team synchronization."
+    },
+    "design_tokens": {
+        "palette": {
+            "primary": {"hex": "#6366F1", "role": "primary brand color, headers, buttons"},
+            "secondary": {"hex": "#EC4899", "role": "highlights, accents"},
+            "accent": {"hex": "#06B6D4", "role": "CTAs, interactive elements"},
+            "dark": {"hex": "#111827", "role": "text, footer background"},
+            "light": {"hex": "#F9FAFB", "role": "background sections"}
+        },
+        "typography": {
+            "heading": "Montserrat",
+            "body": "Open Sans"
+        },
+        "mood": "professional + innovative"
+    },
+    "hero": {
+        "headline": "Orchestrate Remote Work with AI Precision",
+        "subheadline": "FlowSync transforms distributed teams into high-performance units through intelligent project management and seamless collaboration.",
+        "cta_text": "Start Free Trial",
+        "image_prompt": "Modern SaaS dashboard showing AI-powered project management interface. Diverse remote team collaborating across digital devices. Clean, professional tech environment with blue, purple, and cyan color accents."
+    },
+    "features": [
+        {
+            "title": "AI Task Prioritization",
+            "description": "Our advanced AI analyzes team workload, project deadlines, and individual strengths to automatically prioritize tasks for maximum efficiency.",
+            "icon": "🤖"
+        },
+        {
+            "title": "Smart Timezone Sync",
+            "description": "Seamlessly coordinate across global teams with intelligent timezone management, ensuring smooth communication and minimal scheduling conflicts.",
+            "icon": "🌐"
+        },
+        {
+            "title": "Automated Standups",
+            "description": "Replace mundane meetings with AI-generated progress reports, capturing key insights and tracking team momentum without manual intervention.",
+            "icon": "⚡"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Sarah Kim",
+            "role": "Engineering Lead",
+            "company": "NovaLabs",
+            "quote": "FlowSync has transformed how our distributed team collaborates. The AI-driven insights are game-changing for our productivity."
+        },
+        {
+            "name": "Michael Rodriguez",
+            "role": "CTO",
+            "company": "TechNova Solutions",
+            "quote": "With FlowSync, we've reduced meeting times by 40% and increased our team's overall efficiency dramatically."
+        },
+        {
+            "name": "Emily Chen",
+            "role": "Product Manager",
+            "company": "GlobalInnovate",
+            "quote": "The smart timezone and task prioritization features are like having an extra team coordinator working 24/7."
+        }
+    ],
+    "pricing": {
+        "tiers": [
+            {
+                "name": "Basic",
+                "price": "$9",
+                "period": "/month",
+                "features": [
+                    "Up to 5 team members",
+                    "Basic AI task insights",
+                    "Standard reporting"
+                ]
+            },
+            {
+                "name": "Pro",
+                "price": "$29",
+                "period": "/month",
+                "features": [
+                    "Up to 20 team members",
+                    "Advanced AI prioritization",
+                    "Timezone sync",
+                    "Automated standups"
+                ],
+                "recommended": true
+            },
+            {
+                "name": "Enterprise",
+                "price": "Custom",
+                "period": "",
+                "features": [
+                    "Unlimited team members",
+                    "Full AI capabilities",
+                    "Dedicated support",
+                    "Custom integrations"
+                ]
+            }
+        ]
+    },
+    "final_cta": {
+        "headline": "Ready to Transform Your Workflow?",
+        "subheadline": "Join thousands of high-performance teams leveraging AI-powered project management.",
+        "cta_text": "Start Your Free Trial"
+    }
+}

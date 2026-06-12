@@ -1,0 +1,25 @@
+HERO_HEADLINE: Streamline Your Team's Workflow with AI-Powered Precision
+HERO_SUBHEADLINE: FlowSync transforms how remote teams collaborate, plan, and execute — powered by intelligent automation
+
+FEATURES:
+1. Smart Task Routing: AI-driven task allocation that matches tasks to team members based on skills, workload, and past performance
+2. Adaptive Sprint Planner: Automatically generates optimized sprint plans that adapt to your team's unique working style and project dynamics
+3. Intelligent Focus Mode: Minimizes distractions with context-aware interface that prioritizes critical tasks and hides low-priority notifications
+4. Retrospective Insights: Advanced AI analysis that extracts meaningful patterns and actionable insights from team retrospectives
+
+CUSTOMER_LOGOS: NovaLabs, DeepGrid, ScaleHive, TechNest, CloudPulse, CodeWave
+
+PRICING_PLANS:
+Basic: $12/user/month — Core task management, basic AI suggestions, file sharing, core integrations
+Pro: $24/user/month — Advanced AI planning, comprehensive analytics, unlimited projects, priority support
+Enterprise: Custom pricing — Full AI suite, dedicated support, advanced security, custom integrations, SSO
+
+TESTIMONIALS:
+"FlowSync cut our planning overhead by 60% and made our remote team feel more connected." – Riley Chen, Engineering Lead @ NovaLabs
+"The AI actually understands our workflow nuances better than most project managers." – Jordan Meeks, Product Director @ CloudPulse
+"We've tried every project management tool. FlowSync is the first one that feels like it's working with us, not against us." – Samira Patel, CTO @ ScaleHive
+
+CTA_HEADLINE: Transform Your Team's Productivity in Minutes
+CTA_BUTTON: Start Free Trial
+
+DASHBOARD_MOCKUP_DESCRIPTION: A sleek, dark-mode dashboard featuring a modern, minimalist design with a deep purple and charcoal color palette. The left sidebar shows project navigation with clean, sans-serif typography. The central area displays an intelligent Kanban board with smoothly animated task cards, featuring AI-powered tags and priority indicators. The right panel hosts an AI assistant with a glowing, subtle purple interface, showing proactive task recommendations and team performance insights. A timeline of recent activities runs along the bottom, with micro-interactions that provide real-time team collaboration context. Floating cards have soft shadows, and the overall design emphasizes clarity, depth, and intelligent simplicity.

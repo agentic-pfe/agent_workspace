@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaultly - Smart Finance Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#" class="logo" aria-label="Vaultly Home">Vaultly</a>
+            <button class="mobile-menu-toggle" aria-label="Toggle Navigation" aria-expanded="false">
+                <span class="hamburger-icon">☰</span>
+            </button>
+            <nav class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#about">About</a>
+                <a href="#contact" class="cta-button">Start Tracking</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>Smart Finance Management for the Modern Millennial</h1>
+                    <p>Vaultly helps you track, save, and grow your money with intelligent insights and bank-grade security.</p>
+                    <a href="#contact" class="hero-cta">Get Started Free</a>
+                </div>
+                <div class="hero-image">
+                    <img src="hero-image.png" alt="Vaultly Finance Dashboard" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <h2>Why Choose Vaultly</h2>
+                <div class="features-grid">
+                    <article class="feature">
+                        <h3>Bank-Grade Security</h3>
+                        <p>Military-level encryption protects your financial data from unauthorized access.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Intelligent Budget Tracking</h3>
+                        <p>AI-powered insights help you understand spending patterns and optimize savings.</p>
+                    </article>
+                    <article class="feature">
+                        <h3>Smart Savings Goals</h3>
+                        <p>Automated recommendations tailored to your income and financial objectives.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="trusted-by">
+            <div class="container">
+                <h2>Trusted By Innovative Companies</h2>
+                <div class="trusted-logos">
+                    <div class="logo">FinTrust Technologies</div>
+                    <div class="logo">MoneyFlow Solutions</div>
+                    <div class="logo">SecureBank Network</div>
+                    <div class="logo">InvestSmart Capital</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <form id="contact-form" aria-label="Contact Form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required aria-required="true"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Vaultly. All rights reserved.</p>
+                <nav class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Contact Us</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

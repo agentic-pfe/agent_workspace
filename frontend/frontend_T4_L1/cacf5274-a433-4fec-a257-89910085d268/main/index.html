@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskr - Conquer Your Day</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1 class="app-title">Taskr</h1>
+            <p class="app-tagline">Conquer Your Day, One Task at a Time</p>
+        </header>
+
+        <main class="task-management">
+            <section class="task-input-section" aria-labelledby="task-input-label">
+                <h2 id="task-input-label" class="visually-hidden">Add New Task</h2>
+                <form id="task-form" class="task-form" role="form" aria-describedby="task-input-description">
+                    <label for="new-task" class="visually-hidden">What needs to get done today?</label>
+                    <input 
+                        type="text" 
+                        id="new-task" 
+                        name="new-task" 
+                        class="task-input" 
+                        placeholder="What needs to get done today?" 
+                        required
+                        aria-required="true"
+                    >
+                    <button 
+                        type="submit" 
+                        class="add-task-btn" 
+                        aria-label="Add task"
+                    >
+                        Add
+                    </button>
+                </form>
+                <p id="task-input-description" class="visually-hidden">
+                    Enter a task and press Add or hit Enter to create a new task
+                </p>
+            </section>
+
+            <section class="task-filter-section" aria-labelledby="task-filter-label">
+                <h2 id="task-filter-label" class="visually-hidden">Task Filters</h2>
+                <div class="filter-controls" role="group" aria-label="Task filter options">
+                    <button 
+                        class="filter-btn active" 
+                        data-filter="all" 
+                        aria-pressed="true"
+                    >
+                        All
+                    </button>
+                    <button 
+                        class="filter-btn" 
+                        data-filter="active" 
+                        aria-pressed="false"
+                    >
+                        Active
+                    </button>
+                    <button 
+                        class="filter-btn" 
+                        data-filter="completed" 
+                        aria-pressed="false"
+                    >
+                        Completed
+                    </button>
+                </div>
+            </section>
+
+            <section class="task-list-section" aria-labelledby="task-list-label">
+                <h2 id="task-list-label" class="visually-hidden">Task List</h2>
+                <div id="task-list-empty-state" class="empty-state" aria-live="polite">
+                    <p>No tasks yet — add one above and start crushing your goals!</p>
+                </div>
+                <ul 
+                    id="task-list" 
+                    class="task-list" 
+                    role="list" 
+                    aria-label="Tasks"
+                    aria-dropeffect="move"
+                >
+                    <!-- Tasks will be dynamically added here -->
+                </ul>
+            </section>
+        </main>
+
+        <footer class="app-footer">
+            <p>&copy; 2024 Taskr. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+    "status": "partial_pass",
+    "files_checked": ["index.html", "app.js"],
+    "issues": [
+        {
+            "severity": "warning",
+            "file": "index.html",
+            "fix_worker": "html",
+            "type": "syntax",
+            "description": "Named entity validation warning: Potential encoding or character reference issue"
+        },
+        {
+            "severity": "error",
+            "file": "styles.css",
+            "fix_worker": "css",
+            "type": "missing_file",
+            "description": "CSS file 'styles.css' is missing and must be created"
+        },
+        {
+            "severity": "warning",
+            "file": "index.html",
+            "fix_worker": "html",
+            "type": "selector_mismatch",
+            "description": "Form input ID mismatch: HTML has 'emailAddress', JS looks for 'email'"
+        }
+    ],
+    "accessibility_checks": {
+        "semantic_html": "PASS",
+        "aria_attributes": "PASS",
+        "keyboard_navigation": "PASS",
+        "form_labels": "PASS"
+    },
+    "security_checks": {
+        "input_sanitization": "PASS",
+        "xss_prevention": "PASS",
+        "localStorage_usage": "PASS"
+    }
+}

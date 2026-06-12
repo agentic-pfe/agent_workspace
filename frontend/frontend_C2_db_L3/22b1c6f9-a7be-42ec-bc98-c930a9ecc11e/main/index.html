@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo">Dashboard</div>
+    <nav class="sidebar-nav">
+      <a href="#" class="nav-link active">Dashboard</a>
+      <a href="#" class="nav-link">Analytics</a>
+      <a href="#" class="nav-link">Users</a>
+      <a href="#" class="nav-link">Settings</a>
+      <a href="#" class="nav-link">Logout</a>
+    </nav>
+  </aside>
+
+  <div class="dashboard-wrapper">
+    <header class="topbar">
+      <input type="text" class="search-input" placeholder="Search...">
+      <div class="topbar-actions">
+        <div class="notification-bell" aria-label="Notifications">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+          </svg>
+          <span class="badge">3</span>
+        </div>
+        <div class="avatar">JD</div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="kpi-grid">
+        <div class="kpi-card" id="kpi-users" data-target="24512">
+          <h3>Users</h3>
+          <p class="kpi-value">0</p>
+          <span class="kpi-change">+12%</span>
+        </div>
+        <div class="kpi-card" id="kpi-revenue" data-target="48320">
+          <h3>Revenue</h3>
+          <p class="kpi-value">0</p>
+          <span class="kpi-change">+8.3%</span>
+        </div>
+        <div class="kpi-card" id="kpi-sessions" data-target="1847">
+          <h3>Sessions</h3>
+          <p class="kpi-value">0</p>
+          <span class="kpi-change">-3.2%</span>
+        </div>
+        <div class="kpi-card" id="kpi-bounce" data-target="24.8">
+          <h3>Bounce</h3>
+          <p class="kpi-value">0</p>
+          <span class="kpi-change">-5.1%</span>
+        </div>
+      </section>
+
+      <section class="bar-chart">
+        <h2>Revenue Overview</h2>
+        <div id="bar-chart"></div>
+        <div class="chart-labels">
+          <span>Jan</span>
+          <span>Feb</span>
+          <span>Mar</span>
+          <span>Apr</span>
+          <span>May</span>
+          <span>Jun</span>
+        </div>
+      </section>
+
+      <section class="donut-chart">
+        <h2>Traffic Sources</h2>
+        <div id="donut-chart"></div>
+        <div class="chart-legend"></div>
+      </section>
+
+      <section class="users-table">
+        <h2>Users</h2>
+        <input type="text" id="user-search" placeholder="Search users...">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Role</th>
+              <th>Status</th>
+              <th>Last Login</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="user-row">
+              <td>John Doe</td>
+              <td>john@example.com</td>
+              <td>Admin</td>
+              <td><span class="status-badge">Active</span></td>
+              <td>10:30 AM</td>
+            </tr>
+            <tr class="user-row">
+              <td>Jane Smith</td>
+              <td>jane@example.com</td>
+              <td>Editor</td>
+              <td><span class="status-badge">Active</span></td>
+              <td>09:15 AM</td>
+            </tr>
+            <tr class="user-row">
+              <td>Robert Brown</td>
+              <td>robert@example.com</td>
+              <td>Viewer</td>
+              <td><span class="status-badge">Inactive</span></td>
+              <td>Yesterday</td>
+            </tr>
+            <tr class="user-row">
+              <td>Emily Davis</td>
+              <td>emily@example.com</td>
+              <td>Editor</td>
+              <td><span class="status-badge">Active</span></td>
+              <td>11:00 AM</td>
+            </tr>
+            <tr class="user-row">
+              <td>Michael Wilson</td>
+              <td>michael@example.com</td>
+              <td>Admin</td>
+              <td><span class="status-badge">Active</span></td>
+              <td>08:45 AM</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="activity-feed">
+        <h2>Activity Feed</h2>
+        <div class="feed-list">
+          <div class="feed-item">
+            <span class="feed-time">10:30 AM</span>
+            <span class="feed-text">John Doe updated the revenue report.</span>
+          </div>
+          <div class="feed-item">
+            <span class="feed-time">09:45 AM</span>
+            <span class="feed-text">Jane Smith added a new user.</span>
+          </div>
+          <div class="feed-item">
+            <span class="feed-time">09:15 AM</span>
+            <span class="feed-text">Robert Brown exported analytics data.</span>
+          </div>
+          <div class="feed-item">
+            <span class="feed-time">08:30 AM</span>
+            <span class="feed-text">Emily Davis changed system settings.</span>
+          </div>
+          <div class="feed-item">
+            <span class="feed-time">08:00 AM</span>
+            <span class="feed-text">Michael Wilson logged in from a new device.</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

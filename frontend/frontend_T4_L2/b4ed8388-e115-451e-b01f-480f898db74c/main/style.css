@@ -1,0 +1,134 @@
+/* CSS Reset and Base Styles */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #4361ee;
+    --secondary-color: #7209b7;
+    --accent-color: #f72585;
+    --dark-color: #212529;
+    --light-color: #f8f9fa;
+    
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-md);
+}
+
+/* Typography */
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: var(--space-md);
+}
+
+h1 {
+    font-size: clamp(1.75rem, 5vw, 2.5rem);
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: clamp(1.25rem, 4vw, 1.75rem);
+    color: var(--secondary-color);
+}
+
+/* Task Input Section */
+.task-input-section {
+    margin-bottom: var(--space-lg);
+}
+
+#task-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+#task-input {
+    padding: var(--space-sm);
+    border: 1px solid var(--dark-color);
+    border-radius: 4px;
+}
+
+button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: var(--space-sm) var(--space-md);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Task List Section */
+.task-list {
+    display: grid;
+    gap: var(--space-sm);
+}
+
+#no-tasks-message {
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+/* Task Filters */
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-lg);
+}
+
+.filter-buttons button {
+    background-color: var(--primary-color);
+}
+
+.filter-buttons button[aria-pressed="true"] {
+    background-color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: var(--space-md);
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+    #task-form {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #task-input {
+        flex-grow: 1;
+        margin-right: var(--space-sm);
+    }
+}
+
+/* Accessibility: Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+    }
+}

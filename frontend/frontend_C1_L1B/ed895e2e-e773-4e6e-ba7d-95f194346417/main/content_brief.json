@@ -1,0 +1,281 @@
+{
+  "page_title": "DevSummit 2026 — The Future of AI",
+  "brand_name": "DevSummit",
+  "color_palette": {
+    "primary": "#6366F1",
+    "secondary": "#06B6D4",
+    "accent": "#EC4899",
+    "dark": "#111827",
+    "light": "#FAFAFA"
+  },
+  "typography": {
+    "heading": "Montserrat",
+    "body": "Open Sans"
+  },
+  "css_classes": {
+    "header": "site-header",
+    "header_inner": "header-inner",
+    "logo": "logo",
+    "nav": "nav-links",
+    "nav_item": "nav-link",
+    "nav_item_active": "active",
+    "header_cta": "header-cta",
+    "mobile_toggle": "mobile-menu-toggle",
+    "hamburger_bar": "hamburger-bar",
+    "hero": "hero",
+    "hero_bg": "hero-bg",
+    "hero_inner": "hero-inner",
+    "hero_content": "hero-content",
+    "hero_title": "hero-title",
+    "hero_subtitle": "hero-subtitle",
+    "countdown": "countdown-timer",
+    "countdown_item": "countdown-item",
+    "countdown_number": "countdown-number",
+    "countdown_label": "countdown-label",
+    "cta_button": "cta-btn",
+    "hero_cta": "hero-cta",
+    "section_title": "section-title",
+    "section_subtitle": "section-subtitle",
+    "speakers_section": "speakers-section",
+    "speakers_grid": "speakers-grid",
+    "speaker_card": "speaker-card",
+    "speaker_front": "speaker-front",
+    "speaker_avatar": "speaker-avatar",
+    "speaker_initials": "speaker-initials",
+    "speaker_name": "speaker-name",
+    "speaker_title": "speaker-title",
+    "speaker_back": "speaker-back",
+    "speaker_bio": "speaker-bio",
+    "schedule_section": "schedule-section",
+    "schedule_timeline": "schedule-timeline",
+    "schedule_item": "schedule-item",
+    "schedule_dot": "schedule-dot",
+    "schedule_content": "schedule-content",
+    "schedule_time": "schedule-time",
+    "schedule_title": "schedule-title",
+    "schedule_speaker": "schedule-speaker",
+    "schedule_desc": "schedule-desc",
+    "registration_section": "registration-section",
+    "registration_form": "registration-form",
+    "form_group": "form-group",
+    "form_label": "form-label",
+    "form_input": "form-input",
+    "form_input_valid": "valid",
+    "form_input_invalid": "invalid",
+    "form_status": "form-status",
+    "form_error": "form-error",
+    "form_submit": "form-submit",
+    "cta_section": "cta-section",
+    "cta_title": "cta-title",
+    "cta_subtitle": "cta-subtitle",
+    "cta_large": "cta-large",
+    "footer": "site-footer",
+    "footer_inner": "footer-inner",
+    "footer_copy": "footer-copy",
+    "footer_links": "footer-links",
+    "container": "container"
+  },
+  "header": {
+    "logo_text": "DevSummit 2026",
+    "cta_button": {
+      "text": "Register Now",
+      "href": "#register"
+    }
+  },
+  "nav_items": [
+    {
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "label": "Speakers",
+      "href": "#speakers"
+    },
+    {
+      "label": "Schedule",
+      "href": "#schedule"
+    },
+    {
+      "label": "Register",
+      "href": "#register"
+    }
+  ],
+  "sections": [
+    {
+      "id": "home",
+      "type": "hero",
+      "headline": "DevSummit 2026 — The Future of AI",
+      "subheadline": "Join 5,000+ developers, researchers, and innovators for the most anticipated AI conference of the year. December 15, 2026 in San Francisco.",
+      "cta_text": "Register Now",
+      "countdown_target": "2026-12-15T09:00:00"
+    },
+    {
+      "id": "speakers",
+      "type": "speakers",
+      "title": "Meet Our Speakers",
+      "subtitle": "World-class experts pushing the boundaries of artificial intelligence",
+      "cards": [
+        {
+          "name": "Dr. Elena Vasquez",
+          "initials": "EV",
+          "title": "Chief AI Scientist, OpenMind Labs",
+          "bio": "Pioneer in multimodal AI systems. Led the team that built the first real-time neural translation engine. 20+ years in deep learning research."
+        },
+        {
+          "name": "Marcus Chen",
+          "initials": "MC",
+          "title": "VP of Engineering, NeuralScale",
+          "bio": "Architected distributed training infrastructure powering models with trillions of parameters. Former Google Brain infrastructure lead."
+        },
+        {
+          "name": "Aisha Patel",
+          "initials": "AP",
+          "title": "Founder, EthicalAI Initiative",
+          "bio": "Advocate for responsible AI deployment. Her framework for bias auditing is used by Fortune 500 companies worldwide."
+        },
+        {
+          "name": "James O'Brien",
+          "initials": "JO",
+          "title": "Research Director, DeepFuture",
+          "bio": "Specialist in reinforcement learning and autonomous agents. Published over 80 papers on emergent behavior in multi-agent systems."
+        },
+        {
+          "name": "Sofia Nakamura",
+          "initials": "SN",
+          "title": "Head of Product, CognitionX",
+          "bio": "Built AI-powered developer tools used by 2M+ engineers. Expert in human-AI collaboration and prompt engineering at scale."
+        },
+        {
+          "name": "David Okonkwo",
+          "initials": "DO",
+          "title": "Professor, MIT CSAIL",
+          "bio": "Leading researcher in neuromorphic computing. His lab's chip designs achieve 100x energy efficiency over traditional GPUs."
+        }
+      ]
+    },
+    {
+      "id": "schedule",
+      "type": "schedule",
+      "title": "Conference Schedule",
+      "subtitle": "A packed day of keynotes, workshops, and networking",
+      "slots": [
+        {
+          "time": "09:00 AM",
+          "title": "Opening Keynote: The Next Decade of AI",
+          "speaker": "Dr. Elena Vasquez",
+          "description": "A visionary look at where AI is heading and what it means for developers, businesses, and society."
+        },
+        {
+          "time": "11:00 AM",
+          "title": "Scaling Intelligence: Infrastructure for Trillion-Parameter Models",
+          "speaker": "Marcus Chen",
+          "description": "Deep dive into the hardware and software stack required to train and serve the next generation of AI models."
+        },
+        {
+          "time": "01:30 PM",
+          "title": "Workshop: Building Ethical AI Systems",
+          "speaker": "Aisha Patel",
+          "description": "Hands-on session covering bias detection, fairness metrics, and governance frameworks for production AI."
+        },
+        {
+          "time": "03:00 PM",
+          "title": "Autonomous Agents: From Research to Reality",
+          "speaker": "James O'Brien",
+          "description": "Exploring the latest breakthroughs in agentic AI and how multi-agent systems are transforming industries."
+        },
+        {
+          "time": "05:00 PM",
+          "title": "Closing Panel: AI & The Future of Human Creativity",
+          "speaker": "All Speakers",
+          "description": "An open debate on how AI augments human creativity, the role of developers in an AI-first world, and what comes next."
+        }
+      ]
+    },
+    {
+      "id": "register",
+      "type": "registration",
+      "title": "Secure Your Spot",
+      "subtitle": "Early bird pricing ends November 1, 2026. Limited seats available.",
+      "ticket_types": [
+        {
+          "value": "general",
+          "label": "General Admission — $499"
+        },
+        {
+          "value": "vip",
+          "label": "VIP Access — $899"
+        },
+        {
+          "value": "student",
+          "label": "Student Pass — $149"
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "headline": "Don't Miss the Future of AI",
+      "subheadline": "Join us on December 15, 2026 in San Francisco. Be part of the conversation that shapes tomorrow.",
+      "cta_text": "Register Now"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "copyright": "© 2026 DevSummit. All rights reserved.",
+      "links": [
+        {
+          "label": "Home",
+          "href": "#home"
+        },
+        {
+          "label": "Speakers",
+          "href": "#speakers"
+        },
+        {
+          "label": "Schedule",
+          "href": "#schedule"
+        },
+        {
+          "label": "Register",
+          "href": "#register"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "id": "hero-bg",
+      "prompt": "Abstract futuristic technology background with flowing data streams, neural network nodes, and soft glowing particles. Deep indigo and cyan color palette with subtle pink highlights. Clean, modern, digital art style."
+    }
+  ],
+  "design_tokens": {
+    "palette": {
+      "primary": {
+        "hex": "#6366F1",
+        "role": "trust, headers, buttons, main brand color"
+      },
+      "secondary": {
+        "hex": "#06B6D4",
+        "role": "warmth, highlights, accents, timeline dots"
+      },
+      "accent": {
+        "hex": "#EC4899",
+        "role": "urgency, CTAs, badges, hover states"
+      },
+      "dark": {
+        "hex": "#111827",
+        "role": "text, footer background, dark sections"
+      },
+      "light": {
+        "hex": "#FAFAFA",
+        "role": "alternating section backgrounds"
+      }
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "modern + tech + energetic"
+  },
+  "hero_image_prompt": "Abstract futuristic technology background with flowing data streams, neural network nodes, and soft glowing particles. Deep indigo and cyan color palette with subtle pink highlights. Clean, modern, digital art style."
+}

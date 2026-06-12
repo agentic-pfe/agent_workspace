@@ -1,0 +1,40 @@
+{
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#4361ee", "role": "main background, headers"},
+      "secondary": {"hex": "#7209b7", "role": "accents, highlights"},
+      "accent": {"hex": "#f72585", "role": "CTAs, important actions"},
+      "dark": {"hex": "#212529", "role": "text, task backgrounds"},
+      "light": {"hex": "#f8f9fa", "role": "alternating backgrounds"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "productive + modern"
+  },
+  "app_details": {
+    "name": "Taskr",
+    "tagline": "Streamline Your Productivity",
+    "hero_headline": "Manage Tasks with Ease",
+    "hero_subheadline": "Organize, prioritize, and track your work effortlessly",
+    "features": [
+      {
+        "title": "Simple Task Creation",
+        "description": "Add tasks in seconds with our intuitive interface"
+      },
+      {
+        "title": "Smart Filtering",
+        "description": "View all, active, or completed tasks with one click"
+      },
+      {
+        "title": "Drag & Drop Reordering",
+        "description": "Prioritize tasks by simply dragging them around"
+      },
+      {
+        "title": "Local Storage",
+        "description": "Your tasks are saved automatically, even after closing the browser"
+      }
+    ]
+  }
+}

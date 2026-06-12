@@ -1,0 +1,63 @@
+{
+    "design_tokens": {
+        "palette": {
+            "primary": {"hex": "#2E8B57", "role": "main environmental green"},
+            "secondary": {"hex": "#4CAF50", "role": "supporting green"},
+            "accent": {"hex": "#FFA500", "role": "call-to-action warmth"},
+            "dark": {"hex": "#1E1E1E", "role": "text and footer background"},
+            "light": {"hex": "#F4F4F4", "role": "background sections"}
+        },
+        "typography": {
+            "heading": "Montserrat",
+            "body": "Open Sans"
+        },
+        "mood": "hopeful and professional"
+    },
+    "header": {
+        "logo_text": "GreenFuture",
+        "cta_button": {"text": "Join the Movement", "href": "#newsletter"},
+        "nav_items": [
+            {"label": "Our Mission", "href": "#about"},
+            {"label": "Programs", "href": "#programs"},
+            {"label": "Get Involved", "href": "#newsletter"}
+        ]
+    },
+    "hero_image_prompt": "Lush green forest with soft sunlight filtering through trees, representing hope and environmental preservation. Wide landscape view showing dense, healthy forest ecosystem.",
+    "sections": {
+        "hero": {
+            "headline": "GreenFuture: Protecting Our Planet for Generations",
+            "subheadline": "We're committed to sustainable environmental solutions through reforestation, ocean conservation, and youth education.",
+            "cta_text": "Join the Movement"
+        },
+        "about": {
+            "title": "Our Mission",
+            "description": "GreenFuture is dedicated to reversing environmental damage and creating sustainable pathways for our planet's future. We believe in collective action, innovative solutions, and empowering communities to become environmental stewards."
+        },
+        "programs": {
+            "title": "What We Do",
+            "program_images": {
+                "reforestation_prompt": "Volunteers planting young trees in a cleared area, showing teamwork and environmental restoration",
+                "oceans_prompt": "Beach cleanup with volunteers collecting plastic waste, showing environmental conservation in action",
+                "education_prompt": "Diverse group of students learning about ecology in an outdoor classroom setting"
+            },
+            "programs": [
+                {
+                    "title": "Reforestation",
+                    "description": "We plant trees in deforested regions, focusing on native species that restore biodiversity and combat climate change. Each tree represents hope for our planet's future."
+                },
+                {
+                    "title": "Clean Oceans",
+                    "description": "Our ocean conservation efforts include beach cleanups, plastic reduction campaigns, and supporting marine ecosystem restoration projects worldwide."
+                },
+                {
+                    "title": "Youth Education",
+                    "description": "We develop environmental education programs for schools, teaching young people about sustainability, conservation, and their role in protecting our planet."
+                }
+            ]
+        },
+        "newsletter": {
+            "title": "Stay Updated",
+            "description": "Join our community and receive the latest updates on our environmental initiatives."
+        }
+    }
+}

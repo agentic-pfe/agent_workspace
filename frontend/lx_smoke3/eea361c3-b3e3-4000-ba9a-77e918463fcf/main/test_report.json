@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "issues": [
+    {
+      "severity": "warning",
+      "file": "index.html",
+      "type": "other",
+      "description": "No separate styles.css file — all CSS is embedded in a <style> tag. Functional but not ideal for maintainability or caching."
+    },
+    {
+      "severity": "warning",
+      "file": "index.html",
+      "type": "missing_style",
+      "description": "No :focus-visible outline styles defined. While there are no interactive elements currently, adding focus indicators is recommended for accessibility when links/buttons are added."
+    },
+    {
+      "severity": "warning",
+      "file": "index.html",
+      "type": "other",
+      "description": "Minimal semantic structure — only <main> is used. Missing <header>, <nav>, <footer>, and <section> elements expected for a full landing page per a11y guidelines."
+    },
+    {
+      "severity": "warning",
+      "file": "index.html",
+      "type": "other",
+      "description": "No app.js file exists — no JavaScript functionality or DOM selector mismatches to check. Page is static HTML only."
+    }
+  ],
+  "files_checked": ["index.html"]
+}

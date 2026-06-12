@@ -1,0 +1,57 @@
+{
+  "page_title": "Flowdesk - Streamline Your Productivity",
+  "brand_name": "Flowdesk",
+  "color_palette": {
+    "primary": "#4361EE",
+    "secondary": "#7209B7", 
+    "accent": "#F72585",
+    "dark": "#212529",
+    "light": "#F8F9FA"
+  },
+  "typography": {
+    "heading": "Montserrat",
+    "body": "Open Sans"
+  },
+  "header": {
+    "logo_text": "Flowdesk",
+    "cta_button": {
+      "text": "Start Free Trial",
+      "href": "#cta"
+    }
+  },
+  "nav_items": [
+    {"label": "Features", "href": "#features"},
+    {"label": "How It Works", "href": "#how-it-works"},
+    {"label": "Contact", "href": "#contact"}
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "headline": "Unlock Your Productivity Potential",
+      "subheadline": "Flowdesk helps you organize, collaborate, and achieve more with intelligent workflow management.",
+      "cta_text": "Start Free Trial"
+    },
+    {
+      "id": "features",
+      "type": "features",
+      "cards": [
+        {
+          "title": "Smart Task Management",
+          "description": "Automatically prioritize and organize your tasks with AI-powered insights.",
+          "icon": "🚀"
+        },
+        {
+          "title": "Seamless Collaboration",
+          "description": "Real-time team communication and project tracking in one platform.",
+          "icon": "🤝"
+        },
+        {
+          "title": "Intuitive Dashboard",
+          "description": "Visualize your progress and stay motivated with clean, actionable insights.",
+          "icon": "📊"
+        }
+      ]
+    }
+  ]
+}

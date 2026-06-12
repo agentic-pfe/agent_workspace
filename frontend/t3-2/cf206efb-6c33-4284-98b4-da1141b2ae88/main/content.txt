@@ -1,0 +1,23 @@
+HERO:
+Headline: Learn to Code in Just 15 Minutes a Day!
+Subheadline: Unlock your coding potential with our revolutionary e-book, designed for absolute beginners.
+CTA Button: Get Your Free E-book Now!
+
+FEATURES:
+* Master the basics of programming with easy-to-understand lessons.
+* Build your first projects in record time with practical, hands-on exercises.
+* Gain confidence and a solid foundation to pursue any coding language.
+
+TESTIMONIAL:
+"I never thought I could learn to code, but this e-book made it so simple and fun!" - [Placeholder Name]
+
+FINAL_CTA:
+Ready to start your coding journey? Download "Learn to Code in 15min" today and transform your future!
+
+HERO_IMAGE:
+Alt-text: An abstract image depicting lines of code and digital elements, suggesting technology and learning, with a vibrant, energetic color scheme.
+Scene description: A dynamic and modern visual with glowing lines of code flowing across a dark background, interspersed with subtle geometric shapes and data visualizations. The overall impression is one of innovation, speed, and accessibility to complex information.
+
+TESTIMONIAL_IMAGE:
+Alt-text: A smiling person, possibly a student, engrossed in reading an e-book on a tablet or laptop, with a warm and inviting background.
+Scene description: A close-up shot of a diverse individual, comfortably seated in a well-lit, cozy environment (e.g., a coffee shop or home office), with a gentle smile as they focus on the content of an e-book displayed on a digital device. The background is softly blurred to keep the focus on the person and the e-book, conveying a sense of ease and engagement.

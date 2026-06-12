@@ -1,0 +1,1 @@
+[{'name': 'John Doe', 'email': 'john@example.com', 'message': "Hello, I'm interested in your services."}, {'message': "Thank you for your message. We'll get back to you soon.", 'received_data': {'name': 'John Doe', 'email': 'john@example.com', 'message': "Hello, I'm interested in your services."}}]

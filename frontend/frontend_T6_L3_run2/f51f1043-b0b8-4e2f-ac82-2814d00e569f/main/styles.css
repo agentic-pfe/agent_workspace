@@ -1,0 +1,240 @@
+:root {
+    /* Color Palette with Accessible Contrast */
+    --color-primary: #004d00;     /* Dark Green - High Contrast */
+    --color-secondary: #006400;   /* Forest Green */
+    --color-background: #ffffff;  /* White */
+    --color-text: #000000;        /* Black */
+    --color-accent: #228b22;      /* Forest Green Light */
+
+    /* Typography */
+    --font-family-heading: 'Montserrat', sans-serif;
+    --font-family-body: 'Open Sans', sans-serif;
+    
+    /* Spacing */
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+
+    /* Typography Sizes */
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.25rem;
+    --text-xl: 1.5rem;
+    --text-2xl: 2rem;
+}
+
+/* Accessibility: Skip Link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--color-primary);
+    color: var(--color-background);
+    padding: var(--space-sm) var(--space-md);
+    z-index: 100;
+    text-decoration: none;
+    transition: top 0.3s ease-in-out;
+}
+
+.skip-link:focus-visible {
+    top: 0;
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+/* Base Styles */
+body {
+    font-family: var(--font-family-body);
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-background);
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family: var(--font-family-heading);
+    line-height: 1.2;
+    color: var(--color-primary);
+}
+
+h1 { font-size: var(--text-2xl); }
+h2 { font-size: var(--text-xl); }
+h3 { font-size: var(--text-lg); }
+
+/* Layout */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-md);
+}
+
+/* Header */
+.site-header {
+    background-color: var(--color-secondary);
+    color: var(--color-background);
+    padding: var(--space-md) 0;
+}
+
+.site-header h1 {
+    color: var(--color-background);
+    margin: 0;
+}
+
+.site-header nav ul {
+    list-style: none;
+    display: flex;
+    gap: var(--space-md);
+    padding: 0;
+}
+
+.site-header nav a {
+    color: var(--color-background);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus-visible {
+    color: var(--color-accent);
+    outline: 2px solid var(--color-accent);
+    outline-offset: 4px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--color-background);
+    text-align: center;
+    padding: var(--space-xl) 0;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    padding: var(--space-sm) var(--space-md);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover,
+.cta-button:focus-visible {
+    background-color: var(--color-accent);
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+/* Mission Highlights */
+.mission-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-lg);
+}
+
+.mission-highlights img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Initiatives */
+.initiative-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-lg);
+}
+
+.initiative-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Newsletter */
+.newsletter form {
+    display: grid;
+    gap: var(--space-md);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.newsletter input,
+.newsletter button {
+    width: 100%;
+    padding: var(--space-sm);
+    font-size: var(--text-base);
+}
+
+.newsletter button {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover,
+.newsletter button:focus-visible {
+    background-color: var(--color-accent);
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+/* Footer */
+.site-footer {
+    background-color: var(--color-secondary);
+    color: var(--color-background);
+    padding: var(--space-lg) 0;
+    text-align: center;
+}
+
+.site-footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: var(--space-md);
+    padding: 0;
+}
+
+.site-footer a {
+    color: var(--color-background);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+    color: var(--color-accent);
+    outline: 2px solid var(--color-accent);
+    outline-offset: 4px;
+}
+
+/* Responsive Typography */
+@media screen and (max-width: 768px) {
+    h1 { font-size: var(--text-xl); }
+    h2 { font-size: var(--text-lg); }
+    h3 { font-size: var(--text-base); }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+    }
+}
+
+/* Focus Styles for Keyboard Navigation */
+*:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+}

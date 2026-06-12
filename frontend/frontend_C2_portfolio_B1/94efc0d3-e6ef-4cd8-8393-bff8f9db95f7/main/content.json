@@ -1,0 +1,109 @@
+{
+  "portfolio": {
+    "owner": "Aymen",
+    "role": "Python Backend Developer",
+    "audience": "tech recruiters, potential clients, fellow developers",
+    "tone": "professional, confident, modern"
+  },
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#6366f1", "role": "indigo - trust, headers, buttons"},
+      "secondary": {"hex": "#06b6d4", "role": "cyan - highlights, progress bars"},
+      "accent": {"hex": "#f59e0b", "role": "gold - CTAs, urgency, badges"},
+      "dark": {"hex": "#0f172a", "role": "dark background, text in light mode"},
+      "light": {"hex": "#f1f5f9", "role": "light background, text in dark mode"}
+    },
+    "typography": {
+      "heading": "Poppins",
+      "body": "Inter"
+    },
+    "mood": "modern/tech + professional"
+  },
+  "hero": {
+    "headline": "Aymen - Backend Developer",
+    "subheadline": "Building robust APIs and scalable systems with Python, FastAPI & PostgreSQL",
+    "cta_buttons": [
+      {"text": "View Projects", "href": "#projects"},
+      {"text": "Contact Me", "href": "#contact"}
+    ],
+    "hero_image_prompt": "Abstract tech-themed profile avatar for a backend developer, dark indigo and cyan geometric shapes, circuit board patterns, glowing nodes, professional modern style, no face just abstract technology representation"
+  },
+  "header": {
+    "logo_text": "Aymen.dev",
+    "cta_button": {"text": "Hire Me", "href": "#contact"},
+    "nav_items": [
+      {"label": "Skills", "href": "#skills"},
+      {"label": "Projects", "href": "#projects"},
+      {"label": "Experience", "href": "#experience"},
+      {"label": "Contact", "href": "#contact"}
+    ]
+  },
+  "skills": [
+    {"name": "Python / FastAPI", "percentage": 95},
+    {"name": "PostgreSQL / SQLAlchemy", "percentage": 90},
+    {"name": "Docker / Kubernetes", "percentage": 85},
+    {"name": "Redis / Celery", "percentage": 80},
+    {"name": "AWS / GCP", "percentage": 75}
+  ],
+  "projects": [
+    {
+      "title": "Orcheeos API",
+      "description": "Multi-agent LLM orchestration backend powering intelligent task routing across specialized AI agents. Built with FastAPI for high-performance async endpoints and LangGraph for complex agent workflows.",
+      "tech": "FastAPI, LangGraph",
+      "image_prompt": "Server room with glowing API endpoints visualization, dark blue and indigo tones, network nodes connected by light beams, tech thumbnail style, abstract server architecture"
+    },
+    {
+      "title": "DataFlow Engine",
+      "description": "Real-time data pipeline processing over 1 million events per day. Leverages Python for transformation logic, Redis streams for message brokering, and Docker for containerized deployments.",
+      "tech": "Python, Redis, Docker",
+      "image_prompt": "Abstract data flow visualization with streams of light particles moving through pipeline nodes, dark background with cyan and gold data streams, real-time processing concept art"
+    },
+    {
+      "title": "Auth Microservice",
+      "description": "OAuth2/JWT authentication microservice handling secure user identity across distributed systems. Implements FastAPI middleware with PostgreSQL for credential storage and Redis for token blacklisting.",
+      "tech": "FastAPI, PostgreSQL, Redis",
+      "image_prompt": "Cybersecurity shield icon with lock and key elements, dark background, golden and indigo glowing security patterns, abstract authentication concept with digital fingerprint"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2024 - Present",
+      "role": "Senior Backend Developer",
+      "company": "TechCorp",
+      "achievement": "Led migration from monolithic architecture to microservices, achieving 10x throughput improvement and 99.9% uptime across 50+ services."
+    },
+    {
+      "period": "2022 - 2024",
+      "role": "Backend Developer",
+      "company": "StartupX",
+      "achievement": "Built and maintained REST APIs serving over 500,000 daily active users. Designed database schema handling 2TB+ of relational data with optimized query performance."
+    },
+    {
+      "period": "2020 - 2022",
+      "role": "Junior Developer",
+      "company": "WebAgency",
+      "achievement": "Developed 15+ client projects using Django and FastAPI. Implemented CI/CD pipelines reducing deployment time by 60% across all active projects."
+    }
+  ],
+  "contact": {
+    "fields": ["Name", "Email", "Message"],
+    "submit_text": "Send Message",
+    "success_message": "Message sent!"
+  },
+  "footer": {
+    "social_links": [
+      {"platform": "GitHub", "emoji": "💻", "url": "#"},
+      {"platform": "LinkedIn", "emoji": "🔗", "url": "#"},
+      {"platform": "Twitter", "emoji": "🐦", "url": "#"}
+    ],
+    "copyright": "© 2025 Aymen. All rights reserved."
+  },
+  "sections": [
+    "Hero",
+    "Skills",
+    "Projects",
+    "Experience",
+    "Contact",
+    "Footer"
+  ]
+}

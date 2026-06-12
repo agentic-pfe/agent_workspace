@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenFuture - Protecting Our Planet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="hero-image.png" as="image">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="site-header">
+        <div class="container">
+            <nav aria-label="Main Navigation">
+                <a href="#" class="logo" aria-label="GreenFuture Home">GreenFuture</a>
+                <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="sr-only">Toggle Menu</span>
+                    <span class="hamburger-icon" aria-hidden="true"></span>
+                </button>
+                <ul id="nav-menu" class="nav-links">
+                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#involve">Get Involved</a></li>
+                    <li><a href="#impact">Impact</a></li>
+                    <li><a href="#donate" class="cta-button">Donate Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-headline">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-headline">Protecting Our Planet, One Action at a Time</h1>
+                    <p class="hero-subheadline">GreenFuture empowers communities to create sustainable environmental change through education, conservation, and grassroots initiatives.</p>
+                    <a href="#donate" class="hero-cta button">Join Our Mission</a>
+                </div>
+                <div class="hero-image">
+                    <img src="hero-image.png" alt="Diverse community members planting trees, with solar panels and lush green landscape in background" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="mission" class="mission-section" aria-labelledby="mission-title">
+            <div class="container">
+                <h2 id="mission-title">Our Environmental Mission</h2>
+                <div class="mission-grid">
+                    <article class="mission-item">
+                        <h3>Community Conservation</h3>
+                        <p>Engage local communities in habitat restoration and wildlife protection projects.</p>
+                    </article>
+                    <article class="mission-item">
+                        <h3>Climate Education</h3>
+                        <p>Develop curriculum and workshops to teach sustainable practices in schools and communities.</p>
+                    </article>
+                    <article class="mission-item">
+                        <h3>Renewable Energy Advocacy</h3>
+                        <p>Promote clean energy solutions and support transition to sustainable infrastructure.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="involve" class="get-involved" aria-labelledby="involve-title">
+            <div class="container">
+                <h2 id="involve-title">Get Involved</h2>
+                <form id="volunteer-form" aria-labelledby="form-title">
+                    <h3 id="form-title">Volunteer Application</h3>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">Area of Interest</label>
+                        <select id="interest" name="interest" required aria-required="true">
+                            <option value="">Select an area</option>
+                            <option value="conservation">Community Conservation</option>
+                            <option value="education">Climate Education</option>
+                            <option value="advocacy">Renewable Energy Advocacy</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-button">Submit Application</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonial-section" aria-labelledby="testimonial-title">
+            <div class="container">
+                <h2 id="testimonial-title">What Our Community Says</h2>
+                <div class="testimonial-carousel">
+                    <blockquote class="testimonial">
+                        <p>"GreenFuture has transformed our community's approach to environmental stewardship."</p>
+                        <cite>Maria Rodriguez, Community Leader</cite>
+                    </blockquote>
+                    <blockquote class="testimonial">
+                        <p>"Their educational programs have inspired a new generation of environmental activists."</p>
+                        <cite>Dr. James Chen, Environmental Scientist</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="donate" class="donation-cta" aria-labelledby="donate-title">
+            <div class="container">
+                <h2 id="donate-title">Support Our Mission</h2>
+                <p>Every contribution helps us create a more sustainable future.</p>
+                <a href="#" class="donate-button button">Donate Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>GreenFuture</h2>
+                    <p>Empowering Sustainable Change</p>
+                </div>
+                <nav aria-label="Footer Navigation">
+                    <ul class="footer-links">
+                        <li><a href="#mission">Our Mission</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#involve">Get Involved</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook" class="social-icon">FB</a>
+                    <a href="#" aria-label="Twitter" class="social-icon">TW</a>
+                    <a href="#" aria-label="Instagram" class="social-icon">IG</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 GreenFuture. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

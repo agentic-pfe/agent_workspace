@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowdesk - Your Productivity Companion</title>
+    <style>
+        :root {
+            /* Color Palette */
+            --primary: #4361ee;     /* Deep Blue */
+            --secondary: #7209b7;   /* Rich Purple */
+            --accent: #f72585;      /* Vibrant Pink */
+            --dark: #212529;
+            --light: #f8f9fa;
+            
+            /* Typography */
+            --font-heading: 'Montserrat', sans-serif;
+            --font-body: 'Open Sans', sans-serif;
+            
+            /* Spacing */
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 2rem;
+            --space-xl: 4rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            line-height: 1.6;
+            color: var(--dark);
+        }
+
+        /* Responsive Typography */
+        h1 { 
+            font-family: var(--font-heading);
+            font-size: clamp(2rem, 5vw, 3.5rem); 
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        h2 { 
+            font-family: var(--font-heading);
+            font-size: clamp(1.5rem, 3vw, 2.5rem); 
+            font-weight: 600;
+        }
+
+        /* Navigation */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-md) var(--space-lg);
+            background-color: var(--light);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: var(--space-md);
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        .cta-button {
+            background-color: var(--accent);
+            color: white;
+            padding: var(--space-sm) var(--space-md);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: var(--space-xl) var(--space-lg);
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero-subtitle {
+            margin: var(--space-md) 0;
+            color: rgba(255,255,255,0.9);
+        }
+
+        /* Features Section */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-lg);
+            padding: var(--space-xl) var(--space-lg);
+            background-color: var(--light);
+        }
+
+        .feature-card {
+            background-color: white;
+            padding: var(--space-lg);
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--accent);
+            margin-bottom: var(--space-md);
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: var(--space-lg);
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                gap: var(--space-md);
+            }
+
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Flowdesk</div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Supercharge Your Productivity</h1>
+            <p class="hero-subtitle">Flowdesk helps you organize, collaborate, and achieve more with intelligent task management and seamless workflows.</p>
+            <button class="cta-button">Start Your Free Trial</button>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="feature-card">
+            <div class="feature-icon">📋</div>
+            <h2>Smart Task Management</h2>
+            <p>Organize tasks with AI-powered prioritization and intelligent scheduling.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🤝</div>
+            <h2>Team Collaboration</h2>
+            <p>Seamless communication and real-time project tracking for distributed teams.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h2>Performance Insights</h2>
+            <p>Detailed analytics to help you understand and improve your productivity.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Flowdesk. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // CTA Button Interactions
+        const ctaButtons = document.querySelectorAll('.cta-button');
+        ctaButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                alert('Thanks for your interest in Flowdesk! Sign-up coming soon.');
+            });
+        });
+    </script>
+</body>
+</html>

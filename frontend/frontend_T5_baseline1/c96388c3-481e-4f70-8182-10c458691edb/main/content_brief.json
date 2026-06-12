@@ -1,0 +1,52 @@
+{
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#2563eb", "role": "primary buttons, headers"},
+      "secondary": {"hex": "#1e293b", "role": "dark backgrounds, text"},
+      "accent": {"hex": "#f97316", "role": "CTAs, highlights"},
+      "dark": {"hex": "#0F172A", "role": "deep backgrounds"},
+      "light": {"hex": "#F1F5F9", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "professional + modern"
+  },
+  "header": {
+    "logo_text": "Vaultly",
+    "cta_button": {"text": "Start Tracking", "href": "#contact"},
+    "nav_items": [
+      {"label": "Features", "href": "#features"},
+      {"label": "How It Works", "href": "#how-it-works"},
+      {"label": "Pricing", "href": "#pricing"},
+      {"label": "About", "href": "#about"}
+    ]
+  },
+  "hero": {
+    "headline": "Smart Finance Management for the Modern Millennial",
+    "subheadline": "Vaultly helps you track, save, and grow your money with intelligent insights and bank-grade security.",
+    "cta_text": "Get Started Free"
+  },
+  "features": [
+    {
+      "title": "Bank-Grade Security",
+      "description": "Military-level encryption protects your financial data from unauthorized access."
+    },
+    {
+      "title": "Intelligent Budget Tracking",
+      "description": "AI-powered insights help you understand spending patterns and optimize savings."
+    },
+    {
+      "title": "Smart Savings Goals",
+      "description": "Automated recommendations tailored to your income and financial objectives."
+    }
+  ],
+  "trusted_by": [
+    "FinTrust Technologies",
+    "MoneyFlow Solutions",
+    "SecureBank Network",
+    "InvestSmart Capital"
+  ],
+  "hero_image_prompt": "Modern fintech dashboard showing financial analytics, with sleek graphs, secure lock icon, and a smartphone displaying budget tracking app. Blue and orange color palette, clean professional design."
+}

@@ -1,0 +1,67 @@
+TASKR: CONTENT & UX DESIGN PLAN
+
+APP TITLE & HEADER
+- App Name: "Taskr"
+- Tagline: "Organize Your Work, Simplify Your Life"
+- App Header Class: class="app-header"
+
+TASK INPUT SECTION
+- Input Placeholder: "What needs to be done?"
+- Add Task Button Text: "Add Task"
+- Input Container Class: class="task-input-container"
+- Input Field Class: class="task-input"
+- Add Task Button Class: class="btn-add-task"
+
+TASK LIST & ITEMS
+- List Container Class: class="task-list"
+- Individual Task Class: class="task-item"
+- Task Checkbox Class: class="task-checkbox"
+- Task Text Class: class="task-text"
+- Edit Task Button Class: class="btn-edit-task"
+- Delete Task Button Class: class="btn-delete-task"
+- Completed Task Class: class="task-completed"
+
+FILTER CONTROLS
+- Filter Container Class: class="filter-controls"
+- Filter Button Classes:
+  * class="filter-btn"
+  * class="filter-btn-all"
+  * class="filter-btn-active"
+  * class="filter-btn-completed"
+
+FILTER OPTIONS
+- "All Tasks" (shows all tasks)
+- "Active Tasks" (shows incomplete tasks)
+- "Completed Tasks" (shows finished tasks)
+
+EMPTY STATE MESSAGE
+- When no tasks exist: "Your task list is empty. Add a task to get started!"
+- Empty List Class: class="empty-state"
+
+INSTRUCTIONAL TEXT
+- Drag & Drop Hint: "Tip: Drag tasks to reorder"
+- Keyboard Shortcut Hint: "Press Enter to add a task"
+
+ERROR & VALIDATION
+- Empty Task Error: "Task description cannot be empty"
+- Max Task Length Error: "Task description is too long (max 200 characters)"
+
+ACCESSIBILITY LABELS
+- Add Task Button: aria-label="Add new task"
+- Edit Task Button: aria-label="Edit task"
+- Delete Task Button: aria-label="Delete task"
+- Task Checkbox: aria-label="Mark task as complete"
+
+DESIGN TOKENS (Preliminary)
+- Primary Color: #4361EE (trust, headers, buttons)
+- Secondary Color: #7209B7 (highlights, accents)
+- Accent Color: #F72585 (urgency, CTAs)
+- Dark Color: #212529 (text, footer)
+- Light Color: #F8F9FA (backgrounds)
+
+TYPOGRAPHY
+- Heading Font: Montserrat
+- Body Font: Open Sans
+
+MOOD
+- Professional + Modern

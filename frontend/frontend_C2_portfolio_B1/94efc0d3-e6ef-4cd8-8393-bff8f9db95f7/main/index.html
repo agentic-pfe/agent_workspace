@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aymen - Python Backend Developer specializing in robust APIs and scalable systems with FastAPI, PostgreSQL, and Docker.">
+  <title>Aymen | Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER / NAVIGATION -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Aymen.dev Home">Aymen<span class="logo-dot">.</span>dev</a>
+      <nav class="main-nav" role="navigation" aria-label="Main navigation">
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark theme">
+          <span class="theme-icon-dark">🌙</span>
+          <span class="theme-icon-light">☀️</span>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" role="main">
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero section-hero-load">
+      <div class="hero-bg"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-badge">🐍 Python Backend Developer</p>
+          <h1 class="hero-headline">Aymen - <span class="gradient-text">Backend Developer</span></h1>
+          <p class="hero-subheadline">Building robust APIs and scalable systems with Python, FastAPI &amp; PostgreSQL</p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-avatar-wrapper">
+            <img src="avatar.png" alt="Abstract tech avatar representing Aymen's backend development expertise" class="hero-avatar" width="400" height="400">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section skills section-hidden" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading" class="section-title">Tech Stack</h2>
+        <p class="section-subtitle">Core technologies I work with daily to build production-ready systems</p>
+        <div class="skills-grid">
+          <div class="skill-item" data-percentage="95">
+            <div class="skill-header">
+              <span class="skill-name">Python / FastAPI</span>
+              <span class="skill-percent" data-target="95">0%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="Python / FastAPI proficiency 95%"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percentage="90">
+            <div class="skill-header">
+              <span class="skill-name">PostgreSQL / SQLAlchemy</span>
+              <span class="skill-percent" data-target="90">0%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="PostgreSQL / SQLAlchemy proficiency 90%"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percentage="85">
+            <div class="skill-header">
+              <span class="skill-name">Docker / Kubernetes</span>
+              <span class="skill-percent" data-target="85">0%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Docker / Kubernetes proficiency 85%"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percentage="80">
+            <div class="skill-header">
+              <span class="skill-name">Redis / Celery</span>
+              <span class="skill-percent" data-target="80">0%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Redis / Celery proficiency 80%"></div>
+            </div>
+          </div>
+          <div class="skill-item" data-percentage="75">
+            <div class="skill-header">
+              <span class="skill-name">AWS / GCP</span>
+              <span class="skill-percent" data-target="75">0%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="AWS / GCP proficiency 75%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section projects section-hidden" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading" class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Backend systems I've architected and delivered</p>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card" tabindex="0">
+            <div class="project-image-wrapper">
+              <img src="project-orcheeos.png" alt="Orcheeos API - Multi-agent LLM orchestration backend" class="project-image" width="600" height="340" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Orcheeos API</h3>
+              <p class="project-description">Multi-agent LLM orchestration backend powering intelligent task routing across specialized AI agents. Built with FastAPI for high-performance async endpoints and LangGraph for complex agent workflows.</p>
+              <div class="project-tags">
+                <span class="tag">FastAPI</span>
+                <span class="tag">LangGraph</span>
+              </div>
+            </div>
+          </article>
+          <!-- Project 2 -->
+          <article class="project-card" tabindex="0">
+            <div class="project-image-wrapper">
+              <img src="project-dataflow.png" alt="DataFlow Engine - Real-time pipeline processing" class="project-image" width="600" height="340" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">DataFlow Engine</h3>
+              <p class="project-description">Real-time data pipeline processing over 1 million events per day. Leverages Python for transformation logic, Redis streams for message brokering, and Docker for containerized deployments.</p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Redis</span>
+                <span class="tag">Docker</span>
+              </div>
+            </div>
+          </article>
+          <!-- Project 3 -->
+          <article class="project-card" tabindex="0">
+            <div class="project-image-wrapper">
+              <img src="project-auth.png" alt="Auth Microservice - OAuth2 JWT authentication service" class="project-image" width="600" height="340" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Auth Microservice</h3>
+              <p class="project-description">OAuth2/JWT authentication microservice handling secure user identity across distributed systems. Implements FastAPI middleware with PostgreSQL for credential storage and Redis for token blacklisting.</p>
+              <div class="project-tags">
+                <span class="tag">FastAPI</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Redis</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section experience section-hidden" aria-labelledby="experience-heading">
+      <div class="container">
+        <h2 id="experience-heading" class="section-title">Experience</h2>
+        <p class="section-subtitle">My journey as a backend engineer</p>
+        <div class="timeline">
+          <div class="timeline-item" data-delay="0">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <h3 class="timeline-period">2024 – Present</h3>
+              <h4 class="timeline-role">Senior Backend Developer</h4>
+              <p class="timeline-company">TechCorp</p>
+              <blockquote class="timeline-achievement">
+                <p>Led migration from monolithic architecture to microservices, achieving 10x throughput improvement and 99.9% uptime across 50+ services.</p>
+              </blockquote>
+            </div>
+          </div>
+          <div class="timeline-item" data-delay="150">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <h3 class="timeline-period">2022 – 2024</h3>
+              <h4 class="timeline-role">Backend Developer</h4>
+              <p class="timeline-company">StartupX</p>
+              <blockquote class="timeline-achievement">
+                <p>Built and maintained REST APIs serving over 500,000 daily active users. Designed database schema handling 2TB+ of relational data with optimized query performance.</p>
+              </blockquote>
+            </div>
+          </div>
+          <div class="timeline-item" data-delay="300">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <h3 class="timeline-period">2020 – 2022</h3>
+              <h4 class="timeline-role">Junior Developer</h4>
+              <p class="timeline-company">WebAgency</p>
+              <blockquote class="timeline-achievement">
+                <p>Developed 15+ client projects using Django and FastAPI. Implemented CI/CD pipelines reducing deployment time by 60% across all active projects.</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact section-hidden" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading" class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's discuss your next backend project</p>
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required autocomplete="name">
+            <span class="form-error" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="you@example.com" required autocomplete="email">
+            <span class="form-error" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="form-input form-textarea" rows="5" placeholder="Tell me about your project..." required></textarea>
+            <span class="form-error" aria-live="polite"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer" class="site-footer section-hidden" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-social">
+        <a href="#" class="social-link" aria-label="GitHub profile" title="GitHub">💻</a>
+        <a href="#" class="social-link" aria-label="LinkedIn profile" title="LinkedIn">🔗</a>
+        <a href="#" class="social-link" aria-label="Twitter profile" title="Twitter">🐦</a>
+      </div>
+      <p class="footer-copy">© 2025 Aymen. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

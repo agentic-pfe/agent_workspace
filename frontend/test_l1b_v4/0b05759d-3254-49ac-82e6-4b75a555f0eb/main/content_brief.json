@@ -1,0 +1,86 @@
+{
+  "page_title": "Flowdesk: Streamline Your Team's Workflow",
+  "brand_name": "Flowdesk",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#2563EB", "role": "primary buttons, headers"},
+      "secondary": {"hex": "#0D9488", "role": "section backgrounds, highlights"},
+      "accent": {"hex": "#F59E0B", "role": "CTAs, urgency indicators"},
+      "dark": {"hex": "#1E293B", "role": "text, footer background"},
+      "light": {"hex": "#F8FAFC", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "professional + modern"
+  },
+  "color_palette": {
+    "primary": "#2563EB",
+    "secondary": "#0D9488", 
+    "accent": "#F59E0B",
+    "dark": "#1E293B",
+    "light": "#F8FAFC"
+  },
+  "typography": {
+    "heading": "Montserrat",
+    "body": "Open Sans"
+  },
+  "css_classes": {
+    "header": "site-header",
+    "logo": "logo",
+    "nav": "nav-links",
+    "nav_item": "nav-link",
+    "header_cta": "header-cta",
+    "hero": "hero",
+    "hero_title": "hero-title",
+    "hero_subtitle": "hero-subtitle",
+    "features": "features-grid",
+    "feature_card": "feature-card",
+    "footer": "site-footer"
+  },
+  "header": {
+    "logo_text": "Flowdesk",
+    "cta_button": {"text": "Start Free Trial", "href": "#cta"}
+  },
+  "nav_items": [
+    {"label": "Features", "href": "#features"},
+    {"label": "How It Works", "href": "#how-it-works"},
+    {"label": "Pricing", "href": "#pricing"},
+    {"label": "Contact", "href": "#contact"}
+  ],
+  "hero_image_prompt": "Modern SaaS dashboard showing collaborative project management interface. Clean, professional workspace with multiple team members collaborating, digital kanban boards, and analytics charts. Soft blue and teal color palette, minimalist design.",
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "headline": "Simplify Team Workflows with Intelligent Project Management",
+      "subheadline": "Flowdesk combines powerful collaboration tools, AI-driven insights, and intuitive design to help your team work smarter, not harder.",
+      "cta_text": "Start Free Trial"
+    },
+    {
+      "id": "features",
+      "type": "features",
+      "cards": [
+        {
+          "title": "AI-Powered Workflow Optimization",
+          "description": "Our intelligent algorithm analyzes your team's work patterns and suggests productivity improvements in real-time.",
+          "icon": "🤖"
+        },
+        {
+          "title": "Seamless Team Collaboration",
+          "description": "Real-time messaging, task assignment, and progress tracking keep everyone aligned and informed.",
+          "icon": "👥"
+        },
+        {
+          "title": "Comprehensive Analytics Dashboard",
+          "description": "Gain deep insights into team performance, bottlenecks, and potential areas of improvement with our advanced reporting.",
+          "icon": "📊"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {"id": "hero-bg", "prompt": "Modern SaaS dashboard showing collaborative project management interface. Clean, professional workspace with multiple team members collaborating, digital kanban boards, and analytics charts. Soft blue and teal color palette, minimalist design."}
+  ]
+}

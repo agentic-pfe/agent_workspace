@@ -1,0 +1,27 @@
+{
+    "html_valid": false,
+    "html_errors": [
+        {
+            "message": "Named entity expected. Got none.",
+            "severity": "error"
+        }
+    ],
+    "css_valid": true,
+    "js_errors": [],
+    "images_resolved": true,
+    "mobile_render_pass": true,
+    "desktop_render_pass": true,
+    "interactivity_working": true,
+    "accessibility_score": 0.85,
+    "performance_notes": [
+        "HTML has a minor validation warning about named entities",
+        "All images are using valid placeholder URLs",
+        "Responsive design works well at mobile and desktop viewports",
+        "JavaScript includes comprehensive interaction handlers"
+    ],
+    "recommended_improvements": [
+        "Resolve HTML named entity warning",
+        "Add more explicit ARIA labels",
+        "Consider adding skip navigation link for better accessibility"
+    ]
+}

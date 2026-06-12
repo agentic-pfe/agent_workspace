@@ -1,0 +1,86 @@
+{
+  "page_title": "ProPlant Protein: Fuel Your Performance Naturally",
+  "brand_name": "ProPlant",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#10B981", "role": "trust, headers, buttons"},
+      "secondary": {"hex": "#8B5CF6", "role": "warmth, highlights, accents"},
+      "accent": {"hex": "#F97316", "role": "urgency, CTAs, badges"},
+      "dark": {"hex": "#1C1917", "role": "text, footer background"},
+      "light": {"hex": "#FFF7ED", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "energetic + professional"
+  },
+  "header": {
+    "logo_text": "ProPlant",
+    "cta_button": {"text": "Boost Your Performance", "href": "#cta"},
+    "nav_items": [
+      {"label": "Benefits", "href": "#benefits"},
+      {"label": "Science", "href": "#science"},
+      {"label": "Nutrition", "href": "#nutrition"},
+      {"label": "Pricing", "href": "#pricing"}
+    ]
+  },
+  "hero": {
+    "headline": "Plant-Powered Performance: Protein That Pushes Limits",
+    "subheadline": "Scientifically formulated plant-based protein that delivers maximum nutrition, faster recovery, and sustained energy for athletes who demand more.",
+    "cta_primary": "Fuel Your Potential",
+    "cta_secondary": "Learn More",
+    "image_prompt": "Dynamic fitness scene with diverse athletes in modern gym/outdoor setting. Close-up of sleek ProPlant protein powder container. Muscular individuals doing high-intensity workout, surrounded by green plants and clean, energetic lighting. Athletic wear, natural textures, vibrant green and orange color accents."
+  },
+  "sections": [
+    {
+      "heading": "Why ProPlant Stands Apart",
+      "content": "Traditional protein supplements fall short. ProPlant delivers a complete amino acid profile sourced entirely from premium plant ingredients, engineered for maximum absorption and minimal environmental impact.",
+      "image_prompt": "Split-screen comparison showing plant-based protein powder next to traditional whey, with scientific infographic elements highlighting nutritional differences."
+    }
+  ],
+  "features": [
+    {
+      "title": "Complete Protein Profile",
+      "description": "Meticulously blended from pea, hemp, and brown rice proteins to provide all 9 essential amino acids your body can't produce on its own.",
+      "icon_suggestion": "dna"
+    },
+    {
+      "title": "Rapid Recovery",
+      "description": "Clinically proven to reduce muscle soreness and accelerate post-workout recovery, helping you train harder and more consistently.",
+      "icon_suggestion": "muscle"
+    },
+    {
+      "title": "Sustainable Performance",
+      "description": "Zero compromise nutrition that's kind to your body and the planet. 70% lower carbon footprint compared to animal-based proteins.",
+      "icon_suggestion": "leaf"
+    }
+  ],
+  "social_proof": {
+    "testimonials": [
+      {
+        "quote": "ProPlant transformed my training. Clean, effective, and actually tastes amazing!",
+        "name": "Alex Rodriguez",
+        "title": "Professional Crossfit Athlete"
+      }
+    ],
+    "certifications": ["Informed Sport Certified", "Vegan Approved", "Non-GMO Project Verified"]
+  },
+  "cta_section": {
+    "headline": "Your Performance, Amplified",
+    "subheadline": "Join thousands of athletes who've upgraded their nutrition with ProPlant.",
+    "button_text": "Start Your Transformation"
+  },
+  "footer": {
+    "copyright": "© 2024 ProPlant Nutrition. All Rights Reserved.",
+    "social_links": ["Instagram", "YouTube", "Facebook"],
+    "contact": "support@proplant.com | 1-800-PLANT-UP"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "Dynamic fitness scene with diverse athletes in modern gym/outdoor setting. Close-up of sleek ProPlant protein powder container. Muscular individuals doing high-intensity workout, surrounded by green plants and clean, energetic lighting. Athletic wear, natural textures, vibrant green and orange color accents.",
+      "style": "photo"
+    }
+  ]
+}

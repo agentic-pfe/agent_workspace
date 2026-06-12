@@ -1,0 +1,109 @@
+{
+  "brand_name": "Forma Studio",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#1D4ED8", "role": "headers, primary actions"},
+      "secondary": {"hex": "#7C3AED", "role": "highlights, secondary elements"},
+      "accent": {"hex": "#F97316", "role": "CTAs, urgent actions"},
+      "dark": {"hex": "#111827", "role": "text, footer background"},
+      "light": {"hex": "#F3F4F6", "role": "background sections"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "modern + minimalist"
+  },
+  "pages": {
+    "home": {
+      "hero_image_prompt": "Minimalist design studio workspace with sleek geometric furniture, soft natural light, muted earth tones, abstract design tools and sketches",
+      "headline": "Design that Shapes the Future",
+      "subheadline": "We craft digital experiences that transform brands and elevate technology",
+      "cta_primary": "View Our Work",
+      "cta_secondary": "Start a Project"
+    },
+    "about": {
+      "hero_image_prompt": "Creative team collaborating, modern studio with large windows, architectural models, design sketches on walls, soft minimalist lighting",
+      "agency_story": "Founded in 2020, Forma Studio emerged from a shared vision: to create design that transcends aesthetics and drives meaningful innovation.",
+      "team": [
+        {
+          "name": "Elena Rodriguez",
+          "role": "Creative Director",
+          "description": "A visionary designer with 15 years of experience in digital transformation"
+        },
+        {
+          "name": "Marcus Chen",
+          "role": "Design Strategy Lead",
+          "description": "Expert in user experience and brand storytelling across tech and creative industries"
+        },
+        {
+          "name": "Aria Patel",
+          "role": "Technical Design Director",
+          "description": "Bridging the gap between design innovation and technical execution"
+        }
+      ],
+      "values": [
+        {
+          "name": "Clarity",
+          "description": "We believe great design communicates without complexity"
+        },
+        {
+          "name": "Craft",
+          "description": "Every pixel, every interaction is intentional and meticulously considered"
+        },
+        {
+          "name": "Collaboration",
+          "description": "We partner with clients as co-creators, not just service providers"
+        }
+      ]
+    },
+    "work": {
+      "hero_image_prompt": "Elegant portfolio wall with large minimalist project displays, soft shadows, clean white gallery-like space",
+      "portfolio_intro": "Our Work Speaks for Itself",
+      "projects": [
+        {
+          "name": "Lumina Branding",
+          "client": "Wellness Startup",
+          "description": "Comprehensive identity system that captures holistic wellness through clean, organic visual language"
+        },
+        {
+          "name": "Nexus Platform",
+          "client": "Enterprise SaaS",
+          "description": "User interface redesign that simplified complex workflows and increased user engagement by 40%"
+        },
+        {
+          "name": "Verdant Mobile App",
+          "client": "Sustainability Tech",
+          "description": "Mobile experience design focusing on intuitive carbon tracking and environmental impact visualization"
+        },
+        {
+          "name": "Quantum Robotics",
+          "client": "Robotics Research Firm",
+          "description": "Brand identity and digital presence that communicates cutting-edge technological innovation"
+        },
+        {
+          "name": "Pulse Health",
+          "client": "Telemedicine Platform",
+          "description": "Comprehensive design system creating trust and accessibility in digital healthcare experiences"
+        },
+        {
+          "name": "Horizon Education",
+          "client": "EdTech Startup",
+          "description": "Learning platform design that makes complex educational content engaging and approachable"
+        }
+      ]
+    },
+    "contact": {
+      "hero_image_prompt": "Minimalist contact space with geometric design elements, soft lighting, abstract representation of connection and communication",
+      "headline": "Let's Build Something Together",
+      "subheadline": "Ready to transform your digital presence? We're excited to hear about your project.",
+      "form_guidance": {
+        "name": "Share your full name — how should we address you?",
+        "company": "Tell us about your organization and its design needs",
+        "project": "Describe your project vision, challenges, and goals",
+        "budget": "What's your estimated budget range for this project?",
+        "timeline": "When are you looking to start and complete this project?"
+      }
+    }
+  }
+}

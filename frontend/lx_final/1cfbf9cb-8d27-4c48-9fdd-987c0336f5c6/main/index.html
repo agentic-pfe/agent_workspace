@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level X Works</title>
+  <style>
+    /* ── RESET ──────────────────────────────── */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ── DESIGN TOKENS ──────────────────────── */
+    :root {
+      --bg-dark: #111;
+      --text-primary: #fff;
+      --text-secondary: #ccc;
+      --accent: #f72585;
+      --btn-bg: #4361ee;
+      --btn-hover: #3651d4;
+      --shadow-btn: 0 4px 12px rgba(67, 97, 238, 0.4);
+      --shadow-btn-hover: 0 6px 20px rgba(67, 97, 238, 0.6);
+      --space-sm: 0.75rem;
+      --space-md: 1.5rem;
+      --space-lg: 2.5rem;
+      --space-xl: 4rem;
+    }
+
+    /* ── BASE ───────────────────────────────── */
+    html {
+      font-size: 100%;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.7;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── SKIP LINK (a11y) ──────────────────── */
+    .skip-link {
+      position: absolute;
+      top: -100%;
+      left: var(--space-md);
+      background: var(--accent);
+      color: var(--text-primary);
+      padding: var(--space-sm) var(--space-md);
+      border-radius: 0 0 6px 6px;
+      z-index: 1000;
+      font-weight: 600;
+      text-decoration: none;
+      transition: top 0.2s ease;
+    }
+    .skip-link:focus {
+      top: 0;
+    }
+
+    /* ── HEADER / NAVIGATION ───────────────── */
+    .site-header {
+      padding: var(--space-md) var(--space-md);
+      border-bottom: 1px solid #222;
+      position: relative;
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-sm);
+    }
+
+    .logo {
+      font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    .logo span {
+      color: var(--accent);
+    }
+
+    .nav-links {
+      display: none;
+      list-style: none;
+      gap: var(--space-md);
+    }
+
+    .nav-links.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #1a1a1a;
+      padding: var(--space-md);
+      border-bottom: 1px solid #333;
+      z-index: 100;
+    }
+
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: var(--space-sm) 0;
+      transition: color 0.2s ease;
+      display: block;
+    }
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--text-primary);
+      outline: none;
+    }
+    .nav-links a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 4px;
+      border-radius: 2px;
+    }
+
+    .mobile-menu-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: none;
+      border: 1px solid #333;
+      color: var(--text-primary);
+      font-size: 1.5rem;
+      cursor: pointer;
+      padding: 0.4rem 0.6rem;
+      border-radius: 4px;
+      line-height: 1;
+    }
+    .mobile-menu-toggle:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
+    .mobile-menu-toggle[aria-expanded="true"] {
+      background: #222;
+    }
+
+    /* ── MAIN CONTENT ──────────────────────── */
+    .site-main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-lg) var(--space-md);
+    }
+
+    .hero {
+      text-align: center;
+      max-width: 640px;
+    }
+
+    /* ── TYPOGRAPHY ────────────────────────── */
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: var(--space-sm);
+      line-height: 1.15;
+    }
+
+    p {
+      font-size: clamp(0.95rem, 2vw, 1.125rem);
+      max-width: 36rem;
+      margin: 0 auto var(--space-md);
+      color: var(--text-secondary);
+    }
+
+    /* ── ACCENT LINE ───────────────────────── */
+    .accent-line {
+      width: clamp(3rem, 8vw, 5rem);
+      height: 3px;
+      background: var(--accent);
+      border-radius: 2px;
+      margin: 0 auto var(--space-md);
+    }
+
+    /* ── BUTTON ────────────────────────────── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.85rem 2.25rem;
+      border: none;
+      border-radius: 8px;
+      background: var(--btn-bg);
+      color: var(--text-primary);
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: var(--shadow-btn);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+      font-family: inherit;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-btn-hover);
+      background: var(--btn-hover);
+    }
+
+    .btn:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 3px;
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    /* ── FOOTER ────────────────────────────── */
+    .site-footer {
+      border-top: 1px solid #222;
+      padding: var(--space-md);
+      text-align: center;
+    }
+
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-md);
+    }
+
+    .site-footer p {
+      margin: 0;
+      font-size: 0.85rem;
+      color: #666;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      gap: var(--space-md);
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .footer-links a {
+      color: #666;
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s ease;
+    }
+    .footer-links a:hover,
+    .footer-links a:focus-visible {
+      color: var(--text-secondary);
+      outline: none;
+    }
+    .footer-links a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+
+    /* ── RESPONSIVE BREAKPOINTS ────────────── */
+    /* Tablet 768px+ */
+    @media (min-width: 768px) {
+      .mobile-menu-toggle {
+        display: none;
+      }
+      .nav-links {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background: transparent;
+        padding: 0;
+        border: none;
+      }
+      .nav-links.active {
+        position: static;
+        background: transparent;
+        padding: 0;
+        border: none;
+      }
+      .hero {
+        max-width: 700px;
+      }
+    }
+
+    /* Desktop 1024px+ */
+    @media (min-width: 1024px) {
+      .site-main {
+        padding: var(--space-xl) var(--space-md);
+      }
+      h1 {
+        letter-spacing: -0.04em;
+      }
+    }
+
+    /* Large Desktop 1280px+ */
+    @media (min-width: 1280px) {
+      .hero {
+        max-width: 760px;
+      }
+    }
+
+    /* ── REDUCED MOTION (a11y) ────────────── */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Skip navigation link for keyboard users -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header with navigation -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="Level X Works home">
+        Level<span>X</span> Works
+      </a>
+
+      <!-- Mobile menu toggle button -->
+      <button
+        class="mobile-menu-toggle"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Toggle navigation menu"
+        id="menu-toggle"
+      >
+        &#9776;
+      </button>
+
+      <!-- Primary navigation -->
+      <nav id="primary-nav" aria-label="Primary navigation">
+        <ul class="nav-links" id="nav-list">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content area -->
+  <main class="site-main" id="main-content">
+    <section class="hero" aria-labelledby="hero-heading">
+      <h1 id="hero-heading">Level X Works</h1>
+      <div class="accent-line" aria-hidden="true"></div>
+      <p>
+        We design and build next-generation digital experiences &mdash; fusing clean code with
+        bold visuals to help brands break through the noise and connect with their audience.
+      </p>
+      <button class="btn" type="button" aria-label="Get started with Level X Works">
+        Get Started
+      </button>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p>&copy; 2025 Level X Works. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#privacy">Privacy</a></li>
+        <li><a href="#terms">Terms</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Tiny mobile nav toggle -->
+  <script>
+    (function() {
+      var toggle = document.getElementById('menu-toggle');
+      var navList = document.getElementById('nav-list');
+
+      if (toggle && navList) {
+        toggle.addEventListener('click', function() {
+          var expanded = toggle.getAttribute('aria-expanded') === 'true';
+          toggle.setAttribute('aria-expanded', !expanded);
+          navList.classList.toggle('active');
+        });
+      }
+    })();
+  </script>
+
+</body>
+</html>

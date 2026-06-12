@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Forma Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="home.html" class="nav-logo">Forma Studio</a>
+            <nav>
+                <div class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    ☰
+                </div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section contact-hero">
+            <div class="container">
+                <h1>Let's Create Something Remarkable</h1>
+                <p>Have a project in mind? We'd love to hear from you.</p>
+            </div>
+        </section>
+
+        <section class="section contact-form">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="project">Project Details</label>
+                        <textarea id="project" name="project" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                    <div class="form-error" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+
+        <section class="section contact-info">
+            <div class="container">
+                <h2 class="section-title">Our Location</h2>
+                <div class="grid grid-3">
+                    <div class="card">
+                        <h3>Studio Address</h3>
+                        <p>123 Design Street<br>Creative District<br>San Francisco, CA 94105</p>
+                    </div>
+                    <div class="card">
+                        <h3>Contact Hours</h3>
+                        <p>Monday - Friday<br>9:00 AM - 6:00 PM PST</p>
+                    </div>
+                    <div class="card">
+                        <h3>Connect Online</h3>
+                        <p>Email: hello@formastudio.com<br>Phone: (415) 555-FORM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2023 Forma Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

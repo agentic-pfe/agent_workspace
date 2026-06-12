@@ -1,0 +1,43 @@
+{
+    "design_tokens": {
+        "palette": {
+            "primary": {"hex": "#4F46E5", "role": "headers, buttons, highlights"},
+            "secondary": {"hex": "#1F2937", "role": "text, dark backgrounds"},
+            "accent": {"hex": "#EF4444", "role": "CTAs, urgent actions"},
+            "dark": {"hex": "#111827", "role": "deep backgrounds"},
+            "light": {"hex": "#F9FAFB", "role": "section backgrounds"}
+        },
+        "typography": {
+            "heading": "Inter",
+            "body": "Inter"
+        },
+        "mood": "professional + modern"
+    },
+    "hero": {
+        "headline": "Streamline Your Team's Productivity with Flowdesk",
+        "subheadline": "Intelligent project management that transforms how remote teams collaborate, automate, and achieve more.",
+        "cta_text": "Start Free Trial",
+        "hero_image_prompt": "Modern digital workspace with abstract holographic UI elements, showing multiple screens with project management dashboards, soft blue and purple gradient background, clean minimalist design"
+    },
+    "features": [
+        {
+            "title": "Smart Collaboration",
+            "description": "Break down communication barriers with our AI-powered collaboration tools. Real-time messaging, integrated video conferencing, and contextual task sharing ensure your team stays connected, no matter where they are.",
+            "icon_prompt": "Digital network connection icon with interconnected nodes, glowing blue lines, minimalist tech style"
+        },
+        {
+            "title": "Workflow Automation",
+            "description": "Eliminate repetitive tasks and reduce human error. Flowdesk's intelligent automation learns from your team's patterns, creating custom workflows that save time and increase efficiency across projects.",
+            "icon_prompt": "Robotic arm connecting digital workflow elements, clean line art, gradient purple and blue colors"
+        },
+        {
+            "title": "Advanced Analytics",
+            "description": "Gain unprecedented insights into your team's performance. Our real-time analytics dashboard provides actionable metrics, helping you identify bottlenecks, predict project risks, and optimize team productivity.",
+            "icon_prompt": "Holographic analytics dashboard with rising graph lines, data visualization elements, modern tech aesthetic"
+        }
+    ],
+    "footer": {
+        "mission": "Flowdesk empowers distributed teams to work smarter, not harder. Our mission is to break down geographical barriers and create a seamless, intelligent workspace for the modern workforce.",
+        "copyright": "© 2024 Flowdesk Technologies. All rights reserved."
+    }
+}

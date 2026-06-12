@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DashFlow – Analytics Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ========== SIDEBAR ========== -->
+  <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+    <div class="sidebar-logo">
+      <span class="sidebar-logo-icon">⚡</span>
+      <span class="sidebar-logo-text">DashFlow</span>
+    </div>
+    <nav class="sidebar-nav" aria-label="Primary navigation">
+      <ul class="sidebar-nav-list">
+        <li class="sidebar-nav-item">
+          <a href="#dashboard" class="sidebar-nav-link active" data-nav="dashboard" aria-current="page">
+            <span class="nav-icon" aria-hidden="true">📊</span>
+            <span class="nav-label">Dashboard</span>
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="#analytics" class="sidebar-nav-link" data-nav="analytics">
+            <span class="nav-icon" aria-hidden="true">📈</span>
+            <span class="nav-label">Analytics</span>
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="#users" class="sidebar-nav-link" data-nav="users">
+            <span class="nav-icon" aria-hidden="true">👥</span>
+            <span class="nav-label">Users</span>
+          </a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="#settings" class="sidebar-nav-link" data-nav="settings">
+            <span class="nav-icon" aria-hidden="true">⚙️</span>
+            <span class="nav-label">Settings</span>
+          </a>
+        </li>
+        <li class="sidebar-nav-item sidebar-nav-item--logout">
+          <a href="#logout" class="sidebar-nav-link" data-nav="logout">
+            <span class="nav-icon" aria-hidden="true">🚪</span>
+            <span class="nav-label">Logout</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- ========== MAIN CONTENT AREA ========== -->
+  <main class="main-content" id="main-content">
+    <!-- ========== TOP BAR ========== -->
+    <header class="top-bar" role="banner" aria-label="Top bar">
+      <div class="top-bar-search">
+        <label for="global-search" class="sr-only">Search</label>
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input
+          type="text"
+          id="global-search"
+          class="search-input"
+          placeholder="Search..."
+          aria-label="Search"
+        >
+      </div>
+      <div class="top-bar-actions">
+        <div class="notification-wrapper" id="notification-wrapper">
+          <button
+            class="notification-bell"
+            id="notification-bell"
+            aria-label="Notifications"
+            aria-expanded="false"
+            aria-haspopup="true"
+          >
+            <span class="bell-icon" aria-hidden="true">🔔</span>
+            <span class="notification-badge" id="notification-badge" aria-label="3 unread notifications">3</span>
+          </button>
+          <div class="notification-dropdown" id="notification-dropdown" role="menu" aria-label="Notifications" hidden>
+            <div class="notification-dropdown-header">
+              <span class="notification-dropdown-title">Notifications</span>
+              <span class="notification-dropdown-count">3 unread</span>
+            </div>
+            <ul class="notification-list">
+              <li class="notification-item notification-item--unread" role="menuitem">
+                <span class="notification-dot" aria-hidden="true"></span>
+                <div class="notification-text">
+                  <span class="notification-message">New user registered: Sarah Chen</span>
+                  <span class="notification-time">5 min ago</span>
+                </div>
+              </li>
+              <li class="notification-item notification-item--unread" role="menuitem">
+                <span class="notification-dot" aria-hidden="true"></span>
+                <div class="notification-text">
+                  <span class="notification-message">Server load high: 92% CPU</span>
+                  <span class="notification-time">22 min ago</span>
+                </div>
+              </li>
+              <li class="notification-item" role="menuitem">
+                <span class="notification-dot" aria-hidden="true"></span>
+                <div class="notification-text">
+                  <span class="notification-message">Weekly report generated</span>
+                  <span class="notification-time">2 hours ago</span>
+                </div>
+              </li>
+              <li class="notification-item" role="menuitem">
+                <span class="notification-dot" aria-hidden="true"></span>
+                <div class="notification-text">
+                  <span class="notification-message">Billing invoice #INV-482 ready</span>
+                  <span class="notification-time">5 hours ago</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="user-avatar-wrapper">
+          <button class="user-avatar" id="user-avatar" aria-label="User menu for John Doe">
+            <span class="avatar-initials">JD</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ========== DASHBOARD CONTENT ========== -->
+    <div class="dashboard-content" id="dashboard-content">
+
+      <!-- ========== KPI CARDS ========== -->
+      <section class="kpi-grid" aria-label="Key Performance Indicators">
+        <article class="kpi-card kpi-card--success" data-target="24512" data-suffix="" data-prefix="">
+          <div class="kpi-card-accent" aria-hidden="true"></div>
+          <div class="kpi-card-body">
+            <div class="kpi-card-header">
+              <span class="kpi-card-icon" aria-hidden="true">👥</span>
+              <span class="kpi-card-title">Total Users</span>
+            </div>
+            <span class="kpi-card-value" id="kpi-value-0">0</span>
+            <span class="kpi-card-change kpi-card-change--up">
+              <span class="change-arrow" aria-hidden="true">▲</span> +12%
+            </span>
+          </div>
+        </article>
+
+        <article class="kpi-card kpi-card--success" data-target="48320" data-suffix="" data-prefix="$">
+          <div class="kpi-card-accent" aria-hidden="true"></div>
+          <div class="kpi-card-body">
+            <div class="kpi-card-header">
+              <span class="kpi-card-icon" aria-hidden="true">💰</span>
+              <span class="kpi-card-title">Revenue</span>
+            </div>
+            <span class="kpi-card-value" id="kpi-value-1">$0</span>
+            <span class="kpi-card-change kpi-card-change--up">
+              <span class="change-arrow" aria-hidden="true">▲</span> +8.3%
+            </span>
+          </div>
+        </article>
+
+        <article class="kpi-card kpi-card--danger" data-target="1847" data-suffix="" data-prefix="">
+          <div class="kpi-card-accent" aria-hidden="true"></div>
+          <div class="kpi-card-body">
+            <div class="kpi-card-header">
+              <span class="kpi-card-icon" aria-hidden="true">📊</span>
+              <span class="kpi-card-title">Active Sessions</span>
+            </div>
+            <span class="kpi-card-value" id="kpi-value-2">0</span>
+            <span class="kpi-card-change kpi-card-change--down">
+              <span class="change-arrow" aria-hidden="true">▼</span> -3.2%
+            </span>
+          </div>
+        </article>
+
+        <article class="kpi-card kpi-card--danger" data-target="24.8" data-suffix="%" data-prefix="">
+          <div class="kpi-card-accent" aria-hidden="true"></div>
+          <div class="kpi-card-body">
+            <div class="kpi-card-header">
+              <span class="kpi-card-icon" aria-hidden="true">📉</span>
+              <span class="kpi-card-title">Bounce Rate</span>
+            </div>
+            <span class="kpi-card-value" id="kpi-value-3">0%</span>
+            <span class="kpi-card-change kpi-card-change--down">
+              <span class="change-arrow" aria-hidden="true">▼</span> -5.1%
+            </span>
+          </div>
+        </article>
+      </section>
+
+      <!-- ========== CHARTS ROW ========== -->
+      <section class="charts-row" aria-label="Analytics Charts">
+        <!-- Bar Chart Panel -->
+        <div class="chart-panel" aria-label="Monthly Revenue Bar Chart">
+          <h3 class="chart-panel-title">Monthly Revenue</h3>
+          <div class="bar-chart-container" id="bar-chart-container">
+            <svg class="bar-chart-svg" viewBox="0 0 600 280" preserveAspectRatio="xMidYMid meet" aria-label="Bar chart showing monthly revenue from January to June">
+              <!-- Y-axis grid lines and labels will be positioned by CSS/JS -->
+              <g class="bar-chart-grid" aria-hidden="true">
+                <line x1="60" y1="20" x2="580" y2="20" stroke="#334155" stroke-width="0.5"/>
+                <line x1="60" y1="70" x2="580" y2="70" stroke="#334155" stroke-width="0.5"/>
+                <line x1="60" y1="120" x2="580" y2="120" stroke="#334155" stroke-width="0.5"/>
+                <line x1="60" y1="170" x2="580" y2="170" stroke="#334155" stroke-width="0.5"/>
+                <line x1="60" y1="220" x2="580" y2="220" stroke="#334155" stroke-width="0.5"/>
+              </g>
+              <!-- Y-axis labels -->
+              <g class="bar-chart-y-labels" fill="#94a3b8" font-size="11" font-family="Inter, sans-serif" aria-hidden="true">
+                <text x="52" y="24" text-anchor="end">$10k</text>
+                <text x="52" y="74" text-anchor="end">$8k</text>
+                <text x="52" y="124" text-anchor="end">$6k</text>
+                <text x="52" y="174" text-anchor="end">$4k</text>
+                <text x="52" y="224" text-anchor="end">$2k</text>
+                <text x="52" y="260" text-anchor="end">$0</text>
+              </g>
+              <!-- Bars -->
+              <g class="bar-chart-bars" id="bar-chart-bars">
+                <!-- Jan: 5.2k -->
+                <rect class="bar-chart-bar" data-value="5200" data-label="$5.2k" x="85" y="250" width="55" height="0" fill="#38bdf8" rx="3" ry="3">
+                  <title>$5.2k – January</title>
+                </rect>
+                <!-- Feb: 6.1k -->
+                <rect class="bar-chart-bar" data-value="6100" data-label="$6.1k" x="165" y="250" width="55" height="0" fill="#38bdf8" rx="3" ry="3">
+                  <title>$6.1k – February</title>
+                </rect>
+                <!-- Mar: 7.8k -->
+                <rect class="bar-chart-bar" data-value="7800" data-label="$7.8k" x="245" y="250" width="55" height="0" fill="#38bdf8" rx="3" ry="3">
+                  <title>$7.8k – March</title>
+                </rect>
+                <!-- Apr: 6.9k -->
+                <rect class="bar-chart-bar" data-value="6900" data-label="$6.9k" x="325" y="250" width="55" height="0" fill="#38bdf8" rx="3" ry="3">
+                  <title>$6.9k – April</title>
+                </rect>
+                <!-- May: 8.3k -->
+                <rect class="bar-chart-bar" data-value="8300" data-label="$8.3k" x="405" y="250" width="55" height="0" fill="#38bdf8" rx="3" ry="3">
+                  <title>$8.3k – May</title>
+                </rect>
+                <!-- Jun: 9.1k -->
+                <rect class="bar-chart-bar" data-value="9100" data-label="$9.1k" x="485" y="250" width="55" height="0" fill="#38bdf8" rx="3" ry="3">
+                  <title>$9.1k – June</title>
+                </rect>
+              </g>
+              <!-- X-axis month labels -->
+              <g class="bar-chart-x-labels" fill="#94a3b8" font-size="11" font-family="Inter, sans-serif" text-anchor="middle" aria-hidden="true">
+                <text x="112" y="270">Jan</text>
+                <text x="192" y="270">Feb</text>
+                <text x="272" y="270">Mar</text>
+                <text x="352" y="270">Apr</text>
+                <text x="432" y="270">May</text>
+                <text x="512" y="270">Jun</text>
+              </g>
+            </svg>
+            <!-- Tooltip -->
+            <div class="bar-tooltip" id="bar-tooltip" role="tooltip" aria-hidden="true" hidden></div>
+          </div>
+        </div>
+
+        <!-- Donut Chart Panel -->
+        <div class="chart-panel" aria-label="Traffic Sources Donut Chart">
+          <h3 class="chart-panel-title">Traffic Sources</h3>
+          <div class="donut-chart-container" id="donut-chart-container">
+            <svg class="donut-chart-svg" viewBox="0 0 200 200" aria-label="Donut chart of traffic sources: Organic 42%, Direct 28%, Referral 18%, Social 12%">
+              <!-- Background circle -->
+              <circle cx="100" cy="90" r="70" fill="none" stroke="#1e293b" stroke-width="28" aria-hidden="true"/>
+              <!-- Animated segments -->
+              <circle class="donut-segment" id="donut-seg-0" cx="100" cy="90" r="70" fill="none"
+                stroke="#38bdf8" stroke-width="28"
+                stroke-dasharray="0 440" stroke-dashoffset="0"
+                stroke-linecap="butt" transform="rotate(-90 100 90)"
+                data-pct="42" aria-hidden="true"/>
+              <circle class="donut-segment" id="donut-seg-1" cx="100" cy="90" r="70" fill="none"
+                stroke="#818cf8" stroke-width="28"
+                stroke-dasharray="0 440" stroke-dashoffset="0"
+                stroke-linecap="butt" transform="rotate(-90 100 90)"
+                data-pct="28" aria-hidden="true"/>
+              <circle class="donut-segment" id="donut-seg-2" cx="100" cy="90" r="70" fill="none"
+                stroke="#f59e0b" stroke-width="28"
+                stroke-dasharray="0 440" stroke-dashoffset="0"
+                stroke-linecap="butt" transform="rotate(-90 100 90)"
+                data-pct="18" aria-hidden="true"/>
+              <circle class="donut-segment" id="donut-seg-3" cx="100" cy="90" r="70" fill="none"
+                stroke="#10b981" stroke-width="28"
+                stroke-dasharray="0 440" stroke-dashoffset="0"
+                stroke-linecap="butt" transform="rotate(-90 100 90)"
+                data-pct="12" aria-hidden="true"/>
+              <!-- Center text -->
+              <text class="donut-center-text" x="100" y="85" text-anchor="middle" fill="#e2e8f0" font-size="22" font-weight="700" font-family="Inter, sans-serif">100%</text>
+              <text class="donut-center-sub" x="100" y="105" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="Inter, sans-serif">Total</text>
+            </svg>
+            <!-- Legend -->
+            <ul class="donut-legend" aria-label="Traffic sources legend">
+              <li class="donut-legend-item">
+                <span class="legend-dot" style="background-color:#38bdf8" aria-hidden="true"></span>
+                <span class="legend-label">Organic</span>
+                <span class="legend-value">42%</span>
+              </li>
+              <li class="donut-legend-item">
+                <span class="legend-dot" style="background-color:#818cf8" aria-hidden="true"></span>
+                <span class="legend-label">Direct</span>
+                <span class="legend-value">28%</span>
+              </li>
+              <li class="donut-legend-item">
+                <span class="legend-dot" style="background-color:#f59e0b" aria-hidden="true"></span>
+                <span class="legend-label">Referral</span>
+                <span class="legend-value">18%</span>
+              </li>
+              <li class="donut-legend-item">
+                <span class="legend-dot" style="background-color:#10b981" aria-hidden="true"></span>
+                <span class="legend-label">Social</span>
+                <span class="legend-value">12%</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== RECENT USERS TABLE ========== -->
+      <section class="users-section" aria-label="Recent Users">
+        <div class="users-section-header">
+          <h3 class="users-section-title">Recent Users</h3>
+          <div class="users-search-wrapper">
+            <label for="users-search" class="sr-only">Filter users</label>
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input
+              type="text"
+              id="users-search"
+              class="users-search-input"
+              placeholder="Filter users..."
+              aria-label="Filter users by name, email, or role"
+            >
+          </div>
+        </div>
+        <div class="table-wrapper">
+          <table class="users-table" aria-label="Recent users list">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Role</th>
+                <th scope="col">Status</th>
+                <th scope="col">Last Login</th>
+              </tr>
+            </thead>
+            <tbody id="users-table-body">
+              <tr class="users-table-row">
+                <td class="users-table-name">Emma Watson</td>
+                <td class="users-table-email">emma.watson@example.com</td>
+                <td class="users-table-role">Admin</td>
+                <td><span class="status-badge status-badge--active">Active</span></td>
+                <td class="users-table-login">2025-03-21 14:32</td>
+              </tr>
+              <tr class="users-table-row">
+                <td class="users-table-name">Marcus Rivera</td>
+                <td class="users-table-email">marcus.r@example.com</td>
+                <td class="users-table-role">Editor</td>
+                <td><span class="status-badge status-badge--active">Active</span></td>
+                <td class="users-table-login">2025-03-21 11:15</td>
+              </tr>
+              <tr class="users-table-row">
+                <td class="users-table-name">Aisha Khan</td>
+                <td class="users-table-email">aisha.khan@example.com</td>
+                <td class="users-table-role">Viewer</td>
+                <td><span class="status-badge status-badge--inactive">Inactive</span></td>
+                <td class="users-table-login">2025-03-20 09:48</td>
+              </tr>
+              <tr class="users-table-row">
+                <td class="users-table-name">David Chen</td>
+                <td class="users-table-email">david.chen@example.com</td>
+                <td class="users-table-role">Editor</td>
+                <td><span class="status-badge status-badge--active">Active</span></td>
+                <td class="users-table-login">2025-03-20 16:20</td>
+              </tr>
+              <tr class="users-table-row">
+                <td class="users-table-name">Laura Simmons</td>
+                <td class="users-table-email">laura.s@example.com</td>
+                <td class="users-table-role">Viewer</td>
+                <td><span class="status-badge status-badge--inactive">Inactive</span></td>
+                <td class="users-table-login">2025-03-19 08:05</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ========== ACTIVITY FEED ========== -->
+      <section class="activity-feed" aria-label="Activity Feed">
+        <h3 class="activity-feed-title">Activity Feed</h3>
+        <div class="activity-timeline" aria-label="Recent activity timeline">
+          <div class="activity-item">
+            <div class="activity-dot" aria-hidden="true"></div>
+            <div class="activity-content">
+              <span class="activity-emoji" aria-hidden="true">📝</span>
+              <span class="activity-text">Uploaded new monthly report</span>
+              <span class="activity-time">2 min ago</span>
+            </div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-dot" aria-hidden="true"></div>
+            <div class="activity-content">
+              <span class="activity-emoji" aria-hidden="true">💬</span>
+              <span class="activity-text">Commented on ticket #452</span>
+              <span class="activity-time">1 hour ago</span>
+            </div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-dot" aria-hidden="true"></div>
+            <div class="activity-content">
+              <span class="activity-emoji" aria-hidden="true">⬆️</span>
+              <span class="activity-text">Deployed version 2.4.1 to production</span>
+              <span class="activity-time">3 hours ago</span>
+            </div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-dot" aria-hidden="true"></div>
+            <div class="activity-content">
+              <span class="activity-emoji" aria-hidden="true">👤</span>
+              <span class="activity-text">New team member Emma Watson joined</span>
+              <span class="activity-time">5 hours ago</span>
+            </div>
+          </div>
+          <div class="activity-item">
+            <div class="activity-dot" aria-hidden="true"></div>
+            <div class="activity-content">
+              <span class="activity-emoji" aria-hidden="true">🔔</span>
+              <span class="activity-text">Scheduled maintenance completed</span>
+              <span class="activity-time">1 day ago</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+{
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#2563EB", "role": "headers, primary actions"},
+      "secondary": {"hex": "#10B981", "role": "highlights, secondary actions"},
+      "accent": {"hex": "#F59E0B", "role": "CTAs, urgent elements"},
+      "dark": {"hex": "#1E293B", "role": "text, dark backgrounds"},
+      "light": {"hex": "#F8FAFC", "role": "background sections"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "professional, modern, tech-forward"
+  },
+  "header": {
+    "logo_text": "Stackr",
+    "cta_button": {"text": "Start Free Trial", "href": "#cta"},
+    "nav_items": [
+      {"label": "Features", "href": "#features"},
+      {"label": "Pricing", "href": "#pricing"},
+      {"label": "Testimonials", "href": "#testimonials"},
+      {"label": "Contact", "href": "#contact"}
+    ]
+  },
+  "hero": {
+    "headline": "Streamline Your Team's Workflow",
+    "subheadline": "Stackr is the all-in-one project management platform that transforms how teams collaborate and deliver.",
+    "cta_text": "Get Started Free",
+    "hero_image_prompt": "Modern SaaS dashboard showing collaborative project management interface. Clean, minimalist design with blue and green UI elements. Multiple team members working together across devices."
+  },
+  "features": [
+    {
+      "title": "Real-Time Collaboration",
+      "description": "Sync tasks, chat, and updates instantly across your entire team's workspace."
+    },
+    {
+      "title": "Smart Task Tracking",
+      "description": "AI-powered task prioritization and progress monitoring to keep projects on track."
+    },
+    {
+      "title": "Seamless Integrations",
+      "description": "Connect with your favorite tools: Slack, GitHub, Trello, and more."
+    },
+    {
+      "title": "Advanced Reporting",
+      "description": "Comprehensive analytics and customizable dashboards for deep insights."
+    },
+    {
+      "title": "Secure Sharing",
+      "description": "Enterprise-grade security with granular permission controls."
+    }
+  ],
+  "pricing": {
+    "tiers": [
+      {
+        "name": "Starter",
+        "price": "$9",
+        "features": [
+          "Up to 5 Users",
+          "Basic Collaboration Tools",
+          "Community Support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$29",
+        "features": [
+          "Up to 25 Users",
+          "Advanced Reporting",
+          "Priority Support",
+          "Custom Integrations"
+        ],
+        "recommended": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "features": [
+          "Unlimited Users",
+          "Full Feature Set",
+          "Dedicated Account Manager",
+          "24/7 Enterprise Support"
+        ]
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Stackr revolutionized how our distributed team collaborates. It's like having a project management superpower!",
+      "name": "Sarah Chen",
+      "title": "CTO, TechInnovate",
+      "avatar": "sarah.jpg"
+    },
+    {
+      "quote": "We reduced project delivery times by 40% after implementing Stackr. Absolutely game-changing.",
+      "name": "Michael Rodriguez",
+      "title": "CEO, DataDrive Solutions",
+      "avatar": "michael.jpg"
+    }
+  ]
+}

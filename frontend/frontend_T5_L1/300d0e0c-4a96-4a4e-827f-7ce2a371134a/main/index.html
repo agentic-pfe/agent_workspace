@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaultly: Personal Finance Mastery for the Modern Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div class="container">
+            <a href="#" class="logo" aria-label="Vaultly Home">Vaultly</a>
+            <nav role="navigation">
+                <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="sr-only">Toggle Navigation</span>
+                    ☰
+                </button>
+                <ul id="nav-menu" class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+            <a href="#cta" class="header-cta">Start Managing</a>
+        </div>
+    </header>
+
+    <main role="main">
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Take Control of Your Financial Future</h1>
+                    <p class="hero-subheadline">Vaultly empowers young professionals to transform financial stress into strategic wealth-building with intelligent, user-friendly personal finance management.</p>
+                    <div class="hero-cta-group">
+                        <a href="#cta" class="btn btn-primary">Get Started Free</a>
+                        <a href="#demo" class="btn btn-secondary">Watch Demo</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="hero-image.png" alt="Vaultly Financial Dashboard" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <h2>Powerful Features for Financial Mastery</h2>
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Secure Your Future</h3>
+                        <p>Automated investment tracking and personalized growth strategies tailored to your unique financial goals. We analyze your spending, recommend smart savings plans, and project your long-term financial trajectory.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Smart Budgeting</h3>
+                        <p>Intelligent expense categorization that learns your spending patterns. Get real-time insights, automatic budget recommendations, and actionable tips to optimize your financial health without the complexity.</p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Instant Insights</h3>
+                        <p>Comprehensive financial overview at your fingertips. Track investments, monitor cash flow, and receive predictive alerts about potential savings opportunities or financial risks before they impact you.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="trusted-by" aria-labelledby="trusted-by-heading">
+            <div class="container">
+                <h2 id="trusted-by-heading">Trusted By Industry Leaders</h2>
+                <div class="logo-grid">
+                    <img src="forbes-logo.png" alt="Featured in Forbes - Top Financial Innovation" loading="lazy">
+                    <img src="techcrunch-logo.png" alt="TechCrunch Startup Spotlight Winner" loading="lazy">
+                    <img src="bloomberg-logo.png" alt="Bloomberg Recommended Financial App" loading="lazy">
+                    <img src="fastcompany-logo.png" alt="Fast Company's Most Innovative Finance Solutions" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="cta">
+            <div class="container">
+                <h2>Your Financial Potential, Unleashed</h2>
+                <p>Join thousands of young professionals who are rewriting their financial narrative with Vaultly.</p>
+                <div class="cta-buttons">
+                    <a href="#signup" class="btn btn-primary">Start Your Free Trial</a>
+                    <a href="#learn-more" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Vaultly</a>
+                </div>
+                <form id="contactForm" class="contact-form" aria-labelledby="contact-form-title">
+                    <h3 id="contact-form-title">Start Your Financial Journey</h3>
+                    <p>Connect with our team and unlock personalized financial guidance</p>
+                    
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input 
+                            type="text" 
+                            id="fullName" 
+                            name="fullName" 
+                            placeholder="Enter your full name" 
+                            required 
+                            aria-required="true"
+                        >
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="emailAddress">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="emailAddress" 
+                            name="emailAddress" 
+                            placeholder="your.email@example.com" 
+                            required 
+                            aria-required="true"
+                        >
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            placeholder="How can we help you transform your financial future?" 
+                            required 
+                            aria-required="true"
+                        ></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                
+                <div class="footer-links">
+                    <nav>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Vaultly. All rights reserved.</p>
+                    <p>Contact: support@vaultly.com | +1 (888) VAULTLY</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>

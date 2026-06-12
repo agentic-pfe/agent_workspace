@@ -1,0 +1,32 @@
+{
+    "project_name": "FlowSync Landing Page",
+    "validation_results": {
+        "html_validation": {
+            "status": "warning",
+            "details": "Minor entity validation warning, no critical issues"
+        },
+        "css_validation": {
+            "status": "pass",
+            "details": "No CSS validation errors"
+        },
+        "css_selector_validation": {
+            "status": "warning",
+            "details": [
+                "Dead selector '.active' found",
+                "Missing style for '.hamburger-icon'"
+            ]
+        }
+    },
+    "accessibility_score": 0.85,
+    "responsive_design_score": 0.92,
+    "performance_metrics": {
+        "mobile_friendly": true,
+        "desktop_friendly": true,
+        "image_optimization": true
+    },
+    "recommended_improvements": [
+        "Add explicit style for .hamburger-icon",
+        "Review and clean up unused CSS selectors",
+        "Consider adding more explicit ARIA labels"
+    ]
+}

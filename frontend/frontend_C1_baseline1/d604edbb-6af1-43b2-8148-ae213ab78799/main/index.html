@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashflow - SaaS Analytics</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a class="skip-to-content" href="#hero">Skip to content</a>
+
+  <!-- Navbar -->
+  <header class="header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#" class="nav__logo" aria-label="Dashflow homepage">Dashflow</a>
+
+      <button id="hamburger" class="nav__hamburger" aria-label="Open menu" aria-expanded="false">
+        <span class="nav__hamburger-bar"></span>
+        <span class="nav__hamburger-bar"></span>
+        <span class="nav__hamburger-bar"></span>
+      </button>
+
+      <ul id="nav-links" class="nav__links">
+        <li><a href="#features" class="nav__link">Features</a></li>
+        <li><a href="#stats" class="nav__link">Stats</a></li>
+        <li><a href="#pricing" class="nav__link">Pricing</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <button id="theme-toggle" class="nav__theme-toggle" aria-label="Toggle dark/light theme">
+        🌙
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section-hidden" id="hero" aria-labelledby="hero-headline">
+      <div class="hero__bg"></div>
+      <div class="hero__content container">
+        <h1 id="hero-headline" class="hero__headline">Powerful Analytics for Modern Teams</h1>
+        <p class="hero__subheadline">Track metrics, gain insights, and grow faster with real-time data.</p>
+        <a href="#contact" class="hero__cta">Get Started Free</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features section-hidden" id="features" aria-labelledby="features-heading">
+      <div class="container">
+        <h2 id="features-heading" class="features__heading">Why Teams Choose Dashflow</h2>
+        <div class="features__grid">
+          <article class="features__card">
+            <span class="features__icon" aria-hidden="true">📊</span>
+            <h3 class="features__card-title">Real-Time Analytics</h3>
+            <p class="features__card-desc">Monitor live dashboards and get instant insights into your team's performance.</p>
+          </article>
+          <article class="features__card">
+            <span class="features__icon" aria-hidden="true">🛡️</span>
+            <h3 class="features__card-title">Enterprise Security</h3>
+            <p class="features__card-desc">Bank-grade encryption and compliance standards keep your data safe.</p>
+          </article>
+          <article class="features__card">
+            <span class="features__icon" aria-hidden="true">⚡</span>
+            <h3 class="features__card-title">Lightning Fast</h3>
+            <p class="features__card-desc">Optimized for speed with sub-second query times and 99.9% uptime.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats section-hidden" id="stats" aria-labelledby="stats-heading">
+      <div class="container">
+        <h2 id="stats-heading" class="stats__heading">Trusted by Thousands</h2>
+        <div class="stats__grid">
+          <div class="stats__item">
+            <span class="stats__number" data-target="12500">0</span>
+            <span class="stats__suffix">+</span>
+            <span class="stats__label">Projects</span>
+          </div>
+          <div class="stats__item">
+            <span class="stats__number" data-target="8200">0</span>
+            <span class="stats__suffix">+</span>
+            <span class="stats__label">Users</span>
+          </div>
+          <div class="stats__item">
+            <span class="stats__number" data-target="99.9" data-decimal="true">0</span>
+            <span class="stats__suffix">%</span>
+            <span class="stats__label">Uptime</span>
+          </div>
+          <div class="stats__item">
+            <span class="stats__number" data-target="24">0</span>
+            <span class="stats__suffix"></span>
+            <span class="stats__label">Awards</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-hidden" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <h2 id="testimonials-heading" class="testimonials__heading">What Our Customers Say</h2>
+        <div class="testimonials__carousel" id="testimonials-carousel" aria-live="polite">
+          <div class="testimonials__track" id="testimonials-track">
+            <div class="testimonials__slide testimonials__slide--active" data-index="0">
+              <blockquote class="testimonials__quote">"Dashflow transformed how we track our KPIs. The insights we get are incredible."</blockquote>
+              <p class="testimonials__name">Sarah Chen</p>
+              <p class="testimonials__role">VP Engineering</p>
+            </div>
+            <div class="testimonials__slide" data-index="1">
+              <blockquote class="testimonials__quote">"The real-time analytics are a game changer for our team. We moved faster than ever."</blockquote>
+              <p class="testimonials__name">Marcus Diaz</p>
+              <p class="testimonials__role">CTO</p>
+            </div>
+            <div class="testimonials__slide" data-index="2">
+              <blockquote class="testimonials__quote">"Unmatched reliability and ease of use. Highly recommended for any growing team."</blockquote>
+              <p class="testimonials__name">Elena Rossi</p>
+              <p class="testimonials__role">Product Manager</p>
+            </div>
+          </div>
+          <div class="testimonials__controls">
+            <button class="testimonials__btn testimonials__btn--prev" id="testimonial-prev" aria-label="Previous testimonial">&#10094;</button>
+            <button class="testimonials__btn testimonials__btn--next" id="testimonial-next" aria-label="Next testimonial">&#10095;</button>
+          </div>
+          <div class="testimonials__dots" id="testimonials-dots">
+            <button class="testimonials__dot testimonials__dot--active" data-slide="0" aria-label="Testimonial 1"></button>
+            <button class="testimonials__dot" data-slide="1" aria-label="Testimonial 2"></button>
+            <button class="testimonials__dot" data-slide="2" aria-label="Testimonial 3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing section-hidden" id="pricing" aria-labelledby="pricing-heading">
+      <div class="container">
+        <h2 id="pricing-heading" class="pricing__heading">Simple, Transparent Pricing</h2>
+        <div class="pricing__grid">
+          <article class="pricing__card">
+            <h3 class="pricing__card-title">Starter</h3>
+            <p class="pricing__price">$9<span class="pricing__period">/mo</span></p>
+            <ul class="pricing__features">
+              <li>5 Projects</li>
+              <li>Basic Analytics</li>
+              <li>Email Support</li>
+            </ul>
+            <a href="#contact" class="pricing__cta">Get Started</a>
+          </article>
+          <article class="pricing__card pricing__card--featured">
+            <span class="pricing__badge">Most Popular</span>
+            <h3 class="pricing__card-title">Pro</h3>
+            <p class="pricing__price">$29<span class="pricing__period">/mo</span></p>
+            <ul class="pricing__features">
+              <li>Unlimited Projects</li>
+              <li>Advanced Analytics</li>
+              <li>Priority Support</li>
+            </ul>
+            <a href="#contact" class="pricing__cta pricing__cta--featured">Get Started</a>
+          </article>
+          <article class="pricing__card">
+            <h3 class="pricing__card-title">Enterprise</h3>
+            <p class="pricing__price">$99<span class="pricing__period">/mo</span></p>
+            <ul class="pricing__features">
+              <li>Custom Solutions</li>
+              <li>Dedicated Support</li>
+              <li>SLA Guarantee</li>
+            </ul>
+            <a href="#contact" class="pricing__cta">Get Started</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter section-hidden" id="contact" aria-labelledby="newsletter-heading">
+      <div class="container">
+        <h2 id="newsletter-heading" class="newsletter__heading">Stay Updated</h2>
+        <p class="newsletter__subheading">Get the latest Dashflow updates and tips delivered to your inbox.</p>
+        <form class="newsletter__form" id="newsletter-form" novalidate>
+          <div class="newsletter__input-wrap">
+            <label for="email-input" class="visually-hidden">Email address</label>
+            <input type="email" id="email-input" class="newsletter__input" placeholder="Enter your email" required autocomplete="email">
+          </div>
+          <button type="submit" class="newsletter__btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" aria-labelledby="footer-heading">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <h3 id="footer-heading" class="footer__col-title">Product</h3>
+          <ul class="footer__links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Company</h3>
+          <ul class="footer__links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h3 class="footer__col-title">Support</h3>
+          <ul class="footer__links">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer__col footer__col--social">
+          <h3 class="footer__col-title">Connect</h3>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Twitter">🐦</a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn">💼</a>
+            <a href="#" class="footer__social-link" aria-label="GitHub">🐙</a>
+          </div>
+        </div>
+      </div>
+      <p class="footer__copyright">&copy; 2024 Dashflow. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div id="toast" class="toast" role="alert" aria-live="polite">Subscribed!</div>
+
+</body>
+</html>

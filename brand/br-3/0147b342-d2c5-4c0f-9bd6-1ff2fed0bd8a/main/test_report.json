@@ -1,0 +1,26 @@
+{
+  "status": "error",
+  "checks": [
+    {
+      "asset": "logo.svg",
+      "passed": true,
+      "issue": null
+    },
+    {
+      "asset": "favicon.svg",
+      "passed": true,
+      "issue": null
+    },
+    {
+      "asset": "palette.json",
+      "passed": false,
+      "issue": "WCAG contrast issues found. See summary for details."
+    },
+    {
+      "asset": "typography.json",
+      "passed": true,
+      "issue": null
+    }
+  ],
+  "summary": "Multiple color contrast issues were found in the palette. The primary, secondary, and accent colors fail WCAG AA for normal text against most neutral background colors. The accent color also fails WCAG AA for large text against several neutral colors. The palette needs to be revised to ensure accessibility compliance."
+}

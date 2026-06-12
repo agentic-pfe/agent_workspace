@@ -1,0 +1,63 @@
+# Hero
+## Headline
+Unleash Your Remote Team's Potential with AI-Powered Project Management
+## Subheadline
+FlowSync intelligently streamlines workflows, automates tasks, and enhances collaboration, so your remote team can achieve more, effortlessly.
+
+# Features
+## AI-Driven Task Automation
+Let FlowSync's AI handle the repetitive. Automatically assign tasks, set deadlines, and update statuses, freeing your team to focus on what truly matters.
+## Seamless Remote Collaboration
+Break down communication barriers with integrated tools designed for distributed teams. Share updates, files, and feedback in real-time, no matter where you are.
+## Predictive Project Insights
+Gain a clear view of your project's health with AI-powered analytics. Identify potential roadblocks before they arise and make data-driven decisions to keep projects on track.
+## Centralized Knowledge Hub
+Keep all your project documentation, resources, and discussions in one easily accessible place. Ensure everyone has the information they need, exactly when they need it.
+## Customizable Workflows
+Adapt FlowSync to your team's unique processes. Create custom workflows that mirror your operations, ensuring maximum efficiency and adoption.
+## Intuitive User Experience
+Designed for clarity and ease of use, FlowSync provides a beautiful and intuitive interface that reduces onboarding time and boosts team productivity from day one.
+
+# Logos
+- TechSolutions Inc.
+- Global Innovations
+- RemoteWorks Co.
+- Digital Frontier
+- Agile Dynamics
+
+# Pricing
+## Basic ($9/month)
+- Up to 5 Users
+- AI Task Automation (Basic)
+- Standard Collaboration Tools
+- 5GB Storage
+- Email Support
+
+## Pro ($29/month)
+- Up to 20 Users
+- Advanced AI Automation
+- Premium Collaboration Suite
+- 50GB Storage
+- Priority Email & Chat Support
+- Custom Workflows
+
+## Enterprise (Custom Pricing)
+- Unlimited Users
+- Full AI-Powered Suite
+- Dedicated Account Manager
+- Unlimited Storage
+- 24/7 Phone & Chat Support
+- Advanced Security & Compliance
+- On-Premise Deployment Option
+
+# Testimonials
+### Sarah Chen, Head of Product, Global Innovations
+"FlowSync has revolutionized how our remote product team operates. The AI automation saves us countless hours, and the collaboration tools keep everyone aligned, no matter the time zone."
+### Mark Davis, CEO, RemoteWorks Co.
+"Before FlowSync, managing our distributed development team was a constant challenge. Now, we have a single source of truth, and our project delivery times have improved by 30%."
+### Emily Rodriguez, Project Manager, TechSolutions Inc.
+"I was skeptical about another project management tool, but FlowSync's intuitive design and powerful AI capabilities won me over. It's like having an extra team member dedicated to efficiency."
+
+# CTA
+Ready to transform your remote team's productivity?
+Start your free 14-day trial today. No credit card required.

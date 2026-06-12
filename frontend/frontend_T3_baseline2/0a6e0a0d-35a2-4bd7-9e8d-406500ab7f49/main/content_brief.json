@@ -1,0 +1,63 @@
+{
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#1E3A8A", "role": "headers, nav, primary actions"},
+      "secondary": {"hex": "#F87171", "role": "highlights, accent elements"},
+      "accent": {"hex": "#10B981", "role": "CTAs, interactive elements"},
+      "dark": {"hex": "#111827", "role": "text, footer background"},
+      "light": {"hex": "#F3F4F6", "role": "background sections"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Roboto"
+    },
+    "mood": "modern, minimalist design agency"
+  },
+  "header": {
+    "logo_text": "Forma Studio",
+    "cta_button": {"text": "Start a Project", "href": "#contact"},
+    "nav_items": [
+      {"label": "Home", "href": "home.html"},
+      {"label": "About", "href": "about.html"},
+      {"label": "Work", "href": "work.html"},
+      {"label": "Contact", "href": "contact.html"}
+    ]
+  },
+  "home": {
+    "hero_headline": "Design That Transforms Brands",
+    "hero_subheadline": "We craft meaningful digital experiences that elevate your business",
+    "services": [
+      {"title": "Brand Identity", "description": "Creating visual narratives that resonate"},
+      {"title": "Digital Design", "description": "Innovative interfaces and user experiences"},
+      {"title": "Web Development", "description": "Responsive, performant digital solutions"}
+    ]
+  },
+  "about": {
+    "team_headline": "Creativity Meets Strategy",
+    "team_description": "Forma Studio brings together passionate designers and strategists who believe in the power of thoughtful design.",
+    "values": [
+      "Collaboration", 
+      "Innovation", 
+      "User-Centered Design", 
+      "Continuous Learning"
+    ]
+  },
+  "work": {
+    "portfolio_headline": "Selected Projects",
+    "projects": [
+      {"name": "Tech Startup Branding", "category": "Branding"},
+      {"name": "E-commerce Platform", "category": "UI/UX Design"},
+      {"name": "Mobile App Interface", "category": "Digital Product"},
+      {"name": "Corporate Website", "category": "Web Design"}
+    ]
+  },
+  "contact": {
+    "headline": "Let's Create Something Remarkable",
+    "subheadline": "Have a project in mind? We'd love to hear from you.",
+    "form_fields": [
+      {"name": "Full Name", "type": "text", "required": true},
+      {"name": "Email", "type": "email", "required": true},
+      {"name": "Project Details", "type": "textarea", "required": true}
+    ]
+  }
+}

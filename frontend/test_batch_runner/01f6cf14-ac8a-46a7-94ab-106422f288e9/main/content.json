@@ -1,0 +1,27 @@
+{
+    "heroHeadline": "Automate Your Workflows, Amplify Your Productivity",
+    "heroSubheadline": "Flowdesk transforms complex business processes into seamless, intelligent workflows that save time and reduce errors.",
+    "features": [
+        {
+            "title": "Smart Workflow Automation",
+            "description": "Create custom automation sequences that connect your favorite tools, eliminating repetitive manual tasks and reducing human error."
+        },
+        {
+            "title": "Intelligent Integration",
+            "description": "Seamlessly connect over 200+ apps and services, enabling data flow across your entire tech ecosystem without complex coding."
+        },
+        {
+            "title": "Real-Time Performance Tracking",
+            "description": "Gain instant insights into your workflow efficiency with intuitive dashboards that highlight bottlenecks and optimization opportunities."
+        }
+    ],
+    "ctaText": "Start Your Free Workflow",
+    "footerText": {
+        "copyright": "© 2024 Flowdesk. All Rights Reserved.",
+        "links": [
+            "Privacy Policy",
+            "Terms of Service",
+            "Contact Us"
+        ]
+    }
+}

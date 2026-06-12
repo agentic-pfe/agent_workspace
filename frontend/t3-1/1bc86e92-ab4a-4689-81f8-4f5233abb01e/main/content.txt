@@ -1,0 +1,91 @@
+[DESIGN TOKENS]
+Palette:
+- Primary: #6B4423 (Rich Espresso Brown)
+- Secondary: #8B4513 (Saddle Brown)
+- Accent: #D2691E (Warm Copper)
+- Dark: #2F1C0A (Deep Coffee Dark)
+- Light: #F5DEB3 (Wheat/Cream)
+
+Typography:
+- Headings: Playfair Display
+- Body: Lato
+
+Mood: Elegant, Artisanal, Warm
+
+[HERO]
+Headline: Elevate Your Morning Ritual
+Subheadline: Sustainably Sourced, Meticulously Roasted High-Altitude Coffee
+CTA: Discover Your Perfect Brew
+Image Prompt: Sunrise over misty Andean mountain coffee plantation, golden light filtering through coffee trees, hand-picking ripe coffee cherries
+
+[FEATURES]
+1. High-Altitude Sourcing
+   - Beans cultivated between 1,600-2,000 meters
+   - Slower growth, more complex flavor profiles
+   - Direct trade with small-scale farmers
+
+2. Ethical Sustainability
+   - 100% fair compensation for farming communities
+   - Organic, shade-grown cultivation
+   - Zero-waste roasting process
+
+3. Flavor Complexity
+   - Notes of dark chocolate, caramel, and mountain wildflowers
+   - Smooth, balanced acidity
+   - Roasted in small, carefully monitored batches
+
+[SUBSCRIPTION]
+Subscription Tiers:
+1. Mountain Explorer (Monthly)
+   - 250g premium whole bean selection
+   - Free shipping
+   - Personalized roast profile
+   - Price: $22/month
+
+2. Summit Seeker (Bi-Weekly)
+   - 500g premium whole bean selection
+   - Free shipping
+   - Rotating origin series
+   - Price: $38/month
+
+3. Peak Connoisseur (Weekly)
+   - 1kg premium whole bean selection
+   - Free shipping
+   - Exclusive micro-lot access
+   - Price: $65/month
+
+[REVIEWS]
+1. Elena Rodriguez, San Francisco, CA
+   "Summit Roast transformed my morning coffee experience. The depth of flavor is unparalleled."
+   Rating: ★★★★★
+
+2. Michael Chen, Seattle, WA
+   "As a coffee professional, I'm impressed by their commitment to ethical sourcing and incredible taste."
+   Rating: ★★★★☆
+
+3. Sarah Thompson, Portland, OR
+   "The Mountain Explorer subscription lets me explore incredible coffee regions from my kitchen."
+   Rating: ★★★★★
+
+4. David Kim, New York, NY
+   "Rich, complex flavors that tell a story of craftsmanship and respect for coffee's origins."
+   Rating: ★★★★☆
+
+[SHOP]
+Introducing Our Curated Collections
+Explore meticulously crafted coffee experiences that connect you directly to the world's most exceptional high-altitude growing regions. Each bag represents a journey, a story, a commitment to excellence.
+
+[FOOTER]
+© 2024 Summit Roast. All Rights Reserved.
+Sustainably Sourced • Ethically Produced • Artisan Roasted
+
+Contact: hello@summitroast.com
+Instagram: @summitroastcoffee
+Shipping & Returns | Privacy Policy | Terms of Service
+
+[IMAGE DESCRIPTIONS]
+1. Hero Image: Misty Andean mountain landscape at sunrise, coffee trees in foreground
+2. Sourcing Image: Close-up of hands carefully selecting ripe coffee cherries
+3. Roasting Image: Artisan roaster monitoring small-batch roasting process
+4. Lifestyle Image: Minimalist kitchen, morning light, Summit Roast bag, pour-over setup
+5. Packaging Image: Matte black coffee bag with copper foil Summit Roast logo, mountain silhouette

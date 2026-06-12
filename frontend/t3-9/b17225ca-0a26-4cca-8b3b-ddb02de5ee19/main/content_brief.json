@@ -1,0 +1,92 @@
+{
+  "brand_name": "PeakFit",
+  "page_title": "PeakFit: Your Personal Coach, Anytime, Anywhere",
+  "hero": {
+    "headline": "Transform Your Potential, One Rep at a Time",
+    "subheadline": "Personalized fitness coaching that adapts to your goals, schedule, and progress. No gym required, no excuses accepted.",
+    "cta_primary": "Start Your Fitness Journey",
+    "cta_secondary": "Explore Plans"
+  },
+  "navigation": [
+    "Home",
+    "Features",
+    "Coaching",
+    "Pricing",
+    "Success Stories"
+  ],
+  "sections": [
+    {
+      "heading": "Your Fitness, Your Rules",
+      "content": "PeakFit isn't just another fitness app. It's a comprehensive coaching platform that understands your unique fitness journey. Whether you're looking to build muscle, lose weight, or boost performance, our AI-powered coaching adapts to your progress in real-time.",
+      "image_prompt": "Professional athlete training in a modern, minimalist gym with orange and black accents"
+    },
+    {
+      "heading": "Real People, Real Results",
+      "content": "Our community proves that with the right guidance, transformation is possible. From busy professionals to weekend warriors, PeakFit members are crushing their fitness goals and redefining their potential.",
+      "image_prompt": "Collage of diverse fitness transformations showing before and after results"
+    }
+  ],
+  "features": [
+    {
+      "title": "Personalized Workout Plans",
+      "description": "AI-driven coaching that creates custom workout plans tailored to your fitness level, goals, and available equipment.",
+      "icon_suggestion": "dumbbell"
+    },
+    {
+      "title": "Real-Time Progress Tracking",
+      "description": "Automatic tracking of your workouts, nutrition, and body metrics. See your progress and stay motivated with data-driven insights.",
+      "icon_suggestion": "chart-line"
+    },
+    {
+      "title": "Expert Guidance On-Demand",
+      "description": "Connect with certified fitness coaches for personalized advice, form corrections, and motivational support.",
+      "icon_suggestion": "headset"
+    }
+  ],
+  "transformation_stories": [
+    {
+      "name": "Alex Rodriguez",
+      "story": "From desk job to marathon runner. Lost 35 lbs, improved endurance by 200%, and discovered a passion for fitness with PeakFit.",
+      "result_metrics": "35 lbs lost, 200% endurance improvement"
+    },
+    {
+      "name": "Emma Chen",
+      "story": "Balanced motherhood and fitness goals. Gained lean muscle, increased energy, and found confidence through personalized coaching.",
+      "result_metrics": "15 lbs muscle gain, 3x weekly workout consistency"
+    }
+  ],
+  "pricing": {
+    "monthly": {
+      "title": "Monthly Flex",
+      "description": "Full access, cancel anytime. Perfect for those testing their fitness journey.",
+      "price": "$19.99/month"
+    },
+    "yearly": {
+      "title": "Annual Commitment",
+      "description": "Best value. Save 40% and unlock premium features for serious fitness enthusiasts.",
+      "price": "$199.99/year"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 PeakFit. All rights reserved.",
+    "social_links": ["Instagram", "YouTube", "TikTok"],
+    "contact": "support@peakfit.com"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "Dynamic fitness scene with a young, muscular athlete performing a high-intensity workout in a modern gym, wearing black and orange athletic wear, with dramatic lighting",
+      "style": "photo"
+    },
+    {
+      "name": "app_interface",
+      "prompt": "Close-up of a hand holding a smartphone displaying the PeakFit app interface, showing workout plan, progress graph, and coaching chat, with orange and black color scheme",
+      "style": "photo"
+    },
+    {
+      "name": "transformation_collage",
+      "prompt": "Split-screen fitness transformation collage showing diverse individuals' before and after fitness results, with motivational orange overlay",
+      "style": "photo"
+    }
+  ]
+}

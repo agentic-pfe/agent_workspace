@@ -1,0 +1,143 @@
+{
+  "page_title": "Summit Roast — Premium High-Altitude Specialty Coffee | Ethically Sourced",
+  "brand_name": "Summit Roast",
+  "hero": {
+    "headline": "From the Peaks to Your Cup: Coffee That Reaches New Heights.",
+    "subheadline": "Hand-selected beans from high-altitude farms in Ethiopia, Colombia, and Peru — slow-roasted in small batches to unlock bold, complex flavor with every sip. Committed to ethical sourcing and the planet.",
+    "cta_primary": "Explore Our Collection",
+    "cta_secondary": "Take the Flavor Quiz"
+  },
+  "navigation": ["Home", "Our Beans", "Subscription", "About Us", "Journal"],
+  "sections": [
+    {
+      "heading": "Crafted at Altitude, Born of Purpose",
+      "content": "At Summit Roast, we believe the best coffee grows where the air is thin and the soil is rich. That's why we partner directly with smallholder farmers perched above 1,500 meters in the world's finest coffee-growing regions. Every bean is hand-picked, sun-dried, and small-batch roasted in our Portland roastery within 48 hours of arrival. The result? A cup that's not just delicious — it's intentional. Bright acidity, deep cocoa undertones, and a finish as smooth as the mountain mist.",
+      "image_prompt": "A sweeping aerial view of terraced coffee farms on misty green mountainsides at golden hour, sunlight breaking through clouds, rows of coffee shrubs laden with ripe red cherries, a farmer in a wide-brimmed hat walking between rows, hyper-realistic photograph style with rich greens and warm golden light."
+    },
+    {
+      "heading": "Flavor Notes Worth Waking Up For",
+      "content": "Our rotating single-origin lineup offers something for every palate. From the bright, citrus-forward Ethiopia Yirgacheffe (think blueberry and jasmine) to the deep, chocolatey Colombia Huila (brown sugar, red apple, silky body) and the nutty, balanced Peru Cajamarca (caramel, almond, hint of honey). Every bag is roasted to order and shipped within 24 hours — so your coffee is always peak-fresh. Tasting notes, roast level, and altitude are printed on every bag, because you deserve to know exactly what you're brewing.",
+      "image_prompt": "Extreme close-up of freshly roasted coffee beans spilling from a burlap sack, steam rising gently, blurred background of misty high-altitude coffee farm with wooden drying beds visible, warm earthy tones with deep browns and soft greens, macro photography style with shallow depth of field."
+    },
+    {
+      "heading": "Ethical Sourcing Is Not Optional",
+      "content": "We pay 30–50% above Fair Trade pricing directly to our farming partners. Every relationship is built on transparency: we visit each farm annually, invest in community water projects, and fund reforestation initiatives that have planted over 10,000 native trees in coffee-growing regions. Our packaging is 100% compostable, and our roastery runs on renewable energy. When you brew Summit Roast, you're supporting a supply chain that puts people and planet first — no exceptions.",
+      "image_prompt": "A coffee farmer with weathered hands holding a handful of ripe red coffee cherries, smiling warmly, lush green farm stretching behind, simple wooden drying tables and a small stone house visible, warm afternoon sunlight filtering through leaves, documentary photography style with authentic natural tones."
+    },
+    {
+      "heading": "Your New Morning Ritual Starts Here",
+      "content": "Explore our curated collection of whole bean and crafted blends — each one tells a story of origin, altitude, and artisan care. Whether you're a pour-over purist, an espresso enthusiast, or a French press devotee, we've got a roast that's perfect for your method. Every purchase comes with brewing tips tailored to your chosen bean, because great coffee is about preparation as much as provenance.",
+      "image_prompt": "A ceramic pour-over setup on a rustic wooden counter, golden morning light streaming through a window, steam curling upward from the coffee carafe, a burlap coffee bag with 'Summit Roast' label beside it, fresh coffee grounds in a small wooden scoop, warm ochre and amber tones, lifestyle photography style."
+    }
+  ],
+  "features": [
+    {
+      "title": "Single-Origin. Always.",
+      "description": "Every bag is traceable to a specific farm and harvest — no blends, no mystery. You'll know the region, elevation, processing method, and tasting notes for every bean you brew.",
+      "icon_suggestion": "mountain-peak"
+    },
+    {
+      "title": "Roasted to Order",
+      "description": "We never roast until you order. Your coffee hits the roaster within hours of purchase and ships the same day — arriving at your door at peak freshness, typically within 3 days.",
+      "icon_suggestion": "roast-clock"
+    },
+    {
+      "title": "Direct Trade & Fair Pay",
+      "description": "30–50% above Fair Trade pricing. We meet our farmers face-to-face, invest in their communities, and fund reforestation. Full transparency on every bag.",
+      "icon_suggestion": "handshake-leaf"
+    },
+    {
+      "title": "100% Compostable Packaging",
+      "description": "From the outer bag to the one-way valve — everything is made from plant-based materials. No plastic, no waste, no compromise.",
+      "icon_suggestion": "compost-loop"
+    },
+    {
+      "title": "Brew Guides Included",
+      "description": "Each shipment includes a customized brewing guide with water temperature, grind size, and ratios dialed in for your specific bean and preferred brew method.",
+      "icon_suggestion": "pour-over-guide"
+    },
+    {
+      "title": "Small-Batch Craft",
+      "description": "We roast in 25-pound batches in a converted 1940s cast-iron roaster. Each batch is cupped and approved before it ever reaches your doorstep.",
+      "icon_suggestion": "batch-badge"
+    }
+  ],
+  "subscription": {
+    "heading": "A Subscription That Brews Itself.",
+    "description": "Never run out of peak-fresh coffee. Choose your rhythm, pick your preference, and we'll handle the rest — roasted to order, shipped free, and delivered to your door.",
+    "plans": [
+      {
+        "name": "Monthly Summit",
+        "price": "$19.00",
+        "billing": "/month",
+        "description": "Our most popular plan. A fresh 12 oz bag of our featured single-origin roast delivered every month. Perfect for daily brewers who love discovering new origins.",
+        "features": ["12 oz single-origin bag", "Free shipping", "Flexible swap or skip anytime", "Custom brew guide included", "Exclusive subscriber-only blends"]
+      },
+      {
+        "name": "Bi-Monthly Ascent",
+        "price": "$18.00",
+        "billing": "/shipment",
+        "description": "One premium bag delivered every other month. Ideal for occasional pour-over enthusiasts or those with a stocked pantry who want curated quality at a relaxed pace.",
+        "features": ["12 oz single-origin bag every 2 months", "Free shipping", "Swap or skip anytime", "Seasonal tasting notes card", "Early access to limited releases"]
+      },
+      {
+        "name": "Quarterly Peak",
+        "price": "$55.00",
+        "billing": "/quarter",
+        "description": "The ultimate experience: three 12 oz bags from three different origins, delivered four times a year. A full tasting journey curated by our head roaster.",
+        "features": ["3 × 12 oz single-origin bags", "Seasonal tasting flight guide", "Free shipping", "Behind-the-scenes farm stories", "Invitation to virtual cupping sessions"]
+      }
+    ],
+    "cta": "Find Your Rhythm"
+  },
+  "reviews": [
+    {
+      "name": "Maya Chen",
+      "location": "Portland, OR",
+      "rating": 5,
+      "title": "\"The best coffee I've ever brewed at home.\"",
+      "content": "I've tried dozens of specialty roasters, but Summit Roast is in a league of its own. The Ethiopia Yirgacheffe tastes like blueberries and honey — bright, clean, and incredibly smooth. I love that I can trace the beans back to the exact cooperative in Gedeb. It makes my morning pour-over feel meaningful."
+    },
+    {
+      "name": "James Whitfield",
+      "location": "Boulder, CO",
+      "rating": 5,
+      "title": "\"Finally, a subscription I look forward to.\"",
+      "content": "I switched to the Bi-Monthly Ascent plan six months ago, and it's been a game-changer. The coffee arrives two days after roasting — you can smell the freshness when you open the bag. The Colombia Huila is my favorite: rich chocolate with a hint of red apple. I also appreciate that the packaging goes straight into my compost bin."
+    },
+    {
+      "name": "Priya Kapoor & Amit Desai",
+      "location": "Brooklyn, NY",
+      "rating": 5,
+      "title": "\"Our weekend ritual wouldn't be the same.\"",
+      "content": "We discovered Summit Roast through a friend and it's become our Saturday morning tradition. The Quarterly Peak box is like Christmas every three months — tasting three different origins side by side with the flavor guide is honestly so fun. We just visited the Peru Cajamarca region on a trip and seeing the farms in person made us love this company even more."
+    }
+  ],
+  "shop_section": {
+    "heading": "The Summit Shop",
+    "intro": "Every bag is a direct connection to the farmers, mountains, and craft that make great coffee possible. Browse our current single-origin offerings, limited-edition microlots, and perfectly paired brewing gear — all curated for the quality-driven coffee lover.",
+    "cta": "Shop All Coffee"
+  },
+  "footer": {
+    "copyright": "© 2025 Summit Roast Coffee Co. All rights reserved. Roasted in Portland, OR.",
+    "social_links": ["Instagram", "Facebook", "X (Twitter)", "YouTube"],
+    "contact": "hello@summitroast.com | +1 (503) 555-0173 | 42 Roasters Lane, Portland, OR 97201"
+  },
+  "images": [
+    {
+      "name": "hero_mountain_coffee",
+      "prompt": "A person in a warm wool sweater sitting on a rocky mountain overlook at sunrise, holding a ceramic mug of steaming coffee with both hands, misty mountain ranges stretching to the horizon, golden sunlight painting the clouds in shades of amber and rose, pine trees in silhouette, authentic candid moment of quiet contemplation, hyper-realistic photography, warm golden lighting, 8K detail, cinematic depth of field, National Geographic style.",
+      "style": "photo"
+    },
+    {
+      "name": "coffee_beans_misty_farm",
+      "prompt": "Extreme macro close-up of freshly roasted coffee beans with surface oils glistening, shallow depth of field transitioning to a misty high-altitude coffee farm in the distant background, green terraced hillsides partially obscured by morning fog, wooden drying beds with parchment coffee, warm earthy tones blending from deep brown foreground to soft green and silver background, cinematic lighting, documentary photography style, rich texture detail.",
+      "style": "photo"
+    },
+    {
+      "name": "family_rustic_table_coffee",
+      "prompt": "A multi-generational family gathered around a rustic farmhouse wooden table in warm golden afternoon light, a ceramic coffee pot and mismatched mugs at the center, steam rising gently, an older woman laughing while pouring coffee for a young child, colorful woven textiles on the table, open windows showing green hills and blue sky, cozy intimate atmosphere, natural light streaming in, documentary lifestyle photography style, warm ochre and terracotta color palette, authentic candid emotions.",
+      "style": "photo"
+    }
+  ]
+}

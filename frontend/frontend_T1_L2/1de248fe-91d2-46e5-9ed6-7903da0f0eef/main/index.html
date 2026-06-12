@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowdesk - Supercharge Your Productivity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Design Tokens */
+            --primary: #6366F1;     /* Indigo */
+            --secondary: #06B6D4;   /* Cyan */
+            --accent: #EC4899;      /* Pink */
+            --dark: #111827;        /* Dark Blue-Gray */
+            --light: #FAFAFA;       /* Off-white */
+
+            /* Typography */
+            --font-heading: 'Montserrat', sans-serif;
+            --font-body: 'Open Sans', sans-serif;
+
+            /* Spacing */
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 2rem;
+            --space-xl: 4rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            line-height: 1.6;
+            color: var(--dark);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex-grow: 1;
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: var(--space-lg);
+            background: linear-gradient(135deg, 
+                rgba(99, 102, 241, 0.1), 
+                rgba(236, 72, 153, 0.05)
+            );
+        }
+
+        .hero-content {
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero-headline {
+            font-family: var(--font-heading);
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            color: var(--dark);
+            margin-bottom: var(--space-md);
+            line-height: 1.2;
+        }
+
+        .hero-subheadline {
+            font-size: clamp(1rem, 3vw, 1.25rem);
+            color: color-mix(in srgb, var(--dark) 80%, transparent);
+            margin-bottom: var(--space-lg);
+            max-width: 600px;
+        }
+
+        .hero-cta {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: var(--space-md) var(--space-lg);
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: 
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Footer Styles */
+        .site-footer {
+            background-color: var(--dark);
+            color: var(--light);
+            text-align: center;
+            padding: var(--space-lg);
+            width: 100%;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-copyright {
+            font-size: 0.875rem;
+            opacity: 0.7;
+        }
+
+        @media (min-width: 1024px) {
+            .hero {
+                flex-direction: row;
+                text-align: left;
+                gap: var(--space-xl);
+            }
+
+            .hero-content {
+                align-items: flex-start;
+            }
+
+            .hero-headline, 
+            .hero-subheadline {
+                text-align: left;
+            }
+        }
+
+        /* Accessibility: Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            .hero-cta {
+                transition: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-headline">Get More Done with Flowdesk</h1>
+                <p class="hero-subheadline">Streamline your workflow, collaborate seamlessly, and boost team productivity with our intelligent project management platform.</p>
+                <a href="#cta" class="hero-cta">Start Free Trial</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="footer-copyright">© 2025 Flowdesk. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

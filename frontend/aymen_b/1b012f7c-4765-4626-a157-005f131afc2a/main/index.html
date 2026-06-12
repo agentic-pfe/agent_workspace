@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aymen | Backend Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="container">
+            <h1 class="logo">Aymen.dev</h1>
+            <nav class="nav" role="navigation" aria-label="Main navigation">
+                <ul>
+                    <li><a href="#home" aria-current="page">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero" role="region" aria-labelledby="hero-heading">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-heading">Backend Developer Building Scalable Systems</h1>
+                    <p>I design and implement robust server-side solutions that power modern applications. With expertise in Python, Node.js, and cloud infrastructure, I solve complex problems to deliver high-performance, maintainable systems.</p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero_image.jpg" alt="Professional headshot of Aymen, a confident software developer">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about" role="region" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading">About Me</h2>
+                <p>I'm Aymen, a backend developer passionate about crafting scalable and efficient server-side architectures. My experience spans building RESTful APIs, designing database schemas, and optimizing system performance. I specialize in Python and Node.js, and I thrive in environments where I can tackle challenging technical problems. When I'm not coding, you'll find me exploring new technologies or contributing to open-source projects.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects" role="region" aria-labelledby="projects-heading">
+            <div class="container">
+                <h2 id="projects-heading">Projects</h2>
+                <div class="project-cards">
+                    <article class="card" role="article" aria-labelledby="project-1-title">
+                        <h3 id="project-1-title">E-Commerce API Platform</h3>
+                        <p>Role: Lead Backend Developer. Tech Stack: Python, Django, PostgreSQL, Redis, Docker. Impact: Built a scalable API handling 10K+ daily transactions for a multi-vendor marketplace, reducing response times by 40%.</p>
+                    </article>
+                    
+                    <article class="card" role="article" aria-labelledby="project-2-title">
+                        <h3 id="project-2-title">Real-Time Analytics Dashboard</h3>
+                        <p>Role: Backend Engineer. Tech Stack: Node.js, Express, MongoDB, Socket.io, AWS Lambda. Impact: Developed a real-time data processing pipeline that aggregates and displays user metrics with sub-second latency, supporting data-driven decisions for a SaaS product.</p>
+                    </article>
+                    
+                    <article class="card" role="article" aria-labelledby="project-3-title">
+                        <h3 id="project-3-title">Microservices Authentication System</h3>
+                        <p>Role: Full Stack Developer. Tech Stack: Python, FastAPI, JWT, OAuth2, Kubernetes, PostgreSQL. Impact: Designed and implemented a secure, distributed authentication service adopted across 15+ microservices, improving system security and reducing auth-related incidents by 80%.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact" role="region" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 id="contact-heading">Get In Touch</h2>
+                <p>Have a project in mind or want to discuss potential opportunities? Feel free to reach out!</p>
+                <a href="mailto:aymen@example.com" class="btn btn-primary">Contact Me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; 2023 Aymen.dev. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+            <p>aymen@example.com | +1 (555) 123-4567</p>
+        </div>
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>

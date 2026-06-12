@@ -1,0 +1,2 @@
+{"ts": "2026-06-07T12:51:09.000Z", "event": "workspace_created", "msg": "Workspace: /home/aymen/Desktop/dev/pfe/Orcheeos-agents/agent_workspace/frontend/test_l1b/1317efaf-20a2-49fb-8cc9-01da8dadb65b", "agent": "system", "tokens_in": 0, "tokens_out": 0, "elapsed_ms": 0, "model": "", "prompt": "", "meta": {"specialty": "frontend", "user": "test_l1b"}}
+{"ts": "2026-06-07T12:51:09.000Z", "event": "run_finished", "msg": "Graph execution complete (status=pending)", "agent": "system", "tokens_in": 0, "tokens_out": 0, "elapsed_ms": 76, "model": "", "prompt": "", "meta": {}}

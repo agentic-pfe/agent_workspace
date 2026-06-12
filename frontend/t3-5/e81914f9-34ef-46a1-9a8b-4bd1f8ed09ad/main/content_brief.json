@@ -1,0 +1,84 @@
+{
+  "brand_name": "FlowSync",
+  "page_title": "FlowSync: AI-Powered Project Management for Remote Teams",
+  "hero": {
+    "headline": "Unleash Your Team's Potential with AI-Driven Collaboration",
+    "subheadline": "FlowSync transforms remote work by intelligently prioritizing tasks, syncing in real-time, and eliminating productivity bottlenecks.",
+    "cta_primary": "Start Your Free Trial",
+    "cta_secondary": "Watch Demo"
+  },
+  "navigation": ["Features", "Pricing", "Integrations", "About", "Contact"],
+  "sections": [
+    {
+      "heading": "AI-Powered Task Prioritization",
+      "content": "Our advanced AI algorithm analyzes your team's workload, skills, and project dependencies to automatically prioritize tasks. No more guesswork or endless meetings. FlowSync intelligently surfaces the most critical work, ensuring your team focuses on what matters most, boosting productivity and reducing decision fatigue.",
+      "image_prompt": "A futuristic dashboard with AI-powered task prioritization, showing smart task ranking and team productivity metrics"
+    },
+    {
+      "heading": "Seamless Real-Time Collaboration",
+      "content": "Break down remote work barriers with our instant synchronization technology. Team members see updates in milliseconds, with context-aware notifications that keep everyone aligned without overwhelming inboxes. Comments, file sharing, and status updates flow naturally, creating a virtual workspace that feels as intuitive as being in the same room.",
+      "image_prompt": "A split-screen showing remote team members collaborating in real-time, with dynamic task boards and communication bubbles"
+    }
+  ],
+  "features": [
+    {
+      "title": "AI Task Prioritization",
+      "description": "Intelligent algorithms analyze project complexity, team capacity, and individual strengths to automatically rank and assign tasks. Save hours of manual planning and ensure your most critical work always gets the attention it deserves.",
+      "icon_suggestion": "ai-brain"
+    },
+    {
+      "title": "Real-Time Team Sync",
+      "description": "Instant updates and context-aware notifications keep your distributed team perfectly aligned. See changes, communicate seamlessly, and maintain team momentum without endless status meetings or email chains.",
+      "icon_suggestion": "sync-arrows"
+    },
+    {
+      "title": "Smart Deadline Management",
+      "description": "Our AI predicts potential delays, suggests optimal timelines, and automatically adjusts project schedules. Proactively identify risks, redistribute workloads, and keep projects on track with predictive insights that traditional tools can't match.",
+      "icon_suggestion": "calendar-check"
+    },
+    {
+      "title": "Powerful Integrations",
+      "description": "Connect FlowSync with your favorite tools—Slack, GitHub, Zoom, and more. Our robust API and one-click integrations create a unified workflow, eliminating app-switching and ensuring your entire tech stack works in harmony.",
+      "icon_suggestion": "link-network"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Elena Rodriguez",
+      "role": "CTO, ScaleAI",
+      "quote": "FlowSync transformed how our distributed engineering team collaborates. The AI-driven task prioritization is like having a super-intelligent project manager working 24/7.",
+      "company": "ScaleAI"
+    },
+    {
+      "name": "Marcus Chen",
+      "role": "Founder & CEO, DevHub",
+      "quote": "As a startup founder, time is my most precious resource. FlowSync's intelligent workflow management has increased our team's productivity by 40% and reduced coordination overhead.",
+      "company": "DevHub"
+    },
+    {
+      "name": "Sarah Kimura",
+      "role": "Head of Remote, Luminary",
+      "quote": "We've tried every project management tool out there. FlowSync is the first platform that truly understands the nuances of remote collaboration and leverages AI to solve real productivity challenges.",
+      "company": "Luminary"
+    }
+  ],
+  "cta": {
+    "headline": "Ready to Revolutionize Your Team's Productivity?",
+    "subheadline": "Start your free 14-day trial and experience the future of remote work management.",
+    "primary_button": "Start Free Trial",
+    "secondary_button": "Schedule Demo"
+  },
+  "footer": {
+    "copyright": "© 2024 FlowSync. All rights reserved.",
+    "social_links": ["Twitter", "LinkedIn", "YouTube"],
+    "contact": "support@flowsync.ai"
+  },
+  "customer_logos": ["ScaleAI", "DevHub", "Luminary"],
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "A modern, sleek workspace with multiple digital screens showing AI-powered project management dashboard, with holographic elements representing remote team collaboration, in a clean, tech-forward style",
+      "style": "digital_art"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Preview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f9f9f9;
+        }
+        h1 { font-family: 'Inter', sans-serif; font-size: 2.5rem; line-height: 1.2; font-weight: 700; margin-bottom: 1rem; }
+        h2 { font-family: 'Inter', sans-serif; font-size: 2rem; line-height: 1.2; font-weight: 600; margin-bottom: 1rem; }
+        h3 { font-family: 'Inter', sans-serif; font-size: 1.5rem; line-height: 1.2; font-weight: 600; margin-bottom: 1rem; }
+        p { font-size: 1rem; margin-bottom: 1.5rem; }
+        code {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            background-color: #f0f0f0;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            color: #222;
+        }
+        .sample-code {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1rem;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 2rem 0;
+            white-space: pre;
+        }
+    </style>
+</head>
+<body>
+    <h1>Modern Premium Typography</h1>
+    <h2>Inter for Headings</h2>
+    <p>This is body text set in <strong>Inter</strong>, a clean, modern sans-serif designed for UI and readability. It pairs with JetBrains Mono for technical accents.</p>
+    <p>Use <code>JetBrains Mono</code> for code snippets, technical labels, and data displays — never for long-form content.</p>
+    <div class="sample-code">
+        function calculateEfficiency(data) {
+            return data.reduce((acc, item) => acc + item.value, 0) / data.length;
+        }
+    </div>
+    <h3>Usage Guidelines</h3>
+    <p>Inter: Headings, UI text, buttons, labels.</p>
+    <p>JetBrains Mono: Code blocks, terminal output, metrics, technical annotations.</p>
+</body>
+</html>

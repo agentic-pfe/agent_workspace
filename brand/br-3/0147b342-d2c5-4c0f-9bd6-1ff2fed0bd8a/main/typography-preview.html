@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orcheeos Typography Specimen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f4f7f9;
+      color: #1e1e1e;
+      padding: 40px;
+      line-height: 1.6;
+    }
+    h1 { font-size: 2rem; font-weight: 700; line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 16px; }
+    h2 { font-size: 1.5rem; font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 12px; }
+    p { font-size: 0.875rem; line-height: 1.6; margin-bottom: 16px; }
+    code {
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 0.8125rem;
+      background: #d5d7d8;
+      padding: 4px 8px;
+      border-radius: 4px;
+      color: #1e1e1e;
+    }
+    .logo-lockup {
+      font-family: 'Inter', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin: 40px 0;
+      color: #3d87cc;
+    }
+    .sample-code {
+      margin: 32px 0;
+      padding: 20px;
+      background: #1e1e1e;
+      color: #fafafa;
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 0.8125rem;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Orcheeos Typography Specimen</h1>
+  <p>Headings use <strong>Inter</strong> (sans-serif). Body text and UI use <strong>JetBrains Mono</strong> (monospace). Logo lockup features tracked-out caps.</p>
+
+  <h2>Heading Styles</h2>
+  <h1>Display: 3rem (48px)</h1>
+  <h2>Heading 1: 2rem (32px)</h2>
+  <h3>Heading 2: 1.5rem (24px)</h3>
+  <h4>Heading 3: 1.25rem (20px)</h4>
+
+  <h2>Body Text</h2>
+  <p>This is body text at 14px (0.875rem) using Inter for readability. Ideal for paragraphs and UI content.</p>
+
+  <h2>Code Blocks</h2>
+  <div class="sample-code">
+    function analyzeData() {
+      const results = dataset.filter(x => x.confidence > 0.8);
+      return results.map(r => r.value);
+    }
+  </div>
+
+  <div class="logo-lockup">ORCHEEOS</div>
+
+  <p><em>Font stack: Headings — Inter; Body & Code — JetBrains Mono / Fira Code; Logo Lockup — Inter, 0.1em tracking, uppercase.</em></p>
+</body>
+</html>

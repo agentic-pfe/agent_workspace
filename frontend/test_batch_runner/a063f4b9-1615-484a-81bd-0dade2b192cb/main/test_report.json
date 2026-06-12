@@ -1,0 +1,35 @@
+{
+    "html_validation": {
+        "status": "warning",
+        "errors": [
+            {
+                "message": "Named entity expected. Got none.",
+                "severity": "error"
+            }
+        ]
+    },
+    "css_validation": {
+        "status": "pass",
+        "errors": []
+    },
+    "css_selector_validation": {
+        "status": "warning",
+        "warnings": [
+            {
+                "selector": ".copyright",
+                "detail": "No CSS style defined"
+            },
+            {
+                "selector": ".hamburger-icon",
+                "detail": "No CSS style defined"
+            },
+            {
+                "selector": ".section-title",
+                "detail": "No CSS style defined"
+            }
+        ]
+    },
+    "accessibility_score": 0.85,
+    "responsive_score": 0.95,
+    "performance_notes": "Minor CSS selector warnings, no critical issues"
+}

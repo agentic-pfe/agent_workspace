@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskr - Streamline Your Productivity</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a href="#" class="logo" aria-label="Taskr Home">Taskr</a>
+            <nav aria-label="Main Navigation">
+                <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="sr-only">Toggle Menu</span>
+                    <span aria-hidden="true">☰</span>
+                </button>
+                <ul id="nav-menu" class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+                <a href="#cta" class="header-cta">Start Organizing</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="taskr-app" class="task-management-app">
+        <div class="container">
+            <section class="task-input-section">
+                <h1>Conquer Your Day, One Task at a Time</h1>
+                <p>Taskr transforms chaos into clarity, helping high-performers stay focused, organized, and ahead of their goals.</p>
+                
+                <form id="task-form" aria-labelledby="task-form-label">
+                    <label id="task-form-label" for="new-task-input">Add a New Task</label>
+                    <div class="input-group">
+                        <input 
+                            type="text" 
+                            id="new-task-input" 
+                            name="new-task" 
+                            placeholder="What needs to be done?" 
+                            required 
+                            aria-describedby="task-input-hint"
+                        >
+                        <button type="submit" class="btn btn-primary">
+                            Add Task
+                        </button>
+                    </div>
+                    <p id="task-input-hint" class="input-hint">Press Enter or click Add Task to create</p>
+                </form>
+            </section>
+
+            <section class="task-management-section">
+                <div class="task-filters" role="group" aria-label="Task Filters">
+                    <button 
+                        class="filter-btn active" 
+                        data-filter="all" 
+                        aria-pressed="true"
+                    >
+                        All Tasks
+                    </button>
+                    <button 
+                        class="filter-btn" 
+                        data-filter="active" 
+                        aria-pressed="false"
+                    >
+                        Active
+                    </button>
+                    <button 
+                        class="filter-btn" 
+                        data-filter="completed" 
+                        aria-pressed="false"
+                    >
+                        Completed
+                    </button>
+                </div>
+
+                <div id="task-list-container">
+                    <ul 
+                        id="task-list" 
+                        class="task-list" 
+                        aria-label="Task List" 
+                        role="list"
+                    >
+                        <!-- Tasks will be dynamically added here by JavaScript -->
+                        <li class="task-list-empty" aria-live="polite">
+                            <h2>Your productivity journey starts here</h2>
+                            <p>Add your first task and transform potential into progress.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="drag-instructions" aria-live="polite">
+                    <h3>Organize with Ease</h3>
+                    <p>Drag and drop tasks to reorder, prioritize, or move between lists. Your workflow, your way.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Taskr. All rights reserved.</p>
+            <nav aria-label="Social and Contact Links">
+                <ul class="social-links">
+                    <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                    <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                    <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                </ul>
+                <a href="mailto:support@taskr.com" class="contact-email">support@taskr.com</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>

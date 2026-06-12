@@ -1,0 +1,191 @@
+/* Responsive CSS for all components */
+/* Mobile First Approach */
+
+/* 
+====================
+MEDIA QUERIES
+====================
+*/
+
+/* Mobile Styles (Default) */
+.hero {
+  padding: 1rem;
+}
+
+.hero-content {
+  padding: 2rem 1rem;
+}
+
+.hero-title {
+  font-size: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+}
+
+.hero .cta-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.features-section {
+  padding: 2rem 1rem;
+}
+
+.features-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-card {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 1.5rem;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+}
+
+.feature-icon {
+  font-size: 2rem;
+}
+
+.cta-section {
+  padding: 1rem;
+}
+
+.cta-container {
+  padding: 2rem 1rem;
+  max-width: 100%;
+}
+
+.cta-container h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-container p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.download-button {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+  .hero {
+    padding: 2rem;
+  }
+  
+  .hero-content {
+    padding: 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .hero .cta-button {
+    width: auto;
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+  }
+  
+  .features-section {
+    padding: 2rem;
+  }
+  
+  .features-section h2 {
+    font-size: 2rem;
+  }
+  
+  .feature-card {
+    width: 48%;
+    margin: 1%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .cta-section {
+    padding: 2rem;
+  }
+  
+  .cta-container {
+    padding: 3rem;
+    max-width: 600px;
+  }
+  
+  .cta-container h1 {
+    font-size: 2rem;
+  }
+  
+  .cta-container p {
+    font-size: 1.125rem;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .hero {
+    padding: 3rem;
+  }
+  
+  .hero-content {
+    padding: 4rem;
+    max-width: 1000px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .features-section {
+    padding: 3rem;
+  }
+  
+  .feature-card {
+    width: 30%;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .cta-section {
+    padding: 3rem;
+  }
+  
+  .cta-container {
+    padding: 4rem;
+    max-width: 700px;
+  }
+}
+
+/* Large Desktop Styles */
+@media (min-width: 1200px) {
+  .hero-content {
+    max-width: 1200px;
+  }
+  
+  .features-section .container {
+    max-width: 1200px;
+  }
+}

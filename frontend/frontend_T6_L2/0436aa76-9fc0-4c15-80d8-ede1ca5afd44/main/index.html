@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orcheeos - Empowering Community Impact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preload" href="styles.css" as="style">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!-- Skip to main content link - FIRST focusable element for keyboard users -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
+        <div class="container">
+            <nav role="navigation" aria-label="Main Navigation">
+                <a href="#" class="logo" aria-label="Orcheeos Home">
+                    <img src="logo.svg" alt="Orcheeos Logo" width="150" height="50">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle Navigation">
+                    <span class="hamburger-icon" aria-hidden="true">☰</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section id="hero" class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-title">Empowering Communities, Transforming Lives</h1>
+                    <p>We connect passionate volunteers with meaningful community projects.</p>
+                    <a href="#donate" class="cta-button">Get Involved</a>
+                </div>
+                <div class="hero-image">
+                    <img src="hero-image.jpg" alt="Diverse group of volunteers working together on a community project" width="600" height="400">
+                </div>
+            </div>
+        </section>
+
+        <section id="mission" aria-labelledby="mission-title">
+            <div class="container">
+                <h2 id="mission-title">Our Mission</h2>
+                <div class="mission-content">
+                    <img src="mission-icon.svg" alt="Mission vision representation" width="100" height="100">
+                    <div>
+                        <p>Orcheeos is dedicated to creating sustainable community impact through strategic volunteerism and collaborative partnerships.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="programs" aria-labelledby="programs-title">
+            <div class="container">
+                <h2 id="programs-title">Our Programs</h2>
+                <div class="programs-grid">
+                    <article class="program-card">
+                        <img src="education-program.jpg" alt="Students in a classroom learning" width="300" height="200">
+                        <h3>Education Support</h3>
+                        <p>Providing resources and mentorship to underserved students.</p>
+                    </article>
+                    <article class="program-card">
+                        <img src="community-development.jpg" alt="Community members working on a local project" width="300" height="200">
+                        <h3>Community Development</h3>
+                        <p>Implementing sustainable infrastructure and skill-building initiatives.</p>
+                    </article>
+                    <article class="program-card">
+                        <img src="environmental-program.jpg" alt="Volunteers planting trees" width="300" height="200">
+                        <h3>Environmental Stewardship</h3>
+                        <p>Engaging communities in conservation and sustainability efforts.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="donate" aria-labelledby="donate-title">
+            <div class="container">
+                <h2 id="donate-title">Support Our Work</h2>
+                <div class="donate-content">
+                    <p>Your contribution can make a real difference in communities worldwide.</p>
+                    <a href="#" class="cta-button">Donate Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo-white.svg" alt="Orcheeos Logo" width="150" height="50">
+                </div>
+                <nav aria-label="Footer Navigation">
+                    <ul>
+                        <li><a href="#mission">About</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Twitter">TW</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Orcheeos. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

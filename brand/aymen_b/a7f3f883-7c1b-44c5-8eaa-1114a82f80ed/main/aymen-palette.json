@@ -1,0 +1,20 @@
+{
+  "primary": "#3d87cc",
+  "secondary": "#b75088",
+  "accent": "#80cc20",
+  "neutral_100": "#f4f7f9",
+  "neutral_300": "#d5d7d8",
+  "neutral_500": "#8a8b8c",
+  "neutral_700": "#585859",
+  "neutral_900": "#1e1e1e",
+  "contrast_scores": {
+    "primary_on_dark": {"ratio": 4.39, "aa_normal": false, "aa_large": true, "aaa_normal": false, "aaa_large": false},
+    "secondary_on_dark": {"ratio": 3.59, "aa_normal": false, "aa_large": true, "aaa_normal": false, "aaa_large": false},
+    "accent_on_dark": {"ratio": 8.4, "aa_normal": true, "aa_large": true, "aaa_normal": true, "aaa_large": true},
+    "neutral_100_on_dark": {"ratio": 15.5, "aa_normal": true, "aa_large": true, "aaa_normal": true, "aaa_large": true},
+    "neutral_500_on_dark": {"ratio": 4.88, "aa_normal": true, "aa_large": true, "aaa_normal": false, "aaa_large": true},
+    "neutral_900_on_dark": {"ratio": 15.5, "aa_normal": true, "aa_large": true, "aaa_normal": true, "aaa_large": true},
+    "neutral_300_on_dark": {"ratio": 11.54, "aa_normal": true, "aa_large": true, "aaa_normal": true, "aaa_large": true},
+    "neutral_700_on_dark": {"ratio": 2.35, "aa_normal": false, "aa_large": false, "aaa_normal": false, "aaa_large": false}
+  }
+}

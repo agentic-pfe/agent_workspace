@@ -1,0 +1,79 @@
+{
+  "page_title": "Taskr | Simplify Your Productivity",
+  "brand_name": "Taskr",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#6366F1", "role": "trust, headers, buttons"},
+      "secondary": {"hex": "#06B6D4", "role": "highlights, accents"},
+      "accent": {"hex": "#EC4899", "role": "urgency, CTAs, badges"},
+      "dark": {"hex": "#111827", "role": "text, footer background"},
+      "light": {"hex": "#FAFAFA", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "modern + professional"
+  },
+  "header": {
+    "logo_text": "Taskr",
+    "cta_button": {"text": "Start Organizing", "href": "#task-input"},
+    "nav_items": [
+      {"label": "Features", "href": "#features"},
+      {"label": "How It Works", "href": "#how-it-works"},
+      {"label": "Pricing", "href": "#pricing"},
+      {"label": "Support", "href": "#support"}
+    ]
+  },
+  "hero": {
+    "headline": "Conquer Your Day, One Task at a Time",
+    "subheadline": "Taskr is the minimalist productivity app that turns your chaos into clarity, helping you focus on what matters most.",
+    "cta_primary": "Get Started Free",
+    "cta_secondary": "Watch Demo"
+  },
+  "task_management": {
+    "input_placeholder": "What needs to get done today?",
+    "buttons": {
+      "add_task": "Add Task",
+      "edit_task": "Edit",
+      "delete_task": "Remove",
+      "save_task": "Save Changes",
+      "complete_task": "Mark Complete"
+    },
+    "empty_state": {
+      "title": "Your productivity journey starts here",
+      "description": "No tasks yet — add one above and start crushing your goals!",
+      "cta": "Create First Task"
+    },
+    "validation_messages": {
+      "empty_task": "Oops! Task can't be empty. What do you need to do?",
+      "max_length": "Keep it concise: 200 characters max"
+    }
+  },
+  "features": [
+    {
+      "title": "Minimalist Design",
+      "description": "Zero clutter, maximum focus. Our clean interface helps you concentrate on completing tasks, not managing them."
+    },
+    {
+      "title": "Quick Task Entry",
+      "description": "Capture thoughts instantly with our lightning-fast input. No more forgotten to-dos."
+    },
+    {
+      "title": "Smart Organization",
+      "description": "Automatically prioritize and categorize tasks to keep you on track and productive."
+    }
+  ],
+  "footer": {
+    "copyright": "© 2024 Taskr. Productivity Simplified.",
+    "social_links": ["Twitter", "LinkedIn", "Instagram"],
+    "contact": "hello@taskrapp.com"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "Modern, clean illustration of a diverse professional sitting at a minimalist desk, surrounded by floating, organized task cards. Soft indigo and cyan color palette, clean lines, digital art style showing focus and productivity.",
+      "style": "digital_art"
+    }
+  ]
+}

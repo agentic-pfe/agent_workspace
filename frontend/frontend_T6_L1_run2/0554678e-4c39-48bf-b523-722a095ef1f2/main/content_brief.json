@@ -1,0 +1,93 @@
+{
+  "page_title": "GreenFuture: Restoring Our Planet, One Action at a Time",
+  "brand_name": "GreenFuture",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#047857", "role": "environmental trust, headers"},
+      "secondary": {"hex": "#10B981", "role": "hope, highlights"},
+      "accent": {"hex": "#F59E0B", "role": "urgency, CTAs"},
+      "dark": {"hex": "#1C2B33", "role": "text, footer background"},
+      "light": {"hex": "#F0FDF4", "role": "background sections"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "hopeful + professional"
+  },
+  "header": {
+    "logo_text": "GreenFuture",
+    "cta_button": {"text": "Support Our Mission", "href": "#donate"},
+    "nav_items": [
+      {"label": "Our Programs", "href": "#programs"},
+      {"label": "Impact", "href": "#impact"},
+      {"label": "Get Involved", "href": "#volunteer"},
+      {"label": "Donate", "href": "#donate"}
+    ]
+  },
+  "hero": {
+    "headline": "Healing the Planet, Empowering Communities",
+    "subheadline": "Join a global movement transforming environmental challenges into sustainable solutions through collective action and innovative conservation strategies.",
+    "cta_primary": "Donate Now",
+    "cta_secondary": "Become a Volunteer",
+    "image_prompt": "A diverse group of environmental volunteers working together, planting trees in a lush landscape with solar panels and wind turbines in the background. Bright, hopeful lighting, showing teamwork and environmental restoration."
+  },
+  "mission_statement": "GreenFuture is a dedicated non-profit organization committed to reversing environmental degradation through strategic conservation, community empowerment, and transformative ecological restoration projects. We believe that sustainable change happens when passionate individuals unite with scientific expertise and compassionate action.",
+  "sections": [
+    {
+      "heading": "Our Core Programs",
+      "content": "We tackle environmental challenges through targeted, impactful initiatives that create lasting change.",
+      "features": [
+        {
+          "title": "Reforestation Initiative",
+          "description": "We restore degraded landscapes by planting native tree species and engaging local communities in sustainable forest management. Our approach combines ecological science with community empowerment, creating green corridors that support biodiversity and local livelihoods.",
+          "icon_suggestion": "tree"
+        },
+        {
+          "title": "Ocean Cleanup Project",
+          "description": "Our comprehensive marine conservation program removes plastic waste, supports marine ecosystem recovery, and educates communities about ocean health. We deploy advanced cleanup technologies and work with coastal communities to prevent future pollution.",
+          "icon_suggestion": "waves"
+        },
+        {
+          "title": "Renewable Energy Advocacy",
+          "description": "We accelerate the transition to clean energy by supporting policy changes, funding renewable infrastructure, and providing education on sustainable energy solutions. Our work bridges technological innovation with community-driven climate action.",
+          "icon_suggestion": "solar-panel"
+        }
+      ]
+    }
+  ],
+  "donation_form": {
+    "headline": "Your Support Transforms Lives and Landscapes",
+    "instructions": "Every donation, no matter the size, creates meaningful environmental change. Choose a recurring or one-time contribution to support our critical conservation work.",
+    "donation_levels": [
+      {"amount": "$25", "impact": "Plants 10 trees"},
+      {"amount": "$50", "impact": "Removes 100 lbs of ocean plastic"},
+      {"amount": "$100", "impact": "Supports renewable energy education"}
+    ]
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "A diverse group of environmental volunteers working together, planting trees in a lush landscape with solar panels and wind turbines in the background. Bright, hopeful lighting, showing teamwork and environmental restoration.",
+      "alt_text": "Diverse volunteers collaborating on a reforestation project, planting native trees in a recovering ecosystem",
+      "style": "photo"
+    },
+    {
+      "name": "ocean_cleanup",
+      "prompt": "Professional environmental team removing plastic waste from a coastal shoreline, using specialized equipment and working together with determination",
+      "alt_text": "Environmental team collecting and sorting ocean plastic waste on a beach cleanup mission",
+      "style": "photo"
+    },
+    {
+      "name": "renewable_energy",
+      "prompt": "Community workshop on renewable energy, showing solar panels and wind turbines, with people learning and discussing sustainable technology",
+      "alt_text": "Community members learning about renewable energy technologies in an interactive outdoor workshop",
+      "style": "photo"
+    }
+  ],
+  "footer": {
+    "copyright": "© 2024 GreenFuture. All Rights Reserved.",
+    "social_links": ["Facebook", "Twitter", "Instagram", "LinkedIn"],
+    "contact": "Connect with us: info@greenfuture.org | +1 (555) PLANET"
+  }
+}

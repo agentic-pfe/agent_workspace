@@ -1,0 +1,99 @@
+{
+  "page_title": "Vaultly: Personal Finance Mastery for the Modern Professional",
+  "brand_name": "Vaultly",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#1D4ED8", "role": "trust, headers, buttons"},
+      "secondary": {"hex": "#475569", "role": "warmth, highlights, accents"},
+      "accent": {"hex": "#DC2626", "role": "urgency, CTAs, badges"},
+      "dark": {"hex": "#0F172A", "role": "text, footer background"},
+      "light": {"hex": "#F1F5F9", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "professional + modern"
+  },
+  "header": {
+    "logo_text": "Vaultly",
+    "cta_button": {"text": "Start Managing", "href": "#cta"},
+    "nav_items": [
+      {"label": "Features", "href": "#features"},
+      {"label": "How It Works", "href": "#how-it-works"},
+      {"label": "Pricing", "href": "#pricing"},
+      {"label": "About", "href": "#about"}
+    ]
+  },
+  "hero": {
+    "headline": "Take Control of Your Financial Future",
+    "subheadline": "Vaultly empowers young professionals to transform financial stress into strategic wealth-building with intelligent, user-friendly personal finance management.",
+    "cta_primary": "Get Started Free",
+    "cta_secondary": "Watch Demo",
+    "image_prompt": "Modern, sleek dashboard showing financial analytics, with a young professional using a laptop, soft blue and gray color palette, clean minimalist design, professional workspace background"
+  },
+  "features": [
+    {
+      "title": "Secure Your Future",
+      "description": "Automated investment tracking and personalized growth strategies tailored to your unique financial goals. We analyze your spending, recommend smart savings plans, and project your long-term financial trajectory.",
+      "icon_suggestion": "shield-check",
+      "image_prompt": "Futuristic financial planning visualization, holographic investment charts, young professional looking confident, soft technological blue and green tones"
+    },
+    {
+      "title": "Smart Budgeting",
+      "description": "Intelligent expense categorization that learns your spending patterns. Get real-time insights, automatic budget recommendations, and actionable tips to optimize your financial health without the complexity.",
+      "icon_suggestion": "chart-pie",
+      "image_prompt": "Interactive budget dashboard with colorful pie charts, money flow animations, minimalist design with clean lines, professional color scheme"
+    },
+    {
+      "title": "Instant Insights",
+      "description": "Comprehensive financial overview at your fingertips. Track investments, monitor cash flow, and receive predictive alerts about potential savings opportunities or financial risks before they impact you.",
+      "icon_suggestion": "lightning-bolt",
+      "image_prompt": "Dynamic financial insights screen, real-time data visualization, glowing analytics, modern tech-inspired design with deep blues and electric accents"
+    }
+  ],
+  "social_proof": {
+    "trusted_by_logos": [
+      {"name": "Forbes", "alt": "Featured in Forbes - Top Financial Innovation"},
+      {"name": "TechCrunch", "alt": "TechCrunch Startup Spotlight Winner"},
+      {"name": "Bloomberg", "alt": "Bloomberg Recommended Financial App"},
+      {"name": "Fast Company", "alt": "Fast Company's Most Innovative Finance Solutions"}
+    ]
+  },
+  "contact_form": {
+    "title": "Start Your Financial Journey",
+    "subtitle": "Connect with our team and unlock personalized financial guidance",
+    "fields": [
+      {
+        "name": "fullName",
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "type": "text"
+      },
+      {
+        "name": "emailAddress",
+        "label": "Email Address",
+        "placeholder": "your.email@example.com",
+        "type": "email"
+      },
+      {
+        "name": "message",
+        "label": "Your Message",
+        "placeholder": "How can we help you transform your financial future?",
+        "type": "textarea"
+      }
+    ],
+    "submit_button": "Send Message"
+  },
+  "cta_section": {
+    "headline": "Your Financial Potential, Unleashed",
+    "subheadline": "Join thousands of young professionals who are rewriting their financial narrative with Vaultly.",
+    "primary_cta": "Start Your Free Trial",
+    "secondary_cta": "Learn More"
+  },
+  "footer": {
+    "copyright": "© 2024 Vaultly. All rights reserved.",
+    "social_links": ["Facebook", "Twitter", "LinkedIn", "Instagram"],
+    "contact": "support@vaultly.com | +1 (888) VAULTLY"
+  }
+}

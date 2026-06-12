@@ -1,0 +1,113 @@
+{
+  "page_title": "GreenFuture - Empowering Environmental Change",
+  "brand_name": "GreenFuture",
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#2E7D32", "role": "forest green, primary action color"},
+      "secondary": {"hex": "#4CAF50", "role": "leaf green, secondary highlights"},
+      "accent": {"hex": "#FF5722", "role": "urgent actions, call-to-donate"},
+      "dark": {"hex": "#1B5E20", "role": "text, dark backgrounds"},
+      "light": {"hex": "#E8F5E9", "role": "light backgrounds, content sections"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "hopeful, professional, environmental"
+  },
+  "color_palette": {
+    "primary": "#2E7D32",
+    "secondary": "#4CAF50", 
+    "accent": "#FF5722",
+    "dark": "#1B5E20",
+    "light": "#E8F5E9"
+  },
+  "typography": {
+    "heading": "Montserrat",
+    "body": "Open Sans"
+  },
+  "css_classes": {
+    "header": "site-header",
+    "logo": "logo",
+    "nav": "nav-links",
+    "nav_item": "nav-link",
+    "header_cta": "header-cta",
+    "hero": "hero",
+    "hero_title": "hero-title",
+    "hero_subtitle": "hero-subtitle",
+    "features": "features-grid",
+    "feature_card": "feature-card",
+    "testimonials": "testimonials",
+    "cta_section": "cta-section",
+    "cta_button": "cta-btn",
+    "footer": "site-footer"
+  },
+  "header": {
+    "logo_text": "GreenFuture",
+    "cta_button": {"text": "Donate Now", "href": "#donate"}
+  },
+  "nav_items": [
+    {"label": "Our Mission", "href": "#mission"},
+    {"label": "Projects", "href": "#projects"},
+    {"label": "Get Involved", "href": "#involve"},
+    {"label": "Impact", "href": "#impact"}
+  ],
+  "hero_image_prompt": "Lush green forest landscape with diverse ecosystem, sunlight filtering through trees, representing environmental conservation and hope",
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "headline": "Transforming Our Planet, One Action at a Time",
+      "subheadline": "Join GreenFuture in our mission to protect and restore our global environment through sustainable initiatives and community empowerment.",
+      "cta_text": "Explore Our Work"
+    },
+    {
+      "id": "mission",
+      "type": "mission",
+      "title": "Our Environmental Mission",
+      "description": "GreenFuture is dedicated to combating climate change, protecting biodiversity, and creating sustainable solutions for a healthier planet.",
+      "features": [
+        {
+          "title": "Climate Action",
+          "description": "Developing innovative strategies to reduce carbon emissions and promote renewable energy.",
+          "icon": "🌍"
+        },
+        {
+          "title": "Biodiversity Conservation",
+          "description": "Protecting endangered ecosystems and supporting wildlife preservation efforts.",
+          "icon": "🌿"
+        },
+        {
+          "title": "Community Empowerment",
+          "description": "Educating and engaging local communities in sustainable environmental practices.",
+          "icon": "👥"
+        }
+      ]
+    },
+    {
+      "id": "involve",
+      "type": "involvement",
+      "title": "Get Involved",
+      "options": [
+        {
+          "title": "Volunteer",
+          "description": "Join our local and global environmental initiatives.",
+          "cta": "Find Opportunities"
+        },
+        {
+          "title": "Donate",
+          "description": "Support our critical environmental conservation work.",
+          "cta": "Make a Difference"
+        },
+        {
+          "title": "Educate",
+          "description": "Learn and spread awareness about environmental challenges.",
+          "cta": "Start Learning"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {"id": "hero-bg", "prompt": "Lush green forest landscape with sunlight, representing environmental conservation"}
+  ]
+}

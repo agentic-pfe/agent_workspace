@@ -1,0 +1,123 @@
+{
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#2C3E63", "role": "trust, headers, nav background, text"},
+      "secondary": {"hex": "#C9A87C", "role": "warmth, section accents, decorative elements"},
+      "accent": {"hex": "#E85D4A", "role": "urgency, CTAs, links, hover states, skill bars"},
+      "dark": {"hex": "#1B1F2A", "role": "text, footer background, dark sections"},
+      "light": {"hex": "#F7F5F0", "role": "alternating section backgrounds, card surfaces"},
+      "muted": {"hex": "#E8E3DA", "role": "borders, dividers, subtle backgrounds"}
+    },
+    "typography": {
+      "heading": "Playfair Display",
+      "body": "Inter",
+      "mono": "JetBrains Mono"
+    },
+    "mood": "minimalist + elegant + warm",
+    "spacing": {
+      "xs": "0.5rem",
+      "sm": "1rem",
+      "md": "2rem",
+      "lg": "4rem",
+      "xl": "6rem"
+    },
+    "shadows": {
+      "sm": "0 1px 3px rgba(27,31,42,0.08)",
+      "md": "0 4px 12px rgba(27,31,42,0.1)",
+      "lg": "0 8px 30px rgba(27,31,42,0.12)"
+    }
+  },
+  "header": {
+    "logo_text": "Alex Morgan",
+    "cta_button": {"text": "Let's Talk", "href": "#contact"},
+    "nav_items": [
+      {"label": "Work", "href": "#projects"},
+      {"label": "Skills", "href": "#skills"},
+      {"label": "About", "href": "#about"},
+      {"label": "Contact", "href": "#contact"}
+    ]
+  },
+  "hero": {
+    "headline": "Alex Morgan",
+    "subheadline": "UX Designer & Creative Developer",
+    "mission": "I craft digital experiences that feel human — blending research, design, and code to build products people love to use.",
+    "cta_text": "View My Work",
+    "hero_image_prompt": "Minimalist designer desk setup with sketchbook, wireframe sketches, and a MacBook showing a clean UI design. Warm natural lighting, aerial flatlay view, elegant and modern composition with subtle coral and navy accents."
+  },
+  "projects": [
+    {
+      "title": "Mindful Dashboard",
+      "category": "Product Design",
+      "description": "A mental wellness analytics platform helping therapists track patient progress through intuitive data visualization and mood journaling.",
+      "color": "#E8DDD3",
+      "accent_color": "#C9A87C"
+    },
+    {
+      "title": "Nomad Travel App",
+      "category": "Mobile UX",
+      "description": "End-to-end travel companion app with smart itinerary planning, offline maps, and local experience curation for digital nomads.",
+      "color": "#DCE4EC",
+      "accent_color": "#2C3E63"
+    },
+    {
+      "title": "Finwise Redesign",
+      "category": "UX Research",
+      "description": "Complete redesign of a fintech platform based on 40+ user interviews, resulting in a 35% increase in user retention and task completion.",
+      "color": "#F2E8DC",
+      "accent_color": "#E85D4A"
+    },
+    {
+      "title": "Artisan Marketplace",
+      "category": "Web Platform",
+      "description": "A community-driven marketplace connecting local artisans with conscious consumers, featuring a peer-to-peer messaging system and verified reviews.",
+      "color": "#E2E0DD",
+      "accent_color": "#C9A87C"
+    }
+  ],
+  "skills": [
+    {"name": "UX Research", "percentage": 92, "icon": "🔍"},
+    {"name": "Wireframing", "percentage": 88, "icon": "✏️"},
+    {"name": "Prototyping", "percentage": 95, "icon": "⚡"},
+    {"name": "UI Design", "percentage": 90, "icon": "🎨"},
+    {"name": "Frontend Dev", "percentage": 78, "icon": "💻"}
+  ],
+  "about": {
+    "bio": "I'm Alex — a UX designer with 8+ years of experience turning complex problems into elegant, user-centered solutions. I believe the best designs come from deep listening: to users, to data, and to the teams who bring products to life. When I'm not pushing pixels, you'll find me mentoring junior designers, writing about design systems, or experimenting with creative code.",
+    "timeline": [
+      {"year": "2016", "title": "Design Degree", "description": "Graduated with a BFA in Interaction Design from Parsons School of Design, where I fell in love with human-centered research methods."},
+      {"year": "2019", "title": "Senior UX at Finwise", "description": "Led the UX team through a major platform redesign, growing the user base from 50K to 200K monthly active users."},
+      {"year": "2023", "title": "Independent Practice", "description": "Launched my own design studio, partnering with startups and scale-ups to build products that balance business goals with genuine user value."}
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "Alex is the rare designer who truly understands both the user and the business. Our engagement doubled within three months of the redesign.",
+      "author": "Sarah Chen",
+      "role": "CEO, Finwise"
+    },
+    {
+      "quote": "Working with Alex felt like having a design partner, not a consultant. Every decision was backed by research and delivered with care.",
+      "author": "Marcus Rivera",
+      "role": "Product Lead, Nomad Tech"
+    },
+    {
+      "quote": "The design system Alex built for us has become the backbone of our product. It's clean, scalable, and our engineers love it.",
+      "author": "Priya Patel",
+      "role": "CTO, Artisan Market"
+    }
+  ],
+  "cta_section": {
+    "headline": "Let's build something meaningful together.",
+    "subheadline": "Currently available for select projects and collaborations.",
+    "button_text": "Get In Touch"
+  },
+  "footer": {
+    "copyright": "© 2025 Alex Morgan. Designed with care.",
+    "links": [
+      {"label": "Email", "href": "mailto:alex@alexmorgan.design"},
+      {"label": "LinkedIn", "href": "#"},
+      {"label": "Dribbble", "href": "#"},
+      {"label": "Twitter", "href": "#"}
+    ]
+  }
+}

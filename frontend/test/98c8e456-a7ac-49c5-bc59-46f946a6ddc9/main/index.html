@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PulsePro — Your Daily Fitness Companion</title>
+  <meta name="description" content="PulsePro brings your fitness data to life — track, visualize, and crush every goal with a sleek dashboard designed for the active adult on the move." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Header & Navigation ===== -->
+  <header class="header" role="banner">
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <a href="/" class="nav__logo" aria-label="PulsePro home">
+        <span aria-hidden="true">&#x2764;</span> PulsePro
+      </a>
+      <ul class="nav__list" role="list">
+        <li class="nav__item"><a href="/" class="nav__link nav__link--active" aria-current="page">Home</a></li>
+        <li class="nav__item"><a href="#features" class="nav__link">Features</a></li>
+        <li class="nav__item"><a href="/dashboard" class="nav__link">Dashboard</a></li>
+        <li class="nav__item"><a href="/community" class="nav__link">Community</a></li>
+        <li class="nav__item"><a href="/signup" class="nav__link nav__link--cta">Get Started</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== Main Content ===== -->
+  <main role="main">
+
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__content">
+        <h1 class="hero__headline" id="hero-heading">Transform Every Step into Progress</h1>
+        <p class="hero__subhead">
+          PulsePro brings your fitness data to life — track, visualize, and crush every goal with a sleek dashboard designed for the active adult on the move.
+        </p>
+        <div class="hero__actions">
+          <a href="/signup" class="btn btn--primary" role="button">Start Your Journey — Free</a>
+          <a href="#features" class="btn btn--secondary" role="button">See How It Works</a>
+        </div>
+      </div>
+      <figure class="hero__media">
+        <img
+          src="images/hero-banner.jpg"
+          alt="Active adult runner on a coastal trail at golden sunrise with PulsePro stats overlay showing distance, pace, and heart rate."
+          class="hero__image"
+          width="1200"
+          height="675"
+          loading="eager"
+        />
+      </figure>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section section--features" id="features" aria-labelledby="features-heading">
+      <header class="section__header">
+        <h2 class="section__title" id="features-heading">Everything You Need to Go Further</h2>
+      </header>
+
+      <div class="features" role="list">
+        <!-- Feature Card 1: Activity Logging -->
+        <article class="card" role="listitem" aria-labelledby="feature-activity-heading">
+          <img
+            src="images/icon-activity-logging.png"
+            alt=""
+            class="card__icon"
+            width="200"
+            height="200"
+            loading="lazy"
+            aria-hidden="true"
+          />
+          <h3 class="card__title" id="feature-activity-heading">Log Every Move, No Matter the Workout</h3>
+          <p class="card__description">
+            From morning runs and lunchtime yoga to evening climbs and weekend hikes — PulsePro makes logging your activity effortless. Sync with your favorite wearables or tap to log manually. Add notes, track duration, distance, calories, and intensity level in seconds. Your complete fitness history, always at your fingertips.
+          </p>
+        </article>
+
+        <!-- Feature Card 2: Progress Visualization -->
+        <article class="card" role="listitem" aria-labelledby="feature-progress-heading">
+          <img
+            src="images/icon-progress-visualization.png"
+            alt=""
+            class="card__icon"
+            width="200"
+            height="200"
+            loading="lazy"
+            aria-hidden="true"
+          />
+          <h3 class="card__title" id="feature-progress-heading">See Your Gains, Week After Week</h3>
+          <p class="card__description">
+            Transforming raw data into clarity. PulsePro's rich charts and heatmaps show you exactly how your fitness is evolving — from weekly step trends and sleep recovery scores to VO₂ max improvements. Spot patterns, celebrate streaks, and understand what works. Data has never looked this good.
+          </p>
+        </article>
+
+        <!-- Feature Card 3: Smart Goal Setting -->
+        <article class="card" role="listitem" aria-labelledby="feature-goals-heading">
+          <img
+            src="images/icon-goal-setting.png"
+            alt=""
+            class="card__icon"
+            width="200"
+            height="200"
+            loading="lazy"
+            aria-hidden="true"
+          />
+          <h3 class="card__title" id="feature-goals-heading">Set Goals That Push You Further</h3>
+          <p class="card__description">
+            Great fitness starts with a clear target. PulsePro's intelligent goal system adapts to your lifestyle — set daily step targets, weekly workout frequency, distance milestones, or recovery goals. Get smart nudges when you're close to a streak, celebrate when you smash a record, and adjust goals on the fly as your fitness grows.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="section section--cta" aria-labelledby="cta-heading">
+      <h2 class="section__title section__title--cta" id="cta-heading">Ready to Redefine What You're Capable Of?</h2>
+      <p class="section__subhead">
+        Join 50,000+ active adults who trust PulsePro to track, analyze, and elevate their fitness journey.
+      </p>
+      <div class="section__actions">
+        <a href="/signup" class="btn btn--primary" role="button">Create Your Free Account</a>
+        <a href="#features" class="btn btn--secondary" role="button">Explore Features</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo" aria-label="PulsePro home">
+          <span aria-hidden="true">&#x2764;</span> PulsePro
+        </a>
+        <p class="footer__tagline">Your daily fitness companion.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Quick links">
+        <ul class="footer__list" role="list">
+          <li><a href="/about" class="footer__link">About Us</a></li>
+          <li><a href="/privacy" class="footer__link">Privacy Policy</a></li>
+          <li><a href="/terms" class="footer__link">Terms of Service</a></li>
+          <li><a href="/support" class="footer__link">Support Center</a></li>
+          <li><a href="/careers" class="footer__link">Careers</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__social" aria-label="Social media links">
+        <p class="footer__social-label">Follow us</p>
+        <ul class="footer__social-list" role="list">
+          <li><a href="https://instagram.com/pulsepro.app" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="PulsePro on Instagram">Instagram</a></li>
+          <li><a href="https://youtube.com/@pulsepro" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="PulsePro on YouTube">YouTube</a></li>
+          <li><a href="https://tiktok.com/@pulsepro" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="PulsePro on TikTok">TikTok</a></li>
+          <li><a href="https://x.com/pulsepro" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="PulsePro on X (formerly Twitter)">X</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <p class="footer__contact-label">Contact us</p>
+        <a href="mailto:hello@pulsepro.app" class="footer__email">hello@pulsepro.app</a>
+      </div>
+    </div>
+
+    <hr class="footer__divider" />
+    <p class="footer__copyright">&copy; 2025 PulsePro. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

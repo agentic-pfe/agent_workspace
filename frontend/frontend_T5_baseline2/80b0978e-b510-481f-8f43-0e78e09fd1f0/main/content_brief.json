@@ -1,0 +1,62 @@
+{
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#2563EB", "role": "headers, primary actions"},
+      "secondary": {"hex": "#10B981", "role": "highlights, section backgrounds"},
+      "accent": {"hex": "#F59E0B", "role": "CTAs, urgent elements"},
+      "dark": {"hex": "#1E293B", "role": "text, footer background"},
+      "light": {"hex": "#F8FAFC", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "professional + modern"
+  },
+  "header": {
+    "logo_text": "Vaultly",
+    "cta_button": {"text": "Start Saving", "href": "#cta"},
+    "nav_items": [
+      {"label": "Features", "href": "#features"},
+      {"label": "Pricing", "href": "#pricing"},
+      {"label": "Security", "href": "#security"},
+      {"label": "Contact", "href": "#contact"}
+    ]
+  },
+  "hero": {
+    "headline": "Smart Finance, Simplified",
+    "subheadline": "Automate your savings, investments, and financial planning with AI-powered insights",
+    "cta_text": "Get Started Free"
+  },
+  "features": [
+    {
+      "title": "AI Financial Advisor",
+      "description": "Personalized investment recommendations tailored to your financial goals"
+    },
+    {
+      "title": "Automated Savings",
+      "description": "Intelligent algorithms that help you save without thinking about it"
+    },
+    {
+      "title": "Real-Time Tracking",
+      "description": "Monitor your financial health with intuitive, real-time dashboards"
+    },
+    {
+      "title": "Secure Encryption",
+      "description": "Bank-grade security to protect your most sensitive financial data"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Vaultly transformed how I manage my money. It's like having a financial expert in my pocket.",
+      "name": "Sarah Thompson",
+      "role": "Marketing Director"
+    },
+    {
+      "quote": "The AI insights are incredibly accurate. I've saved 30% more since using Vaultly.",
+      "name": "Michael Chen",
+      "role": "Software Engineer"
+    }
+  ],
+  "hero_image_prompt": "Modern financial dashboard showing investment graphs, savings analytics, and AI-powered financial insights. Clean, professional design with blue and green color scheme. Sleek technology interface."
+}

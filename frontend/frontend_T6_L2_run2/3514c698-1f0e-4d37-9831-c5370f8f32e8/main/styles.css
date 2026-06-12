@@ -1,0 +1,214 @@
+/* Accessibility-First CSS Reset and Design System */
+:root {
+  /* Design Tokens from Previous Work */
+  --primary-color: #4361ee;      /* Trust, headers, buttons */
+  --secondary-color: #7209b7;    /* Warmth, highlights, accents */
+  --accent-color: #f72585;       /* Urgency, CTAs, badges */
+  --dark-color: #212529;         /* Text, footer background */
+  --light-color: #f8f9fa;        /* Alternating section backgrounds */
+
+  /* Accessible Typography */
+  --font-family-heading: 'Montserrat', sans-serif;
+  --font-family-body: 'Open Sans', sans-serif;
+
+  /* Spacing and Sizing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+
+  /* Typography Sizes with Fluid Typography */
+  --font-size-sm: clamp(0.8rem, 2vw, 0.95rem);
+  --font-size-base: clamp(1rem, 2.5vw, 1.125rem);
+  --font-size-md: clamp(1.25rem, 3vw, 1.5rem);
+  --font-size-lg: clamp(1.75rem, 4vw, 2.25rem);
+  --font-size-xl: clamp(2.5rem, 5vw, 3.5rem);
+
+  /* Accessibility Color Contrast */
+  --text-primary: var(--dark-color);
+  --text-secondary: #495057;
+  --background-primary: var(--light-color);
+}
+
+/* Accessible Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+/* Reduce Motion for Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  font-family: var(--font-family-body);
+  line-height: 1.6;
+  color: var(--text-primary);
+  background-color: var(--background-primary);
+  font-size: var(--font-size-base);
+}
+
+/* Typography Hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--primary-color);
+  margin-bottom: var(--space-md);
+}
+
+h1 { font-size: var(--font-size-xl); }
+h2 { font-size: var(--font-size-lg); }
+h3 { font-size: var(--font-size-md); }
+
+/* Accessible Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+
+/* Focus Indicators */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Buttons with Accessible States */
+.btn {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+.btn:focus {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+/* Form Accessibility */
+input, 
+textarea, 
+select {
+  width: 100%;
+  padding: var(--space-sm);
+  margin-bottom: var(--space-md);
+  border: 2px solid var(--text-secondary);
+  border-radius: 4px;
+  font-size: var(--font-size-base);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--primary-color);
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+label {
+  display: block;
+  margin-bottom: var(--space-xs);
+  font-weight: 600;
+}
+
+/* Responsive Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+/* Responsive Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-lg);
+}
+
+/* Mobile Navigation */
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Responsive Typography and Spacing */
+@media (max-width: 480px) {
+  body {
+    font-size: var(--font-size-sm);
+  }
+
+  h1 { font-size: var(--font-size-lg); }
+  h2 { font-size: var(--font-size-md); }
+  h3 { font-size: var(--font-size-base); }
+}
+
+/* Skip Link for Keyboard Navigation */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--accent-color);
+  color: white;
+  padding: var(--space-sm);
+  z-index: 100;
+  transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}

@@ -1,0 +1,91 @@
+{
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#6366F1", "role": "headers, nav, primary actions"},
+      "secondary": {"hex": "#EC4899", "role": "highlights, secondary actions"},
+      "accent": {"hex": "#06B6D4", "role": "CTAs, urgent elements"},
+      "dark": {"hex": "#111827", "role": "text, footer background"},
+      "light": {"hex": "#F8FAFC", "role": "background sections"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "modern tech professional"
+  },
+  "hero": {
+    "headline": "Streamline Remote Team Productivity with AI",
+    "subheadline": "FlowSync transforms how distributed teams collaborate, plan, and execute with intelligent project management.",
+    "cta_primary": "Start Free Trial",
+    "cta_secondary": "Watch Demo"
+  },
+  "features": [
+    {
+      "title": "AI-Powered Task Prioritization",
+      "description": "Our intelligent algorithm analyzes team workload and automatically suggests optimal task priorities and resource allocation."
+    },
+    {
+      "title": "Real-Time Collaboration Insights",
+      "description": "Instant visibility into team progress, bottlenecks, and performance metrics with intuitive, interactive dashboards."
+    },
+    {
+      "title": "Seamless Cross-Platform Sync",
+      "description": "Unified workspace that integrates with your favorite tools: Slack, GitHub, Zoom, and more—keeping everyone connected."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "FlowSync has been a game-changer for our distributed engineering team. The AI recommendations are incredibly accurate.",
+      "name": "Sarah Chen",
+      "title": "CTO, TechInnovate",
+      "avatar": "sarah-chen.jpg"
+    },
+    {
+      "quote": "We've seen a 40% increase in team productivity since implementing FlowSync. It's like having a project management coach.",
+      "name": "Michael Rodriguez",
+      "title": "Head of Product, DataStream",
+      "avatar": "michael-rodriguez.jpg"
+    }
+  ],
+  "pricing": {
+    "headline": "Flexible Plans for Teams of All Sizes",
+    "tiers": [
+      {
+        "name": "Starter",
+        "price": "$9",
+        "period": "/month",
+        "features": [
+          "Up to 5 team members",
+          "Basic AI insights",
+          "Standard integrations"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "name": "Professional",
+        "price": "$29",
+        "period": "/month",
+        "features": [
+          "Up to 20 team members",
+          "Advanced AI prioritization",
+          "All integrations",
+          "Priority support"
+        ],
+        "cta": "Scale Your Team"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "features": [
+          "Unlimited team members",
+          "Full AI capabilities",
+          "Dedicated success manager",
+          "Advanced security"
+        ],
+        "cta": "Contact Sales"
+      }
+    ]
+  },
+  "hero_image_prompt": "Modern SaaS dashboard showing AI-powered project management interface. Diverse remote team collaborating across digital devices. Clean, professional tech environment with blue and purple color accents. Holographic UI elements showing task prioritization and team insights."
+}

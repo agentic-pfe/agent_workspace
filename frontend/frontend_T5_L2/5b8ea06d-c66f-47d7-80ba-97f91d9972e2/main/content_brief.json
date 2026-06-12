@@ -1,0 +1,32 @@
+{
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#1D4ED8", "role": "trust, headers, buttons"},
+      "secondary": {"hex": "#475569", "role": "warmth, highlights, accents"},
+      "accent": {"hex": "#DC2626", "role": "urgency, CTAs, badges"},
+      "dark": {"hex": "#0F172A", "role": "text, footer background"},
+      "light": {"hex": "#F1F5F9", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Inter",
+      "body": "Open Sans"
+    },
+    "mood": "professional + secure"
+  },
+  "header": {
+    "logo_text": "Vaultly",
+    "cta_button": {"text": "Start Free Trial", "href": "#cta"},
+    "nav_items": [
+      {"label": "Features", "href": "#features"},
+      {"label": "Solutions", "href": "#solutions"},
+      {"label": "Pricing", "href": "#pricing"},
+      {"label": "Resources", "href": "#resources"}
+    ]
+  },
+  "hero": {
+    "headline": "Secure Your Digital Infrastructure",
+    "subheadline": "Advanced cybersecurity solutions that protect your business from evolving digital threats.",
+    "cta_text": "Get Started",
+    "hero_image_prompt": "Cybersecurity dashboard with shield icons, network protection visualization, dark blue and slate color scheme"
+  }
+}

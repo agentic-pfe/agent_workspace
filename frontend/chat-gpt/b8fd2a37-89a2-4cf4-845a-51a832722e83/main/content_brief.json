@@ -1,0 +1,179 @@
+{
+  "page_title": "FlowSync — AI-Powered Project Management for Remote Teams | Streamline & Collaborate",
+  "brand_name": "FlowSync",
+  "hero": {
+    "headline": "Work Flows Smarter When AI Does the Heavy Lifting",
+    "subheadline": "FlowSync brings AI-powered task prioritization, real-time sync, and intelligent deadlines to your remote team — so you can focus on building, not managing.",
+    "cta_primary": "Start Your Free Trial",
+    "cta_secondary": "Watch Demo"
+  },
+  "navigation": ["Home", "Features", "Pricing", "Testimonials", "Get Started"],
+  "sections": [
+    {
+      "heading": "Your Remote Team Deserves a Smarter Workflow",
+      "content": "Remote work shouldn't mean remote control chaos. FlowSync fuses AI automation with intuitive project management, giving distributed teams a single source of truth. From AI-generated task lists to predictive deadline adjustments, FlowSync helps you ship faster, communicate clearer, and stress less — no matter where your team sits.",
+      "image_prompt": "A diverse remote team collaborating across a split-screen interface showing video calls, a shared Kanban board, and chat threads, all bathed in soft purple ambient lighting and connected by glowing digital lines."
+    },
+    {
+      "heading": "Built for Teams Who Move Fast — And Want to Move Faster",
+      "content": "Every feature in FlowSync is engineered to eliminate friction. Let AI prioritize your backlog, adjust deadlines automatically when scope shifts, and surface the exact metrics your team needs to improve — without jargon or complexity. FlowSync plugs into Slack, GitHub, Jira, and 50+ tools you already use.",
+      "image_prompt": "A sleek dashboard mockup on a laptop screen showing a Kanban board with purple accent UI, AI-generated priority tags, and a real-time team activity feed. Light theme with subtle gradients. Workspace background with a coffee mug and notebook."
+    },
+    {
+      "heading": "From Chaos to Clarity — Hear From Our Users",
+      "content": "Thousands of remote teams trust FlowSync to cut meeting time by 40%, reduce missed deadlines by 65%, and increase team satisfaction scores by 80%. Don't take our word for it — here's what real teams are saying.",
+      "image_prompt": "A floating testimonial card UI element with 5-star purple rating stars, avatar thumbnails of diverse professionals, and pull-quote text rendered in modern sans-serif. Abstract purple and indigo gradient background."
+    },
+    {
+      "heading": "Choose the Plan That Scales With Your Team",
+      "content": "Whether you're a 5-person startup or a 500-person enterprise, FlowSync has a pricing tier built for your rhythm. Every plan includes AI-powered features, unlimited projects, and 24/7 support.",
+      "image_prompt": "A clean three-column pricing table UI with purple accent highlights on the middle column 'Pro' plan. Cards with checkmark feature lists and gradient CTA buttons. Minimalist dark background with subtle grid lines."
+    },
+    {
+      "heading": "Ready to Transform the Way Your Team Works?",
+      "content": "Join 12,000+ remote teams already running on FlowSync. No credit card required. Set up in under 3 minutes. Cancel anytime.",
+      "image_prompt": "A call-to-action split-screen: left side shows a smiling team huddled around a laptop with purple FlowSync interface, right side shows a bold 'Start Free Trial' button with purple glow effect. Clean, minimalist tech aesthetic."
+    }
+  ],
+  "features": [
+    {
+      "title": "AI Task Prioritization",
+      "description": "FlowSync's AI analyzes deadlines, dependencies, and team workload to automatically rank tasks — so your team always knows what to tackle next.",
+      "icon_suggestion": "sparkles / brain / priority-flag"
+    },
+    {
+      "title": "Real-Time Sync",
+      "description": "Updates across tasks, chats, and files propagate in milliseconds — no more stale data or 'did you see my message?' between time zones.",
+      "icon_suggestion": "lightning-bolt / sync-arrows / globe"
+    },
+    {
+      "title": "Smart Deadlines",
+      "description": "AI predicts realistic delivery dates based on sprint velocity and past performance, and auto-adjusts when scope or resources change mid-flight.",
+      "icon_suggestion": "calendar-check / clock / gauge"
+    },
+    {
+      "title": "Team Analytics",
+      "description": "Get an at-a-glance heatmap of team velocity, bottleneck hotspots, and workload balance — powered by AI insights that drive smarter standups.",
+      "icon_suggestion": "bar-chart / pie-graph / pulse-line"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "FlowSync cut our sprint planning time by 60%. The AI task prioritization is like having a PM who never sleeps — and never misses a dependency.",
+      "author": "Priya Chen",
+      "role": "VP of Engineering",
+      "company": "NexaStack Inc.",
+      "avatar": "testimonial_avatar_1.webp"
+    },
+    {
+      "quote": "We're a fully remote team across 9 time zones. Real-Time Sync keeps us aligned without endless Slack threads. It's the closest thing to being in the same room.",
+      "author": "Marcus Okafor",
+      "role": "Head of Product",
+      "company": "Leaf Digital",
+      "avatar": "testimonial_avatar_2.webp"
+    },
+    {
+      "quote": "Smart Deadlines saved us from three major overruns in our first quarter alone. The AI caught scope creep before we did — game changer for client work.",
+      "author": "Aisha Larsson",
+      "role": "CEO & Co-Founder",
+      "company": "Vellum Labs",
+      "avatar": "testimonial_avatar_3.webp"
+    }
+  ],
+  "pricing_plans": [
+    {
+      "name": "Basic",
+      "price": "$12",
+      "period": "/month per user",
+      "description": "For small teams getting started with AI-powered project management.",
+      "features": [
+        "AI Task Prioritization",
+        "Up to 10 projects",
+        "Real-Time Sync",
+        "Slack & GitHub integration",
+        "7-day history",
+        "Email support"
+      ],
+      "cta": "Get Started Free"
+    },
+    {
+      "name": "Pro",
+      "price": "$29",
+      "period": "/month per user",
+      "description": "For growing teams who need smart forecasting and deeper integrations.",
+      "features": [
+        "Everything in Basic",
+        "Smart Deadlines & AI rescheduling",
+        "Unlimited projects",
+        "Team Analytics dashboard",
+        "90-day history",
+        "Priority chat & email support"
+      ],
+      "cta": "Start 14-Day Free Trial",
+      "highlighted": true
+    },
+    {
+      "name": "Enterprise",
+      "price": "$59",
+      "period": "/month per user",
+      "description": "For organizations needing advanced security, control, and custom AI models.",
+      "features": [
+        "Everything in Pro",
+        "Custom AI model training",
+        "Unlimited history & reporting",
+        "SSO & SCIM provisioning",
+        "Dedicated success manager",
+        "99.99% SLA uptime"
+      ],
+      "cta": "Contact Sales"
+    }
+  ],
+  "final_cta": {
+    "headline": "Don't Just Manage — FlowSync",
+    "subheadline": "Join 12,000+ remote teams. No credit card. 3-minute setup. Cancel anytime.",
+    "primary_button": "Start Free Trial",
+    "secondary_button": "Talk to Sales"
+  },
+  "footer": {
+    "copyright": "© 2025 FlowSync Technologies, Inc. All rights reserved.",
+    "social_links": ["LinkedIn", "X (Twitter)", "GitHub", "YouTube"],
+    "contact": "hello@flowsync.com | 1-800-FLOW-NOW"
+  },
+  "images": [
+    {
+      "name": "hero_image",
+      "prompt": "A modern laptop dashboard showing an AI-powered project management interface called FlowSync. The screen displays a Kanban board with purple accent UI elements, AI-generated priority tags in neon purple and indigo, real-time team avatars, and a Smart Deadlines timeline. Light theme workspace background with a minimalist desk setup, warm soft lighting, and a subtle purple glass reflection. Clean, professional tech aesthetic. 4K quality.",
+      "style": "photo"
+    },
+    {
+      "name": "feature_ai_prioritization",
+      "prompt": "Close-up UI mockup of an AI task prioritization feature. A list of tasks ranked by AI with purple priority badges, sparkle icons, and dependency lines connecting them. Dark theme background with deep navy and purple gradient. Futuristic glowing particle effects around the AI badge. Clean, modern SaaS interface design.",
+      "style": "digital_art"
+    },
+    {
+      "name": "feature_real_time_sync",
+      "prompt": "A split-screen illustration showing three remote workers in different time zones (Tokyo, New York, London) all looking at the same FlowSync dashboard. Purple glowing sync arrows circle a globe between them. Light theme with soft purple accents. Clean flat illustration style with diverse characters working at desks.",
+      "style": "illustration"
+    },
+    {
+      "name": "feature_smart_deadlines",
+      "prompt": "A timeline Gantt chart UI with AI-predicted deadlines marked in purple gradient bars. Dynamic adjustment arrows show the system auto-rescheduling tasks. Floating calendar widgets. Dark theme with indigo and purple neon accents. Holographic glowing effect on the AI adjustment indicators.",
+      "style": "digital_art"
+    },
+    {
+      "name": "feature_team_analytics",
+      "prompt": "A dashboard analytics view showing a team velocity heatmap, workload balance chart, and bottleneck hotspot visualization in purple and indigo colors. Glassmorphism UI cards with subtle glow effects. Light theme with soft gradient backgrounds. Modern data visualization aesthetic.",
+      "style": "digital_art"
+    },
+    {
+      "name": "dashboard_mockup_light",
+      "prompt": "Full product dashboard mockup of FlowSync in light theme. Shows a top navigation bar, left sidebar with project list, main area split between an AI-powered task board with purple priority tags and a real-time team activity feed. Clean white background with purple accent colors (#7C3AED, #8B5CF6). Modern sans-serif typography. Professional SaaS interface design. 16:9 aspect ratio.",
+      "style": "photo"
+    },
+    {
+      "name": "dashboard_mockup_dark",
+      "prompt": "Full product dashboard mockup of FlowSync in dark theme. Shows a sleek dark navy (#0F172A) background with glowing purple accent elements (#7C3AED, #A78BFA). AI Task Prioritization panel on the left, Smart Deadlines Gantt chart in the center, and Team Analytics widgets on the right. Neon purple glow effects on active elements. High contrast, modern dark mode SaaS interface. 16:9 aspect ratio.",
+      "style": "photo"
+    }
+  ]
+}

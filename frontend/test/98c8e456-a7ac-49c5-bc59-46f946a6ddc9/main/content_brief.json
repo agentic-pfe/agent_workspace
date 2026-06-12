@@ -1,0 +1,83 @@
+{
+  "page_title": "PulsePro — Your Daily Fitness Companion",
+  "brand_name": "PulsePro",
+  "hero": {
+    "headline": "Transform Every Step into Progress",
+    "subheadline": "PulsePro brings your fitness data to life — track, visualize, and crush every goal with a sleek dashboard designed for the active adult on the move.",
+    "cta_primary": "Start Your Journey — Free",
+    "cta_secondary": "See How It Works"
+  },
+  "navigation": [
+    "Home",
+    "Features",
+    "Dashboard",
+    "Community",
+    "Get Started"
+  ],
+  "sections": [
+    {
+      "heading": "Log Every Move, No Matter the Workout",
+      "content": "From morning runs and lunchtime yoga to evening climbs and weekend hikes — PulsePro makes logging your activity effortless. Sync with your favorite wearables or tap to log manually. Add notes, track duration, distance, calories, and intensity level in seconds. Your complete fitness history, always at your fingertips.",
+      "image_prompt": "Close-up of a smartphone held by a person wearing athletic gear, displaying the PulsePro app's activity logging screen with a completed morning run entry. Clean modern UI overlays show stats: 5.2 km, 320 cal, avg HR 145 bpm. Soft morning light, gym background with blurred dumbbells and yoga mats."
+    },
+    {
+      "heading": "See Your Gains, Week After Week",
+      "content": "Transforming raw data into clarity. PulsePro's rich charts and heatmaps show you exactly how your fitness is evolving — from weekly step trends and sleep recovery scores to VO₂ max improvements. Spot patterns, celebrate streaks, and understand what works. Data has never looked this good.",
+      "image_prompt": "Laptop screen split-view: left side showing a person reviewing their weekly stats on PulsePro dashboard, right side displaying colorful line charts, bar graphs, and a monthly activity heatmap in gradient greens and blues. Clean modern UI, soft natural lighting from a window, minimalist desk setup with a water bottle and plant."
+    },
+    {
+      "heading": "Set Goals That Push You Further",
+      "content": "Great fitness starts with a clear target. PulsePro's intelligent goal system adapts to your lifestyle — set daily step targets, weekly workout frequency, distance milestones, or recovery goals. Get smart nudges when you're close to a streak, celebrate when you smash a record, and adjust goals on the fly as your fitness grows.",
+      "image_prompt": "Tablet displaying the PulsePro goal setting dashboard with a semi-circular progress ring at 78% complete, a glowing streak badge for 12 consecutive days, and a motivational notification 'You're 2 km from a new record!' Clean dark UI with teal and orange accent colors, hands-free placed on a gym bench with dumbbells blurred in background."
+    }
+  ],
+  "features": [
+    {
+      "title": "Activity Logging",
+      "description": "Log any workout in seconds — sync with wearables or tap manually. Track duration, distance, calories, and intensity with intelligent auto-complete.",
+      "icon_suggestion": "Running figure with sync signal waves, teal #0d9488, flat vector"
+    },
+    {
+      "title": "Progress Visualization",
+      "description": "Rich charts, heatmaps, and trends that turn your data into actionable insights. Spot patterns, celebrate streaks, and see real improvement.",
+      "icon_suggestion": "Ascending line graph with glowing peak dot, purple #7c3aed, flat vector"
+    },
+    {
+      "title": "Smart Goal Setting",
+      "description": "Adaptive goals, smart nudges, and milestone celebrations. Set distance, frequency, or intensity targets that evolve as your fitness grows.",
+      "icon_suggestion": "Bullseye target with checkmark, orange #ea580c, flat vector"
+    }
+  ],
+  "footer": {
+    "copyright": "© 2025 PulsePro. All rights reserved.",
+    "social_links": [
+      "Instagram (@pulsepro.app)",
+      "YouTube (/pulsepro)",
+      "TikTok (@pulsepro)",
+      "Twitter/X (@pulsepro)"
+    ],
+    "contact": "hello@pulsepro.app"
+  },
+  "images": [
+    {
+      "name": "hero_banner",
+      "prompt": "A dynamic wide-angle photo of an active adult, woman or man in her/his early 30s, running along a scenic coastal trail at golden sunrise. Warm golden-orange sunlight streams through light morning fog. The runner's athletic silhouette is captured mid-stride, wearing modern running gear and wireless earbuds. In the lower third of the image, a subtle translucent UI overlay from PulsePro displays real-time stats: 6.8 km, 42 min, avg pace 5:45/km, heart rate 152 bpm. The overlay is semi-transparent with rounded corners, gradient teal-to-purple accents, sans-serif typography. The overall mood is inspirational, energetic, and serene. Shallow depth of field with the horizon softly blurred. 16:9 aspect ratio, high contrast, vibrant colors.",
+      "style": "photo"
+    },
+    {
+      "name": "icon_activity_logging",
+      "prompt": "A minimalist flat vector icon of a running figure with a small wave-like signal radiating from the body, representing activity logging syncing. Clean rounded lines, single-color teal (#0d9488) on transparent background, 200x200px, consistent with a modern fitness app aesthetic, no text.",
+      "style": "digital_art"
+    },
+    {
+      "name": "icon_progress_visualization",
+      "prompt": "A minimalist flat vector icon of an ascending line graph with a glowing dot at the peak, representing progress and growth. Clean rounded lines, single-color purple (#7c3aed) on transparent background, 200x200px, consistent with a modern fitness app aesthetic, no text.",
+      "style": "digital_art"
+    },
+    {
+      "name": "icon_goal_setting",
+      "prompt": "A minimalist flat vector icon of a bullseye target with a checkmark in the center, representing goal achievement. Clean rounded lines, single-color orange (#ea580c) on transparent background, 200x200px, consistent with a modern fitness app aesthetic, no text.",
+      "style": "digital_art"
+    }
+  ]
+}

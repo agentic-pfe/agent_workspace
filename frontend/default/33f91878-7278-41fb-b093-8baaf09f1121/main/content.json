@@ -1,0 +1,31 @@
+{
+    "hero": {
+        "headline": "Supercharge Your Remote Team's Productivity with AI",
+        "subheadline": "FlowSync transforms how distributed teams collaborate, prioritize, and deliver results with intelligent project management.",
+        "cta_text": "Start Your Free Trial"
+    },
+    "features": [
+        {
+            "title": "AI Task Prioritization",
+            "description": "Our advanced AI analyzes your team's workload and automatically prioritizes tasks based on project goals, team capacity, and individual strengths."
+        },
+        {
+            "title": "Real-Time Collaboration",
+            "description": "Break down communication barriers with instant messaging, shared workspaces, and context-aware notifications that keep everyone aligned."
+        },
+        {
+            "title": "Automated Progress Reports",
+            "description": "Get comprehensive insights without manual tracking. FlowSync generates detailed progress reports, highlighting achievements and potential bottlenecks."
+        }
+    ],
+    "problem_solution": {
+        "problem": "Remote teams struggle with communication gaps, unclear priorities, and inefficient workflows.",
+        "solution": "FlowSync bridges these challenges by providing an intelligent platform that adapts to your team's unique dynamics and project requirements."
+    },
+    "testimonial": {
+        "quote": "FlowSync has been a game-changer for our distributed engineering team. We've increased productivity by 40% and reduced communication overhead significantly.",
+        "name": "Sarah Chen",
+        "title": "CTO, TechInnovate Solutions"
+    },
+    "hero_image_prompt": "A diverse remote team collaborating using FlowSync on laptops, tablets, and smartphones. Team members are in different locations like home offices, coffee shops, and co-working spaces. The scene should look modern, professional, and connected."
+}

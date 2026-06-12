@@ -1,0 +1,34 @@
+{
+    "html_validation": {
+        "errors": [
+            {
+                "message": "Named entity expected. Got none.",
+                "severity": "error"
+            }
+        ],
+        "status": "minor_issues"
+    },
+    "css_validation": {
+        "errors": [],
+        "status": "valid"
+    },
+    "css_selector_validation": {
+        "warnings": [
+            {
+                "selector": ".active",
+                "detail": "Missing CSS style for mobile menu active state"
+            },
+            {
+                "selector": ".hamburger-icon",
+                "detail": "Added hamburger icon styles"
+            },
+            {
+                "selector": ".section-title",
+                "detail": "Added section title styles with underline decoration"
+            }
+        ],
+        "status": "resolved"
+    },
+    "accessibility_score": 0.85,
+    "performance_notes": "Mobile-first responsive design, semantic HTML, fluid typography implemented"
+}

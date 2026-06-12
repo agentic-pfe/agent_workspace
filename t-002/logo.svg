@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <polygon points="108.5,32.0 108.5,88.0 60.0,116.0 11.5,88.0 11.5,32.0 60.0,4.0" fill="#3A7BD5"/>
+  <text x="60" y="68" text-anchor="middle" fill="#FF6B35" font-family="sans-serif" font-weight="700" font-size="56">O</text>
+  <text x="130" y="73" fill="#3A7BD5" font-family="sans-serif" font-weight="700" font-size="40">Orcheeos</text>
+  <text x="130" y="101" fill="#FF6B35" font-family="sans-serif" font-weight="400" font-size="20">Agent Orchestration Study</text>
+</svg>

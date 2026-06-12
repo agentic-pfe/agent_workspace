@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskr - Task Management App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Taskr</h1>
+            <p>Your Personal Task Manager</p>
+        </header>
+
+        <main class="task-management">
+            <section class="task-input-section">
+                <form id="task-form" aria-label="Add New Task">
+                    <input 
+                        type="text" 
+                        id="task-input" 
+                        placeholder="Enter a new task" 
+                        required 
+                        aria-label="New task description"
+                    >
+                    <button type="submit" class="add-task-btn" aria-label="Add Task">
+                        <span>+</span>
+                    </button>
+                </form>
+            </section>
+
+            <section class="task-filter-section">
+                <div class="filter-controls" role="group" aria-label="Task Filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="active">Active</button>
+                    <button class="filter-btn" data-filter="completed">Completed</button>
+                </div>
+            </section>
+
+            <section class="task-list-section">
+                <ul id="task-list" class="task-list" aria-live="polite">
+                    <!-- Tasks will be dynamically added here -->
+                </ul>
+            </section>
+        </main>
+
+        <footer class="app-footer">
+            <p>&copy; 2024 Taskr. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

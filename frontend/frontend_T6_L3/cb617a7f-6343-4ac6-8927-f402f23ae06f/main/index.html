@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenFuture - Environmental Non-Profit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+    <header role="banner">
+        <nav aria-label="Main Navigation">
+            <div class="logo">
+                <img src="logo.png" alt="GreenFuture Logo" width="100" height="50">
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#get-involved">Get Involved</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <section id="hero" aria-labelledby="hero-title">
+            <h1 id="hero-title">Protecting Our Planet, Securing Our Future</h1>
+            <p>Join us in creating sustainable solutions for environmental challenges.</p>
+            <a href="#get-involved" class="cta-button">Get Involved</a>
+        </section>
+
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About GreenFuture</h2>
+            <p>We are a non-profit organization dedicated to environmental conservation and sustainable development.</p>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">Our Projects</h2>
+            <article>
+                <h3>Reforestation Initiative</h3>
+                <p>Planting trees to combat climate change and restore ecosystems.</p>
+            </article>
+            <article>
+                <h3>Ocean Cleanup</h3>
+                <p>Removing plastic waste and protecting marine life.</p>
+            </article>
+        </section>
+
+        <section id="get-involved" aria-labelledby="involvement-title">
+            <h2 id="involvement-title">Get Involved</h2>
+            <form aria-labelledby="form-title">
+                <h3 id="form-title">Volunteer Sign-Up</h3>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+
+                <label for="message">How Would You Like to Help?</label>
+                <textarea id="message" name="message" required aria-required="true"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Twitter">Twitter</a>
+            <a href="#" aria-label="Instagram">Instagram</a>
+        </div>
+        <p>&copy; 2023 GreenFuture. All rights reserved.</p>
+    </footer>
+</body>
+</html>

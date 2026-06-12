@@ -1,0 +1,56 @@
+{
+  "design_tokens": {
+    "palette": {
+      "primary": {"hex": "#047857", "role": "environmental headers, nav"},
+      "secondary": {"hex": "#10B981", "role": "section backgrounds, highlights"},
+      "accent": {"hex": "#EF4444", "role": "CTAs, urgent calls to action"},
+      "dark": {"hex": "#1A2421", "role": "text, footer background"},
+      "light": {"hex": "#F0FDF4", "role": "alternating section backgrounds"}
+    },
+    "typography": {
+      "heading": "Montserrat",
+      "body": "Open Sans"
+    },
+    "mood": "eco-conscious, hopeful, professional"
+  },
+  "hero": {
+    "headline": "Protecting Our Planet, One Action at a Time",
+    "subheadline": "GreenFuture empowers communities to create sustainable environmental change through education, conservation, and grassroots initiatives.",
+    "cta_text": "Join Our Mission"
+  },
+  "hero_image_prompt": "Lush green landscape with diverse ecosystem, people of different ages planting trees, sustainable solar panels in background, natural lighting, vibrant green and earth tones",
+  "features": [
+    {
+      "title": "Community Conservation",
+      "description": "Engage local communities in habitat restoration and wildlife protection projects."
+    },
+    {
+      "title": "Climate Education",
+      "description": "Develop curriculum and workshops to teach sustainable practices in schools and communities."
+    },
+    {
+      "title": "Renewable Energy Advocacy",
+      "description": "Promote clean energy solutions and support transition to sustainable infrastructure."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "GreenFuture has transformed our community's approach to environmental stewardship.",
+      "author": "Maria Rodriguez, Community Leader"
+    },
+    {
+      "quote": "Their educational programs have inspired a new generation of environmental activists.",
+      "author": "Dr. James Chen, Environmental Scientist"
+    }
+  ],
+  "header": {
+    "logo_text": "GreenFuture",
+    "cta_button": {"text": "Donate Now", "href": "#donate"},
+    "nav_items": [
+      {"label": "Our Mission", "href": "#mission"},
+      {"label": "Programs", "href": "#programs"},
+      {"label": "Get Involved", "href": "#involve"},
+      {"label": "Impact", "href": "#impact"}
+    ]
+  }
+}

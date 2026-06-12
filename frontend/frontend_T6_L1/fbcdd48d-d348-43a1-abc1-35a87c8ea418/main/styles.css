@@ -1,0 +1,204 @@
+/* Accessibility-First CSS for GreenFuture */
+
+:root {
+    /* Color Palette from content_brief.json */
+    --primary-color: #047857;     /* Emerald Green */
+    --secondary-color: #7C3AED;   /* Purple */
+    --accent-color: #B45309;      /* Gold */
+    --dark-color: #171717;        /* Near Black */
+    --light-color: #FAFBF7;       /* Off-White */
+
+    /* Typography */
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+
+    /* Spacing */
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xl: 4rem;
+
+    /* Accessibility Tokens */
+    --focus-outline: 3px solid var(--accent-color);
+    --transition-speed: 0.3s;
+}
+
+/* Accessibility Resets */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Skip Link: First in DOM, visually hidden until focused */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--dark-color);
+    color: var(--light-color);
+    padding: var(--space-sm) var(--space-md);
+    z-index: 100;
+    transition: top var(--transition-speed);
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: var(--focus-outline);
+}
+
+/* Typography with Accessible Sizing */
+body {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: var(--space-md);
+}
+
+h1 { 
+    font-size: clamp(2rem, 5vw, 3.5rem); 
+    line-height: 1.2;
+}
+
+h2 { 
+    font-size: clamp(1.75rem, 4vw, 2.5rem); 
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: var(--space-sm);
+}
+
+/* Accessible Links */
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color var(--transition-speed);
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
+a:focus {
+    outline: var(--focus-outline);
+    outline-offset: 3px;
+}
+
+/* Buttons with High Contrast */
+.btn {
+    display: inline-block;
+    padding: var(--space-sm) var(--space-md);
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 
+        background-color var(--transition-speed),
+        transform var(--transition-speed);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.btn-primary:hover, 
+.btn-primary:focus {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+}
+
+/* Form Accessibility */
+.donation-form {
+    display: grid;
+    gap: var(--space-md);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: var(--space-sm);
+    font-weight: bold;
+}
+
+input {
+    padding: var(--space-sm);
+    border: 2px solid var(--dark-color);
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: var(--focus-outline);
+    border-color: var(--secondary-color);
+}
+
+input[aria-invalid="true"] {
+    border-color: red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+.form-status {
+    color: var(--accent-color);
+    margin-top: var(--space-md);
+    text-align: center;
+}
+
+/* Responsive Design */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-lg) 0;
+}
+
+/* Mobile Navigation */
+.mobile-menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Print Styles */
+@media print {
+    * {
+        background: transparent !important;
+        color: black !important;
+    }
+}

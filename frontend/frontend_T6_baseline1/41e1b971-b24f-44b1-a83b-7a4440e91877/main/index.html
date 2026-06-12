@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenFuture - Protecting Our Planet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
+        <div class="container">
+            <nav aria-label="Main Navigation">
+                <a href="#" class="logo" aria-label="GreenFuture Home">GreenFuture</a>
+                <ul class="nav-links">
+                    <li><a href="#about">Our Mission</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#newsletter">Get Involved</a></li>
+                </ul>
+                <button class="nav-toggle" aria-label="Toggle Navigation" aria-expanded="false">
+                    <span class="hamburger-icon" aria-hidden="true">☰</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-title">GreenFuture: Protecting Our Planet for Generations</h1>
+                    <p>We're committed to sustainable environmental solutions through reforestation, ocean conservation, and youth education.</p>
+                    <a href="#newsletter" class="cta-button">Join the Movement</a>
+                </div>
+                <div class="hero-image">
+                    <img src="hero-image.png" alt="Lush green forest with sunlight filtering through trees, symbolizing environmental hope" />
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title">Our Mission</h2>
+                <p>GreenFuture is dedicated to reversing environmental damage and creating sustainable pathways for our planet's future. We believe in collective action, innovative solutions, and empowering communities to become environmental stewards.</p>
+            </div>
+        </section>
+
+        <section id="programs" class="programs-section" aria-labelledby="programs-title">
+            <div class="container">
+                <h2 id="programs-title">What We Do</h2>
+                <div class="program-grid">
+                    <article class="program">
+                        <img src="reforestation-image.png" alt="Volunteers planting trees in a deforested area, restoring ecosystem" />
+                        <h3>Reforestation</h3>
+                        <p>We plant trees in deforested regions, focusing on native species that restore biodiversity and combat climate change. Each tree represents hope for our planet's future.</p>
+                    </article>
+                    <article class="program">
+                        <img src="oceans-image.png" alt="Volunteers cleaning a beach, collecting plastic waste to protect marine ecosystems" />
+                        <h3>Clean Oceans</h3>
+                        <p>Our ocean conservation efforts include beach cleanups, plastic reduction campaigns, and supporting marine ecosystem restoration projects worldwide.</p>
+                    </article>
+                    <article class="program">
+                        <img src="education-image.png" alt="Diverse students learning about environmental conservation in an outdoor setting" />
+                        <h3>Youth Education</h3>
+                        <p>We develop environmental education programs for schools, teaching young people about sustainability, conservation, and their role in protecting our planet.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter-section" aria-labelledby="newsletter-title">
+            <div class="container">
+                <h2 id="newsletter-title">Stay Updated</h2>
+                <p>Join our community and receive the latest updates on our environmental initiatives.</p>
+                <form action="#" method="post" aria-labelledby="newsletter-form-title">
+                    <h3 id="newsletter-form-title" class="visually-hidden">Newsletter Signup</h3>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required aria-required="true" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required aria-required="true" />
+                    </div>
+                    <button type="submit" class="submit-button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <h2>Get Involved</h2>
+            <div class="footer-links">
+                <a href="#" aria-label="Donate to GreenFuture">Donate</a>
+                <a href="#" aria-label="Volunteer with GreenFuture">Volunteer</a>
+                <a href="#" aria-label="Contact GreenFuture">Contact</a>
+            </div>
+            <p>&copy; 2024 GreenFuture. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
