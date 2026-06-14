@@ -1,0 +1,2 @@
+{"ts": "2026-06-13T13:54:52.000Z", "event": "workspace_created", "msg": "Workspace: /home/aymen/Desktop/dev/pfe/Orcheeos-agents/agent_workspace/research/aymen/ac1dc4b6-2d4e-4887-b57f-37fbc1512b6c", "agent": "system", "tokens_in": 0, "tokens_out": 0, "elapsed_ms": 0, "model": "", "prompt": "", "meta": {"specialty": "research", "user": "aymen"}}
+{"ts": "2026-06-13T13:54:58.000Z", "event": "run_finished", "msg": "Graph execution complete (status=pending)", "agent": "system", "tokens_in": 0, "tokens_out": 0, "elapsed_ms": 5767, "model": "", "prompt": "", "meta": {}}
