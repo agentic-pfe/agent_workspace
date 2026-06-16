@@ -13,15 +13,20 @@ def scan_runs():
     """Scan all frontend run folders and return structured data."""
     runs = []
     for task_dir in sorted(FRONTEND.iterdir()):
-        if not task_dir.is_dir() or not task_dir.name.startswith("frontend_"):
+        if not task_dir.is_dir():
             continue
-        # Parse tier and level from folder name: frontend_{tier}_{level}
-        parts = task_dir.name.replace("frontend_", "", 1)
-        # Split on first underscore to get tier and level
-        if "_" in parts:
-            tier, level = parts.split("_", 1)
+        name = task_dir.name
+        # Parse tier and level from folder name
+        if name.startswith("frontend_"):
+            parts = name.replace("frontend_", "", 1)
+            if "_" in parts:
+                tier, level = parts.split("_", 1)
+            else:
+                tier, level = parts, ""
+        elif name.startswith("lx_"):
+            tier, level = "LX", name.replace("lx_", "", 1)
         else:
-            tier, level = parts, ""
+            continue
 
         for uuid_dir in sorted(task_dir.iterdir()):
             if not uuid_dir.is_dir():
@@ -29,11 +34,11 @@ def scan_runs():
             main_dir = uuid_dir / "main"
             if main_dir.is_dir() and (main_dir / "index.html").exists():
                 runs.append({
-                    "task": task_dir.name,
+                    "task": name,
                     "tier": tier,
                     "level": level,
                     "uuid": uuid_dir.name,
-                    "path": f"frontend/{task_dir.name}/{uuid_dir.name}/main/",
+                    "path": f"frontend/{name}/{uuid_dir.name}/main/",
                 })
     return runs
 
