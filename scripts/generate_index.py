@@ -112,3 +112,4 @@ if __name__ == "__main__":
     out = ROOT / "index.html"
     out.write_text(html)
     print(f"Generated {out} with {len(runs)} runs")
+    # Redeploy trigger: ensure LX tier is included in generated index
